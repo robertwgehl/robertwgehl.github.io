@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"/* main CSS */\n\n/* ===============NAV================= */\nnav .current {\n\tcolor: green;\n\t}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,cAAc;AAEd,yCAAyC;AACzC,AAAA,GAAG,CAAC,QAAQ,CAAC,EACZ,KAAK,EAAE,KAAK,GACX"
+}
