@@ -2,47 +2,90 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-	<title>Home</title>
-	<link rel="stylesheet" href="/assets/css/styles.css">
-	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+	<title>Blog</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet"> 
+	<link type="application/atom+xml" rel="alternate" href="/feed.xml" />
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Home</title>
+<title>Blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Home" />
+<meta property="og:title" content="Blog" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Home" />
+<meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"http://localhost:4000/","headline":"Home","@context":"https://schema.org"}</script>
+{"@type":"WebSite","url":"/","headline":"Blog","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 
 <body>
+    <div id="wrapper">
+    <header>
+    <img src="/assets/images/tuxpen.png" alt="Tux the Penguin reading books">
+    <h1><a href="index.html">FOSS Academic</a></h1>
+</header>
+
     <nav>
+    <ul>
   
-	<a href="/" class="current">
-		Home
-	</a>
+        <li>
+	        <a href="/" class="current">
+		        Home
+	        </a>
+        </li>
   
-	<a href="/about.html" >
-		About
-	</a>
+        <li>
+	        <a href="/about.html" >
+		        About
+	        </a>
+        </li>
   
-	<a href="/blog.html" >
-		Blog
-	</a>
-  
-	<a href="/staff.html" >
-		Staff
-	</a>
-  
+    </ul>
 </nav>
 	
-    <h1>hello world!</h1>
-<p>I am a site using a layout</p>
+    <main>
+    <h1>Latest Posts</h1>
 
+<ul>
+  
+    <li>
+      <h2><a href="/2020/11/27/introduction.html">Introduction</a></h2>
+      <figure>
+    <img src="/assets/images/tuxPaper.jpg" alt="A small Tux the Penguin paper toy" title="Tux Toy" />
+    <figcaption>"Tux the penguin papercraft" by Siobhan Rohlwink-Coutts is licensed with CC BY-NC-ND 2.0.</figcaption>
+</figure>
+
+<p>As a university professor, I do a lot of different things, many of them having to do with technologies. I engage in research, write articles and books, put together syllabi, work with students, and collaborate with colleagues. All of these require the use of networked computers.</p>
+
+
+      
+    <a href="/2020/11/27/introduction.html">Read more</a>
+
+    </li>
+  
+</ul>
+
+    </main>
+    <aside>
+    <h1>Archives</h1>
+    <ul class="posts">
+    
+        <li>
+            <span class="post-date">Nov 27, 2020</span>
+            <a class="post-link" href="/2020/11/27/introduction.html">Introduction</a>
+        </li>
+    
+    </ul>
+</aside>
+
+    <footer>
+    <p>All content on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted.</p>
+</footer>
+
+    </div>
 </body>
 </html>
