@@ -26,11 +26,11 @@ body figure { margin-top: 4%; }
 #wrapper { width: 100%; margin-left: auto; margin-right: auto; }
 
 /* =======HEADER============== */
-header { width: 74%; height: 50px; margin-left: 12%; text-align: left; }
+header { width: 90%; margin-left: 10%; height: 100px; text-align: left; float: left; }
 
 header img { height: 100%; float: left; }
 
-header h1 { font-size: 1em; margin-top: 10%; margin-left: 4%; }
+header h1 { font-size: 2em; margin-left: 4%; }
 
 header h1 a { color: black; text-decoration: none; }
 
@@ -52,11 +52,13 @@ main img { width: 100%; }
 
 main figcaption { font-style: italic; font-size: .75em; }
 
+main h1 { font-size: 1.5em; }
+
 /* =======ASIDE============== */
 aside { width: 25%; float: left; padding: 10px; margin-bottom: 4%; }
 
 /* ======FOOTER============== */
-footer { clear: both; background: black; color: white; height: 100px; }
+footer { clear: both; background: black; color: white; height: 200px; }
 
 footer p { text-align: center; padding-top: 2em; }
 
