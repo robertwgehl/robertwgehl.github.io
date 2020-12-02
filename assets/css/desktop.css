@@ -4,15 +4,15 @@
 /* fonts */
 /* dimensions */
 /* =======BODY================ */
-body { background: white; /* Greetings, Joe! */ font-family: Helvetica, sans-serif; font-size: 1.1em; line-height: 1.25em; }
+body { background: #dddada; /* Greetings, Joe! */ font-family: Helvetica, sans-serif; font-size: 1.1em; line-height: 1.25em; }
 
 body a { color: #1F3245; }
 
-body h1 { font-weight: bold; font-size: 1.5em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
+body h1 { font-weight: bold; font-size: 2em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
 
 body h2 { font-weight: bold; font-size: 1.2em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
 
-body p { margin-top: 4%; }
+body p { margin-bottom: 4%; }
 
 body ul { margin-top: 4%; }
 
@@ -26,11 +26,11 @@ body figure { margin-top: 4%; }
 #wrapper { width: 1080px; margin-left: auto; margin-right: auto; }
 
 /* =======HEADER============== */
-header { width: 356.4px; float: left; height: 100px; text-align: left; }
+header { width: 356.4px; float: left; height: 100px; text-align: left; background: #dddada; }
 
 header img { float: left; height: 100%; }
 
-header h1 { font-size: 2em; margin-top: 11%; margin-left: 35%; }
+header h1 { font-size: 2em; margin-top: 11%; margin-left: 35%; font-weight: bold; }
 
 header h1 a { color: black; text-decoration: none; }
 
@@ -46,16 +46,24 @@ nav a { display: block; text-align: center; }
 nav .current { color: #EE0D0D; }
 
 /* =======MAIN=============== */
-main { width: 712.8px; padding-left: 43.2px; padding-right: 43.2px; float: left; margin-bottom: 4%; }
+main { width: 712.8px; padding-left: 43.2px; padding-right: 43.2px; float: left; margin-bottom: 4%; background: #fff; }
+
+main h1 { margin-bottom: 4%; }
 
 main img { width: 100%; }
 
-main figcaption { font-style: italic; font-size: .75em; }
+main figcaption { font-style: italic; font-size: .75em; margin-bottom: 4%; }
 
-main .postHeader { border-top: 2px solid black; padding-top: 4px; }
+main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; }
+
+main .postHeader a { color: #1F3245; }
+
+main .postHeader:nth-of-type(2) { border-top: 2px solid black; }
+
+main .byline { font-size: .9em; font-style: italic; margin-top: 1%; }
 
 /* =======ASIDE============== */
-aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; }
+aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; height: 100vh; background-image: linear-gradient(#ABAAAA, #dddada); }
 
 /* ======FOOTER============== */
 footer { clear: both; background: black; color: white; height: 100px; }
