@@ -52,6 +52,8 @@ main img { width: 100%; }
 
 main figcaption { font-style: italic; font-size: .75em; }
 
+main .postHeader { border-top: 2px solid black; padding-top: 4px; }
+
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; }
 

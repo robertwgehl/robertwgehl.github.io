@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-30T06:28:52-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Introduction</title><link href="http://localhost:4000/2020/11/27/introduction.html" rel="alternate" type="text/html" title="Introduction" /><published>2020-11-27T00:00:00-06:00</published><updated>2020-11-27T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/27/introduction</id><content type="html" xml:base="http://localhost:4000/2020/11/27/introduction.html">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T06:27:14-06:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Zotero tips and tricks</title><link href="http://localhost:4000/2020/12/01/Zotero-Tips-and-Tricks.html" rel="alternate" type="text/html" title="Zotero tips and tricks" /><published>2020-12-01T00:00:00-06:00</published><updated>2020-12-01T00:00:00-06:00</updated><id>http://localhost:4000/2020/12/01/Zotero%20Tips%20and%20Tricks</id><content type="html" xml:base="http://localhost:4000/2020/12/01/Zotero-Tips-and-Tricks.html">&lt;p&gt;If you’re not using &lt;a href=&quot;https://www.zotero.org&quot;&gt;Zotero&lt;/a&gt;… I don’t know what to say.&lt;/p&gt;
+
+&lt;p&gt;If you are, you’re well on your way to living the FOSS Academic Lifestyle Dream.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/zotero.png&quot; alt=&quot;The Zotero Logo&quot; title=&quot;The Zotero Logo&quot; /&gt;
+    &lt;figcaption&gt;The Zotero logo is in the public domain.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Zotero is a citation manager. And I’ve been using it so long I have a library of nearly 24,000 items.&lt;/p&gt;
+
+&lt;p&gt;Zotero is a core part of my academic work. I run &lt;em&gt;everything&lt;/em&gt; through it. If I see a talk at a conference – the citation’s going in Zotero. Did I hear a good podcast? Put it in Z. Hey! that’s a relavant blog post. Put it in Z. Was that intertesting a TV show? Oh, you know it’s gonna go in there. And of course, I put all the books and journal articles I read in there. And, you guessed it: Zotero is FOSS (in this case, &lt;a href=&quot;http://www.gnu.org/licenses/agpl-3.0.html&quot;&gt;GNU GPL 3.0&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;In this &lt;strong&gt;Goal 1&lt;/strong&gt; post, I want to talk Zotero tips and tricks – things I &lt;em&gt;always&lt;/em&gt; do when I install and run this excellent piece of software.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-in-more-columns&quot;&gt;Add In More Columns&lt;/h2&gt;
+
+&lt;p&gt;First thing’s first: My number one tip is adding more columns to the main pane. It’s a simple trick, but it’s really powerful, especially if you add “Date Added.” Zotero is &lt;em&gt;really good&lt;/em&gt; at pulling metadata from websites – including &lt;a href=&quot;https://www.worldcat.org&quot;&gt;WorldCat&lt;/a&gt; and Google Scholar – so a problem you might face is gathering too many things at a time. You might see a citation in passing that you really want to read. But which one of the 50 you grabbed in the past two days was it? For me, sorting with the newest added on top allows me to quickly scan through the latest entries and remember which ones I wanted to examine further.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-classic-add-citation&quot;&gt;Use “Classic Add Citation”&lt;/h2&gt;
+
+&lt;p&gt;Zotero integrates with word processors, like LibreOffice or, if you must, Word or Google Docs. The default way of adding citations is an unobtrusive search bar. But I cut my teeth on the old way – the “Classic Add Citation” window. The nice thing about that window is that you can add the same columns as you use for the main Zotero window, with the same sorting capabilities.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/zoteroscreen.png&quot; alt=&quot;A screenshot of a Zotero library&quot; title=&quot;A Zotero screenshot&quot; /&gt;
+    &lt;figcaption&gt;A screenshot of my library.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;tagging-tagging-tagging&quot;&gt;Tagging, Tagging, Tagging&lt;/h2&gt;
+
+&lt;p&gt;From what I recall, Zotero was modeled after iTunes, and an iTunes feature is tagging. Zotero features that, too – and it’s &lt;em&gt;essential.&lt;/em&gt; Tags are very flexible. You can tag based on keywords supplied by the authors, tags based on which project you’re working on, tags based on wacky ideas you might have about how things should relate. I recommend tags because of…&lt;/p&gt;
+
+&lt;h2 id=&quot;smart-folders&quot;&gt;Smart Folders&lt;/h2&gt;
+
+&lt;p&gt;You can sort your citations into folders, certainly, but I much prefer smart folders. The vast majority of mine are based on tags, even Boolean combinations of tags, or combinations with other things (tags + types of items, type of items + publication date).&lt;/p&gt;
+
+&lt;p&gt;A tip I picked up somewhere over the years is to have a smart folder that includes items added in the past 5 days (a more focused version of sorting by date added).&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/tags.png&quot; alt=&quot;A Zotero tag window&quot; title=&quot;A Zotero tag window&quot; /&gt;
+    &lt;figcaption&gt;Some tags I've applied to an item in Zotero. Bonus points if you can figure out what citation they refer to.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;note-titles-yyyymmdd&quot;&gt;Note Titles: YYYYMMDD&lt;/h2&gt;
+
+&lt;p&gt;I use Zotero to take notes. I know there are many other ways to take notes – and I will explore Linux-friendly, FOSS options soon – but for the past decade I’ve taken thousands of notes in Zotero and converted that raw material into books and articles. I have a system.&lt;/p&gt;
+
+&lt;p&gt;And the basic thing I do with every note is have something like 20201201 – the date I’m taking notes – as the first line. The first line becomes the title of the note. I do that so when I return to the citation later, I know how long ago I read it. Did I read it back in 2009 – that is, back in grad school? Might be wise to reread it (and create a new note, with a more recent date). Or did I read it just a year ago? I can probably just review my notes instead of rereading the article or book.&lt;/p&gt;
+
+&lt;p&gt;Those are the tips. There’s more… syncing libraries, working with groups. But these tips are the absolute heart of what I do with this excellent bit of FOSS.&lt;/p&gt;</content><author><name>RWG</name></author><summary type="html">If you’re not using Zotero… I don’t know what to say. If you are, you’re well on your way to living the FOSS Academic Lifestyle Dream. The Zotero logo is in the public domain.</summary></entry><entry><title type="html">Introduction</title><link href="http://localhost:4000/2020/11/27/introduction.html" rel="alternate" type="text/html" title="Introduction" /><published>2020-11-27T00:00:00-06:00</published><updated>2020-11-27T00:00:00-06:00</updated><id>http://localhost:4000/2020/11/27/introduction</id><content type="html" xml:base="http://localhost:4000/2020/11/27/introduction.html">&lt;figure&gt;
     &lt;img src=&quot;/assets/images/tuxPaper.jpg&quot; alt=&quot;A small Tux the Penguin paper toy&quot; title=&quot;Tux Toy&quot; /&gt;
     &lt;figcaption&gt;&quot;Tux the penguin papercraft&quot; by Siobhan Rohlwink-Coutts is licensed with CC BY-NC-ND 2.0.&lt;/figcaption&gt;
 &lt;/figure&gt;
