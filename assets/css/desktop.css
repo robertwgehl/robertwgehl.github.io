@@ -48,13 +48,15 @@ nav .current { color: #EE0D0D; }
 /* =======MAIN=============== */
 main { width: 712.8px; padding-left: 43.2px; padding-right: 43.2px; float: left; margin-bottom: 4%; background: #fff; }
 
+main .postWrapper { border-bottom: 2px solid; margin-bottom: 10%; }
+
 main h1 { margin-bottom: 4%; }
 
 main img { width: 100%; }
 
 main figcaption { font-style: italic; font-size: .75em; margin-bottom: 4%; }
 
-main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; }
+main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; text-transform: uppercase; }
 
 main .postHeader a { color: #1F3245; }
 

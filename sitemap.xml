@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/authors/RWG.html</loc>
-<lastmod>2020-12-06T20:14:03-06:00</lastmod>
+<lastmod>2020-12-10T18:28:46-06:00</lastmod>
 </url>
 <url>
 <loc>/2020/11/27/introduction.html</loc>
@@ -15,6 +15,10 @@
 <url>
 <loc>/2020/12/06/Dreaming-In-Code.html</loc>
 <lastmod>2020-12-06T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>/2020/12/10/The-Tuxies-Academic-Style.html</loc>
+<lastmod>2020-12-10T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>/about.html</loc>
