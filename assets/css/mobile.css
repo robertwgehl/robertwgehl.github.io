@@ -48,6 +48,8 @@ nav .current { color: #EE0D0D; }
 /* =======MAIN=============== */
 main { width: 100%; padding-left: 4%; padding-right: 4%; margin-bottom: 4%; margin-top: 4%; }
 
+main .postHeader { font-size: 2em; text-transform: uppercase; line-height: 1.1em; }
+
 main img { width: 100%; }
 
 main figcaption { font-style: italic; font-size: .75em; }
