@@ -69,6 +69,8 @@ main #tagList li { width: 25%; float: left; }
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; height: 100vh; background-image: linear-gradient(#ABAAAA, #dddada); }
 
+aside h1 { margin-bottom: 4%; }
+
 /* ======FOOTER============== */
 footer { clear: both; background: black; color: white; height: 100px; }
 
