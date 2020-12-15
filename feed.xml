@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-13T12:36:35-06:00</updated><id>/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">The Tuxies, Academic Style</title><link href="/2020/12/10/The-Tuxies-Academic-Style.html" rel="alternate" type="text/html" title="The Tuxies, Academic Style" /><published>2020-12-10T00:00:00-06:00</published><updated>2020-12-10T00:00:00-06:00</updated><id>/2020/12/10/The-Tuxies-Academic-Style</id><content type="html" xml:base="/2020/12/10/The-Tuxies-Academic-Style.html">&lt;p&gt;The &lt;a href=&quot;https://linuxunplugged.com/&quot;&gt;Linux Unplugged podcast&lt;/a&gt; is hosting their first-ever Tuxies award. They’re &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSdJImbr7PdPA5oHwv4HUtVA6nspYYqYnG5W0hqrjaSI1AZebw/viewform?usp=send_form&quot;&gt;soliciting votes&lt;/a&gt; for a range of categories of FOSS projects.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-15T17:51:33-06:00</updated><id>/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">My FOSS Journey</title><link href="/2020/12/15/FOSS-Journey.html" rel="alternate" type="text/html" title="My FOSS Journey" /><published>2020-12-15T00:00:00-06:00</published><updated>2020-12-15T00:00:00-06:00</updated><id>/2020/12/15/FOSS-Journey</id><content type="html" xml:base="/2020/12/15/FOSS-Journey.html">&lt;p&gt;A &lt;a href=&quot;https://destinationlinux.org/episode-198/&quot;&gt;recent &lt;em&gt;Destination Linux&lt;/em&gt; podcast&lt;/a&gt; interviewed Neal Gompa, a Fedora contributor, and their first question was: how did you start using Linux? I won’t recap Gompa’s story – I’d recommend listening to the show – but suffice it to say it involves an old copy of Red Hat he randomly found.&lt;/p&gt;
+
+&lt;p&gt;I thought about Gompa’s story and the question of getting started with FOSS and started reflecting on my own FOSS journey. As an academic – and a non-computer science academic, at that – I think my story is pretty unique.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/Windows_Vista.png&quot; alt=&quot;Windows Vista, with Aero&quot; title=&quot;Windows Vista, with Aero&quot; /&gt;
+    &lt;figcaption&gt;Windows Vista, with Aero. I didn't have Aero, though. This image is from &lt;a href=&quot;https://upload.wikimedia.org/wikipedia/en/a/a3/Windows_Vista.png&quot;&gt;Wikipedia.&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It all started with Windows Vista.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;While I was pursuing my PhD in the mid-2000s, I was a stereotypical poor grad student. But I needed a laptop. I bought a Windows Vista computer – a &lt;a href=&quot;http://h10032.www1.hp.com/ctg/Manual/c01295900.pdf&quot;&gt;Compaq F700&lt;/a&gt;, to be exact. I spent more money on it than I had ever spent on a computer: $500. I bought it at Circuit City – that should tell you something right there.&lt;/p&gt;
+
+&lt;p&gt;I loved that computer. I wrote term papers and my dissertation on it. I took it apart and added RAM. I lovingly blasted dust bunnies out of it. The Compaq and I were friends.&lt;/p&gt;
+
+&lt;p&gt;But it was sloooooow. Vista was awful. So I installed Ubuntu on it.&lt;/p&gt;
+
+&lt;h2 id=&quot;back-it-up-a-bit&quot;&gt;Back It Up a Bit&lt;/h2&gt;
+
+&lt;p&gt;I should back up, though. I didn’t just wake up one day and say, “Linux is what I need.” Rather, I got the idea because I was already using FOSS alternatives to proprietary software. I was taking little forays into FOSS well before becoming a Linux convert.&lt;/p&gt;
+
+&lt;p&gt;For example, when I started my PhD program (Cultural Studies at George Mason) in 2005, I was regularly using Endnote, a citation manager. Mason provided Endnote for free.&lt;/p&gt;
+
+&lt;p&gt;Until, that is, &lt;a href=&quot;https://dltj.org/article/endnote-zotero-lawsuit/&quot;&gt;Mason was sued by Endnote&lt;/a&gt; because &lt;a href=&quot;https://rrchnm.org/&quot;&gt;GMU’s Center for History and New Media&lt;/a&gt; were making an open-source alternative. That alternative was &lt;strong&gt;Zotero&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;So I lost my free license to Endnote, and, being a poor grad student, switched to the free-as-in-free-beer Zotero. I imported my Endnote library and haven’t looked back. 30,000 library items later and I’m still using Zotero every day.&lt;/p&gt;
+
+&lt;p&gt;Zotero wasn’t the only FOSS I was using. I was also regularly using &lt;strong&gt;Firefox&lt;/strong&gt; and realized it, too, was FOSS. Firefox was only a few years old at that point. Looking back at the mid-2000s, Firefox was so &lt;em&gt;exciting.&lt;/em&gt; It was so freakin’ cool that I could add an extension to it to change it. I can’t recall if that’s when I started using ad blockers. I think it may have been.&lt;/p&gt;
+
+&lt;p&gt;Indeed, Zotero was riding piggy-back on Firefox at that point. It was integrated into Firefox as an extension. Firefox made Zotero possible.&lt;/p&gt;
+
+&lt;p&gt;Firefox also got me away from Internet Explorer. I was learning Web design at that time, so I knew about Explorer’s problems with a lack of standards. Firefox was touted as standards-driven. (Although, at that time, I also like Opera quite a bit). I started developing websites in Firefox and it is still my go-to environment, even though I know I need to switch to Chrome. (More about that some other day.)&lt;/p&gt;
+
+&lt;p&gt;Fast-forward back to that Compaq F700. Though it had Windows, one thing it didn’t have was: Office. Again, I was poor. But I was ready for this problem. I looked to see if there was something like Zotero or Firefox, but for word processing and… there was &lt;strong&gt;OpenOffice&lt;/strong&gt;! And it worked!&lt;/p&gt;
+
+&lt;p&gt;At that point, I got into FOSS stuff more and more. And I took a hard look at the underlying OS, Vista. At this point, I’m starting to see how good FOSS software could be.&lt;/p&gt;
+
+&lt;p&gt;I realized maybe Linux would work better.&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-ubuntu&quot;&gt;Enter Ubuntu&lt;/h2&gt;
+&lt;p&gt;And I was lucky: Ubuntu was already going strong at that point, with a “Long Term Release” called “Dapper Drake,” Ubuntu 6.06. I believe that was the first Ubuntu I installed on my machine. I downloaded an image, burned it to a CD, popped it in the tray and… it worked! It booted up, and you could click on stuff and do Windows-ey things.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/Ubuntu-desktop-2-606-20080706.png&quot; alt=&quot;Ubuntu Dapper Drake Desktop&quot; title=&quot;Ubuntu Dapper Drake desktop&quot; /&gt;
+    &lt;figcaption&gt;Ubuntu Dapper Drake. The human theme takes me back.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;At least, it mostly worked. There were struggles, mostly with wifi chips. Oh, I recall those struggles. But they were ok, because I could &lt;em&gt;dual boot.&lt;/em&gt; I could partition the disk, check out Ubuntu and get the wifi working, and if there were any issues, I could go back to Vista to get some work done. “How cool is that,” I thought to myself. “Two operating systems!” Weird, wild stuff. It felt like a secret, a hidden part of my computer that only I knew about.&lt;/p&gt;
+
+&lt;p&gt;And then… if I could keep files on the Microsoft side while goofing around on Linux, why not try other things? Like: Xubuntu! Or Mint!&lt;/p&gt;
+
+&lt;p&gt;I was now “distro hopping.” And it was &lt;em&gt;fun.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;(I actually miss the Xubuntu splash screen of that era. As I recall, it did a kind of &lt;a href=&quot;https://www.dedoimedo.com/images/computers_new_2/xubuntu-9-10-splash.jpg&quot;&gt;firefly animation&lt;/a&gt; and then the desktop appeared.)&lt;/p&gt;
+
+&lt;p&gt;Over time I switched to Linux Mint, mainly because they would ship the “restricted” bits and allow for media playback and had better hardware support. I think I stuck with Mint for quite some time (that is, &lt;a href=&quot;https://www.zdnet.com/article/linux-mint-the-right-way-to-react-to-a-security-breach/&quot;&gt;until they had a security breach&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;At a certain point, around 2009 or so, I wondered what the point of keeping Vista was. I was spending more and more time in Linux.&lt;/p&gt;
+
+&lt;p&gt;Those of you who used Vista know: it was &lt;em&gt;awful.&lt;/em&gt; Awful, awful, awful. I missed XP so much. (Hell, the one I miss is Windows 98SE. That was my jam).&lt;/p&gt;
+
+&lt;p&gt;But to just &lt;em&gt;delete&lt;/em&gt; Windows and only use Linux… that was a big deal. I can still recall my nervousness. There was no going back.&lt;/p&gt;
+
+&lt;p&gt;But I did it. Vista was gone. And I haven’t gone back to Windows since. As of now, I use Linux everywhere I can. Ubuntu, Mint, Manjaro, Fedora, gimme gimme gimme. Fortunately for me, the institutions I’ve worked for have tolerated it. This means that I’m free of proprietary software requirements. With the increasing surveillance of workers – including academics – my little Linux setups are safe havens (a point I will talk about some time later).&lt;/p&gt;
+
+&lt;p&gt;In other words, I’m living the “FOSS Academic Lifestyle Dream.” And I can’t imagine doing otherwise.&lt;/p&gt;
+
+&lt;h2 id=&quot;foss-had-an-impact-on-my-research&quot;&gt;FOSS Had An Impact on My Research&lt;/h2&gt;
+&lt;p&gt;While all of this has a sort of &lt;strong&gt;Goal 1&lt;/strong&gt; aspect – it’s about specific tools used to do my academic work – the story is also a &lt;strong&gt;Goal 2&lt;/strong&gt; story, because FOSS affected my career and research interests. At Mason, I started exploring the discourses and economics of “Web 2.0.” Recall that Web 2.0 was, in part, about “user-led production,” where Internet users would contribute to online systems. Examples included the aggregated intelligence of Google searches, amateur videos on YouTube, social bookmarking (Digg), social networking on Facebook, or the collectively produced Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;I started to see all of this through the lens of &lt;a href=&quot;https://web.mit.edu/schock/www/docs/18.2terranova.pdf&quot;&gt;Tiziana Terranova’s “free labor” concept&lt;/a&gt;: we were all giving our labor to these sites in exchange for access and enjoyment. And I started to think of this as highly exploitative. After all, Youtube was “user-led” and it sold for $1.65 billion dollars. Facebook was “free,” but it was valued at $38 a share at its IPO.&lt;/p&gt;
+
+&lt;p&gt;So Web 2.0 looked a bit like FOSS: get communities of people to contribute and you get valuable products. But it also looked really rapacious: I give you access, and you provide content and data. Toss in the burgeoning surveillance economy, and you get a disturbing picture. I give you access, you give me your data, and I sell your eyeballs to the highest bidder.&lt;/p&gt;
+
+&lt;p&gt;The only exception seemed to be Wikipedia. Turns out, we type wikipedia.org and not wikipedia.com because of a &lt;a href=&quot;https://www.wired.co.uk/article/wikipedia-spanish-fork&quot;&gt;labor strike&lt;/a&gt; and because of FOSS-style licensing. (Imagine if that was the case with Facebook!)&lt;/p&gt;
+
+&lt;p&gt;I wrote my dissertation in 2009-2010 as a critique of Web 2.0. But, in the spirit of the FOSS alternatives I was using to write my diss, I didn’t stop at critique. I called for alternatives to the dominant, corporate Web 2.0 sites. I started calling this “critical reverse engineering” and the work eventually &lt;a href=&quot;https://bookshop.org/books/reverse-engineering-social-media-software-culture-and-political-economy-in-new-media-capitalism/9781439910344&quot;&gt;became my first book&lt;/a&gt;. If a labor strike and the GNU/FDL helped Wikipedia avoid becoming a for-profit, surveillance-driven monster, what about projects that start out as FOSS?&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/Reverse-Engineering.png&quot; alt=&quot;The cover of Reverse Engineering Social Media, a book by Robert W. Gehl&quot; title=&quot;The cover of Reverse Engineering Social Media, a book by Robert W. Gehl&quot; /&gt;
+    &lt;figcaption&gt;My first book! It came out in 2014. I was hating Facebook before it was cool.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using FOSS and critiquing Web 2.0, I started to see a need for “alternative social media” – a &lt;a href=&quot;https://journals.sagepub.com/doi/full/10.1177/1461444820912533&quot;&gt;research program that I’m still pursuing&lt;/a&gt;. To my mind, it’s not enough to critique Facebook. We have to do something about it – make something better. That is the promise of FOSS thinking. We can experiment to move past what limits us now.&lt;/p&gt;
+
+&lt;p&gt;To sum up my FOSS journey: I came for the freedom (that is, the cost) and stayed for the freedom (that is, the ethics, the new ways of thinking).&lt;/p&gt;
+
+&lt;p&gt;In other words: thanks, Vista!&lt;/p&gt;</content><author><name>RWG</name></author><category term="FOSS Academic Lifestyle Dream" /><category term="Goal 1" /><category term="Goal 2" /><category term="Ubuntu" /><category term="Windows Vista" /><category term="Web 2.0" /><category term="Alternative Social Media" /><category term="Zotero" /><category term="Firefox" /><category term="OpenOffice" /><summary type="html">A recent Destination Linux podcast interviewed Neal Gompa, a Fedora contributor, and their first question was: how did you start using Linux? I won’t recap Gompa’s story – I’d recommend listening to the show – but suffice it to say it involves an old copy of Red Hat he randomly found. I thought about Gompa’s story and the question of getting started with FOSS and started reflecting on my own FOSS journey. As an academic – and a non-computer science academic, at that – I think my story is pretty unique. Windows Vista, with Aero. I didn't have Aero, though. This image is from Wikipedia. It all started with Windows Vista.</summary></entry><entry><title type="html">The Tuxies, Academic Style</title><link href="/2020/12/10/The-Tuxies-Academic-Style.html" rel="alternate" type="text/html" title="The Tuxies, Academic Style" /><published>2020-12-10T00:00:00-06:00</published><updated>2020-12-10T00:00:00-06:00</updated><id>/2020/12/10/The-Tuxies-Academic-Style</id><content type="html" xml:base="/2020/12/10/The-Tuxies-Academic-Style.html">&lt;p&gt;The &lt;a href=&quot;https://linuxunplugged.com/&quot;&gt;Linux Unplugged podcast&lt;/a&gt; is hosting their first-ever Tuxies award. They’re &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSdJImbr7PdPA5oHwv4HUtVA6nspYYqYnG5W0hqrjaSI1AZebw/viewform?usp=send_form&quot;&gt;soliciting votes&lt;/a&gt; for a range of categories of FOSS projects.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;img src=&quot;/assets/images/tuxintux.jpg&quot; alt=&quot;Tux the Penguin Wearing a Tuxedo&quot; title=&quot;Tux the Penguin Wearing a Tuxedo&quot; width=&quot;50%&quot; /&gt;
