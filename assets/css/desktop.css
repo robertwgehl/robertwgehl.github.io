@@ -56,7 +56,7 @@ main img { width: 100%; }
 
 main figcaption { font-style: italic; font-size: .75em; margin-bottom: 4%; }
 
-main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; text-transform: uppercase; }
+main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; text-transform: uppercase; line-height: 1.1em; }
 
 main .postHeader a { color: #1F3245; }
 
