@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-27T14:53:29-06:00</updated><id>/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">My Workflow</title><link href="/2020/12/27/Workflow.html" rel="alternate" type="text/html" title="My Workflow" /><published>2020-12-27T00:00:00-06:00</published><updated>2020-12-27T00:00:00-06:00</updated><id>/2020/12/27/Workflow</id><content type="html" xml:base="/2020/12/27/Workflow.html">&lt;p&gt;The year 2020. Damn. Damn, damn, damn, damn.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-27T15:00:44-06:00</updated><id>/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">My Workflow</title><link href="/2020/12/27/Workflow.html" rel="alternate" type="text/html" title="My Workflow" /><published>2020-12-27T00:00:00-06:00</published><updated>2020-12-27T00:00:00-06:00</updated><id>/2020/12/27/Workflow</id><content type="html" xml:base="/2020/12/27/Workflow.html">&lt;p&gt;The year 2020. Damn. Damn, damn, damn, damn.&lt;/p&gt;
 
 &lt;p&gt;Put it in the dumpster, man.&lt;/p&gt;
 
@@ -17,7 +17,7 @@
 
 &lt;h2 id=&quot;workspaces&quot;&gt;Workspaces&lt;/h2&gt;
 
-&lt;p&gt;I use the MATE desktop environment, which has a handy workplace switcher applet. This is fine, but out of the box is missing something.&lt;/p&gt;
+&lt;p&gt;No matter the underlying distro, I use the MATE desktop environment, which has a handy workplace switcher applet. This is fine, but out of the box is missing something.&lt;/p&gt;
 
 &lt;p&gt;Enter Devil’s Pie. It’s not just &lt;a href=&quot;https://www.youtube.com/watch?v=EgvE6c7-2ag&quot;&gt;a documentary about the R&amp;amp;B singer D’Angelo&lt;/a&gt;. Devilspie is a &lt;a href=&quot;https://help.ubuntu.com/community/Devilspie&quot;&gt;small application&lt;/a&gt; that gives me total control over how applications load into various workspaces.&lt;/p&gt;
 
@@ -42,7 +42,7 @@
 &lt;p&gt;But for now, with devilspie and the corresponding rules in place, when I launch an application (in my case, using &lt;a href=&quot;https://www.fossmint.com/synapse-application-launcher-and-file-search-tool/&quot;&gt;Synapse&lt;/a&gt;, which appears with CTRL+Space), I know exactly which workspace it’s routed to. I can flip between a browser and a writing application with a keystroke – cutting, pasting, and so on.&lt;/p&gt;
 
 &lt;h2 id=&quot;pomodoro&quot;&gt;Pomodoro&lt;/h2&gt;
-&lt;p&gt;In fact, switching from my writing space Workspace 2 to email or a Signal message in Workspace 5 is now &lt;em&gt;too&lt;/em&gt; easy. Distraction is just a couple CTRL+Rights away. I find myself flipping over to email too often, and for no good reason. Because of this, I close Evolution, but to really help me focus, I also use the &lt;a href=&quot;https://gnomepomodoro.org/&quot;&gt;Pomodoro Timer for Gnome&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In fact, switching from my writing space Workspace 2 to email or a Signal message in Workspace 5 is now &lt;em&gt;too&lt;/em&gt; easy. Distraction is just a couple CTRL+Rights away. I find myself flipping over to email too often, and for no good reason. Because of this, I close Evolution and Signal, but to really help me focus, I also use the &lt;a href=&quot;https://gnomepomodoro.org/&quot;&gt;Pomodoro Timer for Gnome&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;img src=&quot;/assets/images/pomodoro.png&quot; alt=&quot;The Pomodoro for GNOME timer&quot; title=&quot;The Pomodoro for GNOME timer&quot; /&gt;
