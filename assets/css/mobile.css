@@ -56,6 +56,10 @@ main figcaption { font-style: italic; font-size: .75em; }
 
 main h1 { font-size: 1.5em; }
 
+main pre { font-family: monospace; padding: 5px; background: #F3F3F3; margin-bottom: 4%; }
+
+main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
+
 /* =======ASIDE============== */
 aside { width: 100%; margin-left: 4%; padding: 10px; margin-bottom: 4%; }
 
