@@ -74,6 +74,12 @@ main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
 
 main #comments { width: 100%; clear: both; }
 
+main ul { list-style: disc; margin-left: 4%; margin-botton: 4%; }
+
+main li { margin-bottom: 4%; }
+
+main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
+
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; height: 100vh; background-image: linear-gradient(#ABAAAA, #dddada); }
 

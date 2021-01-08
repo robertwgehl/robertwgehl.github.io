@@ -60,6 +60,12 @@ main pre { font-family: monospace; padding: 5px; background: #F3F3F3; margin-bot
 
 main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
 
+main ul { list-style: disc; margin-left: 4%; margin-botton: 4%; }
+
+main li { margin-bottom: 4%; }
+
+main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
+
 /* =======ASIDE============== */
 aside { width: 100%; margin-left: 4%; padding: 10px; margin-bottom: 4%; }
 
