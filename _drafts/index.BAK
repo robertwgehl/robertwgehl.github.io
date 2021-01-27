@@ -1,0 +1,8 @@
+---
+# this uses a default.html layout in the _layouts folder. In that layout, there is a $content variable, which is the content that appears after the frontmatter (the three dashes)
+# the $title variable here is passed to the appropriate place in the layout.
+layout: default
+title: Home
+---
+<h1>{{ "Hello World!" | downcase }}</h1>
+<p>I am a site using a layout</p>

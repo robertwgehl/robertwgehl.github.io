@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>FOSS ACADEMIC | {{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap" rel="stylesheet"> 
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+	{% feed_meta %}
+	{% seo %}
+</head>
+
+<body>
+    <div id="wrapper">
+    {% include header.html %}
+    {% include navigation.html %}	
+    <main>
+    {{ content }}
+    </main>
+    {% include aside.html %}
+    {% include footer.html %}
+    </div>
+</body>
+</html>

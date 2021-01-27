@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div>
+    <h1 class="postHeader">{{ page.title }}</h1>
+
+    <p class="byline">
+        {{ page.date | date_to_string }}
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+    </p>
+
+    {{ content }}
+
+       
+    <section>
+        <h1>Post Tags</h1>
+        <ul id="tagList">
+            {% for tag in page.tags %}
+            <li>
+                <a href="/tags/{{ tag | downcase }}.html">{{ tag }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    
+    <div id="comments">
+        <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
+        {% if page.comments == true %}
+            {% include comments.html %}
+        {% endif %}
+    </div>
+
+    
+</div>

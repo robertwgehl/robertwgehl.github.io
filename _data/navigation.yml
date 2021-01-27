@@ -1,0 +1,11 @@
+# this is a yaml array
+# it allows the add nav points iteratively in the _includes/navigation.html file
+# the order no doubt matters.
+
+
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: Feed
+  link: /feed.xml
