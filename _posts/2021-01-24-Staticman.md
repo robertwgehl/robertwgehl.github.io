@@ -2,6 +2,8 @@
 layout: post
 author: RWG
 title: Staticman Comments Test Post
+tag:
+    - Staticman
 comments: true
 ---
 
