@@ -188,6 +188,27 @@ main {
 
     }
 
+/* =======MAIN COMMENTS====== */
+
+.comment__author {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: $standardMargin;
+    }
+
+textarea {
+    width: 100%;
+    }
+
+/* these buttons created by the form, not sure if they're necessary */
+.hp {
+    display: none;
+    }
+
+.mdl-button--colored {
+    display: none;
+    }
+
 /* =======ASIDE============== */
 aside {
     width: $wrapperWidth;
