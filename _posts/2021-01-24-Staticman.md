@@ -23,4 +23,4 @@ Update 4: I think it's done! Comment forms are styled for desktop and mobile, an
 
 Once again, thanks go to Travis Downs for his exhaustive post on how to get Staticman going, as well as some of his code.
 
-I do have a few more tweaks, but the [system is not down](https://www.youtube.com/watch?v=JwZwkk7q25I).
+I do have a few more tweaks -- most notably, to de-Google-ify the whole thing, but the [system is not down](https://www.youtube.com/watch?v=JwZwkk7q25I).
