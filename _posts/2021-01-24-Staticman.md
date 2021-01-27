@@ -18,3 +18,9 @@ Update 2: Success in posting a comment after turning ReCaptcha off. However, not
 Update 3: Success in getting a comment posted! But the workflow is very convoluted. I know Staticman uses Github pull requests to work, so I have to merge each comment. That's fine. However, after I do so, I will have to move the data from my local version of my static site and then rebuild it via Jekyll. [There has to be a better way](https://www.youtube.com/watch?v=INX-KrjaNOo)! And I will figure it out.
 
 And, I do know I will have to style the comments, as well. One thing at a time.
+
+Update 4: I think it's done! Comment forms are styled for desktop and mobile, and the workflow is now improved. I initially set up my Github repository to be only the contents of the _site folder, but now the whole thing (warts and all) is in Github, which makes moderating comments much easier.
+
+Once again, thanks go to Travis Downs for his exhaustive post on how to get Staticman going, as well as some of his code.
+
+I do have a few more tweaks, but the [system is not down](https://www.youtube.com/watch?v=JwZwkk7q25I).
