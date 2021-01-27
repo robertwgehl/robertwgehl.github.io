@@ -7,9 +7,16 @@ tag:
 comments: true
 ---
 
-This post is to test Staticman comments. I'll edit this post later to update my progress. For now, if anyone stumbles across this and wants to add a "test" comment or something helpful, feel free!
+This post is to test [Staticman](https://staticman.net/) comments. I'll edit this post later to update my progress. For now, if anyone stumbles across this and wants to add a "test" comment or something helpful, feel free!
+
+<figure>
+    <img src="assets/images/staticman.png" alt="The Staticman Logo">
+    <figcaption>The Staticman Logo</figcaption>
+</figure>
 
 I'm basing this process of this [helpful blog post](https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html) from Travis Downs of Performance Matters. Thank you!
+
+<!-- more -->
 
 Update 1: There are clearly problems in my configuration, and so I must keep debugging. But it's time for a walk.
 
