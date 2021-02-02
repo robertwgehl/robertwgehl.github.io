@@ -10,7 +10,7 @@ comments: true
 This post is to test [Staticman](https://staticman.net/) comments. I'll edit this post later to update my progress. For now, if anyone stumbles across this and wants to add a "test" comment or something helpful, feel free!
 
 <figure>
-    <img src="assets/images/staticman.png" alt="The Staticman Logo">
+    <img src="/assets/images/staticman.png" alt="The Staticman Logo">
     <figcaption>The Staticman Logo</figcaption>
 </figure>
 
