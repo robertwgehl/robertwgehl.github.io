@@ -6,6 +6,7 @@ tag:
     - FALD
     - Software Studies
     - Goal 2
+comments: true
 ---
 
 There have been a lot of books that have influenced my career: Fred Turner's *From Counterculture to Cyberculture,* Gabriella Coleman's *Hacker, Hoaxer, Whistleblower, Spy,* Karl Marx's *Grundrisse,* John Law's *Aircraft Stories,* and Patricia Hill Collin's *Black Feminist Thought.* These works are a kind of well to return to, again and again, to quench intellectual thirsts: thinking historically about communication technologies, and thinking about heterogeneity in the cultures of communication technologies.

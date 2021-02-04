@@ -4,6 +4,7 @@ author: RWG
 tag: 
     - Zotero
     - Goal 1
+comments: true
 ---
 
 If you're not using [Zotero](https://www.zotero.org)... I don't know what to say. 
