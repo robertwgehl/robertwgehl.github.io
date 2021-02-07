@@ -1,0 +1,29 @@
+I"<p>I <a href="https://scholar.social/@robertwgehl/105675026053096230">posted a question to Mastodon</a> (specifically, scholar.social):</p>
+
+<blockquote>
+  <p>Ok! If you had a good budget to build a cloud infrastructure to support small teams (2-5 people) collaborating on projects, with a special focus on academic writing projects, what would you recommend?</p>
+
+  <p>I’m thinking Linux-based cloud stuff, so I have in mind:</p>
+  <ul>
+    <li>Nextcloud</li>
+    <li>Jitsi</li>
+    <li>Matrix</li>
+  </ul>
+
+  <p>and…? Any recommendations?</p>
+</blockquote>
+
+<p>I asked this question in all seriousness. I am lucky enough to have a small amount of research funding, I want to promote the world of software beyond Google and Microsoft, and so I’m really keen on building a FOSS Academic Laboratory in the cloud and using to for any collaborative projects I’m a part of. After all, it’s my <a href="/about.html">Goal #1</a>: to use FOSS for as much of my academic work as is possible.</p>
+
+<figure>
+    <img src="/assets/images/penquinquestions.png" alt="A penguin with question marks above its head" style="width: 50%" />
+    <figcaption>This penguin's got questions.</figcaption>
+    
+</figure>
+
+<p>The response I got to the questions was <em>freakin’ awesome!</em></p>
+
+<p>I thought it would be a good idea to catalog it here. I’ll start with the least-recommended things and work my way up to the most-recommended. That’s not to say this is a ranking – things mentioned only once might be really valuable. I’m really just noting what was mentioned most.</p>
+
+<p>I’ll also note which ones I am considering deploying – again, this is not a commentary on the quality of any of these systems. It’s more related to my own specific use cases forged in the past decade of academic collaborations.</p>
+:ET
