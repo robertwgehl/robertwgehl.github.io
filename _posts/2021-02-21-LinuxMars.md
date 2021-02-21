@@ -10,7 +10,7 @@ comments: false
 Bowie wanted to know: is there Linux on Mars?
 
 <figure>
-    <img src="/assets/images/bowieLinuxMars.png" alt="A modified version of David Bowie's Life on Mars, made to say Linux on Mars"
+    <img src="/assets/images/bowieLinuxMars.png" alt="A modified version of David Bowie's Life on Mars, made to say Linux on Mars">
     <figcaption>Yes, David, there's Linux on Mars. Made with <a href="https://glimpse-editor.github.io/">Glimpse.</a></figcaption>
 </figure>
 
