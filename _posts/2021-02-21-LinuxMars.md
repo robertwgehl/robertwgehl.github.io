@@ -1,0 +1,17 @@
+---
+layout: post
+author: RWG
+title: Linux on Mars
+tag:
+    - Goal 1
+comments: false
+---
+
+Bowie wanted to know: is there Linux on Mars?
+
+<figure>
+    <img src="/assets/images/bowieLinuxMars.png" alt="A modified version of David Bowie's Life on Mars, made to say Linux on Mars"
+    <figcaption>Yes, David, there's Linux on Mars. Made with <a href="https://glimpse-editor.github.io/">Glimpse.</a></figcaption>
+</figure>
+
+According to <a href="https://spectrum.ieee.org/automaton/aerospace/robotic-exploration/nasa-designed-perseverance-helicopter-rover-fly-autonomously-mars"></a><em>IEEE Spectrum</em> and <a href="https://www.pcmag.com/news/linux-is-now-on-mars-thanks-to-nasas-perseverance-rover"><em>PC Magazine</em></a>, Linux is now on Mars. Specifically, the drone copter is running the Linux kernel on an off-the-shelf Qualcomm Snapdragon processor. Perhaps this marks the beginning of the end of proprietary operating systems on the Red Planet?
