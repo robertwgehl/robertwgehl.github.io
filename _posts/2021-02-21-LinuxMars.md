@@ -4,7 +4,7 @@ author: RWG
 title: Linux on Mars
 tag:
     - FALD
-comments: false
+comments: true
 ---
 
 Bowie wanted to know: is there Linux on Mars?
