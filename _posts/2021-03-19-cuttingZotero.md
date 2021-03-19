@@ -22,6 +22,8 @@ For anyone living the FOSS Academic Lifestyle Dream, this is huge news.
 
 They plan on releasing these features to the public in Version 6, but anyone itching to try it can use the development version of Zotero. This post will discuss how to install Zotero's beta in Ubuntu Mate 18.04, though the approach should be similar for other Linux distros.
 
+<i>NB: Note, I would have found this sooner or later, but credit to Sean Lawson for alerting me!</i>
+
 <!-- more -->
 
 Step 1: Shut Zotero Down and Back It Up

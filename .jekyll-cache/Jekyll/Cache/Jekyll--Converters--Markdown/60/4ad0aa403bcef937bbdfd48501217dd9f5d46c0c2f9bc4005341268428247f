@@ -1,0 +1,16 @@
+I"i<p>There’s exciting news on the Zotero front!</p>
+
+<p>Zotero just announced a <a href="https://www.zotero.org/support/pdf_reader_preview">preview of their new tab system, complete with a built-in PDF reader</a>.</p>
+
+<p>For anyone living the FOSS Academic Lifestyle Dream, this is huge news.</p>
+
+<figure>
+    <img src="/assets/images/zotero.png" alt="The Zotero Logo" title="The Zotero Logo" />
+    <figcaption>The Zotero logo is in the public domain.</figcaption>
+</figure>
+
+<p>They plan on releasing these features to the public in Version 6, but anyone itching to try it can use the development version of Zotero. This post will discuss how to install Zotero’s beta in Ubuntu Mate 18.04, though the approach should be similar for other Linux distros.</p>
+
+<p><i>NB: Note, I would have found this sooner or later, but credit to Sean Lawson for alerting me!</i></p>
+
+:ET

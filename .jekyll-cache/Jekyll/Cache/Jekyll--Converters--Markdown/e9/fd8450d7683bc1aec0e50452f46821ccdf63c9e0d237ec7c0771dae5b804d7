@@ -1,0 +1,73 @@
+I"�<p>There’s exciting news on the Zotero front!</p>
+
+<p>Zotero just announced a <a href="https://www.zotero.org/support/pdf_reader_preview">preview of their new tab system, complete with a built-in PDF reader</a>.</p>
+
+<p>For anyone living the FOSS Academic Lifestyle Dream, this is huge news.</p>
+
+<figure>
+    <img src="/assets/images/zotero.png" alt="The Zotero Logo" title="The Zotero Logo" />
+    <figcaption>The Zotero logo is in the public domain.</figcaption>
+</figure>
+
+<p>They plan on releasing these features to the public in Version 6, but anyone itching to try it can use the development version of Zotero. This post will discuss how to install Zotero’s beta in Ubuntu Mate 18.04, though the approach should be similar for other Linux distros.</p>
+
+<p><i>NB: Note, I would have found this sooner or later, but credit to Sean Lawson for alerting me!</i></p>
+
+<!-- more -->
+
+<h2 id="step-1-shut-zotero-down-and-back-it-up">Step 1: Shut Zotero Down and Back It Up</h2>
+
+<p>First, make sure you’re not running Zotero. You can still have your browser open, however – the Zotero plugin will not affect this step.</p>
+
+<p>After shutting down, navigate to your Zotero profile folder. You should see a zotero.sqlite file. Because switching to the Zotero Beta could cause irreversible changes to this database, it’s best to back it up.</p>
+
+<figure>
+    <img src="/assets/images/zoterosqlite.png" alt="A screenshot of the Zotero folder and zotero.sqlite file" />
+    <figcaption>The Zotero folder and zotero.sqlite file in Caja, Mate's file browser</figcaption>
+</figure>
+
+<p>I also backed up my installation of Zotero’s program files. Out of habit, I put them in a folder called “zoteroStandalone” in /.local/share. I simply created an archive of that folder and then deleted its contents. This is going to be my target for the Beta version.</p>
+
+<h2 id="step-2-get-the-beta">Step 2: Get the Beta</h2>
+
+<p>I then downloaded the <a href="https://www.zotero.org/support/dev_builds">beta version of Zotero</a> from their Dev Builds page. It’s in a compressed archive. I unpacked the archive in my now-empty /.local/share/zoteroStandalone folder.</p>
+
+<figure>
+    <img src="/assets/images/zoterostandalonebackup.png" alt="A screenshot of my .local/share folder with zoteroStandalone's directory in it" />
+    <figcaption>I store Zotero's executable files in /.local/share/zoteroStandalone</figcaption>
+</figure>
+
+<p>At this point, since I’ve been using Zotero for a while, I could then just launch Zotero from Mate’s Brisk menu and it was up and running. But, in case any of you want to know how to add Zotero to your menu.</p>
+
+<h2 id="optional-step-add-to-the-brisk-menu">Optional Step: Add to the Brisk Menu</h2>
+
+<p>To add Zotero to Mate’s Brisk menu, right-click on your menu and choose “Edit Menus.”</p>
+
+<p>I like to add Zotero to the “Office” subcategory.</p>
+
+<figure>
+    <img src="/assets/images/briskmenu.png" alt="A screenshot of Mate's Brisk menu editor" />
+    <figcaption>Brisk Menu editing starts with selecting where you want to add your menu items.</figcaption>
+</figure>
+
+<p>Then, select “Add Item.” You will see a menu like so:</p>
+
+<p><img src="/assets/images/addingmenuitem.png" alt="Adding an individual item to the Brisk menu" /></p>
+
+<p>Because I stored Zotero in my /.local/share folder, the command path is /home/robert/.local/share/zoteroStandalone/zotero. To add an icon, I click on that springy Mario Brothers-looking icon and navigate to /home/robert/.local/share/zoteroStandalone/chrome/icons/default/default256.png.</p>
+
+<p>Now, I can launch Zotero from the menu.</p>
+
+<p>If you’ve done all this and installed the Zotero beta, perhaps you’re as curious as I am about the new tabbed interface and PDF reader. To get those features, you have to opt-in.</p>
+
+<figure>
+    <img src="/assets/images/betaoptin.png" alt="A screenshot of Zotero's general preferences menu" />
+    <figcaption>Brisk Menu editing starts with selecting where you want to add your menu items.</figcaption>
+</figure>
+
+<p>To do that, go to Edit -&gt; Preferences and use the General Tab. There’s an option about halfway down the menu to opt in. After a restart, Zotero will have the new features.</p>
+
+<p>I just did this process minutes ago, so expect a follow-up post on using the new features soon!</p>
+
+<p>In the meantime, if you’re looking for Zotero tricks and tips, <a href="/2020/12/01/Zotero-Tips-and-Tricks.html">check out this post</a>.</p>
+:ET
