@@ -50,7 +50,7 @@ I then downloaded the [beta version of Zotero](https://www.zotero.org/support/de
     <figcaption>I store Zotero's executable files in /.local/share/zoteroStandalone</figcaption>
 </figure>
 
-At this point, since I've been using Zotero for a while, I could then just launch Zotero from Mate's Brisk menu and it was up and running. But, in case any of you want to know how to add Zotero to your menu.
+At this point, since I've been using Zotero for a while, I could then just launch Zotero from Mate's Brisk menu and it was up and running. But, in case any of you want to know how to add Zotero to your menu, see the next step.
 
 Optional Step: Add to the Brisk Menu
 ------------------------------------
@@ -76,7 +76,7 @@ If you've done all this and installed the Zotero beta, perhaps you're as curious
 
 <figure>
     <img src="/assets/images/betaoptin.png" alt="A screenshot of Zotero's general preferences menu">
-    <figcaption>Brisk Menu editing starts with selecting where you want to add your menu items.</figcaption>
+    <figcaption>Here is where you turn on magic things.</figcaption>
 </figure>
 
 To do that, go to Edit -> Preferences and use the General Tab. There's an option about halfway down the menu to opt in. After a restart, Zotero will have the new features.

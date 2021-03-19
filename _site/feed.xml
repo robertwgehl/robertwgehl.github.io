@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-03-19T15:31:54-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Cutting-Edge Zotero</title><link href="https://fossacademic.tech/2021/03/19/cuttingZotero.html" rel="alternate" type="text/html" title="Cutting-Edge Zotero" /><published>2021-03-19T00:00:00-05:00</published><updated>2021-03-19T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/19/cuttingZotero</id><content type="html" xml:base="https://fossacademic.tech/2021/03/19/cuttingZotero.html">&lt;p&gt;There’s exciting news on the Zotero front!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-03-19T16:12:16-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Cutting-Edge Zotero</title><link href="https://fossacademic.tech/2021/03/19/cuttingZotero.html" rel="alternate" type="text/html" title="Cutting-Edge Zotero" /><published>2021-03-19T00:00:00-05:00</published><updated>2021-03-19T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/19/cuttingZotero</id><content type="html" xml:base="https://fossacademic.tech/2021/03/19/cuttingZotero.html">&lt;p&gt;There’s exciting news on the Zotero front!&lt;/p&gt;
 
 &lt;p&gt;Zotero just announced a &lt;a href=&quot;https://www.zotero.org/support/pdf_reader_preview&quot;&gt;preview of their new tab system, complete with a built-in PDF reader&lt;/a&gt;.&lt;/p&gt;
 
@@ -37,7 +37,7 @@
     &lt;figcaption&gt;I store Zotero's executable files in /.local/share/zoteroStandalone&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;At this point, since I’ve been using Zotero for a while, I could then just launch Zotero from Mate’s Brisk menu and it was up and running. But, in case any of you want to know how to add Zotero to your menu.&lt;/p&gt;
+&lt;p&gt;At this point, since I’ve been using Zotero for a while, I could then just launch Zotero from Mate’s Brisk menu and it was up and running. But, in case any of you want to know how to add Zotero to your menu, see the next step.&lt;/p&gt;
 
 &lt;h2 id=&quot;optional-step-add-to-the-brisk-menu&quot;&gt;Optional Step: Add to the Brisk Menu&lt;/h2&gt;
 
@@ -62,7 +62,7 @@
 
 &lt;figure&gt;
     &lt;img src=&quot;/assets/images/betaoptin.png&quot; alt=&quot;A screenshot of Zotero's general preferences menu&quot; /&gt;
-    &lt;figcaption&gt;Brisk Menu editing starts with selecting where you want to add your menu items.&lt;/figcaption&gt;
+    &lt;figcaption&gt;Here is where you turn on magic things.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;To do that, go to Edit -&amp;gt; Preferences and use the General Tab. There’s an option about halfway down the menu to opt in. After a restart, Zotero will have the new features.&lt;/p&gt;
