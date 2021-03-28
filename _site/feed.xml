@@ -1,4 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-03-20T08:30:03-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Cutting-Edge Zotero</title><link href="https://fossacademic.tech/2021/03/19/cuttingZotero.html" rel="alternate" type="text/html" title="Cutting-Edge Zotero" /><published>2021-03-19T00:00:00-05:00</published><updated>2021-03-19T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/19/cuttingZotero</id><content type="html" xml:base="https://fossacademic.tech/2021/03/19/cuttingZotero.html">&lt;p&gt;There’s exciting news on the Zotero front!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-03-28T17:50:55-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">RM Mess</title><link href="https://fossacademic.tech/2021/03/28/RMMess.html" rel="alternate" type="text/html" title="RM Mess" /><published>2021-03-28T00:00:00-05:00</published><updated>2021-03-28T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/28/RMMess</id><content type="html" xml:base="https://fossacademic.tech/2021/03/28/RMMess.html">&lt;p&gt;I guess I have strange timing.&lt;/p&gt;
+
+&lt;p&gt;I just got done reading Sam Williams’s 2002 book &lt;em&gt;&lt;a href=&quot;https://bookshop.org/books/free-as-in-freedom-paperback-richard-stallman-s-crusade-for-free-software/9781449324643&quot;&gt;Free As In Freedom: Richard Stallman’s Crusade for Free Software&lt;/a&gt;.&lt;/em&gt; I started reading it about March 15 or so.&lt;/p&gt;
+
+&lt;p&gt;At the time, I thought of Stallman as largely in the background of the world of FOSS, since of course he resigned from the Free Software Foundation back in 2019. I knew that he was called out for some comments about Marvin Minsky and the Jeffrey Epstein case – comments that were, at best, tone-deaf and, at worst, apologies for the sexual predation of children. I also knew of increasing numbers of women who reported Stallman’s behavior made them uncomfortable and even unsafe.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/williams.jpg&quot; alt=&quot;The Cover of Williams's book Free as in Freedom, a biography of Richard Stallman&quot; /&gt;
+    &lt;figcaption&gt;The Cover of Williams's book Free as in Freedom, a biography of Richard Stallman&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;But since I’m putting together Goal 2 – a book-length research project about FOSS – I figured that I need to engage with Stallman in some form, even if he was fading into the background.&lt;/p&gt;
+
+&lt;p&gt;So Williams’s book caught my eye. As I read, I came across curious moments that may have appeared differently in 2002 than they do to this reader in 2021.&lt;/p&gt;
+
+&lt;p&gt;My intention was to read the book and post a bit about it here, as I did with &lt;a href=&quot;/2020/12/06/Dreaming-In-Code.html&quot;&gt;&lt;em&gt;Dreaming In Code&lt;/em&gt;&lt;/a&gt; as part of my larger research project into FOSS.&lt;/p&gt;
+
+&lt;p&gt;But it turns out that I also finished the book in time for RM Mess 2.0. So this is changing from a book review into a post that connect Williams’s now two-decades old biography with a current event.&lt;/p&gt;
+
+&lt;p&gt;Content warnings: this post discusses sexual assault, child exploitation, and harassment. You might want to skip it on those grounds. Moreover, if you’re tired of discussions of Stallman, you also might want to skip this post.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;curious-moment-1-on-freedom-for-children&quot;&gt;Curious Moment #1: On “freedom” for children&lt;/h2&gt;
+&lt;p&gt;Williams writes about Stallman’s childhood, including his refusal to obey his mother. RMS would, for example, refuse to come to dinner and opt to read a book instead. As RMS recalls,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If I wanted to read, and my mother told me to go to the kitchen and eat or go to sleep, I wasn’t going to listen. I saw no reason why I couldn’t read. No reason why she should be able to tell me what to do, period. Essentially, what I had read about, ideas such as democracy and individual freedom, I applied to myself. I didn’t see any reason to exclude children from these principles” (page 27).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Williams goes on to note RMS refused to write term papers for his English classes, because freedom.&lt;/p&gt;
+
+&lt;p&gt;RMS is, shall we say, notoriously consistent. His most notorious comment to date is likely the Marvin Minsky case, where he argues that Minsky’s sex with one of the children Epstein was grooming does not rise to the level of sexual assault:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We can imagine many scenarios, but the most plausible scenario is that she presented herself to him as entirely willing. Assuming she was being coerced by Epstein, he would have had every reason to tell her to conceal that from most of his associates.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’ve concluded from various examples of accusation inflation that it is absolutely wrong to use the term “sexual assault” in an accusation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://selamjie.medium.com/remove-richard-stallman-fec6ec210794&quot;&gt;Selam G’s original Medium blog post&lt;/a&gt; presents the full RMS email and dissects its language much better than I will here. I simply want to flag a thread of logic used by RMS: freedom, apparently, includes the freedom of children to want sex with adults. Minsky’s fault, here, was not doing enough investigative work to find out if the victim was “truly” willing or serving in sexual servitude (as part of Epstein’s “harem,” to use RMS’s term). RMS is consistent with his previous position – children should be free to read what they wish. Children should be seen as willing sex partners. It’s not assault if the child is willing!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;DISCLAIMER&lt;/strong&gt;: Before I go any further I need to clarify. &lt;strong&gt;I do not condone the sexual exploitation of children.&lt;/strong&gt; Moreover, being who I am (a middle-aged, straight, white man with a stable career), I struggle to understand the experiences of others, and my comments here cannot be considered a last word by any means.&lt;/p&gt;
+
+&lt;p&gt;What follows, then, is my own analysis of the logic of RMS and how his consistent position on children’s “freedom” is a position that ultimately supports the privilege of exploiting children.&lt;/p&gt;
+
+&lt;p&gt;Some of you may know I wrote a book about the Dark Web. Anyone who engages with the Dark Web has to deal with the stomach-turningly wretched specter of child expoitation. I studiously and carefully avoided child exploitation media during my research on the Dark Web, but I did engage in participant observation on Dark Web social media, and the topic often came up for debate. While there, I came across many people who would condemn child exploitation, but some who would apologize for it.&lt;/p&gt;
+
+&lt;p&gt;The logic the child exploitation defenders used is exactly that of RMS: children should have rights!&lt;/p&gt;
+
+&lt;p&gt;This position is nothing more than an argument for guilt-free sexual objectification and exploitation of children. Basically, the apologists for Dark Web child exploitation argued that children should have the right to consent to sex with adults. Maybe children should have others rights, too, these people argued, but in the end it was always about reconceptualizing children as willing participants in adults’ sexual pleasure. That was basically the end goal of the argument for the freedom of children.&lt;/p&gt;
+
+&lt;p&gt;RMS’s trajectory here – the 2002 interview with Williams, comments in an email thread about Epstein and Minsky – replicate this telos almost exactly.&lt;/p&gt;
+
+&lt;p&gt;Of course, there is a major gap between RMS’s precocious childhood refusal to write term papers or eat his supper and his defense of Minsky. It is a gap that exposes so many problems with RMS’s “freedom.”&lt;/p&gt;
+
+&lt;p&gt;Partly, it’s a gap that includes a spectrum of freedom for children. Perhaps RMS has made calls for the rights of children beyond being their ability to refuse dinner or consent to sex with adults. Maybe he’s argued for voting rights, for example. But what has been documented, however, are his other, &lt;a href=&quot;https://rms-open-letter.github.io/appendix&quot;&gt;similar comments invoking of “willingness” and “consent”&lt;/a&gt; of children for sex. This echoes the logic found among the stunted political philosophies of Dark Web child exploitation advocates: “child rights” only means “adult rights to sexualize children.”&lt;/p&gt;
+
+&lt;p&gt;But the gap also includes the range of human experiences beyond those of a privileged man who went to private schools and was destined for Harvard. It’s perhaps easy for a man to conclude, based on his relatively privileged position, that his freedom as a boy to not go to bed should be analogous to the “freedom” of a young girl to go to bed with a much older adult. But that’s a leap in logic that completely ignores the whole host of human experiences – including class, race, gender, sexual identity – that complicates RMS’s radically reductive syllogism.&lt;/p&gt;
+
+&lt;p&gt;How could, for example, a young Black woman make an argument that she shouldn’t do her term papers? Can she still get into Harvard, as RMS did, despite not doing her school work? Can she live – sleep, eat, and presumably bathe – in safety in a computer lab at MIT, as RMS did?&lt;/p&gt;
+
+&lt;p&gt;Should she make the same conclusions about freedom?&lt;/p&gt;
+
+&lt;p&gt;Condemning RMS for the Minsky comments was absolutely correct, and I see no reason to relent.&lt;/p&gt;
+
+&lt;h2 id=&quot;curious-moments-2-affection-for-women-in-tech&quot;&gt;Curious Moment(s) #2: Affection for women in tech&lt;/h2&gt;
+&lt;p&gt;Rather than a single moment, this is more of a thread throughout Williams’s book, something impossible to miss post-2019. At one point, during lunch, Williams brings up something he’s observed RMS do with women he meets: he kisses their hands.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Yes, I do do that,” Stallman says. “I’ve found it’s a way of offering some affection that a lot of women will enjoy. It’s a chance to give some affection and to be appreciated for it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Later, at another meal with RMS, RMS’s girlfriend, and Williams’s wife, Williams notes RMS engaging in more flirtation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Although more flirtatious than I remembered – a flirtatiousness spoiled somewhat by the number of times Stallman’s eyes fixated on my wife’s chest – Stallman retained the same general level of prickliness (page 198).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Notably, this comment about chest-fixation is excised from &lt;a href=&quot;https://sagitter.fedorapeople.org/faif-2.0.pdf&quot;&gt;Version 2.0 of the book&lt;/a&gt; – a version RMS himself edited.&lt;/p&gt;
+
+&lt;p&gt;While the Minsky comments are presented as the proximate cause of RMS’s ouster, reports of RMS’s behavior towards women have contributed, as well. Selam G’s original post &lt;a href=&quot;https://selamjie.medium.com/remove-richard-stallman-appendix-a-a7e41e784f88&quot;&gt;led to women coming forward to explain the ways in which RMS made them uncomfortable or even unsafe at MIT&lt;/a&gt;. These women join women who made similar observations about their experiences at MIT – &lt;a href=&quot;https://homes.cs.washington.edu/~lazowska/mit/Images/Chapter2.pdf&quot;&gt;&lt;em&gt;back in 1983&lt;/em&gt; &lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These women are citing their experiences at MIT or working in the tech sector. I myself work at a tech school. This week, I will teach a class on professional identity, and to prime the conversation, the class is reading Deneen Hatmaker’s &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0432.2012.00589.x&quot;&gt;article on the problems women face in engineering&lt;/a&gt;. That article is a decade old. Its themes are the same as the MIT report from 4 decades ago. Despite the age of the article, or the revelations from that 1983 report, my students &lt;em&gt;today&lt;/em&gt; are saying the same thing about contemporary engineering and tech fields: they experience or have witnessed the lack of acceptance – and outright harassment – of women.&lt;/p&gt;
+
+&lt;p&gt;The call for someone like RMS to step aside is justified precisely because his presence is clearly hindering the professional, intellectual, and personal development of so many people – including people who could be otherwise, you know, making free software.&lt;/p&gt;
+
+&lt;h2 id=&quot;curious-moment-3-rage&quot;&gt;Curious Moment #3: Rage&lt;/h2&gt;
+&lt;p&gt;The other curious moment isn’t so curious. It’s pure Stallman. Chapter 12 of Williams’s book, “A Brief Journey Through Hacker Hell,” documents RMS’s growing rage during a drive. RMS is driving a car (with Williams along for the ride) and a friend is in a car ahead of him, leading him through a town in Hawaii to a dinner appointment. Stallman is enraged because the other driver is taking a street instead of a highway. His rage grows, and grows, until, as Williams reports, he’s flailing against the steering wheel and screaming.&lt;/p&gt;
+
+&lt;p&gt;I don’t really have to say much more than this – the #1 cited reason why people don’t like Stallman is his, as Williams puts it charitably, “prickliness.” Others might characterize it as belligerence and anger. The targets of his rage include enemies of freedom, but also fellow travelers and erstwhile friends – &lt;a href=&quot;https://www.youtube.com/watch?v=jskq3-lpQnE&quot;&gt;even people who invite him to speak&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are moments when principles matter, and of course with things like licenses, words matter. I am too young to have witnessed the “Free Software” versus “Open Source” debates, but I do understand the distinction, and I understand calls for terms like “&lt;a href=&quot;https://communalsoftware.codeberg.page/&quot;&gt;Communal Software&lt;/a&gt;” as a means to clarify what software should be used for. I understand the politics of names and labels and theoretical concepts quite well, and how the free labor of people can not only provide valuable resources to those who wouldn’t afford them – like the FOSS I came to as a grad student – but also &lt;a href=&quot;https://opensource.facebook.com/&quot;&gt;provide a “competitive advantage” to massive corporations making our current digital dystopia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That said, raging at allies for making mistakes or saying something “wrong” is not building a movement. As &lt;a href=&quot;https://p1k3.com/2019/10/20/&quot;&gt;this post argues&lt;/a&gt;, the problems we face are bigger than interjecting a word and a slash into the conversation: “Free software isn’t whatever RMS says it is. Free software is what we make of it: We who want to be free, we who want others to be free.” So we need to move past RMS.&lt;/p&gt;
+
+&lt;p&gt;In this case, the call for RMS to step aside helps grow the movement, not hobble it.&lt;/p&gt;
+
+&lt;h2 id=&quot;rm-mess-redux&quot;&gt;RM Mess, Redux&lt;/h2&gt;
+&lt;p&gt;As I said, I started reading Williams’s book &lt;em&gt;Free As In Freedom&lt;/em&gt; around March 15, 2021, a time when RMS was not involved in the FSF. I finished it on March 21. I planned on writing down notes and moving on to other things.&lt;/p&gt;
+
+&lt;p&gt;Then, I woke up on the 22nd to &lt;a href=&quot;https://news.itsfoss.com/richard-stallman-is-back-at-fsf/&quot;&gt;the news that RMS is back&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am now waking up every morning to news that people aren’t letting this slide. To date, I’ve seen condemnations of RMS’s return to the Free Software Foundation from:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.eff.org/deeplinks/2021/03/statement-re-election-richard-stallman-fsf-board&quot;&gt;The Electronic Frontier Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/mozilla/status/1374513444838199304?ref_src=twsrc%5Etfw&quot;&gt;The Mozilla Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The Tor Project&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.redhat.com/en/blog/red-hat-statement-about-richard-stallmans-return-free-software-foundation-board&quot;&gt;Red Hat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;and more (having trouble keeping up).&lt;/p&gt;
+
+&lt;p&gt;Inevitably, these organizations (and, I imagine, this blog post) will be condemned as the fevered reactions of froth-mouthed “cancel mobs.” Indeed, Abhishek of It’s FOSS is using &lt;a href=&quot;https://news.itsfoss.com/richard-stallman-is-back-at-fsf/&quot;&gt;that language&lt;/a&gt;, as are commenters on Slashdot.&lt;/p&gt;
+
+&lt;p&gt;But I wonder: how much evidence does anyone need before they are willing to accept that RMS is toxic and FOSS ought to move on? The evidence was there in Williams’s book two decades ago. The evidence was in the MIT CS report four decades ago. The evidence is piling up in front of you now.&lt;/p&gt;
+
+&lt;p&gt;Free as in freedom may require being freed of the “founder” of Freedom.&lt;/p&gt;
+
+&lt;h2 id=&quot;on-williamss-book&quot;&gt;On Williams’s Book&lt;/h2&gt;
+&lt;p&gt;Lost in all this is any assessment of Williams’s book itself. It’s hard to judge &lt;em&gt;Free As In Freedom&lt;/em&gt; now.&lt;/p&gt;
+
+&lt;p&gt;I get the sense, reading it, that Williams was treading lightly, but in the end – especially in his epilogue – he started to get weary of his subject. I’m reading this from a strange perspective, but I can’t help but feel that Williams was trying to warn us.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Stallman" /><category term="Free Software Foundation" /><category term="Goal 2" /><category term="FOSS Library" /><summary type="html">I guess I have strange timing. I just got done reading Sam Williams’s 2002 book Free As In Freedom: Richard Stallman’s Crusade for Free Software. I started reading it about March 15 or so. At the time, I thought of Stallman as largely in the background of the world of FOSS, since of course he resigned from the Free Software Foundation back in 2019. I knew that he was called out for some comments about Marvin Minsky and the Jeffrey Epstein case – comments that were, at best, tone-deaf and, at worst, apologies for the sexual predation of children. I also knew of increasing numbers of women who reported Stallman’s behavior made them uncomfortable and even unsafe. The Cover of Williams's book Free as in Freedom, a biography of Richard Stallman But since I’m putting together Goal 2 – a book-length research project about FOSS – I figured that I need to engage with Stallman in some form, even if he was fading into the background. So Williams’s book caught my eye. As I read, I came across curious moments that may have appeared differently in 2002 than they do to this reader in 2021. My intention was to read the book and post a bit about it here, as I did with Dreaming In Code as part of my larger research project into FOSS. But it turns out that I also finished the book in time for RM Mess 2.0. So this is changing from a book review into a post that connect Williams’s now two-decades old biography with a current event. Content warnings: this post discusses sexual assault, child exploitation, and harassment. You might want to skip it on those grounds. Moreover, if you’re tired of discussions of Stallman, you also might want to skip this post.</summary></entry><entry><title type="html">Cutting-Edge Zotero</title><link href="https://fossacademic.tech/2021/03/19/cuttingZotero.html" rel="alternate" type="text/html" title="Cutting-Edge Zotero" /><published>2021-03-19T00:00:00-05:00</published><updated>2021-03-19T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/19/cuttingZotero</id><content type="html" xml:base="https://fossacademic.tech/2021/03/19/cuttingZotero.html">&lt;p&gt;There’s exciting news on the Zotero front!&lt;/p&gt;
 
 &lt;p&gt;Zotero just announced a &lt;a href=&quot;https://www.zotero.org/support/pdf_reader_preview&quot;&gt;preview of their new tab system, complete with a built-in PDF reader&lt;/a&gt;.&lt;/p&gt;
 
@@ -320,92 +445,4 @@
 
 &lt;p&gt;Once again, I think back to the Spanish Fork and their labor strike: pushing the site to be non-profit and to never have ads has rescued it from the logic of corporate Web 2.0. While other sites mire in the muck of misinformation, while other sites track us, while they constantly develop more pernicous dark patterns, and while the commercial web exploits our emotions and attention, Wikipedia has just carried on, with people writing articles and citing their sources.&lt;/p&gt;
 
-&lt;p&gt;Kudos.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Wikipedia" /><category term="Goal 2" /><summary type="html">Wikipedia is 20 years old this year. Congratulations! Celebrations abound across the Internet. As a scholar of Wikipedia and a FOSS Academic, I wanted to weigh in on the birthday and provide a short history lesson. (This is, therefore, a Goal 2 post).</summary></entry><entry><title type="html">In Praise of Mastodon After an Insurrection, or, What if Donald Trump Had Joined Mastodon?</title><link href="https://fossacademic.tech/2021/01/08/PraiseMastodon.html" rel="alternate" type="text/html" title="In Praise of Mastodon After an Insurrection, or, What if Donald Trump Had Joined Mastodon?" /><published>2021-01-08T00:00:00-06:00</published><updated>2021-01-08T00:00:00-06:00</updated><id>https://fossacademic.tech/2021/01/08/PraiseMastodon</id><content type="html" xml:base="https://fossacademic.tech/2021/01/08/PraiseMastodon.html">&lt;p&gt;In a previous post, I disparaged 2020. But hey, just wait: 2021 has already become pretty bad. As you probably have seen, pro-Trump supporters decided to invade the U.S. Capitol on January 6.&lt;/p&gt;
-
-&lt;p&gt;I am not a tech determinist, which means that I do not seek to explain complexity by only considering changes in technology. So I am not going to say that corporate social media – including Facebook and Twitter – caused what happened yesterday. In other words, I am not going to say that the spread of misinformation was the reason for people to blithely walk past the cops and into the Rotunda. To do so would ignore a host of other factors, such as the history of racism in the United States and the desire for politicians to aggrandize themselves.&lt;/p&gt;
-
-&lt;p&gt;So I’m not saying Facebook and Twitter are to blame. What I will say, however, is that one contributing factor to the events of January 6, 2021 – not the sole determining factor – is corporate social media.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/assets/images/mastodon.jpg&quot; alt=&quot;The Mastodon Logo&quot; title=&quot;The Mastodon Logo&quot; width=&quot;50%&quot; /&gt;
-    &lt;figcaption&gt;The Mastodon Logo&lt;/figcaption&gt;    
-&lt;/figure&gt;
-
-&lt;p&gt;And thus I come in praise of Mastodon.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Why?&lt;/p&gt;
-
-&lt;h2 id=&quot;the-attention-economy&quot;&gt;The Attention Economy&lt;/h2&gt;
-&lt;p&gt;Corporate social media platforms like Facebook and Twitter have for years been developed to monetize the content that spreads the farthest keeps people’s attention – no matter what that content is. We all may have thought it was cute cat videos, but it’s turned out that the stuff that spreads wildly and &lt;a href=&quot;https://www.npr.org/sections/money/2020/08/04/898596655/are-conspiracy-theories-good-for-facebook&quot;&gt;keeps eyeballs are beguiling conspiracy theories&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But this isn’t the only monetization happening. Corporate social media also privileges paid content – that is, advertising, and political actors have paid billions in order to get their messages out to their masspersonal audiences. After all, for a few bucks, you can have your message privileged in corporate social media.&lt;/p&gt;
-
-&lt;p&gt;Combine the two and you get politicians paying to stoke conspiracy theories, which are spread by misinformed people, who flag their support for politicians, who pay for more ads ad infinitum, ad nauseam.&lt;/p&gt;
-
-&lt;p&gt;As media studies scholar Gavin Mueller quipped (unfortunately, on Twitter in a Tweet I can’t find), the QAnon conspiracy was mired in a degree of obscurity on places like 4chan, but once it got to Facebook and its audience of “&lt;a href=&quot;https://www.huffpost.com/entry/internet-baby-boomers-misinformation-social-media_n_5f998039c5b6a4a2dc813d3d&quot;&gt;boomers with computers&lt;/a&gt;” started “&lt;a href=&quot;https://www.amazon.com/Conspiracy-Theorist-Just-Research-Shirt/dp/B07DG2NKXQ&quot;&gt;doing the research&lt;/a&gt;,” it exploded. And right-wing politicians gleefully amplified the messages, from Georgia’s Marjorie Taylor Greene all the way up to Donald Trump.&lt;/p&gt;
-
-&lt;p&gt;But this week, Facebook and Twitter de-platformed Trump. It was intriguing to watch each corporation one-up the other. Twitter flagged Trump tweets as disputed. Facebook took down a Trump video. Twitter suspended Trump for 12 hours. Facebook banned Trump for the remainder of his time in office.&lt;/p&gt;
-
-&lt;p&gt;Problem solved, right?&lt;/p&gt;
-
-&lt;p&gt;Ugh.&lt;/p&gt;
-
-&lt;p&gt;It should have happened a long, long time ago.&lt;/p&gt;
-
-&lt;p&gt;But it couldn’t have. Because these platforms &lt;em&gt;monetize content.&lt;/em&gt; And that means what’s popular, what spreads, what keeps attention is privileged. Full stop. And who or what has been the single greatest corporate social media sensation arguably of all time? Donald J. Trump.&lt;/p&gt;
-
-&lt;h2 id=&quot;donaldjtrumpmagainstancesocial-a-thought-experiment&quot;&gt;@donaldjtrump@magainstance.social: A Thought Experiment&lt;/h2&gt;
-&lt;p&gt;What does this have to do with FOSS Academics? And with Mastodon?&lt;/p&gt;
-
-&lt;p&gt;In short: Trump would have been kicked off Mastodon ages ago.&lt;/p&gt;
-
-&lt;p&gt;Well, properly speaking, he would have been &lt;em&gt;defederated&lt;/em&gt; ages ago.&lt;/p&gt;
-
-&lt;p&gt;Let’s do a thought experiment. In 2017, Trump (or one of his assistants) noticed the hype about Mastodon and decided to mirror his Twitter content there. Why not explore a new social network and reach more of the MAGA Nation?&lt;/p&gt;
-
-&lt;p&gt;If you know how Mastodon works – how federation works – you immediately ask: &lt;a href=&quot;https://instances.social/&quot;&gt;which instance&lt;/a&gt; would Trump have used?&lt;/p&gt;
-
-&lt;p&gt;That’s a big question. Many Mastodon instances have Codes of Conduct that Trump would have found to be abhorrent: no homophobic, transphobic, racist, fascist content allowed. So a triumphant post about Trump’s &lt;a href=&quot;https://www.nbcnews.com/feature/nbc-out/trump-s-controversial-transgender-military-policy-goes-effect-n993826&quot;&gt;ban on openly transgender people serving in the military&lt;/a&gt; wouldn’t have been just flagged; it would be &lt;em&gt;blocked&lt;/em&gt; and Trump would be informed by the admin that he was violating the Code of Conduct.&lt;/p&gt;
-
-&lt;p&gt;Trump might have just stopped there. Social media that would ban me? But I’m the greatest President ever! The First Amendment! These liberal Mastodons need to be put in jail!&lt;/p&gt;
-
-&lt;p&gt;But let’s say he persisted. There are Mastodon instances out there that are more “free speech absolutist.” Trump could have found one – let’s call it magainstance.social – and started his account, and his posts would have spread across the Fediverse.&lt;/p&gt;
-
-&lt;p&gt;Except, they wouldn’t have. The same Mastodon instances who would have blocked or outright banned Trump would avoid federating with the instance Trump joined, citing the fact that doing so would violate their local standards.&lt;/p&gt;
-
-&lt;p&gt;Maybe Trump would have kept posting anyway. After all, he’s shown an ignorance of how &lt;a href=&quot;https://www.nbcnews.com/think/opinion/trump-senate-gop-s-electoral-college-vote-objections-betray-conservative-ncna1252927&quot;&gt;federation works&lt;/a&gt;. But he’d probably not get his precious dopamine rush from seeing a bunch of reposts and likes, because, again, &lt;em&gt;his posts wouldn’t spread across the Fediverse&lt;/em&gt; – they would not get the eyeballs and accolades the man clearly needs.&lt;/p&gt;
-
-&lt;p&gt;Maybe then he’d retreat back to Twitter and Facebook.&lt;/p&gt;
-
-&lt;p&gt;But perhaps, even after all this, Trump wanted to stick with Mastodon, believing that it was the next big thing, or perhaps enjoying the love of sycophants on magainstance.social. And maybe he figures, I can fix this, as I always have, with lots of money. I’ll just buy a bunch of ads on Mastodon and that will remind them of who’s paying the bills.&lt;/p&gt;
-
-&lt;p&gt;And then he looks for a place to buy ads on Mastodon and finds… nothing. &lt;em&gt;Because it’s not made for advertisers.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;(To be fair, there’s probably no reason individual Mastodon instances couldn’t have advertising. But again, those instances probably won’t get much federation).&lt;/p&gt;
-
-&lt;p&gt;Finally, in a fit of Trumpian rage, he grabs a laptop and says, Mastodon’s open source! I will fork the code! I will make my own! And he fires up Notepad in Microsoft and furiously starts coding. (What coding language would Trump use? I’m not going to answer that.)&lt;/p&gt;
-
-&lt;p&gt;Yeah, &lt;a href=&quot;https://tildes.net/~tech/e0o/gab_is_throwing_away_their_existing_code_and_switching_to_a_modified_version_of_mastodon&quot;&gt;that doesn’t work, either&lt;/a&gt;. Same problem. magainstance.social – or Gab, or whatever you want to call it – would again just be shut out of the federation.&lt;/p&gt;
-
-&lt;h2 id=&quot;foss-is-political&quot;&gt;FOSS Is Political&lt;/h2&gt;
-&lt;p&gt;So, this is a blog about being a FOSS Academic, and I have &lt;em&gt;Goal 2&lt;/em&gt; – I want to write a new book about FOSS. And this is decidedly a Goal 2 post, because I’m talking about FOSS culture and politics.&lt;/p&gt;
-
-&lt;p&gt;I come to praise projects like Mastodon, because I would argue they were designed to avoid the problems that Facebook and Twitter have helped contribute to.&lt;/p&gt;
-
-&lt;p&gt;I know very well that many people in the FOSS world would bracket off these comments, arguing that they are political, that they have no relevance for a discussion about FOSS, and that all FOSS is about is making neutral tools. I’ve interviewed people in the FOSS world who make that argument, and I get it.&lt;/p&gt;
-
-&lt;p&gt;But it’s wrong.&lt;/p&gt;
-
-&lt;p&gt;When people make tools of &lt;em&gt;any kind,&lt;/em&gt; they are embedding cultural, political, and ethical assumptions into the tools. They might claim the tools are neutral – as in the observation that “a hammer can be used to build a house or to hurt someone.” But even the simplest tool reflects the cultural, economic, and political assumptions of its maker. A hammer extends our ability to apply powerful force in a concentrated area, reflecting a different relationship building than, say, thatching implies.&lt;/p&gt;
-
-&lt;p&gt;And the level of cultural, economic, or political embeddness goes up greatly with complex tools, like an open souce, federated social networking site with built-in moderation tools.&lt;/p&gt;
-
-&lt;p&gt;The production of FOSS tools is inherently political. Some FOSS developers recognize this, engaging in what I call “critical reverse engineering” – making tools that are meant to ameliorate the social, economic, and political problems we face.&lt;/p&gt;
-
-&lt;p&gt;Others don’t recognize this, concentrating on the existential pleasures of making tools.&lt;/p&gt;
-
-&lt;p&gt;That’s fine, but think about this: Twitter started out as simply a way to centralize SMS for a large audience. Facebook started out as a way to rate pictures of girls and built some social stuff around that task. They didn’t think much then about what they wrought.&lt;/p&gt;
-
-&lt;p&gt;Again, however, tech is not the sole determinant of what happens in society. But that doesn’t mean tech plays no part. So, it’s important for us to consider which technologies contribute to a better world. Mastodon, the federated, open source alternative social media platform that was &lt;em&gt;literally designed&lt;/em&gt; to disallow advertising and allow people to moderate the content, achieved from its conception what corporate social media are only just now blindly groping towards.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="Mastodon" /><summary type="html">In a previous post, I disparaged 2020. But hey, just wait: 2021 has already become pretty bad. As you probably have seen, pro-Trump supporters decided to invade the U.S. Capitol on January 6. I am not a tech determinist, which means that I do not seek to explain complexity by only considering changes in technology. So I am not going to say that corporate social media – including Facebook and Twitter – caused what happened yesterday. In other words, I am not going to say that the spread of misinformation was the reason for people to blithely walk past the cops and into the Rotunda. To do so would ignore a host of other factors, such as the history of racism in the United States and the desire for politicians to aggrandize themselves. So I’m not saying Facebook and Twitter are to blame. What I will say, however, is that one contributing factor to the events of January 6, 2021 – not the sole determining factor – is corporate social media. The Mastodon Logo And thus I come in praise of Mastodon.</summary></entry></feed>
+&lt;p&gt;Kudos.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Wikipedia" /><category term="Goal 2" /><summary type="html">Wikipedia is 20 years old this year. Congratulations! Celebrations abound across the Internet. As a scholar of Wikipedia and a FOSS Academic, I wanted to weigh in on the birthday and provide a short history lesson. (This is, therefore, a Goal 2 post).</summary></entry></feed>
