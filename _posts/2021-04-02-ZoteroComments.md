@@ -55,7 +55,7 @@ One thing that would really make this feature sing is this:
 * I click on the citation and click on"Go To Page";
 * The PDF *and* the corresponding note open in a new page.
 
-In addition to the new note feature, the PDF annotation system has PDF highlighting and sticky note capabilities. Both the highlights and sticky notes can easily be added to a separate note, as well. The sticky notes can be tagged. There's a lot of new possibilities for library navigation now possible, thanks to tagging sticky notes.
+In addition to the new note feature, the PDF annotation system has PDF highlighting and sticky note capabilities. Both the highlights and sticky notes can easily be added to a separate note, as well. The sticky notes can be tagged. There's a lot of new possibilities for library navigation now thanks to tagging sticky notes.
 
 And, it looks like my location in a PDF was synced across devices. When I opened a PDF I was reading on a laptop at home on a second computer at work, I was dropped in exactly where I left off reading on the laptop.
 
@@ -68,7 +68,7 @@ Being beta software, I understand that there will be bugs. And there are.
 
 First of all, the note window is pretty laggy. It often gets unresponsive while I'm typing. That can be frustrating -- it reminds me of the early days when Zotero broke out of being a Firefox-only add-on and went "Standalone." Zotero's "snappiness" improved over time, and I imagine the same will happen here.
 
-Second, adding a chunk of text from the PDF to the note creats a new paragraph, rather than placing the text snippet on the current paragraph. 
+Second, adding a chunk of text from the PDF to the note creates a new paragraph, rather than placing the text snippet on the current paragraph. 
 
 Finally, the cursor seems to get lost when navigating the note with the keypad, especially when the cursor traverses the citation field. 
 
