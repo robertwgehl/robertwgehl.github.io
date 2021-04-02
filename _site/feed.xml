@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-03-28T17:50:55-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">RM Mess</title><link href="https://fossacademic.tech/2021/03/28/RMMess.html" rel="alternate" type="text/html" title="RM Mess" /><published>2021-03-28T00:00:00-05:00</published><updated>2021-03-28T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/28/RMMess</id><content type="html" xml:base="https://fossacademic.tech/2021/03/28/RMMess.html">&lt;p&gt;I guess I have strange timing.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-04-02T11:42:06-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Review of Zotero’s New PDF Annotation Features</title><link href="https://fossacademic.tech/2021/04/02/ZoteroComments.html" rel="alternate" type="text/html" title="Review of Zotero’s New PDF Annotation Features" /><published>2021-04-02T00:00:00-05:00</published><updated>2021-04-02T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/04/02/ZoteroComments</id><content type="html" xml:base="https://fossacademic.tech/2021/04/02/ZoteroComments.html">&lt;p&gt;Zotero recently announced two major new features: an internal PDF reader and tab-based navigation. These are scheduled to be a part of the Zotero 6 release later this year, but when I heard about them, &lt;a href=&quot;/2021/03/19/cuttingZotero.html&quot;&gt;I installed the Zotero 5 developer version&lt;/a&gt; to give them a whirl.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/zotero.png&quot; alt=&quot;Zotero's Logo&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My quick take on the new features? They are now a key part of the FOSS Academic Lifestyle Dream.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;the-simple-pleasure-of-a-tab&quot;&gt;The Simple Pleasure of a Tab&lt;/h2&gt;
+
+&lt;p&gt;First of all, opening a PDF in Zotero now opens its own native PDF reader with new annotation capabililties. I’ll get to that. But first, I did not realize how happy one tab could make me.&lt;/p&gt;
+
+&lt;p&gt;The PDF now opens in a new tab, where I can read it and take notes. What’s so cool about that is that I can easily go back to the main library and look at another source. I didn’t realize how often I did that, but it makes sense: the PDF I’m reading might make reference to another source, so I might want to go back to my library to see if I have it and cross-reference ideas. Or maybe I don’t have it – I can pop into Firefox and get it easily enough. All the while, the PDF tab is waiting there, patiently, for me to return to it.&lt;/p&gt;
+
+&lt;p&gt;I can even open a second PDF in another tab.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/assets/images/zoterotab.png&quot; alt=&quot;Zotero's new tab interface&quot; /&gt;
+	&lt;figcaption&gt;Zotero's new tab interface&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This feature is great, and it makes me want more: could I eventually open search folders in a new tab? Group libraries? If so – managing my library will get so much easier.&lt;/p&gt;
+
+&lt;h2 id=&quot;taking-notes&quot;&gt;Taking Notes&lt;/h2&gt;
+
+&lt;p&gt;As for taking notes, the new PDF system offers a subtle, yet, invaluable capability: when I highlight text in the PDF, a button appears, allowing me to paste that highlighted section in a note. &lt;em&gt;And the pasted material doesn’t have carriage returns.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So nice.&lt;/p&gt;
+
+&lt;p&gt;For years now, I would copy and paste PDF text into a Zotero note and have to go through and delete carriage returns. It could take so long that often I would just re-type the text rather than copy and paste it. This new setup will save me a great deal of time.&lt;/p&gt;
+
+&lt;p&gt;But there’s more – the pasted material has a citation at the end, allowing me an option to “Go To Page.” Clicking on that citation does what it says – it jumps to the page of the PDF. In addition, I tested this feature without a PDF open: clicking on it opens the PDF associated with the note in a new tab and jumps to the page. That’s a fantastic feature.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;/assets/images/zoteronote.png&quot; alt=&quot;Automatically generated citation in a Zotero note&quot; /&gt;
+	&lt;figcaption&gt;An automatically generated citation in a Zotero note. Clicking on the citation allows you to go to that page in the PDF.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;One thing that would really make this feature sing is this:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I open a note and see a PDF citation, but the PDF in question is not open;&lt;/li&gt;
+  &lt;li&gt;I click on the citation and click on”Go To Page”;&lt;/li&gt;
+  &lt;li&gt;The PDF &lt;em&gt;and&lt;/em&gt; the corresponding note open in a new page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to the new note feature, the PDF annotation system has PDF highlighting and sticky note capabilities. Both the highlights and sticky notes can easily be added to a separate note, as well. The sticky notes can be tagged. There’s a lot of new possibilities for library navigation now possible, thanks to tagging sticky notes.&lt;/p&gt;
+
+&lt;p&gt;And, it looks like my location in a PDF was synced across devices. When I opened a PDF I was reading on a laptop at home on a second computer at work, I was dropped in exactly where I left off reading on the laptop.&lt;/p&gt;
+
+&lt;p&gt;In fact, these new features are so rich, I feel as though I’m barely scratching the surface.&lt;/p&gt;
+
+&lt;h2 id=&quot;bugs&quot;&gt;Bugs&lt;/h2&gt;
+
+&lt;p&gt;Being beta software, I understand that there will be bugs. And there are.&lt;/p&gt;
+
+&lt;p&gt;First of all, the note window is pretty laggy. It often gets unresponsive while I’m typing. That can be frustrating – it reminds me of the early days when Zotero broke out of being a Firefox-only add-on and went “Standalone.” Zotero’s “snappiness” improved over time, and I imagine the same will happen here.&lt;/p&gt;
+
+&lt;p&gt;Second, adding a chunk of text from the PDF to the note creats a new paragraph, rather than placing the text snippet on the current paragraph.&lt;/p&gt;
+
+&lt;p&gt;Finally, the cursor seems to get lost when navigating the note with the keypad, especially when the cursor traverses the citation field.&lt;/p&gt;
+
+&lt;h2 id=&quot;features-lost&quot;&gt;Features Lost&lt;/h2&gt;
+
+&lt;p&gt;And there’s unfortunately a feature lost in notes: the new note system does not allow for HTML editing, nor does it currently have the old highlighting. Looking at the &lt;a href=&quot;https://forums.zotero.org/discussion/88064/available-in-preview-zotero-pdf-reader-and-new-note-editor&quot;&gt;comments in the Zotero forum&lt;/a&gt;, HTML editing is not coming back, since the notes won’t use HTML.&lt;/p&gt;
+
+&lt;p&gt;However, I put in a feature request, asking for a return of the highlighting option, and it sounds like the Zotero crew will implement that feature.&lt;/p&gt;
+
+&lt;h2 id=&quot;overall-take&quot;&gt;Overall Take&lt;/h2&gt;
+
+&lt;p&gt;Due to the lagginess in note-taking, for anyone interested in these features but in the middle of important projects, I do recommend waiting until the Zotero 6 release. I’m in between projects, so lagginess in note-taking is not a big concern for me.&lt;/p&gt;
+
+&lt;p&gt;But if history is any guide, the good people at Zotero will optimize these features for speed, and then this will be the biggest shift in how we interact with Zotero since it went “Standalone.” I’m already using these changes and benefiting from them, and I’m quite certain other academics will, too.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Zotero" /><category term="Goal 1" /><summary type="html">Zotero recently announced two major new features: an internal PDF reader and tab-based navigation. These are scheduled to be a part of the Zotero 6 release later this year, but when I heard about them, I installed the Zotero 5 developer version to give them a whirl. My quick take on the new features? They are now a key part of the FOSS Academic Lifestyle Dream.</summary></entry><entry><title type="html">RM Mess</title><link href="https://fossacademic.tech/2021/03/28/RMMess.html" rel="alternate" type="text/html" title="RM Mess" /><published>2021-03-28T00:00:00-05:00</published><updated>2021-03-28T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/03/28/RMMess</id><content type="html" xml:base="https://fossacademic.tech/2021/03/28/RMMess.html">&lt;p&gt;I guess I have strange timing.&lt;/p&gt;
 
 &lt;p&gt;I just got done reading Sam Williams’s 2002 book &lt;em&gt;&lt;a href=&quot;https://bookshop.org/books/free-as-in-freedom-paperback-richard-stallman-s-crusade-for-free-software/9781449324643&quot;&gt;Free As In Freedom: Richard Stallman’s Crusade for Free Software&lt;/a&gt;.&lt;/em&gt; I started reading it about March 15 or so.&lt;/p&gt;
 
@@ -398,51 +471,4 @@
 
 &lt;p&gt;Once again, thanks go to Travis Downs for his exhaustive post on how to get Staticman going, as well as some of his code.&lt;/p&gt;
 
-&lt;p&gt;I do have a few more tweaks – most notably, to de-Google-ify the whole thing, but the &lt;a href=&quot;https://www.youtube.com/watch?v=JwZwkk7q25I&quot;&gt;system is not down&lt;/a&gt;.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Staticman" /><summary type="html">This post is to test Staticman comments. I’ll edit this post later to update my progress. For now, if anyone stumbles across this and wants to add a “test” comment or something helpful, feel free! The Staticman Logo I’m basing this process of this helpful blog post from Travis Downs of Performance Matters. Thank you!</summary></entry><entry><title type="html">20 Years of Wikipedia</title><link href="https://fossacademic.tech/2021/01/20/20-years-wikipedia.html" rel="alternate" type="text/html" title="20 Years of Wikipedia" /><published>2021-01-20T00:00:00-06:00</published><updated>2021-01-20T00:00:00-06:00</updated><id>https://fossacademic.tech/2021/01/20/20-years-wikipedia</id><content type="html" xml:base="https://fossacademic.tech/2021/01/20/20-years-wikipedia.html">&lt;p&gt;Wikipedia is 20 years old this year. Congratulations! Celebrations abound across the Internet.&lt;/p&gt;
-
-&lt;p&gt;As a scholar of Wikipedia and a FOSS Academic, I wanted to weigh in on the birthday and provide a short history lesson. (This is, therefore, a &lt;a href=&quot;/tags/goal 2.html&quot;&gt;Goal 2 post&lt;/a&gt;).&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/assets/images/20yearsWP.png&quot; alt=&quot;Wikipedia's 20 year celebration page&quot; /&gt;
-&lt;/figure&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;The reporting on the 20th birthday of Wikipedia (e.g., &lt;a href=&quot;https://www.msn.com/en-us/news/world/as-wikipedia-turns-20-it-aims-to-reach-more-readers/ar-BB1cLIVf&quot;&gt;MSN&lt;/a&gt;) suggests that Wikipedia was always going to be non-profit. That’s not exactly true. Wikipedia’s URL was initially wikipedia.com, and it was intended to be a for-profit site. As I discuss in my book &lt;a href=&quot;https://bookshop.org/books/reverse-engineering-social-media-software-culture-and-political-economy-in-new-media-capitalism/9781439910344&quot;&gt;&lt;em&gt;Reverse Engineering Social Media,&lt;/em&gt;&lt;/a&gt; a key event in 2001, dubbed “The Spanish Fork Labor Strike,” pushed Jimmy Wales to make the site into a non-profit instead of a commercial venture.&lt;/p&gt;
-
-&lt;p&gt;During a mailing list discussion, Wales noted that Wikipedia would start selling ads around its content. He was a veteran of this type of venture, having &lt;a href=&quot;https://en.wikipedia.org/wiki/Bomis&quot;&gt;sold ads on a porn search engine back in the mid-1990s&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The specter of ad sales around voluntarily-provided content upset many Wikipedians, most notably a growing community of Spanish-speaking editors who were working to make Wikipedia an international project. Because Wikipedia was licensed with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Wikipedia:Licensing_update&quot;&gt;GFDL&lt;/a&gt;, Spanish-speaking Wikipedians could take the articles they were writing and port them to another site. They did so, moving to the &lt;a href=&quot;http://enciclopedia.us.es/index.php/Enciclopedia_Libre_Universal_en_Espa%C3%B1ol&quot;&gt;Enciclopedia Libre Universal en Español&lt;/a&gt; in protest over Wales’s announcement about ads (as well as their discontent with Larry Sanger’s management style).&lt;/p&gt;
-
-&lt;p&gt;Wales heard their grievances and agreed with them: there would be no ads, Sanger would be fired, and Wikipedia would be a non-profit.&lt;/p&gt;
-
-&lt;p&gt;Edgar Enyedy and his colleagues deserve a great deal of credit for pushing the nascent Wikipedia to become a non-profit. And to be fair, credit should go to Wales for recognizing the legitimacy of the &lt;em&gt;Enciclopedia&lt;/em&gt; editors’ greivances.&lt;/p&gt;
-
-&lt;p&gt;However, this important event is getting lost to history. Nathaniel Tkacz documented it well during the 10 year anniversary &lt;a href=&quot;https://www.wired.co.uk/article/wikipedia-spanish-fork&quot;&gt;with his interivew with Enyedy&lt;/a&gt;, but since then, the Spanish Fork seems to be overlooked. It’s mentioned only in passing in the new &lt;a href=&quot;https://wikipedia20.pubpub.org/&quot;&gt;MIT Book W&lt;em&gt;ikipedia @ 20&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;First, Wikipedia was conceived by Wales as a likely commercial undertaking. Wikipedia was originally hosted at wikipedia.com, and by 2002 Sanger and Wales were hinting that Bomis might start selling ads on Wikipedia, in part to pay Sanger’s salary. Wikipedians objected—Spanish Wikipedians even left to create their own. Given these objections and the deflation of the dot-com bubble, Sanger was laid off. Wales changed the site over to a .org domain and began work to establish the non-profit Wikimedia Foundation, which happened in 2003.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So we should thank the Spanish Wikipedians for the site’s current non-commercial status.&lt;/p&gt;
-
-&lt;p&gt;Their strike has brought about many benefits. Unlike so many other websites, Wikipedia has no real infrastructure for behavioral advertising profiling. The Firefox plugin NoScript shows that it’s not tracking – a refreshing change of pace when compared to contemporary sites that are larded with tracking scripts.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img src=&quot;/assets/images/noscriptWP.png&quot; alt=&quot;a screenshot showing that Wikipedia uses very few scripts&quot; /&gt;
-    &lt;figcaption&gt;These are the two scripts Noscript finds on any given Wikipedia article.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Unlike many other sites, which are constantly tweaked to increase click-through rates on ads (a practice now dubbed “dark patterns”), Wikipedia’s  interface is remarkably stable. It looks pretty much the same as it did 20 years ago. Rather than seeing this as stagnation, those of us who decry changes in interfaces should celebrate Wikipedia’s now intuitive interface.&lt;/p&gt;
-
-&lt;p&gt;While Wikipedians are not interested in tweaking the interface to increase attention on ads, they are constantly tweaking the social structures that help administer pages, with debates over policies, efforts to include more articles about women, efforts to translate the encyclopedia into yet more languages, and a de-facto social networking system where fixing grammar is celebrated.&lt;/p&gt;
-
-&lt;p&gt;While Wikipedia did change its licence from GFDL to Creative Commons, the change has only cemented its place as a bastian of open cultural production.&lt;/p&gt;
-
-&lt;p&gt;For my part, I’ve donated to Wikipedia. I’ve contributed to it. I’ve encouraged students to edit it. I rely on it all the time. The FOSS Academic Lifestyle Dream would be incomplete without it.&lt;/p&gt;
-
-&lt;p&gt;And a point that I don’t think we’re making enough as misinformation spreads like a deadly virus across corporate social media. Wikipedia was once the  poster child of misinformation. Back in the mid-2000s, Wikipedia-bashing was a popular sport. It was the wild and wacky Wikipedia where vandals and trolls reigned and misinformation was rampant. But very early on in its history, Wikipedia demonstrated the adage about many eyes and bugs: vandalism and uninformed opinion is rooted out rather quickly on Wikipedia, rather than being allowed to spread.&lt;/p&gt;
-
-&lt;p&gt;Once again, I think back to the Spanish Fork and their labor strike: pushing the site to be non-profit and to never have ads has rescued it from the logic of corporate Web 2.0. While other sites mire in the muck of misinformation, while other sites track us, while they constantly develop more pernicous dark patterns, and while the commercial web exploits our emotions and attention, Wikipedia has just carried on, with people writing articles and citing their sources.&lt;/p&gt;
-
-&lt;p&gt;Kudos.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Wikipedia" /><category term="Goal 2" /><summary type="html">Wikipedia is 20 years old this year. Congratulations! Celebrations abound across the Internet. As a scholar of Wikipedia and a FOSS Academic, I wanted to weigh in on the birthday and provide a short history lesson. (This is, therefore, a Goal 2 post).</summary></entry></feed>
+&lt;p&gt;I do have a few more tweaks – most notably, to de-Google-ify the whole thing, but the &lt;a href=&quot;https://www.youtube.com/watch?v=JwZwkk7q25I&quot;&gt;system is not down&lt;/a&gt;.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Staticman" /><summary type="html">This post is to test Staticman comments. I’ll edit this post later to update my progress. For now, if anyone stumbles across this and wants to add a “test” comment or something helpful, feel free! The Staticman Logo I’m basing this process of this helpful blog post from Travis Downs of Performance Matters. Thank you!</summary></entry></feed>
