@@ -195,11 +195,11 @@ main {
         }
     
     #tagList {
-        float: left;
         margin-bottom: $standardMargin;
         
         li {
             width: 30%;
+            float: left;
             }
         }
     
