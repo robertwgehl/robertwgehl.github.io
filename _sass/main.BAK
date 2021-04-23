@@ -3,10 +3,12 @@
 
 /* =======Variables======== */
 /* Colors */
-$textColor: #C8C4BD;
-$background: #181A1B;
-$grayBG: #474D50;
-$currentLinkColor: #F32828;
+$currentLinkColor: #EE0D0D;
+$linkColor: #1F3245;
+$darkBG: #dddada;
+$midBG: #ABAAAA;
+$midLightBG: #F3F3F3;
+$lightBG: #fff;
 
 /* fonts */
 $contentFont: Helvetica, sans-serif;
@@ -29,14 +31,13 @@ $standardMargin: 4%;
 
 /* =======BODY================ */
 body {
-    background: $background; /* Greetings, Joe! */
-    color: $textColor;
+    background: $darkBG; /* Greetings, Joe! */
     font-family: $contentFont;
     font-size: 1.1em;
     line-height: 1.25em;
 
     a {
-        color: $textColor;
+        color: $linkColor;
         }
 
     h1 {
@@ -90,7 +91,7 @@ header {
     float: left;
     height: $headerHeight;
     text-align: left;
-    background: $background;
+    background: $darkBG;
 
     img {
         float: left;
@@ -104,7 +105,7 @@ header {
         font-weight: bold;
 
         a {
-            color: $textColor;
+            color: black;
             text-decoration: none;
             }
         }
@@ -150,7 +151,7 @@ main {
     padding-right: $wrapperWidth * .04;
     float: left;
     margin-bottom: $standardMargin;
-    background: $background;
+    background: $lightBG;
 
     .postWrapper {
         border-bottom: 2px solid;
@@ -179,7 +180,7 @@ main {
         line-height: 1.1em; 
 
         a {
-            color: $textColor;
+            color: $linkColor;
             }
     
         }
@@ -206,7 +207,7 @@ main {
     pre {
         font-family: monospace;
         padding: 5px;
-        background: $grayBG;
+        background: $midLightBG;
         margin-bottom: $standardMargin;
         }
     
@@ -266,7 +267,8 @@ aside {
     float: left;
     padding: 10px;
     margin-bottom: $standardMargin;
-    background: $grayBG;
+    height: 100vh;
+    background-image: linear-gradient($midBG, $darkBG);
 
     h1 {
         margin-bottom: $standardMargin;

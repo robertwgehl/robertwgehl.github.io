@@ -7,9 +7,9 @@
 @font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; src: local("Source Code Pro"), url(../assets/fonts/SourceCodePro-Regular.ttf) format("ttf"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
 
 /* =======BODY================ */
-body { background: white; /* Greetings, Joe! */ font-family: Helvetica, sans-serif; font-size: 2.6em; line-height: 1.25em; }
+body { background: #181A1B; /* Greetings, Joe! */ font-family: Helvetica, sans-serif; font-size: 2.6em; line-height: 1.25em; color: #C8C4BD; }
 
-body a { color: #1F3245; }
+body a { color: #C8C4BD; }
 
 body h1 { font-weight: bold; font-size: 1em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
 
@@ -35,7 +35,7 @@ header img { height: 100%; float: left; }
 
 header h1 { font-size: 2em; margin-left: 4%; }
 
-header h1 a { color: black; text-decoration: none; }
+header h1 a { color: #C8C4BD; text-decoration: none; }
 
 /* =======NAV================= */
 nav { width: 100%; height: 60px; font-family: "Source Code Pro", monospace; clear: both; }
@@ -46,7 +46,7 @@ nav li { float: left; width: 25%; }
 
 nav a { display: block; text-align: center; font-size: .75em; }
 
-nav .current { color: #EE0D0D; }
+nav .current { color: #F32828; }
 
 /* =======MAIN=============== */
 main { width: 100%; padding-left: 4%; padding-right: 4%; margin-bottom: 4%; margin-top: 4%; }
@@ -59,7 +59,7 @@ main figcaption { font-style: italic; font-size: .75em; }
 
 main h1 { font-size: 1.5em; }
 
-main pre { font-family: monospace; padding: 5px; background: #F3F3F3; margin-bottom: 4%; }
+main pre { font-family: monospace; padding: 5px; background: #474D50; margin-bottom: 4%; }
 
 main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
 
@@ -87,6 +87,6 @@ footer { clear: both; background: black; color: white; height: 200px; }
 
 footer p { text-align: center; padding-top: 2em; }
 
-footer a { color: #EE0D0D; }
+footer a { color: #C8C4BD; }
 
 /*# sourceMappingURL=mobile.css.map */

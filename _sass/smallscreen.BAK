@@ -1,19 +1,18 @@
-/* main CSS */
+/* small screen CSS */
 
 
 /* =======Variables======== */
 /* Colors */
-$textColor: #C8C4BD;
-$background: #181A1B;
-$grayBG: #474D50;
-$currentLinkColor: #F32828;
+$currentLinkColor: #EE0D0D;
+$linkColor: #1F3245;
+$midLightBG: #F3F3F3;
 
 /* fonts */
 $contentFont: Helvetica, sans-serif;
 $headerFont: 'Source Code Pro', monospace;
 
 /* dimensions */
-$wrapperWidth: 1080px;
+$wrapperWidth: 100%;
 $headerHeight: 100px;
 $standardMargin: 4%;
 
@@ -29,32 +28,31 @@ $standardMargin: 4%;
 
 /* =======BODY================ */
 body {
-    background: $background; /* Greetings, Joe! */
-    color: $textColor;
+    background: white; /* Greetings, Joe! */
     font-family: $contentFont;
-    font-size: 1.1em;
+    font-size: 2.6em;
     line-height: 1.25em;
 
     a {
-        color: $textColor;
+        color: $linkColor;
         }
 
     h1 {
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1em;
         margin-top: $standardMargin;
         font-family: $headerFont;
         }
 
     h2 {
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1em;
         margin-top: $standardMargin;
-        font-family: $headerFont;        
+        font-family: $headerFont;
         }
 
     p {
-        margin-bottom: $standardMargin;
+        margin-top: $standardMargin;
         }
 
     ul {
@@ -86,25 +84,23 @@ body {
 
 /* =======HEADER============== */
 header {
-    width: $wrapperWidth * .33;
-    float: left;
-    height: $headerHeight;
+    width: $wrapperWidth - 10%;
+    margin-left: 10%;
+    height: 100px;
     text-align: left;
-    background: $background;
+    float: left;
 
     img {
-        float: left;
         height: 100%;
+        float: left;
     }
 
     h1 {
         font-size: 2em;
-        margin-top: 11%;
-        margin-left: 35%;
-        font-weight: bold;
+        margin-left: $standardMargin;
 
         a {
-            color: $textColor;
+            color: black;
             text-decoration: none;
             }
         }
@@ -115,26 +111,26 @@ header {
 
 /* =======NAV================= */
 nav {
-    width: $wrapperWidth * .66;
-    float: left;
-    height: $headerHeight;
+    width: $wrapperWidth;
+    height: 60px;
     font-family: $headerFont;
+    clear: both;
 
     ul {
         list-style: none;
-        width: 70%;
         margin-top: 11%;
-        float: right;
-       }
+        margin-left: 25%;
+        }
 
     li {
         float: left;
-        width: 15%;
+        width: 25%;
         }
 
     a {
         display: block;
         text-align:center;
+        font-size: .75em;
     }
 
     .current {
@@ -145,20 +141,16 @@ nav {
 
 /* =======MAIN=============== */
 main {
-    width: $wrapperWidth * .66;
+    width: $wrapperWidth;
     padding-left: $wrapperWidth * .04;
     padding-right: $wrapperWidth * .04;
-    float: left;
     margin-bottom: $standardMargin;
-    background: $background;
+    margin-top: $standardMargin;
 
-    .postWrapper {
-        border-bottom: 2px solid;
-        margin-bottom: $standardMargin * 2.5;
-        }
-
-    h1 {
-        margin-bottom: $standardMargin;
+    .postHeader {
+        font-size: 2em;
+        text-transform: uppercase;
+        line-height: 1.1em;
         }
 
     img {
@@ -168,45 +160,16 @@ main {
     figcaption {
         font-style: italic;
         font-size: .75em;    
-        margin-bottom: $standardMargin;
         }
 
-    .postHeader {
-        padding-top: 4px;
-        margin-bottom: $standardMargin;
-        font-size: 2em;
-        text-transform: uppercase;
-        line-height: 1.1em; 
-
-        a {
-            color: $textColor;
-            }
-    
-        }
-
-    .postHeader:nth-of-type(2) {
-        border-top: 2px solid black;
-        }
-
-    .byline {
-        font-size: .9em;
-        font-style: italic;
-        margin-top: $standardMargin - 3%;
+    h1 {
+        font-size: 1.5em;
         }
     
-    #tagList {
-        float: left;
-        margin-bottom: $standardMargin;
-        
-        li {
-            width: 30%;
-            }
-        }
-    
-    pre {
+     pre {
         font-family: monospace;
         padding: 5px;
-        background: $grayBG;
+        background: $midLightBG;
         margin-bottom: $standardMargin;
         }
     
@@ -216,12 +179,7 @@ main {
         font-style: italic;
         }
     
-    #comments {
-        width: 100%;
-        clear: both;
-        }
-    
-    ul {
+     ul {
         list-style: disc;
         margin-left: $standardMargin;
         margin-botton: $standardMargin;
@@ -262,15 +220,10 @@ textarea {
 
 /* =======ASIDE============== */
 aside {
-    width: $wrapperWidth * .25;
-    float: left;
+    width: $wrapperWidth;
+    margin-left: $standardMargin;
     padding: 10px;
     margin-bottom: $standardMargin;
-    background: $grayBG;
-
-    h1 {
-        margin-bottom: $standardMargin;
-        }
     }
 
 /* ======FOOTER============== */
@@ -278,7 +231,7 @@ footer {
     clear: both;
     background: black;
     color: white;
-    height: 100px;
+    height: 200px;
 
     p {
         text-align: center;
@@ -290,8 +243,3 @@ footer {
         }
 
     }
-
-
-
-
-
