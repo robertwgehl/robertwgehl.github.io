@@ -209,8 +209,42 @@ main {
 
 textarea {
     width: 100%;
+    height: 300px;
+    background: $grayBG;
+    color: $textColor;
+    font-family: $contentFont;
+    font-size: 1em;
     }
 
+.narrowfield { /* this controls the name and email area */
+    width: 100%;
+    margin-top: $standardMargin;
+
+    label {
+        font-weight: bold;
+        }
+
+    input {
+            background: $grayBG;
+            color: $textColor;
+            font-family: $contentFont;
+            font-size: 1em;
+            width: 100%;
+            height: 50px;
+            margin-top: $standardMargin;
+         }
+
+    }
+
+button {
+    background: $grayBG;
+    margin-top: $standardMargin;
+    width: 50%;
+    font-family: $contentFont;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: $textColor;
+    }
 /* these buttons created by the form, not sure if they're necessary */
 .hp {
     display: none;
