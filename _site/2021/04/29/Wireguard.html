@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-	<title>FOSS ACADEMIC | PDF Hell</title>
+	<title>FOSS ACADEMIC | Messin' with Wireguard</title>
     <link rel="stylesheet" href="/assets/css/reset.css">
 	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
     <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/favicon.ico" />
 	<link type="application/atom+xml" rel="alternate" href="https://fossacademic.tech/feed.xml" title="FOSS Academic" />
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>PDF Hell | FOSS Academic</title>
+<title>Messin’ with Wireguard | FOSS Academic</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="PDF Hell" />
+<meta property="og:title" content="Messin’ with Wireguard" />
 <meta name="author" content="RWG" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Why in the year 2021 is it hard to edit PDFs in Linux? This is an image of a PDF of sheet music for AC/DC&#39;s &quot;Highway to Hell.&quot; Please enjoy the music, but don&#39;t ask me to edit the PDF. Please don’t tell me to use Okular. Please don’t tell me to use LaTex. I’m barely keeping things together using Atril and pdfunite in the command line. I popped over to It’s FOSS to see their list of top applications. When your list starts with LibreOffice Draw… I don’t know what to say. It gets worse from there, going to a bunch of commercial, proprietary solutions. I now work for an organization that makes heavy use of PDF forms. I lament the lost hours. Printing and scanning seems like the most efficient thing to do. At this point, feel free to tell me to switch to Windows." />
-<meta property="og:description" content="Why in the year 2021 is it hard to edit PDFs in Linux? This is an image of a PDF of sheet music for AC/DC&#39;s &quot;Highway to Hell.&quot; Please enjoy the music, but don&#39;t ask me to edit the PDF. Please don’t tell me to use Okular. Please don’t tell me to use LaTex. I’m barely keeping things together using Atril and pdfunite in the command line. I popped over to It’s FOSS to see their list of top applications. When your list starts with LibreOffice Draw… I don’t know what to say. It gets worse from there, going to a bunch of commercial, proprietary solutions. I now work for an organization that makes heavy use of PDF forms. I lament the lost hours. Printing and scanning seems like the most efficient thing to do. At this point, feel free to tell me to switch to Windows." />
-<link rel="canonical" href="https://fossacademic.tech/2021/03/10/PDFhell.html" />
-<meta property="og:url" content="https://fossacademic.tech/2021/03/10/PDFhell.html" />
+<meta name="description" content="I’ve been messin’ about with Wireguard and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks." />
+<meta property="og:description" content="I’ve been messin’ about with Wireguard and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks." />
+<link rel="canonical" href="https://fossacademic.tech/2021/04/29/Wireguard.html" />
+<meta property="og:url" content="https://fossacademic.tech/2021/04/29/Wireguard.html" />
 <meta property="og:site_name" content="FOSS Academic" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-03-10T00:00:00-06:00" />
+<meta property="article:published_time" content="2021-04-29T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="PDF Hell" />
+<meta property="twitter:title" content="Messin’ with Wireguard" />
 <script type="application/ld+json">
-{"datePublished":"2021-03-10T00:00:00-06:00","url":"https://fossacademic.tech/2021/03/10/PDFhell.html","dateModified":"2021-03-10T00:00:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2021/03/10/PDFhell.html"},"author":{"@type":"Person","name":"RWG"},"description":"Why in the year 2021 is it hard to edit PDFs in Linux? This is an image of a PDF of sheet music for AC/DC&#39;s &quot;Highway to Hell.&quot; Please enjoy the music, but don&#39;t ask me to edit the PDF. Please don’t tell me to use Okular. Please don’t tell me to use LaTex. I’m barely keeping things together using Atril and pdfunite in the command line. I popped over to It’s FOSS to see their list of top applications. When your list starts with LibreOffice Draw… I don’t know what to say. It gets worse from there, going to a bunch of commercial, proprietary solutions. I now work for an organization that makes heavy use of PDF forms. I lament the lost hours. Printing and scanning seems like the most efficient thing to do. At this point, feel free to tell me to switch to Windows.","headline":"PDF Hell","@context":"https://schema.org"}</script>
+{"datePublished":"2021-04-29T00:00:00-05:00","url":"https://fossacademic.tech/2021/04/29/Wireguard.html","dateModified":"2021-04-29T00:00:00-05:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2021/04/29/Wireguard.html"},"author":{"@type":"Person","name":"RWG"},"description":"I’ve been messin’ about with Wireguard and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.","headline":"Messin’ with Wireguard","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -63,42 +63,48 @@
 	
     <main>
     <div>
-    <h1 class="postHeader">PDF Hell</h1>
+    <h1 class="postHeader">Messin' with Wireguard</h1>
 
     <p class="byline">
-        10 Mar 2021
+        29 Apr 2021
         
         
         - <a href="/authors/RWG.html">Robert W. Gehl</a>
         
     </p>
 
-    <p>Why in the year 2021 is it hard to edit PDFs in Linux?</p>
+    <p>I’ve been messin’ about with <a href="https://www.wireguard.com/">Wireguard</a> and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.</p>
 
-<figure>
-    <img src="/assets/images/acdchell.jpeg" alt="An image of a PDF of the musical notation to AC/DC's Highway to Hell." />
-    <figcaption>This is an image of a PDF of sheet music for AC/DC's "Highway to Hell." Please enjoy the music, but don't ask me to edit the PDF.</figcaption>
-</figure>
+<p><img src="/assets/images/wireguard.svg" alt="The Wireguard logo" /></p>
 
-<p>Please don’t tell me to use Okular.</p>
+<!-- more -->
 
-<p>Please don’t tell me to use LaTex.</p>
+<p>My proudest achievement is connecting this network to a <a href="https://pi-hole.net/">Pi-hole</a> installation on a Digital Ocean VPS. Now all those Internet ads cannot reach me, not matter where on the network I am. I should probably allow ads, since I am a media studies scholar and <a href="https://xroads.virginia.edu/~DRBR2/rwilliams.pdf">ads are stable object of media studies</a>. But then again, I’m addicted to things like <a href="https://marketingland.com/pop-up-ads-why-everyone-hates-them-and-why-theyll-never-die-273343">actually being able to read websites</a>, having them <a href="https://thetechieguy.com/ad-blocker-impact-internet-speed/">load quickly</a>, and <a href="https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/">not being tracked</a>, so… yeah, I’ll pass on the ads.</p>
 
-<p>I’m barely keeping things together using Atril and pdfunite in the command line.</p>
+<p>Wireguard is billed as faster and easier to work with than OVPN, and in my view, it’s living up to the billing. 
+Setting things up initially took a long while, with my mistakes including not setting up rules in my firewalls (I use UFW). Once I figured out how to allow connections from the network I was building, it began to work quite well. And it is fast – the network speed is nearly as fast as without the VPN in place. (In fact, I’m pretty sure my ISP, Suddenlink, is dropping packets from internet radio streams – but with Wireguard, those packets aren’t dropping).</p>
 
-<p>I popped over to <a href="https://itsfoss.com/pdf-editors-linux/">It’s FOSS</a> to see their list of top applications. When your list starts with LibreOffice Draw… I don’t know what to say. It gets worse from there, going to a bunch of commercial, proprietary solutions.</p>
+<p>One tip I can offer: I discovered a need for a “PersistentKeepalive” on that Pi-hole server. This appears to be a bit of a no-no with Wireguard, which is built on the idea that “silence is golden” – i.e., the less packets flying aorund the better. But the Pi-hole peer kept dropping off the network, and thus my DNS lookups wouldn’t happen. By adding</p>
 
-<p>I now work for an organization that makes heavy use of PDF forms. I lament the lost hours.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PersistentKeepalive = 25
+</code></pre></div></div>
 
-<p>Printing and scanning seems like the most efficient thing to do.</p>
+<p>to the Pi-hole [Peer] section of the client config file, the connection stays active.</p>
 
-<p>At this point, feel free to tell me to switch to Windows.</p>
+<p>If any of you are itchin’ to try some Wireguard, I have found the tutorial at <a href="https://serversideup.net/courses/gain-flexibility-and-increase-privacy-with-wireguard-vpn/">ServerSide Up</a> to be really helpful. That, and my old friend “trying stuff until it works”…</p>
+
+<p><img src="/assets/images/try.jpg" alt="A parody of O'Reilly tech books. This cover says &quot;Trying Stuff Until It Works&quot;" /></p>
+
 
 
        
     <section>
         <h1>Post Tags</h1>
         <ul id="tagList">
+            
+            <li>
+                <a href="/tags/wireguard.html">Wireguard</a>
+            </li>
             
         </ul>
     </section>
@@ -111,123 +117,21 @@
 <section class="comments" id="comment-section">
   <hr>
   
-  <!-- Existing comments -->
-  <div class="comments__existing">
-    <h1>Comments</h1>
-    
-    
-    <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
-    
-    <!-- this file from the guide at https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
-
-<article id="comment-29da7010-9409-11eb-be2a-af6d941c7a83" class="js-comment comment" uid="29da7010-9409-11eb-be2a-af6d941c7a83">
-
-  <div class="comment__author">Kirk,
-    <span class="comment__date"><a href="#comment-29da7010-9409-11eb-be2a-af6d941c7a83" title="Permalink to this comment">April  2th, 2021 18:14</a></span>
-  </div>
-
-  <div class="comment__body">
-    <ul>
-  <li>timidly raises hand * w-w-w-whats wrong with Okular? Or is it a pain on non-kde linux?</li>
-</ul>
-
-  </div>
-
-
-    <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('comment-29da7010-9409-11eb-be2a-af6d941c7a83', 'respond', 'PDFhell', '29da7010-9409-11eb-be2a-af6d941c7a83')">↪&#xFE0E; Reply to Kirk</a>
-    </div>
-</article>
-  <!-- this file from the guide at https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
-
-<article id="comment-8aa591b0-9416-11eb-ba8a-0dc829ab4261" class="js-comment comment child" uid="8aa591b0-9416-11eb-ba8a-0dc829ab4261">
-
-  <div class="comment__author">RWG,
-    <span class="comment__date"><a href="#comment-8aa591b0-9416-11eb-ba8a-0dc829ab4261" title="Permalink to this comment">April  2th, 2021 19:50</a></span>
-  </div>
-
-  <div class="comment__body">
-    <p>No need to be timid, Kirk!</p>
-
-<p>I honestly can’t really say. It might be that Okular doesn’t work well on non-KDE distros. I always found it clunky and haven’t observed improvements in it over the years. Is it time for me to take another look?</p>
-
-  </div>
-
-
-</article>
-
-
-  
-
-  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
-
-
-    
-    <!-- this file from the guide at https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
-
-<article id="comment-65b8f6b0-897d-11eb-a081-dde554df81c6" class="js-comment comment" uid="65b8f6b0-897d-11eb-a081-dde554df81c6">
-
-  <div class="comment__author">RWG,
-    <span class="comment__date"><a href="#comment-65b8f6b0-897d-11eb-a081-dde554df81c6" title="Permalink to this comment">March 20th, 2021 08:08</a></span>
-  </div>
-
-  <div class="comment__body">
-    <p>Thanks, Gerry! I will check out Qoppa.</p>
-
-  </div>
-
-
-    <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('comment-65b8f6b0-897d-11eb-a081-dde554df81c6', 'respond', 'PDFhell', '65b8f6b0-897d-11eb-a081-dde554df81c6')">↪&#xFE0E; Reply to RWG</a>
-    </div>
-</article>
-  
-
-  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
-
-
-    
-    <!-- this file from the guide at https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
-
-<article id="comment-8cbc65a0-8953-11eb-b9aa-234f99008d53" class="js-comment comment" uid="8cbc65a0-8953-11eb-b9aa-234f99008d53">
-
-  <div class="comment__author">Gerry,
-    <span class="comment__date"><a href="#comment-8cbc65a0-8953-11eb-b9aa-234f99008d53" title="Permalink to this comment">March 20th, 2021 03:09</a></span>
-  </div>
-
-  <div class="comment__body">
-    <p>I have made good experience with Qoppa PDF Studio (https://www.qoppa.com/pdfstudio/). Although it is not FOSS, the developers react quickly and provide comprehensive feed-back. There are academic licenses: https://kbpdfstudio.qoppa.com/student-education-and-non-profit-discount/ It replaces Adobe Acrobat Professional in almost all aspects, I even like the UX better in PDF Studio</p>
-
-  </div>
-
-
-    <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('comment-8cbc65a0-8953-11eb-b9aa-234f99008d53', 'respond', 'PDFhell', '8cbc65a0-8953-11eb-b9aa-234f99008d53')">↪&#xFE0E; Reply to Gerry</a>
-    </div>
-</article>
-  
-
-  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
-
-
-    
-  </div>
-  
 
   <!-- New comment form -->
   <div id="respond" class="comment__new">
     <!-- Comment form based on the guide https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
 
 <form class="js-form form" method="post" action="https://fossacademic.herokuapp.com/v2/entry/robertwgehl/robertwgehl.github.io/main/comments">
-  <input type="hidden" name="options[origin]" value="https://fossacademic.tech/2021/03/10/PDFhell.html">
-  <input type="hidden" name="options[parent]" value="https://fossacademic.tech/2021/03/10/PDFhell.html">
+  <input type="hidden" name="options[origin]" value="https://fossacademic.tech/2021/04/29/Wireguard.html">
+  <input type="hidden" name="options[parent]" value="https://fossacademic.tech/2021/04/29/Wireguard.html">
   <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="">
-  <input type="hidden" name="options[slug]" value="PDFhell">
+  <input type="hidden" name="options[slug]" value="Wireguard">
   <input type="hidden" name="options[reCaptcha][siteKey]" value="">
   <input type="hidden" name="options[reCaptcha][secret]"  value="">
 
   <div class="textfield">
-    <label for="comment-form-message"><h1>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="https://fossacademic.tech/2021/03/10/PDFhell.html#respond" style="display:none;">(cancel reply)</a></small></h1>
+    <label for="comment-form-message"><h1>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="https://fossacademic.tech/2021/04/29/Wireguard.html#respond" style="display:none;">(cancel reply)</a></small></h1>
       <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="6"></textarea>
     </label>
   </div>
