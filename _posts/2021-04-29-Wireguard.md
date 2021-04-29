@@ -4,6 +4,8 @@ author: RWG
 title: Messin' with Wireguard 
 tag:
     - Wireguard
+    - FALD
+
 comments: true
 ---
 
@@ -14,6 +16,8 @@ I've been messin' about with [Wireguard](https://www.wireguard.com/) and -- afte
 <!-- more -->
 
 My proudest achievement is connecting this network to a [Pi-hole](https://pi-hole.net/) installation on a Digital Ocean VPS. Now all those Internet ads cannot reach me, not matter where on the network I am. I should probably allow ads, since I am a media studies scholar and [ads are staple object of media studies](https://xroads.virginia.edu/~DRBR2/rwilliams.pdf). But then again, I'm addicted to things like [actually being able to read websites](https://marketingland.com/pop-up-ads-why-everyone-hates-them-and-why-theyll-never-die-273343), having them [load quickly](https://thetechieguy.com/ad-blocker-impact-internet-speed/), and [not being tracked](https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/), so... yeah, I'll pass on the ads.
+
+With a Wireguard-based network, I can SSH into any of my computers. It's rare that I have to do that, but sometimes I forget to sync a file -- say, a lecture, or a PDF of an article. No worries there -- just log into a remote computer and grab it. I'm starting to think about setting up my own personal media streaming system, as well. Because, why not?
 
 Wireguard is billed as faster and easier to work with than OVPN, and in my view, it's living up to the billing. 
 Setting things up initially took a long while, with my mistakes including not setting up rules in my firewalls (I use [UFW](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)). Once I figured out how to allow connections from the network I was building, it began to work quite well. And it is fast -- the network speed is nearly as fast as without the VPN in place. (In fact, I'm pretty sure my ISP, Suddenlink, is dropping packets from internet radio streams -- but with Wireguard, those packets aren't dropping). 
