@@ -32,4 +32,5 @@ If any of you are itchin' to try some Wireguard, I have found the tutorial at [S
 
 ![A parody of O'Reilly tech books. This cover says "Trying Stuff Until It Works"](/assets/images/try.jpg)
 
+EDIT: I got KDE Connect working! You just have to [add devices by IP address](https://userbase.kde.org/KDEConnect#Running_KDE_Connect_over_OpenVPN)! That is *so cool.*
 

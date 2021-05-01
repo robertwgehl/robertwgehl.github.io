@@ -1,0 +1,27 @@
+I"<p>I’ve been messin’ about with <a href="https://www.wireguard.com/">Wireguard</a> and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.</p>
+
+<p><img src="/assets/images/wireguard.svg" alt="The Wireguard logo" /></p>
+
+<!-- more -->
+
+<p>My proudest achievement is connecting this network to a <a href="https://pi-hole.net/">Pi-hole</a> installation on a Digital Ocean VPS. Now all those Internet ads cannot reach me, not matter where on the network I am. I should probably allow ads, since I am a media studies scholar and <a href="https://xroads.virginia.edu/~DRBR2/rwilliams.pdf">ads are staple object of media studies</a>. But then again, I’m addicted to things like <a href="https://marketingland.com/pop-up-ads-why-everyone-hates-them-and-why-theyll-never-die-273343">actually being able to read websites</a>, having them <a href="https://thetechieguy.com/ad-blocker-impact-internet-speed/">load quickly</a>, and <a href="https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/">not being tracked</a>, so… yeah, I’ll pass on the ads.</p>
+
+<p>With a Wireguard-based network, I can SSH into any of my computers. It’s rare that I have to do that, but sometimes I forget to sync a file – say, a lecture, or a PDF of an article. No worries there – just log into a remote computer and grab it. I’m starting to think about setting up my own personal media streaming system, as well. Because, why not?</p>
+
+<p>Wireguard is billed as faster and easier to work with than OVPN, and in my view, it’s living up to the billing. 
+Setting things up initially took a long while, with my mistakes including not setting up rules in my firewalls (I use <a href="https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands">UFW</a>). Once I figured out how to allow connections from the network I was building, it began to work quite well. And it is fast – the network speed is nearly as fast as without the VPN in place. (In fact, I’m pretty sure my ISP, Suddenlink, is dropping packets from internet radio streams – but with Wireguard, those packets aren’t dropping).</p>
+
+<p>One tip I can offer: I discovered a need for a “PersistentKeepalive” on that Pi-hole server. This appears to be a bit of a no-no with Wireguard, which is built on the idea that “silence is golden” – i.e., the less packets flying aorund the better. But the Pi-hole peer kept dropping off the network, and thus my DNS lookups wouldn’t happen. By adding</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PersistentKeepalive = 25
+</code></pre></div></div>
+
+<p>to the Pi-hole [Peer] section of the client config file, the connection stays active.</p>
+
+<p>If any of you are itchin’ to try some Wireguard, I have found the tutorial at <a href="https://serversideup.net/courses/gain-flexibility-and-increase-privacy-with-wireguard-vpn/">ServerSide Up</a> to be really helpful. That, and my old friend “trying stuff until it works”…</p>
+
+<p><img src="/assets/images/try.jpg" alt="A parody of O'Reilly tech books. This cover says &quot;Trying Stuff Until It Works&quot;" /></p>
+
+<p>EDIT: I got KDE Connect working! You just have to <a href="https://userbase.kde.org/KDEConnect#Running_KDE_Connect_over_OpenVPN">add devices by IP address</a>! That is <em>so cool.</em></p>
+
+:ET
