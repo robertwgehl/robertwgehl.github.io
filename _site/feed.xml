@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-05-14T18:26:45-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">FALD Updates</title><link href="https://fossacademic.tech/2021/05/14/FALDupdate.html" rel="alternate" type="text/html" title="FALD Updates" /><published>2021-05-14T00:00:00-05:00</published><updated>2021-05-14T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/05/14/FALDupdate</id><content type="html" xml:base="https://fossacademic.tech/2021/05/14/FALDupdate.html">&lt;p&gt;A few quick updates on the FOSS Academic Lifestyle Dream front.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-05-14T18:28:58-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">FALD Updates</title><link href="https://fossacademic.tech/2021/05/14/FALDupdate.html" rel="alternate" type="text/html" title="FALD Updates" /><published>2021-05-14T00:00:00-05:00</published><updated>2021-05-14T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/05/14/FALDupdate</id><content type="html" xml:base="https://fossacademic.tech/2021/05/14/FALDupdate.html">&lt;p&gt;A few quick updates on the FOSS Academic Lifestyle Dream front.&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
-&lt;p&gt;##Nextcloud FTW##&lt;/p&gt;
+&lt;h2 id=&quot;nextcloud-ftw&quot;&gt;Nextcloud FTW&lt;/h2&gt;
 
 &lt;p&gt;A while back, &lt;a href=&quot;/2021/02/07/CloudAcademic.html&quot;&gt;I asked people on Mastodon about FOSS tools for academics&lt;/a&gt;. A clear winner was Nextcloud. Since then, I’ve gone pretty much all-in on Nextcloud, using it to sync my ODT files (those are like DOCX, but better) across my machines.&lt;/p&gt;
 
@@ -14,7 +14,7 @@
 
 &lt;p&gt;No, with Appointments I share a public link, whomever wants to meet fills in a form, and the meeting is on my calendar, and they get instructions on how to meet (a chat link, office address, etc). In addition, Appointments watches my calendar, so people will not double-book. And, I can set a delay (say, 8 hours from &lt;em&gt;now&lt;/em&gt;) where people can’t schedule, so no one can schedule a last-minute meeting. It’s worked really, really well with student office hours. And none of it relies on the Googles.&lt;/p&gt;
 
-&lt;p&gt;##Zotero Beta Progress##&lt;/p&gt;
+&lt;h2 id=&quot;zotero-beta-progress&quot;&gt;Zotero Beta Progress&lt;/h2&gt;
 
 &lt;p&gt;I also talked to people on Mastodon about ways in which academics like me – that is, ones who don’t really code all that much – can contribute to FOSS. The consensus was: bug reporting. So I &lt;a href=&quot;https://fossacademic.tech/2021/04/02/ZoteroComments.html&quot;&gt;joined the Zotero 6 Beta&lt;/a&gt;, done some testing, and reported bugs.&lt;/p&gt;
 
@@ -22,7 +22,7 @@
 
 &lt;p&gt;This moment of bug-reporting joy has inspired me to report more bugs to other projects. And in turn, I feel a little bit more connected to the software I’m using to live the Lifestyle Dream.&lt;/p&gt;
 
-&lt;p&gt;##The hunt for card sorting software…##&lt;/p&gt;
+&lt;h2 id=&quot;the-hunt-for-card-sorting-software&quot;&gt;The hunt for card sorting software…&lt;/h2&gt;
 
 &lt;p&gt;I did have a recent FOSS failure, however: I could not find card sorting software.&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 
 &lt;p&gt;So, back to the stack o’ cards for me.&lt;/p&gt;
 
-&lt;p&gt;###…But why hunt for card sorting software?###&lt;/p&gt;
+&lt;h2 id=&quot;but-why-hunt-for-card-sorting-software&quot;&gt;…But why hunt for card sorting software?&lt;/h2&gt;
 
 &lt;p&gt;The answer is… Goal 2. One of my goals for this blog is to write a book about FOSS. But I can’t write about all the FOSS. That’s too much.&lt;/p&gt;
 
