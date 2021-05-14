@@ -31,7 +31,7 @@ No, with Appointments I share a public link, whomever wants to meet fills in a f
 Zotero Beta Progress
 --------------------
 
-I also talked to people on Mastodon about ways in which academics like me -- that is, ones who don't really code all that much -- can contribute to FOSS. The consensus was: bug reporting. So I [joined the Zotero 6 Beta](https://fossacademic.tech/2021/04/02/ZoteroComments.html), done some testing, and reported bugs.
+I also talked to people on Mastodon about ways in which academics like me -- that is, ones who don't really code all that much -- can contribute to FOSS. The consensus was: bug reporting. So I [joined the Zotero 6 Beta](https://fossacademic.tech/2021/04/02/ZoteroComments.html), did some testing, and reported bugs.
 
 I have a strange, happy feeling today because Zotero fixed the issues I reported. The [note-taking lag I reported](https://fossacademic.tech/2021/04/02/ZoteroComments.html) is now gone. Notes are as smooth as before the beta, but with more features, of course.
 
