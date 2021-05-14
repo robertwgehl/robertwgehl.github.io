@@ -15,7 +15,7 @@ A few quick updates on the FOSS Academic Lifestyle Dream front.
 
 <!-- more -->
 
-##Nextcloud FTW
+##Nextcloud FTW##
 
 A while back, [I asked people on Mastodon about FOSS tools for academics](/2021/02/07/CloudAcademic.html). A clear winner was Nextcloud. Since then, I've gone pretty much all-in on Nextcloud, using it to sync my ODT files (those are like DOCX, but better) across my machines. 
 
@@ -27,7 +27,7 @@ And there's a downright magical add-on called [Appointments](https://apps.nextcl
 
 No, with Appointments I share a public link, whomever wants to meet fills in a form, and the meeting is on my calendar, and they get instructions on how to meet (a chat link, office address, etc). In addition, Appointments watches my calendar, so people will not double-book. And, I can set a delay (say, 8 hours from *now*) where people can't schedule, so no one can schedule a last-minute meeting. It's worked really, really well with student office hours. And none of it relies on the Googles.
 
-##Zotero Beta Progress
+##Zotero Beta Progress##
 
 I also talked to people on Mastodon about ways in which academics like me -- that is, ones who don't really code all that much -- can contribute to FOSS. The consensus was: bug reporting. So I [joined the Zotero 6 Beta](https://fossacademic.tech/2021/04/02/ZoteroComments.html), done some testing, and reported bugs.
 
@@ -35,7 +35,7 @@ I have a strange, happy feeling today because Zotero fixed the issues I reported
 
 This moment of bug-reporting joy has inspired me to report more bugs to other projects. And in turn, I feel a little bit more connected to the software I'm using to live the Lifestyle Dream.
 
-##The hunt for card sorting software...
+##The hunt for card sorting software...##
 
 I did have a recent FOSS failure, however: I could not find card sorting software.
 
@@ -51,7 +51,7 @@ So, I was on the hunt for FOSS tools to do card sorts and... nothing. The closes
 
 So, back to the stack o' cards for me.
 
-###...But why hunt for card sorting software?
+###...But why hunt for card sorting software?###
 
 The answer is... Goal 2. One of my goals for this blog is to write a book about FOSS. But I can't write about all the FOSS. That's too much. 
 
