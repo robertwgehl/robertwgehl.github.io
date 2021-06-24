@@ -13,6 +13,8 @@ You. You there. You should take a break.
 
 I did. It's ok. The work will be there later. 
 
+![A Gentoo penguin frolicking on a beach somewhere](/assets/images/gentooBeach.jpg "A Gentoo penguin frolicking on a beach somewhere")
+
 While traveling with family and seeing my friends, I once again relied heavily on a device I begrudgingly have: a mobile phone, in this case a Google Android device. While I work really hard to avoid apps or limit their permissions, I just *don't like* having Google anything in my pocket.
 
 And while I have a PinePhone Braveheart edition, it's just not ready to be my main phone.
