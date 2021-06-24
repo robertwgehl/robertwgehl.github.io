@@ -17,7 +17,7 @@ I did. It's ok. The work will be there later.
 
 While traveling with family and seeing my friends, I once again relied heavily on a device I begrudgingly have: a mobile phone, in this case a Google Android device. While I work really hard to avoid apps or limit their permissions, I just *don't like* having Google anything in my pocket.
 
-And while I have a PinePhone Braveheart edition, it's just not ready to be my main phone.
+And while I have a [PinePhone](https://www.pine64.org/pinephone/) Braveheart edition, it's just not ready to be my main phone.
 
 So, in the interim, I'm doing something I should have done a while ago: trying out [F-Droid](https://f-droid.org/en/packages/org.fdroid.fdroid/), the FOSS collection of Android apps. 
 
