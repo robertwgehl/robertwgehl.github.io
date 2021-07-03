@@ -20,6 +20,10 @@ I hadn't really thought much about this situation until just recently. Along wit
 
 The book is the result of four years of research on hacker social engineering practices as well as early 20th century propaganda and public relations (a field that also referred to its activity as "social engineering"). After finishing this latest book, I realized I'm a living testament to the fact that yes, you can de-Google your search and still conduct research. Because that's what I did.
 
+![Google logo with a line through it](/assets/images/antiGoogle.png "Google logo with a line through it")
+
+<!-- more -->
+
 Mostly.
 
 Here's how I conducted mostly de-Googled searches.
