@@ -12,7 +12,7 @@ comments: true
 
 Big news on the search front! The Brave Browser is now [offering a search engine](https://search.brave.com/). According to [their announcment](https://brave.com/brave-search-beta/), Brave Search promises "independent option for search which gives them unmatched privacy" and will use an independent index, rather than rely on Google or Microsoft. I've already started playing with Brave Search and am curious to see how it develops.
 
-However, any time someone offers a search engine and their corporate parent isn't named Alphbet, there's a pretty predictable reaction: "Good on them for trying, but you just can't beat Google."  I've also heard academics say the same thing: "I can't find anything without Google."
+However, any time someone offers a search engine and their corporate parent isn't named Alphabet, there's a pretty predictable reaction: "Good on them for trying, but you just can't beat Google."  I've also heard academics say the same thing: "I can't find anything without Google."
 
 Search is, of course, a very common approach to conducting research, and it's especially important to my work on Internet cultures. One key way to study the Internet is by searching it. And it seems as though that means all my work ought to flow through Google.
 
