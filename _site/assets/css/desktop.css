@@ -84,9 +84,11 @@ main li { margin-bottom: 4%; }
 main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
 
 /* =======MAIN COMMENTS====== */
-.commentAvatar { width: 60px; height: 60px; float: left; padding-right: 10px; }
+.mastodon-comment { float: left; padding-bottom: 8px; }
 
-.mastodon-comment-content { padding-top: 10px; }
+.commentAvatar { width: 31%; float: left; padding-right: 2%; }
+
+.mastodon-comment .content { width: 66%; float: right; padding-top: 10px; }
 
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; background: #474D50; }

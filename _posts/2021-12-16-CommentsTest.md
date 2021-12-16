@@ -19,3 +19,13 @@ Fortunately, [this guide](https://blog.xmgz.eu/jekyll-mastodon-comment/) provide
 So this is a test run. Feel free to comment on it using your Mastodon account. (I think other federated accounts might work, but not sure -- if so, let me know in the comments!)
 
 If you don't have a Mastodon account, don't worry! You can [sign up for an instance](https://joinmastodon.org) and join the federated fun. 
+
+UPDATE
+------
+
+I've tested it a bit and have found a few things that give me pause:
+* It does not respect the distinction between Unlisted and Public privacy settings. Both will show up here.
+* It *does* respect DM -- that is, DMs do not show up as comments.
+* It does not respect Content Warnings. CWs don't show up.
+
+With all that in mind, I think I may keep it (pending further testing) and include a warning in the "Comments" section.

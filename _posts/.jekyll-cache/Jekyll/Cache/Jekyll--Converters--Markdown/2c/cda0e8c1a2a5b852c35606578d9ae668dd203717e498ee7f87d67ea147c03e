@@ -1,0 +1,41 @@
+I"1<figure>
+    <img src="/assets/images/tuxPaper.jpg" alt="A small Tux the Penguin paper toy" title="Tux Toy" />
+    <figcaption>"Tux the penguin papercraft" by Siobhan Rohlwink-Coutts is licensed with CC BY-NC-ND 2.0.</figcaption>
+</figure>
+
+<p>As a university professor, I do a lot of different things, many of them having to do with technologies. I engage in research, write articles and books, put together syllabi, work with students, and collaborate with colleagues. All of these require the use of networked computers. But I don’t use Windows and I don’t use Apple.</p>
+
+<!-- more -->
+
+<p>I’ve been doing this sort of work for over a decade. Looking back over this period, it occurs to me that one aspect of my career is pretty unique: it regularly – even insistently – relies on <em>Free</em> and <em>Open Source</em> (FOSS) software. I run Linux on my computers, use <a href="https://www.libreoffice.org">LibreOffice</a> to write, collect research with <a href="https://www.zotero.org">Zotero</a>, browse the web with Firefox, and communicate with as many FOSS systems as I can. I also rely heavily on projects that take their inspiration from FOSS: I’ve contributed to Wikipedia and I often use (and teach about) <a href="https://creativecommons.org">Creative Commons</a> resources. And I’ve published many articles in Open Access journals.</p>
+
+<p>But I’m not just using FOSS tools, either. I’ve also published research articles on FOSS and FOSS-related topics. For many years now, I’ve been exploring <a href="https://journals.sagepub.com/doi/10.1177/2056305115604338">FOSS alternatives to corporate social media</a>. I wrote a book about the FOSS projects that enable anonymous Internet practices – the so-called <a href="https://mitpress.mit.edu/books/weaving-dark-web">“Dark Web”</a>.</p>
+
+<h2 id="being-a-foss-academic">Being a FOSS Academic</h2>
+
+<p>Drawing on this experience, I’ve decided to start a project about life as a “FOSS Academic” – someone who both uses FOSS tools <em>and</em> explores their cultures, politics, and technical elements.</p>
+
+<p>Hence, this blog: <em>FOSS Academic</em>.</p>
+
+<p>The blog will do two things. First, driving toward what I’ll call <strong>Goal 1,</strong> I will discuss the FOSS tools I use to do my academic research, including software (Libreoffice, Zotero) and hardware (the Raspberry Pi, the PinePhone). I’ll offer tips and tricks I’ve picked up, in case any of you want to live the “FOSS Academic Lifestyle Dream,” or <strong>FALD</strong> for short. (I’ll admit, it’s not as polished as the i-Life, but I think it has its charms).</p>
+
+<p>Along the way, the blog will do a second job: I want to use this systematic, engaged look at FOSS to trace the culture, politics, and technical elements of FOSS. The world of FOSS is rich with interesting practices: community management, licensing and political economy of cooperative production, the politics of forking, privacy and security, competing visions of “freedom,” and the sociotechnical processes of design. As I mention in the <a href="/about.html">about page</a>, I have <strong>Goal 2</strong>, another reason for making this blog: I want to use is as a way to work through ideas and gather research with an eye towards a book-length study of FOSS. To that end, I’ll provide short essays on key concepts of FOSS.</p>
+
+<p>Sometimes, <strong>Goal 1</strong> (FOSS tool talk) and <strong>Goal 2</strong> (FOSS research) will be in separate posts. I have a feeling, however, that any given post in <em>FOSS Academic</em> will combine the two.</p>
+
+<h2 id="goal-1-topic-jekyll-and-sass">Goal 1 Topic: Jekyll and Sass</h2>
+
+<p>So, with all that said, let’s talk about a <strong>Goal 1</strong> topic, and it’s very meta: the tools I’m using to build this blog.</p>
+
+<p>Since this is a new project for me, I’ve decided to expand my skills. I’ve been goofing around with HTML5, CSS, and PHP for years now, creating my own templates for <a href="https://www.robertwgehl.org">my home page</a>. I wanted to build on those skills and found the perfect vehicle in Jekyll, a <a href="https://jekyllrb.com/">system that generates websites from plain text</a>. Jekyll does everything I did with my own kludgy PHP templates: it uses variables, processes files, and is really modular.</p>
+
+<p>Moreover, it integrates with <a href="https://sass-lang.com/">Sass</a>, a CSS pre-processor. I did something Sass-like (sassy?) with my PHP, using variables for things like colors and dimension. But Sass takes that to another level.</p>
+
+<p>Indeed, I’m going to do more to style this blog in a Sassy way – the current style (as of this writing) is pretty basic.</p>
+
+<p>And… these are FOSS tools. They’re licensed with the permissive MIT License. (I will save licensing – a decidedly <strong>Goal 2</strong> topic, for another day). Thus, they allow others to build on them.</p>
+
+<p>I’m hoping that, over time, this blog will be a means for me to become proficient in Jekyll and Sass, thus adding these skills to my existing ones.</p>
+
+<p>And that only improves my FOSS Academic Lifestyle Dream.</p>
+:ET
