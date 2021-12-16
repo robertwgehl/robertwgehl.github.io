@@ -240,60 +240,16 @@ main {
     }
 
 /* =======MAIN COMMENTS====== */
+.commentAvatar {
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding-right: 10px;
+  }
 
-.comment__author {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: $standardMargin;
-    }
-
-textarea {
-    width: 100%;
-    height: 300px;
-    background: $grayBG;
-    color: $textColor;
-    font-family: $contentFont;
-    font-size: 1em;
-    }
-
-.narrowfield { /* this controls the name and email area */
-    width: 100%;
-    height: 50px;
-     margin-top: $standardMargin;
-
-    label {
-        font-weight: bold;
-        }
-
-    input {
-            background: $grayBG;
-            color: $textColor;
-            font-family: $contentFont;
-            font-size: 1em;
-            width: 100%;
-            height: 50px;
-         }
-
-    }
-
-button {
-    background: $grayBG;
-    margin-top: $standardMargin;
-    width: 25%;
-    font-family: $contentFont;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: $textColor;
-    }
-
-/* these buttons created by the form, not sure if they're necessary */
-.hp {
-    display: none;
-    }
-
-.mdl-button--colored {
-    display: none;
-    }
+.mastodon-comment-content {
+  padding-top: 10px;
+  }
 
 /* =======ASIDE============== */
 aside {

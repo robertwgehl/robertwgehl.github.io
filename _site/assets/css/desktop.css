@@ -84,22 +84,9 @@ main li { margin-bottom: 4%; }
 main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
 
 /* =======MAIN COMMENTS====== */
-.comment__author { font-size: 1.2em; font-weight: bold; margin-bottom: 4%; }
+.commentAvatar { width: 60px; height: 60px; float: left; padding-right: 10px; }
 
-textarea { width: 100%; height: 300px; background: #474D50; color: #C8C4BD; font-family: Helvetica, sans-serif; font-size: 1em; }
-
-.narrowfield { /* this controls the name and email area */ width: 100%; height: 50px; margin-top: 4%; }
-
-.narrowfield label { font-weight: bold; }
-
-.narrowfield input { background: #474D50; color: #C8C4BD; font-family: Helvetica, sans-serif; font-size: 1em; width: 100%; height: 50px; }
-
-button { background: #474D50; margin-top: 4%; width: 25%; font-family: Helvetica, sans-serif; font-size: 1.5em; font-weight: bold; color: #C8C4BD; }
-
-/* these buttons created by the form, not sure if they're necessary */
-.hp { display: none; }
-
-.mdl-button--colored { display: none; }
+.mastodon-comment-content { padding-top: 10px; }
 
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; background: #474D50; }
