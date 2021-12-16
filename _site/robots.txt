@@ -1,1 +1,1 @@
-Sitemap: https://fossacademic.tech/sitemap.xml
+Sitemap: http://10.0.0.5:4000/sitemap.xml

@@ -243,16 +243,17 @@ main {
 .mastodon-comment {
   float: left;
   padding-bottom: 8px;
+  width: 100%;
   }
 
-.commentAvatar {
-  width: 31%;
+.avatar {
+  width: 48px;
   float: left;
-  padding-right: 2%;
+  padding-right: 2px;
   }
 
 .mastodon-comment .content {
-  width: 66%;
+  width: 575px;
   float: right;  
   padding-top: 10px;
   }

@@ -1,4 +1,4 @@
-I"4<p>I’ve been struggling with having comments on this Jekyll-based static site for a while. For a bit, I used Staticman, but that died for some reason.</p>
+I"�<p>I’ve been struggling with having comments on this Jekyll-based static site for a while. For a bit, I used Staticman, but that died for some reason.</p>
 
 <p>Then, it hit me: so many sites use Facebook comments. Why can’t I use Mastodon, the FOSS alternative social media system, to do something similar?</p>
 
@@ -8,7 +8,7 @@
 
 <p>If you don’t have a Mastodon account, don’t worry! You can <a href="https://joinmastodon.org">sign up for an instance</a> and join the federated fun.</p>
 
-<h2 id="update">UPDATE</h2>
+<h2 id="update-1">UPDATE #1</h2>
 
 <p>I’ve tested it a bit and have found a few things that give me pause:</p>
 <ul>
@@ -18,4 +18,9 @@
 </ul>
 
 <p>With all that in mind, I think I may keep it (pending further testing) and include a warning in the “Comments” section.</p>
+
+<h2 id="update-2">UPDATE #2</h2>
+<p>Thanks to another Mastodoner, I found that if anyone who uses Mastodon to comment on a blog post deletes said comment, then it will also no longer appear on the blog. I think that’s a cool feature, but I’m thinking that I have be <em>extremely clear</em> about what happens when people comment on my blog. It’s going to be public – very public – not just in the federation, but also on my website.</p>
+
+<p>However, I’m not 100% certain this is wise. I’d love to get more opinions from Mastodon users. Feel free to leave them in the comments – or, to be certain that your opinion is expressed privately, DM me (@robertwgehl@scholar.social).</p>
 :ET
