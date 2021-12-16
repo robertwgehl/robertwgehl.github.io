@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid: 107457088054787412
+  fediid: 107457359549037273
 ---
 I've been struggling with having comments on this Jekyll-based static site for a while. For a bit, I used Staticman, but that died for some reason.
 
