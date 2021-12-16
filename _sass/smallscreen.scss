@@ -117,6 +117,7 @@ nav {
     height: 60px;
     font-family: $headerFont;
     clear: both;
+    margin-top: 8px;
 
     ul {
         list-style: none;
@@ -201,9 +202,10 @@ main {
 
 /* =======MAIN COMMENTS====== */
 .commentAvatar {
-  width: 12%;
-  height: 12%;
+  width: 33%;
+  height: 33%;
   float: left;
+  margin-right: 8px;
   }
 
 /* =======ASIDE============== */
