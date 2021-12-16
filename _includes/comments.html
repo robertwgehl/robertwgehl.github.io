@@ -1,32 +1,70 @@
-<!-- this file based on https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html -->
+  <!-- load comments from fediverse (mastodon, pleroma,...) "comments" is the name of the variable in front-matter -->
+   
+{% if page.comments.show %}   
+<!--<div class="article-content">-->
+<div class="content">
+  <h2>Comentarios</h2>
+  <p>Utiliza a túa conta de Mastodon para / Use your Mastodon account <a class="link" href="https://{{ page.comments.fediHost }}/@{{ page.comments.fediusername }}/{{ page.comments.fediid }}">comentar esta publicación</a>.</p>
+  <p><a class="button" href="https://{{ page.comments.fediHost }}/interact/{{ page.comments.fediid }}?type=reply">Responder/Reply</a></p>
+  <p id="mastodon-comments-list"><button id="load-comment">Cargar comentarios</button></p>
+  <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
+  <script src="/assets/js/purify.min.js"></script>
+  <script type="text/javascript">
+    function escapeHtml(unsafe) {
+      return unsafe
+           .replace(/&/g, "&amp;")
+           .replace(/</g, "&lt;")
+           .replace(/>/g, "&gt;")
+           .replace(/"/g, "&quot;")
+           .replace(/'/g, "&#039;");
+   }
 
-<section class="comments" id="comment-section">
-  <hr>
-  {% if site.data.comments[page.slug] %}
-  <!-- Existing comments -->
-  <div class="comments__existing">
-    <h1>Comments</h1>
-    {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_uid == ''" %}
-    {% assign comments_by_date = comments | sort: 'date' | reverse %}
-    <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
-    {% for comment in comments_by_date %}
-    {%- assign email           = comment.email %}
-    {%- assign name            = comment.name %}
-    {%- assign url             = comment.url %}
-    {%- assign date            = comment.date %}
-    {%- assign message         = comment.message %}
-    {%- assign uid             = comment._id %}
-    {% include comment.html is_reply=false uid=uid replying_to=0 email=email name=name url=url date=date message=message uid=uid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+    document.getElementById("load-comment").addEventListener("click", function() {
+      document.getElementById("load-comment").innerHTML = "Loading";
+      fetch('https://{{ page.comments.fediHost }}/api/v1/statuses/{{ page.comments.fediid }}/context')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if(data['descendants'] &&
+             Array.isArray(data['descendants']) && 
+            data['descendants'].length > 0) {
+              document.getElementById('mastodon-comments-list').innerHTML = "";
+              data['descendants'].forEach(function(reply) {
+                reply.account.display_name = escapeHtml(reply.account.display_name);
+                reply.account.emojis.forEach(emoji => {
+                  reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                    `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                });
+                mastodonComment =
+                  `<div class="mastodon-comment">
+                     <div class="avatar">
+                       <img src="${escapeHtml(reply.account.avatar_static)}" height=60 width=60 alt="">
+                     </div>
+                     <div class="content">
+                       <div class="author">
+                         <a href="${reply.account.url}" rel="nofollow">
+                           <span>${reply.account.display_name}</span>
+                           <span class="disabled">${escapeHtml(reply.account.acct)}</span>
+                         </a>
+                         <a class="date" href="${reply.uri}" rel="nofollow">
+                           ${reply.created_at.substr(0, 10)}
+                         </a>
+                       </div>
+                       <div class="mastodon-comment-content">${reply.content}</div> 
+                     </div>
+                   </div>`;
+                document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+              });
+          } else {
+            document.getElementById('mastodon-comments-list').innerHTML = "<p>Sen comentarios / No comments</p>";
+          }
+        });
+      });
+  </script>
+</div>
 
-  <!-- New comment form -->
-  <div id="respond" class="comment__new">
-    {% include comment_form.html %}
-  </div>
-</section>
 
-<script src="{{ '/assets/js/jquery.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+{% endif %}
+
+<!--  end of comments section -->
