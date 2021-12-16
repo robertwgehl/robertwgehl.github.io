@@ -70,7 +70,7 @@ main li { margin-bottom: 4%; }
 main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
 
 /* =======MAIN COMMENTS====== */
-.commentAvatar { width: 60px; height: 60px; }
+.commentAvatar { width: 12%; height: 12%; float: left; }
 
 /* =======ASIDE============== */
 aside { width: 100%; margin-left: 4%; padding: 10px; margin-bottom: 4%; }
