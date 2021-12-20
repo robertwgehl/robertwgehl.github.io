@@ -70,9 +70,18 @@ main li { margin-bottom: 4%; }
 main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
 
 /* =======MAIN COMMENTS====== */
+/* .commentAvatar { width: 20%; height: 20%; float: left; margin-right: 8px; } .mastodon-comment-content p { width: 100%;   clear: both; margin-top: 25px; }*/
 #load-comment { width: 200px; height: 50px; font-size: .5em; }
 
-.commentAvatar { width: 33%; height: 33%; float: left; margin-right: 8px; }
+.mastodon-comment { float: left; padding-bottom: 8px; width: 100%; margin-bottom: 4%; }
+
+.mastodon-comment:nth-child(odd) { background: #2A2E31; }
+
+.avatar { width: 48px; float: left; padding-right: 8px; }
+
+.author p { margin: 0; }
+
+.mastodon-comment-content { width: 100%; padding-top: 10px; }
 
 /* =======ASIDE============== */
 aside { width: 100%; margin-left: 4%; padding: 10px; margin-bottom: 4%; }

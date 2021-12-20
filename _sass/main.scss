@@ -244,15 +244,24 @@ main {
   float: left;
   padding-bottom: 8px;
   width: 100%;
+  margin-bottom: $standardMargin;
+  }
+
+.mastodon-comment:nth-child(odd) {
+  background: #2A2E31;
   }
 
 .avatar {
   width: 48px;
   float: left;
-  padding-right: 2px;
+  padding-right: 8px;
   }
 
-.mastodon-comment .content {
+.author p {
+  margin: 0;
+  }
+
+.mastodon-comment-content {
   width: 575px;
   float: right;  
   padding-top: 10px;

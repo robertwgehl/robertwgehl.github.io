@@ -84,11 +84,15 @@ main li { margin-bottom: 4%; }
 main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
 
 /* =======MAIN COMMENTS====== */
-.mastodon-comment { float: left; padding-bottom: 8px; width: 100%; }
+.mastodon-comment { float: left; padding-bottom: 8px; width: 100%; margin-bottom: 4%; }
 
-.avatar { width: 48px; float: left; padding-right: 2px; }
+.mastodon-comment:nth-child(odd) { background: #2A2E31; }
 
-.mastodon-comment .content { width: 575px; float: right; padding-top: 10px; }
+.avatar { width: 48px; float: left; padding-right: 8px; }
+
+.author p { margin: 0; }
+
+.mastodon-comment-content { width: 575px; float: right; padding-top: 10px; }
 
 /* =======ASIDE============== */
 aside { width: 270px; float: left; padding: 10px; margin-bottom: 4%; background: #474D50; }

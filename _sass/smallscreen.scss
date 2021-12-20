@@ -200,18 +200,54 @@ main {
     }
 
 /* =======MAIN COMMENTS====== */
+/*
+
+.commentAvatar {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 8px;
+  }
+
+.mastodon-comment-content p {
+  width: 100%;  
+  clear: both;
+  margin-top: 25px;
+  }*/
+
 #load-comment {
   width: 200px;
   height: 50px;
   font-size: .5em;
   }
 
-.commentAvatar {
-  width: 33%;
-  height: 33%;
+.mastodon-comment {
   float: left;
-  margin-right: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: $standardMargin;
   }
+
+.mastodon-comment:nth-child(odd) {
+  background: #2A2E31;
+  }
+
+.avatar {
+  width: 48px;
+  float: left;
+  padding-right: 8px;
+  }
+
+.author p {
+  margin: 0;
+  }
+
+.mastodon-comment-content {
+  width: 100%; 
+  padding-top: 10px;
+  }
+
+
 
 /* =======ASIDE============== */
 aside {
