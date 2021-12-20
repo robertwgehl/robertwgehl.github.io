@@ -37,6 +37,16 @@
                   reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
                     `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
                 });
+                /* handling CWs, thanks to https://codeberg.org/ashwinvis/m.css/commit/c622ad23dc976c2ce8029e6aee06f57942eb9394 */
+                let fediCommentContent
+                if (reply.spoiler_text === '') {
+                  fediCommentContent = reply.content
+                } else {
+                  fediCommentContent =
+                   `<details><summary><span id="fedicomment-cw">CW: ${escapeHtml(reply.spoiler_text)}</span></summary>
+                      ${reply.content}
+                   </details>`
+                }
                 mastodonComment =
                   `<div class="mastodon-comment">
                      <div class="avatar">
@@ -52,7 +62,7 @@
                            ${reply.created_at.substr(0, 10)}
                          </a>
                        </div>
-                       <div class="mastodon-comment-content">${reply.content}</div> 
+                       <div class="mastodon-comment-content">${fediCommentContent}</div> 
                      </div>
                    </div>`;
                 document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
