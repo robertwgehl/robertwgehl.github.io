@@ -1,25 +1,16 @@
 ---
 layout: post
 author: RWG
-title: (Almost) De-Googled Research
+title: Goal 2, Initiate
 tag:
-    - Google
-    - Startpage
-    - DuckDuckGo
-    - Brave
-comments: true
+    - Goal 2
+comments: 
+  show: true
+  fedihost: scholar.social
+  fediusername: robertwgehl
+  fediid: XXXXXX
 ---
 
-The Brave Browser is now offering a search. I often listen to FOSS podcasts (name a few) and the feeling I get is, well, good on them for trying, but you just can't beat Google. I've heard academics say the same thing. I can't find anything without Google.
+For about a year I've been teasing at Goal 2 for this blog, which is to write a book about FOSS. It's probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman's classic book [*Coding Freedom*](https://www.powells.com/book/coding-freedom-the-ethics-aesthetics-of-hacking-9780691144610) focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers. 
 
-I just finisehd up a co-authored book (title link) and I'm here as a living testament to the fact that yes, you can de-Google your search and still conduct research.
-
-Mostly.
-
-Startpage (brings in google results)
-
-DuckDuckGo (raw is working)
-
-Brave looks intriguing.
-
-Can't get away from Google Scholar, though. But I do a lot of work with Worldcat.org.
+Given my background as a scholar, however, it makes sense that I should pursue a **book-length project focusing on FOSS social media.**

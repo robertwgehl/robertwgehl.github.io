@@ -1,0 +1,61 @@
+I"�<p>For about a year I’ve been teasing at Goal 2 for this blog, which is to write a book about FOSS. It’s probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman’s classic book <a href="https://www.powells.com/book/coding-freedom-the-ethics-aesthetics-of-hacking-9780691144610"><em>Coding Freedom</em></a> focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers.</p>
+
+<p>Given my background as a scholar, however, it makes sense that I should pursue a <strong>book-length project focusing on FOSS social media.</strong></p>
+
+<!-- more -->
+
+<h2 id="beyond-corporate-social-media">Beyond Corporate Social Media</h2>
+<p>Anyone who has read my previous scholarship knows I’ve been critical of corporate social media (e.g., Meta/Facebook/Instagram, Twitter, Pinterest, Youtube) and what we once called “web 2.0” applications (e.g., Google search) since before it was cool. However, I have also consistently called for critics to explore alternatives to corporate media. In my view, it’s not enough to critique – we have to find ways forward.</p>
+
+<p>I’ve been studying alternative social media for almost a decade now, and until recently it’s felt like a lonely field of research. After all, as loudly as I play the role of Old Man Shaking Fist at (the Corporate) Cloud, no one seemed to listen. Everyone is still using Facebook et al, despite years of emotional manipulation, whistleblowing, and data leaks.</p>
+
+<p>However, lately, the alternatives are getting a lot of attention. And it seems to be the wrong kind.</p>
+
+<h2 id="alternative-social-media-becomes-alt-tech">Alternative Social Media becomes Alt-Tech</h2>
+<p>Some of my concerns about corporate social media – namely, its power to manipulate what we see – seems to be shared by the alt-right. I’m talking, of course, of Gab.com and the forthcoming Trump social network, Truth. However, in many ways, the alt-tech social media platforms simply replicate many of the features of corporate social media (most notably centralization and monetization) while wallowing in hate speech and misinformation.</p>
+
+<p>I thus don’t see them as true alternatives. But what would make a true alternative? That, it seems to me, is the heart of this project.</p>
+
+<h2 id="towards-ethical-citizens-social-media">Towards Ethical, Citizens’ Social Media</h2>
+<p>If alternative only means not-Facebook, it’s not really an alternative. And if alternative means “speak your mind, fascists!,” I’m not interested.</p>
+
+<p>But I don’t have to flee from fascists into the cold bosom of Mark Zuckerberg just yet.</p>
+
+<p>There are alternatives that not only help us get away from surveillance capitalism, but also actively push out fascists and hate-speech mongers. They aren’t just decentralized; they are <em>non</em>-centralized. They can be run by any of us with the technical abilities.</p>
+
+<p>Moreover, the people running them have values such as collective ownership, democratic control, and concern with environmental impact of media.</p>
+
+<p>And arising from these platforms are artists and creators who are helping imagine a better mediascape.</p>
+
+<p>These social media may well adhere to media scholar Clemencia Rodríguez’s call for “citizens’ media,” media that we not only participate in, but own and control.</p>
+
+<p>For me, a key example of this is Mastodon, the federated Twitter alternative. However, the fediverse is bigger than Mastodon, so I will have to explore systems such as PeerTube or Pixelfed.</p>
+
+<h2 id="what-about-foss">What about FOSS?</h2>
+<p>And a big part of this equation is FOSS. Free and open source software provides a necessary – but not sufficient – ingredient. After all, Gab and Truth run on FOSS (specifically, forks of Mastodon).</p>
+
+<p>If this book is going to be about FOSS alternative social media, and if I adhere to my critical orientation towards citizens’ media, then the book will have to explore how activists are taking FOSS and associating it with other elements.</p>
+
+<p>As I see it, the elements would be:</p>
+
+<ul>
+  <li>political economy: how are these media governed? How are they paid for?</li>
+  <li>environment: how are FOSS alternative operators addressing the environmental impact of networked media?</li>
+  <li>ethics: what sort of ethical standards do these systems adhere to?</li>
+  <li>cultural production: what forms of cultural production emerge from FOSS alternative social media?</li>
+  <li>security: how do these media address security concerns? Not just cybersecurity, but insecurity arising from disinformation and manipulative communication?</li>
+  <li>identity: how do these media map onto or influence how we conceive of ourselves?</li>
+  <li>relation to other media: how do the FOSS alternatives relate to other media, such as corporate social media, broadcast media, or “alt-tech”?</li>
+</ul>
+
+<h2 id="the-plan-of-the-book">The Plan of the Book</h2>
+<p>My plan for the book, then, is to look at FOSS-based, ethical alternative social media through the above categorical lenses. I don’t imagine that each of the above points would be chapters, but any one of them or combinations of them might.</p>
+
+<p>In fact, the points above are now tags in my Zotero library, allowing me to start sorting the materials into folders that might just give rise to chapters. I plan to blog about these categories here on FOSS Academic.</p>
+
+<p>I also plan on publicly doing a lit review – offering thoughts on key texts that are relevant to the project. I mentioned Biella Coleman’s book <em>Coding Freedom</em> above – that’s definitely on the list.</p>
+
+<p>So, watch this space as Goal 2 proceeds!</p>
+
+<p>Comments? I’m currently using Mastodon to handle them, so if you have a Mastodon (or other federated) account, feel free to leave a comment!</p>
+:ET

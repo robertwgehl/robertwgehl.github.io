@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2021-12-20T14:14:56-06:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Test post for Mastodon Comments</title><link href="https://fossacademic.tech/2021/12/16/CommentsTest.html" rel="alternate" type="text/html" title="Test post for Mastodon Comments" /><published>2021-12-16T00:00:00-06:00</published><updated>2021-12-16T00:00:00-06:00</updated><id>https://fossacademic.tech/2021/12/16/CommentsTest</id><content type="html" xml:base="https://fossacademic.tech/2021/12/16/CommentsTest.html">&lt;p&gt;I’ve been struggling with having comments on this Jekyll-based static site for a while. For a bit, I used Staticman, but that died for some reason.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2022-01-07T08:15:07-06:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Goal 2, Initiate</title><link href="https://fossacademic.tech/2022/01/06/Goal2.html" rel="alternate" type="text/html" title="Goal 2, Initiate" /><published>2022-01-06T00:00:00-06:00</published><updated>2022-01-06T00:00:00-06:00</updated><id>https://fossacademic.tech/2022/01/06/Goal2</id><content type="html" xml:base="https://fossacademic.tech/2022/01/06/Goal2.html">&lt;p&gt;For about a year I’ve been teasing at Goal 2 for this blog, which is to write a book about FOSS. It’s probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman’s classic book &lt;a href=&quot;https://www.powells.com/book/coding-freedom-the-ethics-aesthetics-of-hacking-9780691144610&quot;&gt;&lt;em&gt;Coding Freedom&lt;/em&gt;&lt;/a&gt; focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers.&lt;/p&gt;
+
+&lt;p&gt;Given my background as a scholar, however, it makes sense that I should pursue a &lt;strong&gt;book-length project focusing on FOSS social media.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;beyond-corporate-social-media&quot;&gt;Beyond Corporate Social Media&lt;/h2&gt;
+&lt;p&gt;Anyone who has read my previous scholarship knows I’ve been critical of corporate social media (e.g., Meta/Facebook/Instagram, Twitter, Pinterest, Youtube) and what we once called “web 2.0” applications (e.g., Google search) since before it was cool. However, I have also consistently called for critics to explore alternatives to corporate media. In my view, it’s not enough to critique – we have to find ways forward.&lt;/p&gt;
+
+&lt;p&gt;I’ve been studying alternative social media for almost a decade now, and until recently it’s felt like a lonely field of research. After all, as loudly as I play the role of Old Man Shaking Fist at (the Corporate) Cloud, no one seemed to listen. Everyone is still using Facebook et al, despite years of emotional manipulation, whistleblowing, and data leaks.&lt;/p&gt;
+
+&lt;p&gt;However, lately, the alternatives are getting a lot of attention. And it seems to be the wrong kind.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-social-media-becomes-alt-tech&quot;&gt;Alternative Social Media becomes Alt-Tech&lt;/h2&gt;
+&lt;p&gt;Some of my concerns about corporate social media – namely, its power to manipulate what we see – seems to be shared by the alt-right. I’m talking, of course, of Gab.com and the forthcoming Trump social network, Truth. However, in many ways, the alt-tech social media platforms simply replicate many of the features of corporate social media (most notably centralization and monetization) while wallowing in hate speech and misinformation.&lt;/p&gt;
+
+&lt;p&gt;I thus don’t see them as true alternatives. But what would make a true alternative? That, it seems to me, is the heart of this project.&lt;/p&gt;
+
+&lt;h2 id=&quot;towards-ethical-citizens-social-media&quot;&gt;Towards Ethical, Citizens’ Social Media&lt;/h2&gt;
+&lt;p&gt;If alternative only means not-Facebook, it’s not really an alternative. And if alternative means “speak your mind, fascists!,” I’m not interested.&lt;/p&gt;
+
+&lt;p&gt;But I don’t have to flee from fascists into the cold bosom of Mark Zuckerberg just yet.&lt;/p&gt;
+
+&lt;p&gt;There are alternatives that not only help us get away from surveillance capitalism, but also actively push out fascists and hate-speech mongers. They aren’t just decentralized; they are &lt;em&gt;non&lt;/em&gt;-centralized. They can be run by any of us with the technical abilities.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the people running them have values such as collective ownership, democratic control, and concern with environmental impact of media.&lt;/p&gt;
+
+&lt;p&gt;And arising from these platforms are artists and creators who are helping imagine a better mediascape.&lt;/p&gt;
+
+&lt;p&gt;These social media may well adhere to media scholar Clemencia Rodríguez’s call for “citizens’ media,” media that we not only participate in, but own and control.&lt;/p&gt;
+
+&lt;p&gt;For me, a key example of this is Mastodon, the federated Twitter alternative. However, the fediverse is bigger than Mastodon, so I will have to explore systems such as PeerTube or Pixelfed.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-foss&quot;&gt;What about FOSS?&lt;/h2&gt;
+&lt;p&gt;And a big part of this equation is FOSS. Free and open source software provides a necessary – but not sufficient – ingredient. After all, Gab and Truth run on FOSS (specifically, forks of Mastodon).&lt;/p&gt;
+
+&lt;p&gt;If this book is going to be about FOSS alternative social media, and if I adhere to my critical orientation towards citizens’ media, then the book will have to explore how activists are taking FOSS and associating it with other elements.&lt;/p&gt;
+
+&lt;p&gt;As I see it, the elements would be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;political economy: how are these media governed? How are they paid for?&lt;/li&gt;
+  &lt;li&gt;environment: how are FOSS alternative operators addressing the environmental impact of networked media?&lt;/li&gt;
+  &lt;li&gt;ethics: what sort of ethical standards do these systems adhere to?&lt;/li&gt;
+  &lt;li&gt;cultural production: what forms of cultural production emerge from FOSS alternative social media?&lt;/li&gt;
+  &lt;li&gt;security: how do these media address security concerns? Not just cybersecurity, but insecurity arising from disinformation and manipulative communication?&lt;/li&gt;
+  &lt;li&gt;identity: how do these media map onto or influence how we conceive of ourselves?&lt;/li&gt;
+  &lt;li&gt;relation to other media: how do the FOSS alternatives relate to other media, such as corporate social media, broadcast media, or “alt-tech”?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;the-plan-of-the-book&quot;&gt;The Plan of the Book&lt;/h2&gt;
+&lt;p&gt;My plan for the book, then, is to look at FOSS-based, ethical alternative social media through the above categorical lenses. I don’t imagine that each of the above points would be chapters, but any one of them or combinations of them might.&lt;/p&gt;
+
+&lt;p&gt;In fact, the points above are now tags in my Zotero library, allowing me to start sorting the materials into folders that might just give rise to chapters. I plan to blog about these categories here on FOSS Academic.&lt;/p&gt;
+
+&lt;p&gt;I also plan on publicly doing a lit review – offering thoughts on key texts that are relevant to the project. I mentioned Biella Coleman’s book &lt;em&gt;Coding Freedom&lt;/em&gt; above – that’s definitely on the list.&lt;/p&gt;
+
+&lt;p&gt;So, watch this space as Goal 2 proceeds!&lt;/p&gt;
+
+&lt;p&gt;Comments? I’m currently using Mastodon to handle them, so if you have a Mastodon (or other federated) account, feel free to leave a comment!&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><summary type="html">For about a year I’ve been teasing at Goal 2 for this blog, which is to write a book about FOSS. It’s probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman’s classic book Coding Freedom focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers. Given my background as a scholar, however, it makes sense that I should pursue a book-length project focusing on FOSS social media.</summary></entry><entry><title type="html">Test post for Mastodon Comments</title><link href="https://fossacademic.tech/2021/12/16/CommentsTest.html" rel="alternate" type="text/html" title="Test post for Mastodon Comments" /><published>2021-12-16T00:00:00-06:00</published><updated>2021-12-16T00:00:00-06:00</updated><id>https://fossacademic.tech/2021/12/16/CommentsTest</id><content type="html" xml:base="https://fossacademic.tech/2021/12/16/CommentsTest.html">&lt;p&gt;I’ve been struggling with having comments on this Jekyll-based static site for a while. For a bit, I used Staticman, but that died for some reason.&lt;/p&gt;
 
 &lt;p&gt;Then, it hit me: so many sites use Facebook comments. Why can’t I use Mastodon, the FOSS alternative social media system, to do something similar?&lt;/p&gt;
 
@@ -255,28 +314,4 @@ Them: Oh! Then 1 pm for you is 9 pm for me.&lt;/p&gt;
 
 &lt;p&gt;The answer is… Goal 2. One of my goals for this blog is to write a book about FOSS. But I can’t write about all the FOSS. That’s too much.&lt;/p&gt;
 
-&lt;p&gt;So, I have settled on a project to explore. I want to use it as a central “character.” I will reveal which one it is when I think the moment is right, which is… after I do a card sort!&lt;/p&gt;</content><author><name>RWG</name></author><category term="Nextcloud" /><category term="Zotero" /><category term="FALD" /><category term="goal 1" /><category term="goal 2" /><summary type="html">A few quick updates on the FOSS Academic Lifestyle Dream front.</summary></entry><entry><title type="html">Messin’ with Wireguard</title><link href="https://fossacademic.tech/2021/04/29/Wireguard.html" rel="alternate" type="text/html" title="Messin’ with Wireguard" /><published>2021-04-29T00:00:00-05:00</published><updated>2021-04-29T00:00:00-05:00</updated><id>https://fossacademic.tech/2021/04/29/Wireguard</id><content type="html" xml:base="https://fossacademic.tech/2021/04/29/Wireguard.html">&lt;p&gt;I’ve been messin’ about with &lt;a href=&quot;https://www.wireguard.com/&quot;&gt;Wireguard&lt;/a&gt; and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/wireguard.svg&quot; alt=&quot;The Wireguard logo&quot; /&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;My proudest achievement is connecting this network to a &lt;a href=&quot;https://pi-hole.net/&quot;&gt;Pi-hole&lt;/a&gt; installation on a Digital Ocean VPS. Now all those Internet ads cannot reach me, not matter where on the network I am. I should probably allow ads, since I am a media studies scholar and &lt;a href=&quot;https://xroads.virginia.edu/~DRBR2/rwilliams.pdf&quot;&gt;ads are staple object of media studies&lt;/a&gt;. But then again, I’m addicted to things like &lt;a href=&quot;https://marketingland.com/pop-up-ads-why-everyone-hates-them-and-why-theyll-never-die-273343&quot;&gt;actually being able to read websites&lt;/a&gt;, having them &lt;a href=&quot;https://thetechieguy.com/ad-blocker-impact-internet-speed/&quot;&gt;load quickly&lt;/a&gt;, and &lt;a href=&quot;https://brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/&quot;&gt;not being tracked&lt;/a&gt;, so… yeah, I’ll pass on the ads.&lt;/p&gt;
-
-&lt;p&gt;With a Wireguard-based network, I can SSH into any of my computers. It’s rare that I have to do that, but sometimes I forget to sync a file – say, a lecture, or a PDF of an article. No worries there – just log into a remote computer and grab it. I’m starting to think about setting up my own personal media streaming system, as well. Because, why not?&lt;/p&gt;
-
-&lt;p&gt;Wireguard is billed as faster and easier to work with than OVPN, and in my view, it’s living up to the billing. 
-Setting things up initially took a long while, with my mistakes including not setting up rules in my firewalls (I use &lt;a href=&quot;https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands&quot;&gt;UFW&lt;/a&gt;). Once I figured out how to allow connections from the network I was building, it began to work quite well. And it is fast – the network speed is nearly as fast as without the VPN in place. (In fact, I’m pretty sure my ISP, Suddenlink, is dropping packets from internet radio streams – but with Wireguard, those packets aren’t dropping).&lt;/p&gt;
-
-&lt;p&gt;One tip I can offer: I discovered a need for a “PersistentKeepalive” on that Pi-hole server. This appears to be a bit of a no-no with Wireguard, which is built on the idea that “silence is golden” – i.e., the less packets flying aorund the better. But the Pi-hole peer kept dropping off the network, and thus my DNS lookups wouldn’t happen. By adding&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;PersistentKeepalive = 25
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;to the Pi-hole [Peer] section of the client config file, the connection stays active.&lt;/p&gt;
-
-&lt;p&gt;If any of you are itchin’ to try some Wireguard, I have found the tutorial at &lt;a href=&quot;https://serversideup.net/courses/gain-flexibility-and-increase-privacy-with-wireguard-vpn/&quot;&gt;ServerSide Up&lt;/a&gt; to be really helpful. That, and my old friend “trying stuff until it works”…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/try.jpg&quot; alt=&quot;A parody of O'Reilly tech books. This cover says &amp;quot;Trying Stuff Until It Works&amp;quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;EDIT: I got KDE Connect working! You just have to &lt;a href=&quot;https://userbase.kde.org/KDEConnect#Running_KDE_Connect_over_OpenVPN&quot;&gt;add devices by IP address&lt;/a&gt;! That is &lt;em&gt;so cool.&lt;/em&gt;&lt;/p&gt;</content><author><name>RWG</name></author><category term="Wireguard" /><category term="FALD" /><summary type="html">I’ve been messin’ about with Wireguard and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.</summary></entry></feed>
+&lt;p&gt;So, I have settled on a project to explore. I want to use it as a central “character.” I will reveal which one it is when I think the moment is right, which is… after I do a card sort!&lt;/p&gt;</content><author><name>RWG</name></author><category term="Nextcloud" /><category term="Zotero" /><category term="FALD" /><category term="goal 1" /><category term="goal 2" /><summary type="html">A few quick updates on the FOSS Academic Lifestyle Dream front.</summary></entry></feed>
