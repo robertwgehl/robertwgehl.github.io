@@ -20,7 +20,7 @@ I'm calling it FOSS Finds, because alliteration.
     <img src="/assets/images/detective_penguin.png" alt="A cartoon penguin doing an impression of Sherlock Holmes" title="A cartoon penguin doing an impression of Sherlock Holmes">
 </figure>
 
-These are typically going to be websites, blogposts, podcasts, or academic research. They may or may not be very recent. I plan on including a citation (expored, of course, from Zotero) and a brief note about each, a la an annotated bibliography, and versions of my Zotero tags. The notes won't be exhaustive -- it's really about what I'm collecting at this stage, rather than analysis.
+These are typically going to be websites, blogposts, podcasts, or academic research. They may or may not be very recent. I plan on including a citation (exported, of course, from Zotero) and a brief note about each, a la an annotated bibliography, and versions of my Zotero tags. The notes won't be exhaustive -- it's really about what I'm collecting at this stage, rather than analysis.
 
 <!-- more -->
 
