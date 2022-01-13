@@ -4,7 +4,11 @@ author: RWG
 title: I Asked Mastodon About FOSS for Academics. Here's What They Said
 tag:
     - Goal 1
-comments: true
+comments:
+  show: true
+  fedihost: scholar.social
+  fediusername: robertwgehl
+  fediid: 107601100141111450
 ---
 
 I [posted a question to Mastodon](https://scholar.social/@robertwgehl/105675026053096230) (specifically, scholar.social):
