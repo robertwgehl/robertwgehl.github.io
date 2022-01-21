@@ -1,0 +1,31 @@
+I"�<p>In this week’s FOSS finds, I’m thinking about the environmental impact of tech and I gathered sources on Marak’s refusal to keep giving away code. I’m including a few examples here to show my work.</p>
+
+<figure>
+    <img src="/assets/images/detective_penguin.png" alt="A cartoon penguin doing an impression of Sherlock Holmes" title="A cartoon penguin doing an impression of Sherlock Holmes" />
+</figure>
+
+<!-- more -->
+
+<h2 id="keilbach-judith-and-michał-pabiś-2021-greening-media-studies-european-journal-of-media-studies-10-2-10512">Keilbach, Judith, and Michał Pabiś. 2021. <a href="https://mediarep.org/bitstream/handle/doc/18203/NECSUS_2021_10_2_105-112_Keilbach_Pabis-Orzeszyna_Greening_Media_Studies_.pdf?sequence=2">“Green(Ing) Media (Studies).”</a> European Journal of Media Studies 10 (2): 105–12.</h2>
+
+<p>In this journal article, Keilback and Pabiś note that “Various [media studies] authors are pointing out that every media product (content or device) is based on the extraction of raw material and creates an enormous amount of waste, thereby emphasising the finite nature of Earth’s resources.” However, “While there is no doubt that these publications are extremely valuable, the state of our planet leaves us wondering if this is all media scholars can do. Given the climate emergency, we both consider the transition of media studies towards a more environmentally aware discipline imperative.” They go on to distinguish eco-modernism, the idea that we can use technology to avoid the climate catastrophe while still maintaining economic growth, with degrowth thinking, which suggests that the imperative to grow is the reason why we’re in this mess, and that de-growing the use of technology has to be on the table.</p>
+
+<p>Tags: environment</p>
+
+<h2 id="small-file-media-festival-nd-small-file-media-festival-accessed-january-17-2022">“Small File Media Festival.” n.d. <a href="https://smallfile.ca/">Small File Media Festival</a>. Accessed January 17, 2022.</h2>
+<p>This media festival, which celebrates videos that weigh in at less than 5MB, is cited by Keilbach and Pabis as an example of degrowth. Rather than making HD movies – and hence taking up more and more bandwidth and energy – the Small File approach is to make small art that can still move audiences.</p>
+
+<p>Tags: environment, alternative cultural production</p>
+
+<h2 id="sharma-ax-2022-dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps-bleepingcomputer-january-9-2022">Sharma, Ax. 2022. <a href="https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/">“Dev Corrupts NPM Libs ‘colors’ and ‘Faker’ Breaking Thousands of Apps.”</a> BleepingComputer. January 9, 2022.</h2>
+
+<p>This has been a big story in the past few weeks. A Javascript library developer named Marak has corrupted his own code and pushed it to Github, causing applications to break. Marak’s stated reason is that corporations are making a fortune by using his code, but he himself cannot pay his bills. There’s a lot to discuss, but this incident is interesting to me in that it’s at once a story about #politicaleconomy – how can devs get compensated for their work? – and also about #security. In this sense, human security. Can we have FOSS security if developers can’t eat? (Hint: I don’t think so).</p>
+
+<p>Tags: political economy, security</p>
+
+<h2 id="dodrill-christine-2021-open-source-is-broken-or-why-i-dont-write-useful-software-unless-you-pay-me-xe-blog-december-11-2021">Dodrill, Christine. 2021. <a href="https://christine.website/blog/open-source-broken-2021-12-11">“‘Open Source’ Is Broken, or, Why I Don’t Write Useful Software Unless You Pay Me.”</a> Xe (blog). December 11, 2021.</h2>
+
+<p>In this blog post, Xe discusses why they won’t code unless it’s for money. Why not? Because to provide free software is to be exploited by large corporations. The Marak case wasn’t even on the radar at this point (at least, I don’t think it was); rather, Xe is referring to the work of patching the Java vulnerability in Log4j2, which was done at a fast pace over the holidays and was not compensated. Xe argues that, if a corporation is so dependant on a FOSS library, they ought to at least donate money to the devs who maintain the library. As they write, “I’ve had this kind of conversation with people before and I’ve gotten a surprising amount of resistance to the prospect of actually making sure that the random smattering of volunteers that LITERALLY MAKE THEIR COMPANY RUN are able to make rent. There is this culture of taking from open source without giving anything back. It is like the problems of the people who make the dependencies are irrelevant.”</p>
+
+<p>Tags: political economy, security</p>
+:ET
