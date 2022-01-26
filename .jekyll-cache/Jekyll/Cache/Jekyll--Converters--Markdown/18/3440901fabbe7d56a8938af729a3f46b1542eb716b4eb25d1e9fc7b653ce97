@@ -1,0 +1,28 @@
+I"�<h2 id="kde">KDE</h2>
+<p>Just a quick note to say that I took the plunge: after many, many years of using MATE desktops, I’ve tried KDE Plasma. I really, really like it.</p>
+
+<p>And I’ve also had some fun with Jellyfin – so much so it’s goodbye, Plex.</p>
+
+<!-- more -->
+
+<p>As I wrote about in a post about <a href="/2020/12/27/Workflow.html">my workflow</a>, for years I used Devilspie to sort applications into various workspaces. After posting that, I half expected to get a comment that this would be natively possible in another desktop environment – and I expected someone to say “use KDE!” That didn’t happen, but I still suspected it might be the case – and that KDE would be the one to do it.</p>
+
+<p><img src="/assets/images/92acf6d56dbcc6b6824d7ee33117267e.png" alt="Image not found: /assets/images/92acf6d56dbcc6b6824d7ee33117267e.png" title="Image not found: /assets/images/92acf6d56dbcc6b6824d7ee33117267e.png" /></p>
+
+<p>So I tried Manjaro’s KDE on a partition and… I haven’t switched back. And I put another installation on a second computer. I was concerned because the word on the street is that KDE is a death-by-a-thousand-options system, but after only an hour of figuring out lingo, I was able to get things set up the way I pleased. I can much more easily set up my preferred virtual workspace environments than mucking about with Devilspie – even on a two-screen setup.</p>
+
+<p>Plus, now I get better integration with KDE Connect, a great application. Running it over Wireguard makes for seamless connections between my phone and computer. KDE Connect worked in MATE, but it was always somewhat clunky to get going.</p>
+
+<p>And other KDE apps are quite good, too – Kate is a great text editor. Okular works far better than I remembered from the last time I tried it. Manjaro’s KDE has Online Accounts (either a fork or implementation of Gnome Online Accounts) so setting up Nextcloud was a breeze. And while I expected to use Kmail, Manjaro opted for Thunderbird for email. I gave up on Thunderbird in favor of Evolution a few years back because Thunderbird seemed resource-intensive, but I was pleasantly surprised to find Thunderbird is very snappy – and those tab views are great!</p>
+
+<h2 id="jellyfin">Jellyfin</h2>
+<p>I’ve been watching Jellyfin for a long time, but I kept using Plex to serve movies and TV shows from my Raspberry Pi to my TV and other devices. Lately, however, Plex stopped working as it used to – I recall seeing something about reinstalling it. (Maybe they made some sort of change and I didn’t notice?)</p>
+
+<p><img src="/assets/images/7eb77281fb804b4437507a7e39811b72.png" alt="Jellyfin Logo" title="Jellyfin Logo" /></p>
+
+<p>Anyway, I thought I’d try Jellyfin and… wow! Between it and Wireguard, I can serve movies, TV, and music to any of my devices, anywhere. It’s like my own personal streaming system. Jellyfin makes a nice app in F-Droid for Android devices, or I can use the web interface.</p>
+
+<p>So, while I work on the new book project (by flipping through virtual workspaces in KDE) I can listen to Herbie Hancock’s magnificent album [<em>Maiden Voyage</em>](https://en.wikipedia.org/wiki/Maiden_Voyage_(Herbie_Hancock_album).</p>
+
+<p>Very Kool. (sorry.)</p>
+:ET
