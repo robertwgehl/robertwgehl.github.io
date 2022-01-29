@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid: 
+  fediid: 107706932752249827
 ---
 This week's FOSS finds: I'm starting to look back at the early days of ActivityPub, and chat apps get some coverage. So once again, don't count on these posts as a news feed, but more a window into my thinking as I research my FOSS alternative social media book.
 
