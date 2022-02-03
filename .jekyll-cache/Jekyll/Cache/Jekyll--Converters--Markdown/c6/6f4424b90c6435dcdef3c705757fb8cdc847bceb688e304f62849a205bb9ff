@@ -1,0 +1,17 @@
+I"�<p>This week’s FOSS finds: I’m starting to look back at the early days of ActivityPub, and chat apps get some coverage. So once again, don’t count on these posts as a news feed, but more a window into my thinking as I research my FOSS alternative social media book.</p>
+
+<!-- more -->
+
+<h2 id="w3c-launches-push-for-social-web-application-interoperability-2014-w3c-blog-july-21-2014-httpswwww3orgblognewsarchives3958">“W3C Launches Push for Social Web Application Interoperability.” 2014. W3C (blog). July 21, 2014. https://www.w3.org/blog/news/archives/3958.</h2>
+
+<p>This is the press release from the W3C announcing the start of the Social Web Working Group, which I understand gave us ActivityPub, the protocol that supports contemporary federated social media systems such as Mastodon.</p>
+
+<h2 id="sv_meeting_title--14-may-2014-2014-may-14-2014-httpswwww3org20140514-social-minuteshtml">“SV_MEETING_TITLE – 14 May 2014.” 2014. May 14, 2014. https://www.w3.org/2014/05/14-social-minutes.html.</h2>
+<p>This somewhat innocuous-looking site is the start of something big – the transcript first meeting of the Social Web Working Group, held over IRC. What immediately catches my eye is the forceful statement from Tantek Çelik, of Mozilla: “we don’t want to see a big company or 2-3 get a monopolistic control in this space.” Thinking about that from the outset likely affected the ultimate design.</p>
+
+<h2 id="massochin-manuela-2022-why-choose-rocketchat-for-your-open-source-chat-tool-opensourcecom-january-24-2022-httpsopensourcecomarticle221rocketchat-data-privacy">Massochin, Manuela. 2022. “Why Choose Rocket.Chat for Your Open Source Chat Tool.” Opensource.Com. January 24, 2022. https://opensource.com/article/22/1/rocketchat-data-privacy.</h2>
+<p>This is essentially a press release from RocketChat and published on Opensource.com. What caught my eye is that this system appears to be federated. I’m getting more curious about federated chat applications – it feels like a very active area of development, and yet chat feels so <em>old</em> – how long as XMPP been around? So it’s interesting to me that chat apps are cropping up in my news feeds.</p>
+
+<h2 id="smithee-alan-2022-software-privacy-day-use-delta-chat-an-open-source-chat-tool-opensourcecom-january-28-2022-httpsopensourcecomarticle221delta-chat-software-privacy-day">Smithee, Alan. 2022. “Software Privacy Day: Use Delta Chat, an Open Source Chat Tool.” Opensource.Com. January 28, 2022. https://opensource.com/article/22/1/delta-chat-software-privacy-day.</h2>
+<p>Case in point. Here’s another chat app, Delta Chat. This one is intriguing. The author mentions Mattermost, Signal, and RocketChat and then points to the major differentiating feature of Delta Chat: it uses <em>encrypted emails</em> to send the messages. So the backend is email, while the frontend appears to be chat application. It’s so crazy it just might work.</p>
+:ET
