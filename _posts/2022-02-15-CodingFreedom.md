@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 107803931517927048
 ---
 As part of Goal 2 of this blog, I'm writing a book about FOSS, specifically FOSS alternative social media. As like any good academic, I need to review the literature. I want to do so a bit more publicly than I have in the past -- hence this blog.
 
