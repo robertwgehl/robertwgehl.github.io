@@ -11,7 +11,7 @@ comments:
   fediusername: robertwgehl
   fediid: 107803931517927048
 ---
-As part of Goal 2 of this blog, I'm writing a book about FOSS, specifically FOSS alternative social media. As like any good academic, I need to review the literature. I want to do so a bit more publicly than I have in the past -- hence this blog.
+As part of Goal 2 of this blog, I'm writing a book about FOSS, specifically FOSS alternative social media. Like any good academic, I need to review the literature. I want to do so a bit more publicly than I have in the past -- hence this blog.
 
 In fact, I've already started the process a bit: early on this blog went a bit viral [thanks to my post about Scott Rosenberg's *Dreaming in Code.*](2020/12/06/Dreaming-In-Code.html), which was linked by Hacker News. I also wrote [a review of sorts of Sam Williams's *Free as in Freedom,*](2021/03/28/RMMess.html) a biography of Stallman. I just so happened to finish reading that book when Stallman was reinstated to the FSF, which made my post a bit more polemical than review.
 
@@ -35,7 +35,7 @@ This sort of neutrality is tied to Freedom 0, of course, the first of the "Four 
 
 But, as we've learned in the past decade, corporations and governments will readily adopt FOSS for unethical ends, whether it be manipulative forms of communication, the exploitation of free labor, or to monitor and incarcerate populations.
 
-Moreover, there is currently a revolt against corporate and government surveillance and exploitation but the revolt takes many forms. The revolt against these practices can also be aided by FOSS –- but it can also be unethical, with the use of FOSS for hate speech platforms being one example.
+Moreover, there is currently a revolt against corporate and government surveillance and exploitation but the revolt takes many forms. The revolt against these practices can also be aided by FOSS – but it can also be unethical, with the use of FOSS for hate speech platforms being one example.
 
 Hence, there is a call for FOSS *without* Freedom 0, and instead with the ability to prevent, for example, racists from using one's code. [Ethical Source](https://ethicalsource.dev/) is one example. Another is the network power of federation (and subsequently, de-federation). In both cases there is a very clear reaction against *both* corporate control *and* Freedom 0. These projects, however, are arguably not Free Software by definition. As I think Coleman shows, the only advocacy in Freedom 0 is Freedom -- again, no ability to stop bad actors from using one's code. And, as diversity advocates are pointing out, the politics of "freedom" is often the politics of whiteness, masculinity, and economic exploitation.
 
