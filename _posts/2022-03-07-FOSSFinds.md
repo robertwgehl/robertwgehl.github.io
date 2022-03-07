@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 107917802395796308
 ---
 This week's FOSS finds: The big news -- or maybe non-news -- in this space is the pathetically inept rollout of Truth Social, Donald Trump's $1,000,000,000 social networking site built on the free-as-in-beer but also free-as-in-freedom Mastodon software base. I watched Truth go online and I have thoughts, but here I will just share some resources I've gathered.
 
