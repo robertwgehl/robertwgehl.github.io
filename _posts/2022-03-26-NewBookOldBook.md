@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 108025420239708377
 ---
 I've not written much about my most recent book, [Social Engineering](https://mitpress.mit.edu/books/social-engineering) (MIT Press, 2022) on this blog. It didn't seem like a good topic for this FOSS-centric blog. When I did write about it, I focused on the fact that my co-author, Sean Lawson, and I were able to use FOSS (particularly Nextcloud) to write it. In the parlance of this blog, that's a decidedly Goal 1 topic -- about using FOSS tools to do academic work.
 
