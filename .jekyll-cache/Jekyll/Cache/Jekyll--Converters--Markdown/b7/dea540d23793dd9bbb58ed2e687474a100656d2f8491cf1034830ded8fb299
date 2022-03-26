@@ -1,0 +1,47 @@
+I"<p>I’ve not written much about my most recent book, <a href="https://mitpress.mit.edu/books/social-engineering">Social Engineering</a> (MIT Press, 2022) on this blog. It didn’t seem like a good topic for this FOSS-centric blog. When I did write about it, I focused on the fact that my co-author, Sean Lawson, and I were able to use FOSS (particularly Nextcloud) to write it. In the parlance of this blog, that’s a decidedly Goal 1 topic – about using FOSS tools to do academic work.</p>
+
+<p>So, I’ve focused instead on my next project, the Goal 2 project of writing a book about FOSS alternative social media. My idea is to use this blog to publicly write that book. Such public writing is new to me – it’s even a bit intimidating – but seems appropriate for this topic.</p>
+
+<p>But the more I’m digging into what it means to envision, make, and realize ethical, FOSS, alternative social media, the more I realize my latest book, <em>Social Engineering,</em> is directly relevant to the project. So, this post is a way for me to make those connections.</p>
+
+<figure>
+    <img src="/assets/images/secover.jpg" alt="Cover of book Social Engineering by Gehl and Lawson" />
+</figure>
+
+<!-- more -->
+
+<p>The book was prompted by the explosion of disinformation and manipulation we’ve observed over the past 10 years. The big events here, of course, were the Russian interference campaign and Cambridge Analytica, both reaching prominence during the 2016 US presidential election. (We also write about more recent events, but these are two very well-documented instances of attempts at mass manipulation).</p>
+
+<p>To get a better understanding of Russian disinformation or Cambridge Analytica “micro-targeting,” Sean and I turned to the concept of social engineering. We note that this term has been used in two distinct communicative contexts.</p>
+
+<p>First was the early 20th century propagandists who drew on the language of social reform and social science of their time. They proposed to adjust society using scientific techniques and mass persuasion, a process glossed as “engineering of consent” (to use Edward Bernays’s famous phrase).</p>
+
+<p>Second, there were the mid-20th century phone phreaks and hackers, who use the term “social engineering” to describe their practice of conning people out of passwords. This is an interpersonal sort of manipulation.</p>
+
+<p>We argue that both the mass social engineering of propaganda and the interpersonal social engineering of hacking merge in contemporary corporate social media in a form we call “masspersonal social engineering.” We define <a href="https://watermark.silverchair.com/c000400_9780262368926.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAsIwggK-BgkqhkiG9w0BBwagggKvMIICqwIBADCCAqQGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMYRnDz0chEg8p6ccQAgEQgIICdeFTnQWL17PMR9vfCgwJHJa9mUSadJGxEZGbQ55WiOpspJXi-nE2GHUh-JJvtcwSpeWi5QYTPZ_uSyH7QtFX9z06Dukk9NxStvdw6D7eBGHQdgbFtz0_FkXoEhvJRdsvVoJnwwwO-vu3fvRdkHWjlX-Qdr5bMlNH_HQJxKW7TOvFkXolVhz0w9XEnGvEcE5npx1KLzlFPiCmHero5cufwHKB7d8im_4Q7zpPvHrZSDtJB5i1zjleafXz_UL28vM9JhjHeEurgOf-raryGnepdJqxvvZqqrHraRWghk9T90beKO-BDCCiMKy9qCp100OSNf9BB9a_STvST0PcPdpoy12vP5ZSwXE-9QaxP6I8PguUwXRm9Gb-Bos8n4WtHqgJZIPPUyVXe4Pwzlr0s7SHFO7K7NG866vjfJ3tWefx4fkQBFxKAJMaIGq3VoULFl0cT12XVdkK0sxJt_xRRDDzUi-s0fhW1SBEjRNnAhe_EpdBpmDVUjJLU5V4TCv1Y9p7h0ubLKcyc8JwPjanaUmLvd-t5k0UqImqHiFbVu68fzSFqsehqPt56UrnknXlc6HqFjB10EHzmQgxk4cJR46uhohOpyyysIr3RxwNwx_Zs4uOqYZo-9zdvsMcCLVNLMXAU4mu3x1PDTY3z1ututpvDf-m3UkRmEngvqe1ve7v6cwE9MWJ-NaYQvrdJ53QzsZ5muuoiJTEAjYI8PptRclByNJj5UMQ3i7uYoC_wVDzYivtleynpi66aEN0_2GQsNawYCvEGeLGzTt4ZLudF18AUnfawOxhcpkWJxpaP9jTNIma5bbPqR3uea5SQFTWV_MfC43MPlrF">this concept in the book as</a></p>
+
+<blockquote>an emerging form of manipulative communication enabled by
+the unique affordances of the internet and social media platforms.
+It brings together the respective tools and techniques of hackers
+and propagandists, interpersonal and mass communication, in
+an attempt to shape the perceptions and actions of audiences. To
+manipulate, masspersonal social engineers gather data on their
+targets; create fake personas to share messages; mix deception,
+accuracy, and friendliness as they engage with targets; and penetrate
+communication systems. Manipulation, in this case, can involve a
+range of goals, which might include attempts to change actions and
+beliefs. But it could also include discouraging action (e.g., voting)
+and amplifying or intensifying preexisting beliefs (e.g., racism,
+sexism, or other social divisions) when doing so is in the perceived
+interests of the masspersonal social engineers or their clients.</blockquote>
+
+<p>The connection to my current project on ethical alternative social media is now very obvious to me. Part of what we have to do when making a better suite of social media technologies is to remove the technologies, policies, and practices that aid and abet masspersonal social engineering.</p>
+
+<p>There are obvious things, such as eliminating behavioral advertising, which encourages the use of reductive consumer profiling and links those profiles to viral messaging – a perfect breeding ground for the spread of misinformation.</p>
+
+<p>But there are also less obvious things that have to be done – such as bringing media control closer to the end users. I wonder how much disinformation and misinformation spread is aided by a lack of a sense of shared responsibility for the health of the “community” in corporate social media. Contrast this with smaller, federated social media systems, where users may feel that they have more ownership over the health of the instance.</p>
+
+<p>So, this post is merely my flagging the fact that my old book may end up more important to the new one. I may refer to the ideas from <em>Social Engineering</em> more often here. Rest assured, this is not in an attempt to sell my book, but is rather a way to think about how ethical alternatives may help alleviate the scourge of manipulative communication (or, and let’s be honest, how they also might become vectors for manipulation in their own right).</p>
+
+<p>In light of that, if you’re curious about the connections between the history of manipulative communication and what alternative social media might do to undermine such manipulation, keep watching this blog, and perhaps you should check out <em>Social Engineering</em> – it’s in <a href="https://www.powells.com/book/social-engineering-9780262543453">finer bookstores now</a>, or <a href="https://direct.mit.edu/books/oa-monograph/5281/Social-EngineeringHow-Crowdmasters-Phreaks-Hackers">you can get it for free from MIT</a>.</p>
+:ET
