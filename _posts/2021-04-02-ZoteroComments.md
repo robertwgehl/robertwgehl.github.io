@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 108063088526818630
 ---
 
 *UPDATE in 2022*: I've added the ability to comment via Mastodon on this post (see below) since this post is one of the more popular ones on the blog.
