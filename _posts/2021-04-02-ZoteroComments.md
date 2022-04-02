@@ -5,8 +5,14 @@ title: Review of Zotero's New PDF Annotation Features
 tag:
   - Zotero
   - Goal 1
-comments: true
+comments:
+  show: true
+  fedihost: scholar.social
+  fediusername: robertwgehl
+  fediid:
 ---
+
+*UPDATE in 2022*: I've added the ability to comment via Mastodon on this post (see below) since this post is one of the more popular ones on the blog.
 
 Zotero recently announced two major new features: an internal PDF reader and tab-based navigation. These are scheduled to be a part of the Zotero 6 release later this year, but when I heard about them, [I installed the Zotero 5 developer version](/2021/03/19/cuttingZotero.html) to give them a whirl.
 
