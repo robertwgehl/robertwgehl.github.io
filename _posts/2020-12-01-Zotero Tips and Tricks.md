@@ -4,7 +4,11 @@ author: RWG
 tag: 
     - Zotero
     - Goal 1
-comments: true
+comments:
+  show: true
+  fedihost: scholar.social
+  fediusername: robertwgehl
+  fediid: 108070705376787751
 ---
 
 If you're not using [Zotero](https://www.zotero.org)... I don't know what to say. 
@@ -20,7 +24,7 @@ If you are, you're well on your way to living the FOSS Academic Lifestyle Dream.
 
 Zotero is a citation manager. And I've been using it so long I have a library of nearly 24,000 items.
 
-Zotero is a core part of my academic work. I run *everything* through it. If I see a talk at a conference -- the citation's going in Zotero. Did I hear a good podcast? Put it in Z. Hey! that's a relevant blog post. Put it in Z. My colleague shared a great syllabus? Zot! Was that intertesting a TV show? Oh, you know it's gonna go in there. And of course, I put all the books and journal articles I read in there. 
+Zotero is a core part of my academic work. I run *everything* through it. If I see a talk at a conference -- the citation's going in Zotero. Did I hear a good podcast? Put it in Z. Hey! that's a relevant blog post. Put it in Z. My colleague shared a great syllabus? Zot! Was that interesting a TV show? Oh, you know it's gonna go in there. And of course, I put all the books and journal articles I read in there.
 
 Also, you guessed it: Zotero is FOSS (in this case, [GNU GPL 3.0](http://www.gnu.org/licenses/agpl-3.0.html)).
 

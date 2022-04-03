@@ -86,7 +86,7 @@
 
 <p>Zotero is a citation manager. And I’ve been using it so long I have a library of nearly 24,000 items.</p>
 
-<p>Zotero is a core part of my academic work. I run <em>everything</em> through it. If I see a talk at a conference – the citation’s going in Zotero. Did I hear a good podcast? Put it in Z. Hey! that’s a relevant blog post. Put it in Z. My colleague shared a great syllabus? Zot! Was that intertesting a TV show? Oh, you know it’s gonna go in there. And of course, I put all the books and journal articles I read in there.</p>
+<p>Zotero is a core part of my academic work. I run <em>everything</em> through it. If I see a talk at a conference – the citation’s going in Zotero. Did I hear a good podcast? Put it in Z. Hey! that’s a relevant blog post. Put it in Z. My colleague shared a great syllabus? Zot! Was that interesting a TV show? Oh, you know it’s gonna go in there. And of course, I put all the books and journal articles I read in there.</p>
 
 <p>Also, you guessed it: Zotero is FOSS (in this case, <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU GPL 3.0</a>).</p>
 
@@ -149,6 +149,88 @@
         <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
           <!-- load comments from fediverse (mastodon, pleroma,...) "comments" is the name of the variable in front-matter -->
    
+   
+<!--<div class="article-content">-->
+<div class="content">
+  <h1>Comments</h1>
+  <p>Use your Mastodon account <a class="link" href="https://scholar.social/@robertwgehl/108070705376787751"> to comment on this post</a>. Please note that these posts are public -- the only exception is if you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Don't have a Mastodon account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
+  <p><a class="button" href="https://scholar.social/interact/108070705376787751?type=reply">Reply</a></p>
+  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
+  <script src="/assets/js/purify.min.js"></script>
+  <script type="text/javascript">
+    function escapeHtml(unsafe) {
+      return unsafe
+           .replace(/&/g, "&amp;")
+           .replace(/</g, "&lt;")
+           .replace(/>/g, "&gt;")
+           .replace(/"/g, "&quot;")
+           .replace(/'/g, "&#039;");
+   }
+
+    document.getElementById("load-comment").addEventListener("click", function() {
+      document.getElementById("load-comment").innerHTML = "Loading";
+      fetch('https://scholar.social/api/v1/statuses/108070705376787751/context')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if(data['descendants'] &&
+             Array.isArray(data['descendants']) && 
+            data['descendants'].length > 0) {
+              document.getElementById('mastodon-comments-list').innerHTML = "";
+              data['descendants'].forEach(function(reply) {
+                reply.account.display_name = escapeHtml(reply.account.display_name);
+                reply.account.emojis.forEach(emoji => {
+                  reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                    `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                });
+                /* handling CWs, thanks to https://codeberg.org/ashwinvis/m.css/commit/c622ad23dc976c2ce8029e6aee06f57942eb9394 */
+                let fediCommentContent
+                if (reply.spoiler_text === '') {
+                  fediCommentContent = reply.content
+                } else {
+                  fediCommentContent =
+                   `<details><summary><span id="fedicomment-cw">CW: ${escapeHtml(reply.spoiler_text)}</span></summary>
+                      ${reply.content}
+                   </details>`
+                }
+                mastodonComment =
+                  `<div class="mastodon-comment">
+                     <div class="avatar">
+                       <img src="${escapeHtml(reply.account.avatar_static)}" class="commentAvatar" alt="">
+                     </div>
+
+                     <div class="author">
+                        <p>
+                          <a href="${reply.account.url}" rel="nofollow">
+                            <span>${reply.account.display_name}</span>
+                            <span class="disabled">${escapeHtml(reply.account.acct)}</span>
+                          </a>
+                        </p>
+                        <p>
+                          <a class="date" href="${reply.uri}" rel="nofollow">
+                            ${reply.created_at.substr(0, 10)}
+                          </a>
+                        </p>
+                     </div>
+                     
+                     <div class="mastodon-comment-content">${fediCommentContent}
+                     </div> 
+                     
+                   </div>`;
+                document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+              });
+          } else {
+            document.getElementById('mastodon-comments-list').innerHTML = "<p>No comments</p>";
+          }
+        });
+      });
+  </script>
+</div>
+
+
 
 
 <!--  end of comments section -->
