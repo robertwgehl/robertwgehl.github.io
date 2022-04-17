@@ -27,7 +27,7 @@ In this post I will briefly describe how I will manage interviewing. I hope this
 
 <!-- more -->
 
-## Step 1: Participant Observersation
+## Step 1: Participant Observation
 
 My first step has been going on for a long time: I'm participating in ethical alternative social media (and quite a few systems I would not categorize as ethical). As I do so, I take notes on the discourses happening on these systems, and I try to figure out which participants are passionate and invested ones. I want to talk to developers, administrators, and members of ethical alternatives. I note who they are with the intention of inviting them to participate in interviews.
 
