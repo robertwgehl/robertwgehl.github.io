@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 108148801584566582
 ---
 With my [last book](https://mitpress.mit.edu/books/social-engineering) wrapped up, I am now hard at work building the next book, which is the Goal 2 of this blog. (Goal 1, recall, is writing about being a FOSS academic. Goal 2 is writing a book about FOSS). My new book project will focus on what I'm calling ["ethical source alternative social media"](https://fossacademic.tech/2022/01/06/Goal2.html) -- social media that allows ordinary people to be in control, that uses moderation for social, economic, and environmental justice and not to support oppression, and that runs on FOSS.
 
