@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://10.0.0.5:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://10.0.0.5:4000/" rel="alternate" type="text/html" /><updated>2022-04-17T13:17:33-05:00</updated><id>http://10.0.0.5:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">FOSS Interview Workflow</title><link href="http://10.0.0.5:4000/2022/04/17/InterviewWorkflow.html" rel="alternate" type="text/html" title="FOSS Interview Workflow" /><published>2022-04-17T00:00:00-05:00</published><updated>2022-04-17T00:00:00-05:00</updated><id>http://10.0.0.5:4000/2022/04/17/InterviewWorkflow</id><content type="html" xml:base="http://10.0.0.5:4000/2022/04/17/InterviewWorkflow.html">&lt;p&gt;With my &lt;a href=&quot;https://mitpress.mit.edu/books/social-engineering&quot;&gt;last book&lt;/a&gt; wrapped up, I am now hard at work building the next book, which is the Goal 2 of this blog. (Goal 1, recall, is writing about being a FOSS academic. Goal 2 is writing a book about FOSS). My new book project will focus on what I’m calling &lt;a href=&quot;https://fossacademic.tech/2022/01/06/Goal2.html&quot;&gt;“ethical source alternative social media”&lt;/a&gt; – social media that allows ordinary people to be in control, that uses moderation for social, economic, and environmental justice and not to support oppression, and that runs on FOSS.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://10.0.0.5:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://10.0.0.5:4000/" rel="alternate" type="text/html" /><updated>2022-04-23T11:07:24-05:00</updated><id>http://10.0.0.5:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">FOSS Finds</title><link href="http://10.0.0.5:4000/2022/04/23/FOSSFinds.html" rel="alternate" type="text/html" title="FOSS Finds" /><published>2022-04-23T00:00:00-05:00</published><updated>2022-04-23T00:00:00-05:00</updated><id>http://10.0.0.5:4000/2022/04/23/FOSSFinds</id><content type="html" xml:base="http://10.0.0.5:4000/2022/04/23/FOSSFinds.html">&lt;p&gt;This week’s FOSS finds: I was listening to NPR (which makes sense since I drive an electric car and I am a communist) and StoryCorps came on. I usually hear it while dropping my kid off at school, and it’s always a conversation-starter between us. It has been for years. Which got me to thinking: the StoryCorps project must have &lt;em&gt;a lot&lt;/em&gt; of archived recordings of their oral history.&lt;/p&gt;
+
+&lt;p&gt;Indeed, they do.&lt;/p&gt;
+
+&lt;p&gt;Which got me to thinking: if StoryCorps has been around for 20 years, they must have done an interview or two about FOSS.&lt;/p&gt;
+
+&lt;p&gt;Indeed, they have.&lt;/p&gt;
+
+&lt;p&gt;So the FOSS find this time are a few citations of those interviews. I haven’t had a chance to listen to them yet, so these abstracts will be from the StoryCorps site. I will listen to them soon, because I wonder if they can supplement my Goal 2 book project research. I’m &lt;a href=&quot;/2022/04/17/InterviewWorkflow.html&quot;&gt;conducting interviews of my own&lt;/a&gt;, but the more voices, the better, yeah?&lt;/p&gt;
+
+&lt;p&gt;Read on to see the ones I found in a few minutes of searching. Feel free to suggest more such interviews!
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;agarwal-ammar-2020-ammar-agarwal---computer-programming-interview-interview-by-luke-audio&quot;&gt;Agarwal, Ammar. 2020. &lt;a href=&quot;https://archive.storycorps.org/interviews/ammar-agarwal-computer-programming-interview/&quot;&gt;Ammar Agarwal - Computer Programming Interview Interview by Luke&lt;/a&gt;. Audio.&lt;/h2&gt;
+
+&lt;p&gt;ABSTRACT: “I interview Ammar Agarwal and ask questions related to computer programming.”&lt;/p&gt;
+
+&lt;h2 id=&quot;beda-joe-2021-joe-beda-on-open-source-as-a-positive-sum-game-interview-by-amanda-casari-and-julia-ferraioli-audio&quot;&gt;Beda, Joe. 2021. &lt;a href=&quot;https://archive.storycorps.org/interviews/joe-beda-on-open-source-as-a-positive-sum-game/&quot;&gt;Joe Beda on open source as a positive sum game Interview by Amanda Casari and Julia Ferraioli.&lt;/a&gt; Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Joe Beda shares with Julia and Amanda about his multigenerational family history with computers, his changing experience with open source since submitting the first commit to Kubernetes, and how the future of open source contains both ‘danger and opportunity’.”&lt;/p&gt;
+
+&lt;h2 id=&quot;goddy-samson-2021-samson-goddy-on-the-power-of-centering-open-source-on-community-needs-interview-by-amanda-casari-audio&quot;&gt;Goddy, Samson. 2021. &lt;a href=&quot;https://archive.storycorps.org/interviews/amanda-casari-2/&quot;&gt;Samson Goddy on the power of centering open source on community needs Interview by Amanda Casari&lt;/a&gt;. Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Samson talks with Amanda about his lifelong journey in open source, why growing a culture of sharing is so important, and how his early experiences influenced where and how he has directed his energy into re-centering the nexus of open source.”&lt;/p&gt;
+
+&lt;h2 id=&quot;hashman-elana-and-amanda-casari-2022-elana-hashman-on-the-evolution-of-open-sourceaudio&quot;&gt;Hashman, Elana, and Amanda Casari. 2022. &lt;a href=&quot;https://archive.storycorps.org/interviews/elana-hashman-on-the-evolution-of-open-source/&quot;&gt;Elana Hashman on the evolution of open source&lt;/a&gt;.Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Elana Hashman recounts her first contribution to open source, the ecosystem’s potential, how norms have changed over the years, and what keeps her involved and contributing.”&lt;/p&gt;
+
+&lt;h2 id=&quot;keith-magee-russell-2021-open-source-stories-with-russell-keith-magee-interview-by-julia-ferraioli-audio&quot;&gt;Keith-Magee, Russell. 2021. &lt;a href=&quot;https://archive.storycorps.org/interviews/julia-ferraioli-2/&quot;&gt;Open Source Stories with Russell Keith-Magee Interview by Julia Ferraioli&lt;/a&gt;. Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Russell talks with julia about his open source origin story, how he became involved in his first project, and what he sees as current issues with maintainership in open source.”&lt;/p&gt;
+
+&lt;h2 id=&quot;patterson-aaron-2021-aaron-patterson-amanda-casari-and-julia-ferraioli-interview-by-amanda-casari-and-julia-ferraioli-audio&quot;&gt;Patterson, Aaron. 2021. &lt;a href=&quot;https://archive.storycorps.org/interviews/aaron-patterson-amanda-casari-and-julia-ferraioli/&quot;&gt;Aaron Patterson, Amanda Casari, and Julia Ferraioli Interview by Amanda Casari and Julia Ferraioli&lt;/a&gt;. Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Aaron Patterson talks with Julia and Amanda about installing Linux for the first time, the story behind first patch, initial hesitancy around forking, and shares some advice for fellow programmers. Features plenty of bad puns from everyone.&lt;/p&gt;
+
+&lt;p&gt;Transcript: https://www.opensourcestories.org/stories/2021/aaron-patterson/”&lt;/p&gt;
+
+&lt;h2 id=&quot;steenhout-nicolas-2022-nicolas-steenhout-explores-the-intersection-of-accessibility-and-open-source-interview-by-julia-ferraioli-and-amanda-casari-audio&quot;&gt;Steenhout, Nicolas. 2022. &lt;a href=&quot;https://archive.storycorps.org/interviews/nicolas-steenhout-on-accessibility-in-open-source-and-beyond/&quot;&gt;Nicolas Steenhout explores the intersection of accessibility and open source Interview by Julia Ferraioli and Amanda Casari&lt;/a&gt;. Audio.&lt;/h2&gt;
+
+&lt;p&gt;“Nic Steenhout recounts how barriers to access led him to getting involved in the open source community, reflects on challenges that accessibility advocates face in the ecosystem, and gives some advice to projects on how to prove their commitment to accessibility.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><summary type="html">This week’s FOSS finds: I was listening to NPR (which makes sense since I drive an electric car and I am a communist) and StoryCorps came on. I usually hear it while dropping my kid off at school, and it’s always a conversation-starter between us. It has been for years. Which got me to thinking: the StoryCorps project must have a lot of archived recordings of their oral history. Indeed, they do. Which got me to thinking: if StoryCorps has been around for 20 years, they must have done an interview or two about FOSS. Indeed, they have. So the FOSS find this time are a few citations of those interviews. I haven’t had a chance to listen to them yet, so these abstracts will be from the StoryCorps site. I will listen to them soon, because I wonder if they can supplement my Goal 2 book project research. I’m conducting interviews of my own, but the more voices, the better, yeah? Read on to see the ones I found in a few minutes of searching. Feel free to suggest more such interviews!</summary></entry><entry><title type="html">FOSS Interview Workflow</title><link href="http://10.0.0.5:4000/2022/04/17/InterviewWorkflow.html" rel="alternate" type="text/html" title="FOSS Interview Workflow" /><published>2022-04-17T00:00:00-05:00</published><updated>2022-04-17T00:00:00-05:00</updated><id>http://10.0.0.5:4000/2022/04/17/InterviewWorkflow</id><content type="html" xml:base="http://10.0.0.5:4000/2022/04/17/InterviewWorkflow.html">&lt;p&gt;With my &lt;a href=&quot;https://mitpress.mit.edu/books/social-engineering&quot;&gt;last book&lt;/a&gt; wrapped up, I am now hard at work building the next book, which is the Goal 2 of this blog. (Goal 1, recall, is writing about being a FOSS academic. Goal 2 is writing a book about FOSS). My new book project will focus on what I’m calling &lt;a href=&quot;https://fossacademic.tech/2022/01/06/Goal2.html&quot;&gt;“ethical source alternative social media”&lt;/a&gt; – social media that allows ordinary people to be in control, that uses moderation for social, economic, and environmental justice and not to support oppression, and that runs on FOSS.&lt;/p&gt;
 
 &lt;p&gt;Methodologically, this project will demand I use my expertise in software studies, science and technology studies, and critical communication studies to analyze code, protocols, and network structures. But I also want to use participant observation and interviewing. And, I want this to adhere to the highest ethical standands as well as use FOSS technologies throughout.&lt;/p&gt;
 
@@ -14,7 +55,7 @@
 
 &lt;!-- more --&gt;
 
-&lt;h2 id=&quot;step-1-participant-observersation&quot;&gt;Step 1: Participant Observersation&lt;/h2&gt;
+&lt;h2 id=&quot;step-1-participant-observation&quot;&gt;Step 1: Participant Observation&lt;/h2&gt;
 
 &lt;p&gt;My first step has been going on for a long time: I’m participating in ethical alternative social media (and quite a few systems I would not categorize as ethical). As I do so, I take notes on the discourses happening on these systems, and I try to figure out which participants are passionate and invested ones. I want to talk to developers, administrators, and members of ethical alternatives. I note who they are with the intention of inviting them to participate in interviews.&lt;/p&gt;
 
@@ -279,63 +320,4 @@ interests of the masspersonal social engineers or their clients.&lt;/blockquote&
 &lt;h2 id=&quot;linux-lounge-2021-the-story-of-xenia---linuxs-forgotten-mascot&quot;&gt;Linux Lounge. 2021. &lt;a href=&quot;https://www.youtube.com/watch?v=0b4eW1KAuWE&quot;&gt;The Story of Xenia - Linux’s Forgotten Mascot!&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;In the 1990s, an artist was unhappy with Tux being the Linux mascot and designed a fox named Xenia. 20 years later, someone rediscovers Xenia and draws her as a girl. The original artist noted Xenia was initially a boy, but that the transition makes sense in the light of trans Linux users. Xenia thus becomes not just a Linux mascot, but a trans rights in tech mascot.&lt;/p&gt;
 
-&lt;p&gt;Tags: identity; Linux; Xenia (Linux Mascot)&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="FOSS Finds" /><summary type="html">I recently announced my new book project, focusing on ethical FOSS social media, and I’m trying an experiment in writing it openly. That’s Goal 2 of this blog (Goal 1 being discussions of my actually using FOSS to complete this task). To that end, I’ve decided to share items I’ve found as I do my research. I’m calling it FOSS Finds, because alliteration. These are typically going to be websites, blogposts, podcasts, or academic research. They may or may not be very recent. I plan on including a citation (exported, of course, from Zotero) and a brief note about each, a la an annotated bibliography, and versions of my Zotero tags. The notes won’t be exhaustive – it’s really about what I’m collecting at this stage, rather than analysis.</summary></entry><entry><title type="html">Goal 2, Initiate</title><link href="http://10.0.0.5:4000/2022/01/06/Goal2.html" rel="alternate" type="text/html" title="Goal 2, Initiate" /><published>2022-01-06T00:00:00-06:00</published><updated>2022-01-06T00:00:00-06:00</updated><id>http://10.0.0.5:4000/2022/01/06/Goal2</id><content type="html" xml:base="http://10.0.0.5:4000/2022/01/06/Goal2.html">&lt;p&gt;For about a year I’ve been teasing at Goal 2 for this blog, which is to write a book about FOSS. It’s probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman’s classic book &lt;a href=&quot;https://www.powells.com/book/coding-freedom-the-ethics-aesthetics-of-hacking-9780691144610&quot;&gt;&lt;em&gt;Coding Freedom&lt;/em&gt;&lt;/a&gt; focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers.&lt;/p&gt;
-
-&lt;p&gt;Given my background as a scholar, however, it makes sense that I should pursue a &lt;strong&gt;book-length project focusing on FOSS social media.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h2 id=&quot;beyond-corporate-social-media&quot;&gt;Beyond Corporate Social Media&lt;/h2&gt;
-&lt;p&gt;Anyone who has read my previous scholarship knows I’ve been critical of corporate social media (e.g., Meta/Facebook/Instagram, Twitter, Pinterest, Youtube) and what we once called “web 2.0” applications (e.g., Google search) since before it was cool. However, I have also consistently called for critics to explore alternatives to corporate media. In my view, it’s not enough to critique – we have to find ways forward.&lt;/p&gt;
-
-&lt;p&gt;I’ve been studying alternative social media for almost a decade now, and until recently it’s felt like a lonely field of research. After all, as loudly as I play the role of Old Man Shaking Fist at (the Corporate) Cloud, no one seemed to listen. Everyone is still using Facebook et al, despite years of emotional manipulation, whistleblowing, and data leaks.&lt;/p&gt;
-
-&lt;p&gt;However, lately, the alternatives are getting a lot of attention. And it seems to be the wrong kind.&lt;/p&gt;
-
-&lt;h2 id=&quot;alternative-social-media-becomes-alt-tech&quot;&gt;Alternative Social Media becomes Alt-Tech&lt;/h2&gt;
-&lt;p&gt;Some of my concerns about corporate social media – namely, its power to manipulate what we see – seems to be shared by the alt-right. I’m talking, of course, of Gab.com and the forthcoming Trump social network, Truth. However, in many ways, the alt-tech social media platforms simply replicate many of the features of corporate social media (most notably centralization and monetization) while wallowing in hate speech and misinformation.&lt;/p&gt;
-
-&lt;p&gt;I thus don’t see them as true alternatives. But what would make a true alternative? That, it seems to me, is the heart of this project.&lt;/p&gt;
-
-&lt;h2 id=&quot;towards-ethical-citizens-social-media&quot;&gt;Towards Ethical, Citizens’ Social Media&lt;/h2&gt;
-&lt;p&gt;If alternative only means not-Facebook, it’s not really an alternative. And if alternative means “speak your mind, fascists!,” I’m not interested.&lt;/p&gt;
-
-&lt;p&gt;But I don’t have to flee from fascists into the cold bosom of Mark Zuckerberg just yet.&lt;/p&gt;
-
-&lt;p&gt;There are alternatives that not only help us get away from surveillance capitalism, but also actively push out fascists and hate-speech mongers. They aren’t just decentralized; they are &lt;em&gt;non&lt;/em&gt;-centralized. They can be run by any of us with the technical abilities.&lt;/p&gt;
-
-&lt;p&gt;Moreover, the people running them have values such as collective ownership, democratic control, and concern with environmental impact of media.&lt;/p&gt;
-
-&lt;p&gt;And arising from these platforms are artists and creators who are helping imagine a better mediascape.&lt;/p&gt;
-
-&lt;p&gt;These social media may well adhere to media scholar Clemencia Rodríguez’s call for “citizens’ media,” media that we not only participate in, but own and control.&lt;/p&gt;
-
-&lt;p&gt;For me, a key example of this is Mastodon, the federated Twitter alternative. However, the fediverse is bigger than Mastodon, so I will have to explore systems such as PeerTube or Pixelfed.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-about-foss&quot;&gt;What about FOSS?&lt;/h2&gt;
-&lt;p&gt;And a big part of this equation is FOSS. Free and open source software provides a necessary – but not sufficient – ingredient. After all, Gab and Truth run on FOSS (specifically, forks of Mastodon).&lt;/p&gt;
-
-&lt;p&gt;If this book is going to be about FOSS alternative social media, and if I adhere to my critical orientation towards citizens’ media, then the book will have to explore how activists are taking FOSS and associating it with other elements.&lt;/p&gt;
-
-&lt;p&gt;As I see it, the elements would be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;political economy: how are these media governed? How are they paid for?&lt;/li&gt;
-  &lt;li&gt;environment: how are FOSS alternative operators addressing the environmental impact of networked media?&lt;/li&gt;
-  &lt;li&gt;ethics: what sort of ethical standards do these systems adhere to?&lt;/li&gt;
-  &lt;li&gt;cultural production: what forms of cultural production emerge from FOSS alternative social media?&lt;/li&gt;
-  &lt;li&gt;security: how do these media address security concerns? Not just cybersecurity, but insecurity arising from disinformation and manipulative communication?&lt;/li&gt;
-  &lt;li&gt;identity: how do these media map onto or influence how we conceive of ourselves?&lt;/li&gt;
-  &lt;li&gt;relation to other media: how do the FOSS alternatives relate to other media, such as corporate social media, broadcast media, or “alt-tech”?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;the-plan-of-the-book&quot;&gt;The Plan of the Book&lt;/h2&gt;
-&lt;p&gt;My plan for the book, then, is to look at FOSS-based, ethical alternative social media through the above categorical lenses. I don’t imagine that each of the above points would be chapters, but any one of them or combinations of them might.&lt;/p&gt;
-
-&lt;p&gt;In fact, the points above are now tags in my Zotero library, allowing me to start sorting the materials into folders that might just give rise to chapters. I plan to blog about these categories here on FOSS Academic.&lt;/p&gt;
-
-&lt;p&gt;I also plan on publicly doing a lit review – offering thoughts on key texts that are relevant to the project. I mentioned Biella Coleman’s book &lt;em&gt;Coding Freedom&lt;/em&gt; above – that’s definitely on the list.&lt;/p&gt;
-
-&lt;p&gt;So, watch this space as Goal 2 proceeds!&lt;/p&gt;
-
-&lt;p&gt;Comments? I’m currently using Mastodon to handle them, so if you have a Mastodon (or other federated) account, feel free to leave a comment!&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><summary type="html">For about a year I’ve been teasing at Goal 2 for this blog, which is to write a book about FOSS. It’s probably not surprising to hear that I needed to narrow that focus down. FOSS is a massive phenomenon, and any given area within it deserves lengthy analysis. For example, Biella Coleman’s classic book Coding Freedom focuses heavily on the Debian distribution. One could imagine similar books about the Linux Kernel, or Canonical, or Arch, or web servers. Given my background as a scholar, however, it makes sense that I should pursue a book-length project focusing on FOSS social media.</summary></entry></feed>
+&lt;p&gt;Tags: identity; Linux; Xenia (Linux Mascot)&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="FOSS Finds" /><summary type="html">I recently announced my new book project, focusing on ethical FOSS social media, and I’m trying an experiment in writing it openly. That’s Goal 2 of this blog (Goal 1 being discussions of my actually using FOSS to complete this task). To that end, I’ve decided to share items I’ve found as I do my research. I’m calling it FOSS Finds, because alliteration. These are typically going to be websites, blogposts, podcasts, or academic research. They may or may not be very recent. I plan on including a citation (exported, of course, from Zotero) and a brief note about each, a la an annotated bibliography, and versions of my Zotero tags. The notes won’t be exhaustive – it’s really about what I’m collecting at this stage, rather than analysis.</summary></entry></feed>
