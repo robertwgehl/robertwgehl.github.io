@@ -1,7 +1,7 @@
 ---
 layout: post
 author: RWG
-title: FOSS Finds
+title: FOSS Finds: StoryCorps Edition
 tag:
     - Goal 2
 comments: 
