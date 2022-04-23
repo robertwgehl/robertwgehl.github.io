@@ -8,11 +8,11 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 108182302333924445
 ---
-This week's FOSS finds: I was listening to NPR (which makes sense since I drive an electric car and I am a communist) and StoryCorps came on. I usually hear it while dropping my kid off at school, and it's always a conversation-starter between us. It has been for years. Which got me to thinking: the StoryCorps project must have *a lot* of archived recordings of their oral history.
+This month's FOSS finds: I was listening to NPR (which makes sense since I drive an electric car and I am a communist) and StoryCorps came on. I usually hear it while dropping my kid off at school, and it's always a conversation-starter between us. It has been for years. Which got me to thinking: the StoryCorps project must have *a lot* of archived recordings of their oral history.
 
-Indeed, they do.
+Indeed, they do. They've been doing oral history for 20 years now.
 
 Which got me to thinking: if StoryCorps has been around for 20 years, they must have done an interview or two about FOSS.
 
