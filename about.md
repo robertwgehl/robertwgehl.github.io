@@ -15,8 +15,8 @@ You can learn more about the goals of the blog in the [introductory post](/2020/
 As for me, I'm [Robert W. Gehl](https://www.robertwgehl.org), a professor of Communication at Louisiana Tech University. My actual title is long: F. Jay Taylor Endowed Research Chair of Communication. The long title basically means I do research and teaching at Tech. I've also been a Fulbright Canada Research Chair of Communication, Media, and Film at the University of Calgary. I've written two books: [*Reverse Engineering Social Media*](http://tupress.temple.edu/book/1115), which won the Association of Internet Researchers Nancy Baym Book Award, and [*Weaving the Dark Web*](https://mitpress.mit.edu/books/weaving-dark-web). I've also published over two dozen peer-reviewed journal articles in venues such as *New Media & Society*, *Communication Theory,* and *Social Media + Society.* 
 
 <figure>
-    <img src="./assets/images/RWGandFish.jpg" alt="Robert W Gehl holding up a rainbow trout he caught" title="RWG and fish">
-    <figcaption>Me, holding a trout I caught.</figcaption>
+    <img src="./assets/images/rwgcomputing.jpg" alt="Robert W Gehl using a laptop" title="RWG computing">
+    <figcaption>Me, typing furiously on some document in a coffee shop.</figcaption>
 </figure>
 
 You can see more of my work at [my homepage](https://www.robertwgehl.org).
