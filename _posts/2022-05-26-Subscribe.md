@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 108369077501138162
 ---
 One major goal for my Goal 2 book project is to learn from people who create things on the fediverse. They might create code and cultures by developing and running instances. Or, they might be using the fediverse to promote their [photography](https://pixelfed.social/), [music](https://funkwhale.audio/), or [ideas](https://writefreely.org/).
 
