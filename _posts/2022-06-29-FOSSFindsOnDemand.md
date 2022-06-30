@@ -57,7 +57,7 @@ human-computer interaction thinking from Russia. In the 1990s, Western researche
 
 14.24 - https://www.w3.org/2013/socialweb/social-wg-charter.html: He looks at the Charter for the Working Group. The Charter was meant to constrain and guide the group. He works through the Charter, talking about “user control of personal data,” federation, “embedded experiences”, and “enterprise social business.” The latter is about replacing email? Embedded experiences is about having social events trigger consumption “within the page itself." Federation is what it implies -- two or more organizations communicating.
 
-Corporate actors were involved: IBM was making Yammer, Salesfore was making Chatter.
+Corporate actors were involved: IBM, Yammer, Salesfore was making Chatter.
 
 ~15.50 goals based on the charter: make a Social Syntax (in JSON-LD). Make a Social API (client applications). Make a federation protocol, so the servers could talk to one another.
 
