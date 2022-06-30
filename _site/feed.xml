@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2022-05-26T10:58:35-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">(I’m) Mashing That Subscribe Button</title><link href="https://fossacademic.tech/2022/05/26/Subscribe.html" rel="alternate" type="text/html" title="(I’m) Mashing That Subscribe Button" /><published>2022-05-26T00:00:00-05:00</published><updated>2022-05-26T00:00:00-05:00</updated><id>https://fossacademic.tech/2022/05/26/Subscribe</id><content type="html" xml:base="https://fossacademic.tech/2022/05/26/Subscribe.html">&lt;p&gt;One major goal for my Goal 2 book project is to learn from people who create things on the fediverse. They might create code and cultures by developing and running instances. Or, they might be using the fediverse to promote their &lt;a href=&quot;https://pixelfed.social/&quot;&gt;photography&lt;/a&gt;, &lt;a href=&quot;https://funkwhale.audio/&quot;&gt;music&lt;/a&gt;, or &lt;a href=&quot;https://writefreely.org/&quot;&gt;ideas&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2022-06-29T21:15:18-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">FOSS Finds, On Demand Edition</title><link href="https://fossacademic.tech/2022/06/29/FOSSFindsOnDemand.html" rel="alternate" type="text/html" title="FOSS Finds, On Demand Edition" /><published>2022-06-29T00:00:00-05:00</published><updated>2022-06-29T00:00:00-05:00</updated><id>https://fossacademic.tech/2022/06/29/FOSSFindsOnDemand</id><content type="html" xml:base="https://fossacademic.tech/2022/06/29/FOSSFindsOnDemand.html">&lt;p&gt;As I’ve written before, I’m working on a book about the fediverse. To do that properly, I need to have a good understanding of ActivityPub, a key underlying protocol that enables servers to talk to one another. A member of one ActivityPub-enabled server, such as Mastodon, can connect with another on a different server – even if it runs different software, such as Pixelfed. It’s quite a technical achievement and – I believe – it really needs to be part of the conversation when we discuss things like moderation, platform governance, and the political economy of the internet.&lt;/p&gt;
+
+&lt;p&gt;I like to study how such software develops over time, so I’ve been going through the meeting minutes of the W3C Social Web Working Group. It’s been fascinating to see how they, for example, discuss user stories and how they inform the protocol’s functionality.&lt;/p&gt;
+
+&lt;p&gt;I posted a short note about doing this work on my home Mastodon instance, scholar.social, and people noticed! This is what I love about scholar.social – when I talk about geeking out about something, people jump in. Another fediverse member suggested I take a look at &lt;a href=&quot;https://yewtu.be/watch?v=c17gjxEoyMQ&quot;&gt;this week’s FOSS Find&lt;/a&gt;. And now, I’m writing up notes about it – at the request of the author of the Find. Read more after the jump.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;benjamin-goering-on-activitypub-w3c-recommendation-2022&quot;&gt;&lt;a href=&quot;https://yewtu.be/watch?v=c17gjxEoyMQ&quot;&gt;Benjamin Goering on “ActivityPub W3C Recommendation.”&lt;/a&gt; 2022.&lt;/h2&gt;
+
+&lt;p&gt;This is a recording of a presentation by Goering at “Papers We Love” earlier this year. Goering has been “working on decentralized social networking” for 15 years, and here the “paper” he’s lovin’ on is ActivityPub, a W3C standard. In these notes, I’ll include approximate minute markers, typically tied to the title of the slides. I’ll include summaries, and some of my own personal notes. This also includes some notes on Christine Lemmer-Webber’s comments during Q and A.&lt;/p&gt;
+
+&lt;p&gt;Goering’s agenda is to talk about ActivityStreams, the W3C Activity Streams 2.0, and then ActivityPub, past and future.&lt;/p&gt;
+
+&lt;h3 id=&quot;history-of-activity-streams&quot;&gt;History of Activity Streams&lt;/h3&gt;
+
+&lt;p&gt;2.47 - “History (1997 and before) - Activity Theory”: He notes the connection between this protocol and sociology. The screen shows the book &lt;em&gt;The Russian Theory of Activity&lt;/em&gt; by Bedny and Meister, 1997. It’s about
+human-computer interaction thinking from Russia. In the 1990s, Western researchers took these ideas up.&lt;/p&gt;
+
+&lt;p&gt;3.44 “I don’t know much about this,” he notes, but he likes the idea of sociology informing software.&lt;/p&gt;
+
+&lt;p&gt;3.47 - History (2005) - bengo blogging: He points to his blogging experience as a teen – the web wasn’t centralized. It was blogrolls, links, the “whole web was a social network” with RSS helping make connections.&lt;/p&gt;
+
+&lt;p&gt;4.32 - History (2007) - Giant Global Graph aka ‘web 3.0’: Here we learn about Tim Berners-Lee’s work on the semantic web with the MIT decentralized group lab. The semantic idea is links between data within web documents.&lt;/p&gt;
+
+&lt;p&gt;5.59 - History (2007) - https://diso-project.org: This is about the Distributed Social project.&lt;/p&gt;
+
+&lt;p&gt;6.25 - History (2007) - OpenSocial, OpenID 2.0: OpenSocial was a Google project. OpenID is still around. Goering implemented these on his blog.&lt;/p&gt;
+
+&lt;p&gt;8.12 - History (2008) - OpenSocial Foundation: This was a foundation started by Google, Yahoo! and MySpace.&lt;/p&gt;
+
+&lt;p&gt;8.46 - History (2008) - activity-streams mailing list: he uses the Internet Archive to find some of the original posts to this list.&lt;/p&gt;
+
+&lt;p&gt;8.50 - History (2009) - Facebook Activity Streams: “Facebook Open Stream API” - this would allow applications to read the Facebook Stream, and it would run on ActivityStreams 1.0. ActivityStreams 1.0 was a description of social activities in XML.&lt;/p&gt;
+
+&lt;p&gt;9.36 - ~2010 - GNU Social, status.net, pump.io. Here we’re talking about projects like diaspora*, ActivityPump.&lt;/p&gt;
+
+&lt;p&gt;~11.23 - an open social web: In 2009, he notes, Google, Facebook, MySpace, Microsoft, Yahoo all tried implementing open social networking “using a common data model.” “That’s no longer the case. What happened? How can we get back? Should we even?” This is a very important observation. What about the business model precluded such a movement? He posts a Quora article that discusses how Google and Facebook fought over OpenSocial – FB saw it as encroaching on its turf.&lt;/p&gt;
+
+&lt;p&gt;12.13 - Embrace, extend, extinguish: He notes that this was a real possibility at this point. Think about if Google were to really build out a decentralized social standard and then either abandon it or make parts of it proprietary. The idea here is that someone like a Microsoft takes up open standards, extends them with proprietary extensions and gains market share, then extinguishes the standard.&lt;/p&gt;
+
+&lt;p&gt;13.01 - OpenSocial Foundation PR: He posts the 2014 announcement that OpenSocial Foundation (the one started by Google, Yahoo, and MySpace) “moved” to the W3C Social Working group I saw “moved” because the IRC meetings show they didn’t know this was happening and that it put no obligations on them; it just dumped the money on the WG, from what I can tell. He notes that they were donating their documents and code.&lt;/p&gt;
+
+&lt;h3 id=&quot;part-2-w3c-social-web-wg&quot;&gt;Part 2: W3C Social Web WG&lt;/h3&gt;
+
+&lt;p&gt;14.24 - https://www.w3.org/2013/socialweb/social-wg-charter.html: He looks at the Charter for the Working Group. The Charter was meant to constrain and guide the group. He works through the Charter, talking about “user control of personal data,” federation, “embedded experiences”, and “enterprise social business.” The latter is about replacing email? Embedded experiences is about having social events trigger consumption “within the page itself.” Federation is what it implies – two or more organizations communicating.&lt;/p&gt;
+
+&lt;p&gt;Corporate actors were involved: IBM was making Yammer, Salesfore was making Chatter.&lt;/p&gt;
+
+&lt;p&gt;~15.50 goals based on the charter: make a Social Syntax (in JSON-LD). Make a Social API (client applications). Make a federation protocol, so the servers could talk to one another.&lt;/p&gt;
+
+&lt;p&gt;16.52 - Activity Streams 2.0 Core: ActivityPub depends on AS 2.0, but AS 2.0 is also independent. AS is about “social data syntax” (in the charter). ActivityPub fulfills federation mandate.&lt;/p&gt;
+
+&lt;p&gt;2014 was a time when JSON was being used to describe things, Actor Verb Object. He talks through debate over JSON versus JSON-LD. The goal was to make it extensible, so JSON-LD is attractive.&lt;/p&gt;
+
+&lt;p&gt;19.43 - Activity Streams 2.0 Vocabulary: He walks us through Core types, Actor Types, Activity Types, and Object and Link Types.&lt;/p&gt;
+
+&lt;p&gt;21.42 - ActivityPub - https://www.w3.org/TR/activitypub/: ActivityPub makes use of ActivityStreams 2.0. HTTP helps send the AS data around (though he will go on to note that AP is not necessarily tied to HTTP). “Honestly, it works a lot like email,” he says: there are inbox, outbox terms. He wonders if they should have extended or modified SMTP [that’s a really intriguing little thought experiment!]&lt;/p&gt;
+
+&lt;p&gt;Christine Lemmer-Webber, who is in attendance (and who also contributed a great deal to this project) confirms that it could be pushed past http, like IPFS, but that it relies heavily on the HTTP verbs GET and POST. Goering responds: ah, this is why there are so many verbs in the protocol – to make it as independent of HTTP as possible.&lt;/p&gt;
+
+&lt;p&gt;25.25 - ActivityPub Actors - https://www.w3.org/TR/activitypub/: Here we discuss Actors. The Actor Model from computer science. This is taken up in blockchain stuff, too. “Really, ActivityPub is trying to find a way to describe all these actors.” A stream of inputs and a stream of outputs between actors. The Actor Model in computer science goes back to 1973. [As an aside, tt strikes me as very individualistic – the actor speaks, a stream comes forth. Is there a way to model collective knowledge?]&lt;/p&gt;
+
+&lt;p&gt;26.34 - ActivityPub Interactions - https://www.w3.org/TR/activitypub/: Section 5, Collections: servers maintain these – outbox, inbox, followers, liked, following. Section 6, Client-server interactions, how the client’s typing gets encoded in the syntax. Section 7, Server to server interactions: activities such as a follower activity means another server updates the follower collection.&lt;/p&gt;
+
+&lt;p&gt;28.58 - ActivityPub “Security” [note: these quote marks in the original]: Security, he notes, is an afterthought after making the protocol. They wanted to publish the protocol and left security for the future. There’s a discussion of authentication schemes, signed keys. This was a bunch of suggestions, not “normative” (not required to abide by). He gets a question about authentication and identity, he notes that Oauth is the recommended approach but it’s an architecture, not a protocol.&lt;/p&gt;
+
+&lt;p&gt;32.19 - Social Web Protocols: This is another document that the WG produced. Amy Guy, University of Edinburgh edited it. This compares a bunch of protocols – this helped the group keep track of competing protocols. He notes that this is a good doc to study, so I put it in Zotero.&lt;/p&gt;
+
+&lt;p&gt;33.11 - relationship to Tim BL’s Solid: Starts in MIT with decentralized web group. Solid tried to leverage AS, AP. Solid gets lots of coverage.&lt;/p&gt;
+
+&lt;h3 id=&quot;part-3-activitypub-today&quot;&gt;Part 3: ActivityPub Today&lt;/h3&gt;
+
+&lt;p&gt;34.25 - https://github.com/BasixKOR/awesome-activitypub: List of projects running on the protocol. Nextcloud social is one. Castling.club – chess over activitypub, he cites this as an example of emergent, unexpected results of a protocol.&lt;/p&gt;
+
+&lt;p&gt;35.53 - Mastodon wikipedia page: Mastodon was around before AP; they were using status.net, they were very early adopters of AP. He says he’s seen estimates that 10 million people are using Mastodon; he notes it could be much more. [I should ask him where he’s getting these numbers; everything I’ve seen estimates about 5mil users].&lt;/p&gt;
+
+&lt;p&gt;He points out Content Warnings as an innovation. Thus, he argues ActivityPub as a protocol helps set the base for these end-user features such as CWs.&lt;/p&gt;
+
+&lt;p&gt;37.58 - discussion of EU, Next Generation Internet: Billions of dollars to spread European values on the internet.&lt;/p&gt;
+
+&lt;p&gt;If a server implements ActivityPub well, end users get a “lot of choice in how they participate in the network.”&lt;/p&gt;
+
+&lt;p&gt;~40.00 - he talks about the term “fediverse.” He notes the fediverse may not necessarily all use the same protocol. The forum for activitypub is socialhub.activitypub.rocks – this defacto replaces the Social Web WG as an organizing site.&lt;/p&gt;
+
+&lt;p&gt;41.24 - ActivityPub Conf: He cites a talk “Architecture of Robust Kindness.”&lt;/p&gt;
+
+&lt;h3 id=&quot;part-4-future-of-activitypub-its-up-to-you&quot;&gt;Part 4: Future of ActivityPub (it’s up to you)&lt;/h3&gt;
+
+&lt;p&gt;42.13 - OcaPup: Object Capabilities + ActivityPub. Christine Lemmer-Webber working on this project to pursue security for marginalized groups. “OcapPub: Towards networks of consent” [I need to learn more about this!]&lt;/p&gt;
+
+&lt;p&gt;43.40 - Extensions?: Discusses ways AP can be extended. This can be done via websites without permission from the WG; and if an extension catches on, it may be added to the AP itself. This is a benefit of JSON-LD; easily extended via RDF.&lt;/p&gt;
+
+&lt;p&gt;45.04 - Possible Futures: This includes non-http, e.g., Bluetooth, Data integrity, portable identity. Discussion of URNs versus URLs. Concerns about man-in-the-middle attacks that rewrite HTTP. Discussion of a protocol that would delegate the ability to post to others/other devices.&lt;/p&gt;
+
+&lt;p&gt;50.22 - Related Work/Current Events: Slide presents Bluesky (blueskyweb.xyz), Solid, Spritely. Discusses Elon Musk, EU regulations. Due to the EU regulation, interoperability is much more important&lt;/p&gt;
+
+&lt;p&gt;~52.00 - Start Using ActivityPub: Discussion of clients, Mastodon instances.&lt;/p&gt;
+
+&lt;h3 id=&quot;q-and-a&quot;&gt;Q and A&lt;/h3&gt;
+
+&lt;p&gt;~56.00 - Christine Lemmer-Webber discusses the difference between the client-to-server part of AP and the server-to-server part. S2S is widely implemented; she notes that they were shocked that the C2S has not been well-implemented. Also notes they only barely got the federation part done. She explains C2S works like an email client: client to server, server to next server. She also notes that SMTP’s and ActivityPub’s “notions of trust” are “broken”.&lt;/p&gt;
+
+&lt;p&gt;1:00.00 – Christine volunteers to clarify some things, noting Goering covered a lot of history she didn’t know. Christine was in Ostatus et al; Bengo was more familiar with Activity Streams. She notes Ostatus implementations often weren’t compatible.&lt;/p&gt;
+
+&lt;p&gt;1:02 - ActivityPub: originally was requiring C2S and S2S implementation. These were divided later on. She talks about MediaGoblin, which promised federation. She hired Jessica Tallon to pursue it. They got involved in the W3C standards, and they were passionate contributors (they didn’t start that way) who got more and more involved.&lt;/p&gt;
+
+&lt;p&gt;It was not obvious ActivityPub was going to succeed. There were many competing protocols, none of which were talking to each other – and the common sense was that people weren’t going to get along.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><summary type="html">As I’ve written before, I’m working on a book about the fediverse. To do that properly, I need to have a good understanding of ActivityPub, a key underlying protocol that enables servers to talk to one another. A member of one ActivityPub-enabled server, such as Mastodon, can connect with another on a different server – even if it runs different software, such as Pixelfed. It’s quite a technical achievement and – I believe – it really needs to be part of the conversation when we discuss things like moderation, platform governance, and the political economy of the internet. I like to study how such software develops over time, so I’ve been going through the meeting minutes of the W3C Social Web Working Group. It’s been fascinating to see how they, for example, discuss user stories and how they inform the protocol’s functionality. I posted a short note about doing this work on my home Mastodon instance, scholar.social, and people noticed! This is what I love about scholar.social – when I talk about geeking out about something, people jump in. Another fediverse member suggested I take a look at this week’s FOSS Find. And now, I’m writing up notes about it – at the request of the author of the Find. Read more after the jump.</summary></entry><entry><title type="html">(I’m) Mashing That Subscribe Button</title><link href="https://fossacademic.tech/2022/05/26/Subscribe.html" rel="alternate" type="text/html" title="(I’m) Mashing That Subscribe Button" /><published>2022-05-26T00:00:00-05:00</published><updated>2022-05-26T00:00:00-05:00</updated><id>https://fossacademic.tech/2022/05/26/Subscribe</id><content type="html" xml:base="https://fossacademic.tech/2022/05/26/Subscribe.html">&lt;p&gt;One major goal for my Goal 2 book project is to learn from people who create things on the fediverse. They might create code and cultures by developing and running instances. Or, they might be using the fediverse to promote their &lt;a href=&quot;https://pixelfed.social/&quot;&gt;photography&lt;/a&gt;, &lt;a href=&quot;https://funkwhale.audio/&quot;&gt;music&lt;/a&gt;, or &lt;a href=&quot;https://writefreely.org/&quot;&gt;ideas&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;As an endowed research chair, I have the privilege of &lt;a href=&quot;http://www.regents.la.gov/assets/docs/2013/05/BoRSF_Endowed_Prof_Policy_Rev_10-12.pdf&quot;&gt;generous research funding&lt;/a&gt;. For the purposes of my book project, research includes talking to people, running my own digital infrastructure (e.g., the incredible Nextcloud), and, of course, studying texts.&lt;/p&gt;
 
@@ -301,29 +408,4 @@ interests of the masspersonal social engineers or their clients.&lt;/blockquote&
 
 &lt;p&gt;So, while I work on the new book project (by flipping through virtual workspaces in KDE) I can listen to Herbie Hancock’s magnificent album [&lt;em&gt;Maiden Voyage&lt;/em&gt;](https://en.wikipedia.org/wiki/Maiden_Voyage_(Herbie_Hancock_album).&lt;/p&gt;
 
-&lt;p&gt;Very Kool. (sorry.)&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 1" /><category term="KDE" /><category term="Manjaro" /><summary type="html">KDE Just a quick note to say that I took the plunge: after many, many years of using MATE desktops, I’ve tried KDE Plasma. I really, really like it. And I’ve also had some fun with Jellyfin – so much so it’s goodbye, Plex.</summary></entry><entry><title type="html">FOSS Finds, Environment and Labor Edition</title><link href="https://fossacademic.tech/2022/01/21/FossFinds2.html" rel="alternate" type="text/html" title="FOSS Finds, Environment and Labor Edition" /><published>2022-01-21T00:00:00-06:00</published><updated>2022-01-21T00:00:00-06:00</updated><id>https://fossacademic.tech/2022/01/21/FossFinds2</id><content type="html" xml:base="https://fossacademic.tech/2022/01/21/FossFinds2.html">&lt;p&gt;In this week’s FOSS finds, I’m thinking about the environmental impact of tech and I gathered sources on Marak’s refusal to keep giving away code. I’m including a few examples here to show my work.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h2 id=&quot;keilbach-judith-and-michał-pabiś-2021-greening-media-studies-european-journal-of-media-studies-10-2-10512&quot;&gt;Keilbach, Judith, and Michał Pabiś. 2021. &lt;a href=&quot;https://mediarep.org/bitstream/handle/doc/18203/NECSUS_2021_10_2_105-112_Keilbach_Pabis-Orzeszyna_Greening_Media_Studies_.pdf?sequence=2&quot;&gt;“Green(Ing) Media (Studies).”&lt;/a&gt; European Journal of Media Studies 10 (2): 105–12.&lt;/h2&gt;
-
-&lt;p&gt;In this journal article, Keilback and Pabiś note that “Various [media studies] authors are pointing out that every media product (content or device) is based on the extraction of raw material and creates an enormous amount of waste, thereby emphasising the finite nature of Earth’s resources.” However, “While there is no doubt that these publications are extremely valuable, the state of our planet leaves us wondering if this is all media scholars can do. Given the climate emergency, we both consider the transition of media studies towards a more environmentally aware discipline imperative.” They go on to distinguish eco-modernism, the idea that we can use technology to avoid the climate catastrophe while still maintaining economic growth, with degrowth thinking, which suggests that the imperative to grow is the reason why we’re in this mess, and that de-growing the use of technology has to be on the table.&lt;/p&gt;
-
-&lt;p&gt;Tags: environment&lt;/p&gt;
-
-&lt;h2 id=&quot;small-file-media-festival-nd-small-file-media-festival-accessed-january-17-2022&quot;&gt;“Small File Media Festival.” n.d. &lt;a href=&quot;https://smallfile.ca/&quot;&gt;Small File Media Festival&lt;/a&gt;. Accessed January 17, 2022.&lt;/h2&gt;
-&lt;p&gt;This media festival, which celebrates videos that weigh in at less than 5MB, is cited by Keilbach and Pabis as an example of degrowth. Rather than making HD movies – and hence taking up more and more bandwidth and energy – the Small File approach is to make small art that can still move audiences.&lt;/p&gt;
-
-&lt;p&gt;Tags: environment, alternative cultural production&lt;/p&gt;
-
-&lt;h2 id=&quot;sharma-ax-2022-dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps-bleepingcomputer-january-9-2022&quot;&gt;Sharma, Ax. 2022. &lt;a href=&quot;https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/&quot;&gt;“Dev Corrupts NPM Libs ‘colors’ and ‘Faker’ Breaking Thousands of Apps.”&lt;/a&gt; BleepingComputer. January 9, 2022.&lt;/h2&gt;
-
-&lt;p&gt;This has been a big story in the past few weeks. A Javascript library developer named Marak has corrupted his own code and pushed it to Github, causing applications to break. Marak’s stated reason is that corporations are making a fortune by using his code, but he himself cannot pay his bills. There’s a lot to discuss, but this incident is interesting to me in that it’s at once a story about #politicaleconomy – how can devs get compensated for their work? – and also about #security. In this sense, human security. Can we have FOSS security if developers can’t eat? (Hint: I don’t think so).&lt;/p&gt;
-
-&lt;p&gt;Tags: political economy, security&lt;/p&gt;
-
-&lt;h2 id=&quot;dodrill-christine-2021-open-source-is-broken-or-why-i-dont-write-useful-software-unless-you-pay-me-xe-blog-december-11-2021&quot;&gt;Dodrill, Christine. 2021. &lt;a href=&quot;https://christine.website/blog/open-source-broken-2021-12-11&quot;&gt;“‘Open Source’ Is Broken, or, Why I Don’t Write Useful Software Unless You Pay Me.”&lt;/a&gt; Xe (blog). December 11, 2021.&lt;/h2&gt;
-
-&lt;p&gt;In this blog post, Xe discusses why they won’t code unless it’s for money. Why not? Because to provide free software is to be exploited by large corporations. The Marak case wasn’t even on the radar at this point (at least, I don’t think it was); rather, Xe is referring to the work of patching the Java vulnerability in Log4j2, which was done at a fast pace over the holidays and was not compensated. Xe argues that, if a corporation is so dependant on a FOSS library, they ought to at least donate money to the devs who maintain the library. As they write, “I’ve had this kind of conversation with people before and I’ve gotten a surprising amount of resistance to the prospect of actually making sure that the random smattering of volunteers that LITERALLY MAKE THEIR COMPANY RUN are able to make rent. There is this culture of taking from open source without giving anything back. It is like the problems of the people who make the dependencies are irrelevant.”&lt;/p&gt;
-
-&lt;p&gt;Tags: political economy, security&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="FOSS Finds" /><summary type="html">In this week’s FOSS finds, I’m thinking about the environmental impact of tech and I gathered sources on Marak’s refusal to keep giving away code. I’m including a few examples here to show my work.</summary></entry></feed>
+&lt;p&gt;Very Kool. (sorry.)&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 1" /><category term="KDE" /><category term="Manjaro" /><summary type="html">KDE Just a quick note to say that I took the plunge: after many, many years of using MATE desktops, I’ve tried KDE Plasma. I really, really like it. And I’ve also had some fun with Jellyfin – so much so it’s goodbye, Plex.</summary></entry></feed>
