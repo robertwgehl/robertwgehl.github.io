@@ -1,7 +1,0 @@
-I"><p>As I’ve written before, I’m working on a book about the fediverse. To do that properly, I need to have a good understanding of ActivityPub, a key underlying protocol that enables servers to talk to one another. A member of one ActivityPub-enabled server, such as Mastodon, can connect with another on a different server – even if it runs different software, such as Pixelfed. It’s quite a technical achievement and – I believe – it really needs to be part of the conversation when we discuss things like moderation, platform governance, and the political economy of the internet.</p>
-
-<p>I like to study how such software develops over time, so I’ve been going through the meeting minutes of the W3C Social Web Working Group. It’s been fascinating to see how they, for example, discuss user stories and how they inform the protocol’s functionality.</p>
-
-<p>I posted a short note about doing this work on my home Mastodon instance, scholar.social, and people noticed! This is what I love about scholar.social – when I talk about geeking out about something, people jump in. Another fediverse member suggested I take a look at <a href="https://yewtu.be/watch?v=c17gjxEoyMQ">this week’s FOSS Find</a>. And now, I’m writing up notes about it – at the request of the author of the Find. Read more after the jump.</p>
-
-:ET
