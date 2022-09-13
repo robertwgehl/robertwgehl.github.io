@@ -1,7 +1,7 @@
 ---
 layout: post
 author: RWG
-title: FOSS Finds: Scuttlebutt
+title: FOSS Finds, Scuttlebutt Edition
 tag:
     - Goal 2
 comments: 
