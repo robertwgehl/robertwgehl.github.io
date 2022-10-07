@@ -55,4 +55,4 @@ In addition, tags can also be selected in the PDF annotator. Also, quite awesome
 </figure>
 
 # To Synthesis and Beyond
-You might notice that all this work is based on a one-to-one, note-to-PDF system. And of course, writing is about synthesizing ideas from across many sources. A weakness of my system is synthesis. However, I will address that step in another post -- and it will focus on Zettlr.
+You might notice that all this work is based on a one-to-one, note-to-PDF system. And of course, writing is about synthesizing ideas from across many sources. A weakness of my system is synthesis -- blue notes to self won't cut it. However, I will address that step in another post -- and it will focus on Zettlr.
