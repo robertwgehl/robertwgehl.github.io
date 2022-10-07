@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109127766296415441
 ---
 
 I've previously posted about [Zotero "tips and tricks,"](2020/12/01/Zotero-Tips-and-Tricks.html) I have a [brief review of the beta version of Zotero's PDF system](2021/04/02/ZoteroComments.html), and I have an overview of [my workflow in Linux](2020/12/27/Workflow.html), but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.
