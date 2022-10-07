@@ -25,7 +25,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Deep Dive into a Zotero Workflow" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"RWG"},"url":"http://localhost:4000/2022/10/05/deepdivezotero.html","@type":"BlogPosting","description":"I’ve previously posted about Zotero “tips and tricks,” I have a brief review of the beta version of Zotero’s PDF system, and I have an overview of my workflow in Linux, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.","dateModified":"2022-10-05T00:00:00-04:00","datePublished":"2022-10-05T00:00:00-04:00","headline":"A Deep Dive into a Zotero Workflow","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/10/05/deepdivezotero.html"},"@context":"https://schema.org"}</script>
+{"dateModified":"2022-10-05T00:00:00-04:00","datePublished":"2022-10-05T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/10/05/deepdivezotero.html"},"author":{"@type":"Person","name":"RWG"},"url":"http://localhost:4000/2022/10/05/deepdivezotero.html","@type":"BlogPosting","description":"I’ve previously posted about Zotero “tips and tricks,” I have a brief review of the beta version of Zotero’s PDF system, and I have an overview of my workflow in Linux, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.","headline":"A Deep Dive into a Zotero Workflow","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -73,7 +73,7 @@
         
     </p>
 
-    <p>I’ve previously posted about <a href="2020/12/01/Zotero-Tips-and-Tricks.html">Zotero “tips and tricks,”</a> I have a <a href="2021/04/02/ZoteroComments.html">brief review of the beta version of Zotero’s PDF system</a>, and I have an overview of <a href="2020/12/27/Workflow.html">my workflow in Linux</a>, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.</p>
+    <p>I’ve previously posted about <a href="/2020/12/01/Zotero-Tips-and-Tricks.html">Zotero “tips and tricks,”</a> I have a <a href="/2021/04/02/ZoteroComments.html">brief review of the beta version of Zotero’s PDF system</a>, and I have an overview of <a href="/2020/12/27/Workflow.html">my workflow in Linux</a>, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.</p>
 
 <!-- more -->
 
@@ -118,7 +118,7 @@
 </figure>
 
 <h1 id="to-synthesis-and-beyond">To Synthesis and Beyond</h1>
-<p>You might notice that all this work is based on a one-to-one, note-to-PDF system. And of course, writing is about synthesizing ideas from across many sources. A weakness of my system is synthesis. However, I will address that step in another post – and it will focus on Zettlr.</p>
+<p>You might notice that all this work is based on a one-to-one, note-to-PDF system. And of course, writing is about synthesizing ideas from across many sources. A weakness of my system is synthesis – blue notes to self won’t cut it. However, I will address that step in another post – and it will focus on Zettlr.</p>
 
 
        
@@ -145,9 +145,9 @@
 <!--<div class="article-content">-->
 <div class="content">
   <h1>Comments</h1>
-  <p>Use your Mastodon account <a class="link" href="https://scholar.social/@robertwgehl/"> to comment on this post</a>. Please note that these posts are public -- the only exception is if you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Use your Mastodon account <a class="link" href="https://scholar.social/@robertwgehl/109127766296415441"> to comment on this post</a>. Please note that these posts are public -- the only exception is if you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
   <p>Don't have a Mastodon account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
-  <p><a class="button" href="https://scholar.social/interact/?type=reply">Reply</a></p>
+  <p><a class="button" href="https://scholar.social/interact/109127766296415441?type=reply">Reply</a></p>
   <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
   <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
   <script src="/assets/js/purify.min.js"></script>
@@ -163,7 +163,7 @@
 
     document.getElementById("load-comment").addEventListener("click", function() {
       document.getElementById("load-comment").innerHTML = "Loading";
-      fetch('https://scholar.social/api/v1/statuses//context')
+      fetch('https://scholar.social/api/v1/statuses/109127766296415441/context')
         .then(function(response) {
           return response.json();
         })
