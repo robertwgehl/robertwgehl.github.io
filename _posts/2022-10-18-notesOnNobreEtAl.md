@@ -71,3 +71,7 @@ The question is: beyond my critiquing this paper, what do we do? I mentioned thi
 But would it be effective? I took a look at the previous open letter and note that many of the remedies requested haven't been achieved. While Harvard's Dataverse did pull the Zignani et al dataset, the paper itself remains published and unretracted. Unlike the case of Zignani et al, Nobre et al appear to have not posted their dataset anywhere.
 
 Unlike Zignani et al, however, Nobre et al don't mention privacy considerations. It could be that an open letter to their institutions (Universidade Federal de Minas Gerais and Universidade Federal de Ouro Preto) _might_ result in these institutions' ethics boards to take a look at the work of Nobre et al. And since Nobre et al discuss future research plans involving media scraping from Mastodon, an open letter might prompt these researchers to do better.
+
+## ADDENDUM
+
+A fellow Mastodon member noted that [there is an option in Mastodon for users to avoid being indexed by search engines](https://docs.joinmastodon.org/user/preferences/). In fact, I have it set on my account. So, for anyone whose posts were included in the Nobre et al study, they have been indexed by Google without their consent.
