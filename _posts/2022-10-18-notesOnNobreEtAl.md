@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109190664409816571
 ---
 
 There's a new paper out about Mastodon! But unfortunately, it's a deeply problematic one.
