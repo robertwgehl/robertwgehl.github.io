@@ -14,7 +14,7 @@ comments:
 
 There's a new paper out about Mastodon! But unfortunately, it's a deeply problematic one.
 
-Nobre et al's "More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline" is a [paper that is now published](10.1007/978-3-031-19097-1_11) in proceedings from _International Conference on Social Informatics._ (Unfortunately, it's not open access.)
+Nobre et al's "More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline" is a [paper that is now published](https://link.springer.com/chapter/10.1007/978-3-031-19097-1_11) in proceedings from _International Conference on Social Informatics._ (Unfortunately, it's not open access.)
 
 Because I'm currently researching the fediverse and blogging about that process, I thought I'd write up notes on this paper.
 
