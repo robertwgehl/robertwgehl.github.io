@@ -1,0 +1,13 @@
+I"L	<p>There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one.</p>
+
+<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
+
+<p>Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper.</p>
+
+<p>Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/3262/3130">“Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”</a>, which resulted in a <a href="https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html">scathing open letter</a> and the retraction of a dataset from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R1HKVS">Harvard Dataverse</a>.</p>
+
+<p>Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s <a href="https://cloud.google.com/vision">Vision AI</a> Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images.</p>
+
+<p>In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:</p>
+
+:ET

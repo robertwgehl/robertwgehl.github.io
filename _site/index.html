@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
-	<link type="application/atom+xml" rel="alternate" href="https://fossacademic.tech/feed.xml" title="FOSS Academic" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="FOSS Academic" />
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Blog | FOSS Academic</title>
 <meta name="generator" content="Jekyll v4.1.1" />
@@ -16,13 +16,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS." />
 <meta property="og:description" content="A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS." />
-<link rel="canonical" href="https://fossacademic.tech/" />
-<meta property="og:url" content="https://fossacademic.tech/" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="FOSS Academic" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
-{"url":"https://fossacademic.tech/","@type":"WebSite","description":"A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.","name":"FOSS Academic","headline":"Blog","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/","@type":"WebSite","description":"A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.","name":"FOSS Academic","headline":"Blog","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -60,6 +60,26 @@
 	
     <main>
     <ul class="postList">
+  
+    <li class="postWrapper">
+      <h2 class="postHeader"><a href="/2022/10/18/notesOnNobreEtAl.html">More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)</a></h2>
+      <p>There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one.</p>
+
+<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
+
+<p>Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper.</p>
+
+<p>Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/3262/3130">“Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”</a>, which resulted in a <a href="https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html">scathing open letter</a> and the retraction of a dataset from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R1HKVS">Harvard Dataverse</a>.</p>
+
+<p>Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s <a href="https://cloud.google.com/vision">Vision AI</a> Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images.</p>
+
+<p>In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:</p>
+
+
+      
+    <a href="/2022/10/18/notesOnNobreEtAl.html"><strong>Read more...</strong></a>
+
+    </li>
   
     <li class="postWrapper">
       <h2 class="postHeader"><a href="/2022/10/05/deepdivezotero.html">A Deep Dive into a Zotero Workflow</a></h2>
@@ -917,6 +937,11 @@ Them: Oh! Then 1 pm for you is 9 pm for me.</p>
     <section>
         <h1>Archives</h1>
         <ul class="posts">
+        
+            <li>
+                <span class="post-date">Oct 18, 2022</span>
+                <a class="post-link" href="/2022/10/18/notesOnNobreEtAl.html">More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)</a>
+            </li>
         
             <li>
                 <span class="post-date">Oct 5, 2022</span>
