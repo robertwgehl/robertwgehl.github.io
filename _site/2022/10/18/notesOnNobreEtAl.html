@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
-	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="FOSS Academic" />
+	<link type="application/atom+xml" rel="alternate" href="https://fossacademic.tech/feed.xml" title="FOSS Academic" />
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>More Mastodon Scraping Without Consent (Notes on Nobre et al 2022) | FOSS Academic</title>
 <meta name="generator" content="Jekyll v4.1.1" />
@@ -17,15 +17,15 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:" />
 <meta property="og:description" content="There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:" />
-<link rel="canonical" href="http://localhost:4000/2022/10/18/notesOnNobreEtAl.html" />
-<meta property="og:url" content="http://localhost:4000/2022/10/18/notesOnNobreEtAl.html" />
+<link rel="canonical" href="https://fossacademic.tech/2022/10/18/notesOnNobreEtAl.html" />
+<meta property="og:url" content="https://fossacademic.tech/2022/10/18/notesOnNobreEtAl.html" />
 <meta property="og:site_name" content="FOSS Academic" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2022-10-18T00:00:00-04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)" />
 <script type="application/ld+json">
-{"dateModified":"2022-10-18T00:00:00-04:00","datePublished":"2022-10-18T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/10/18/notesOnNobreEtAl.html"},"author":{"@type":"Person","name":"RWG"},"url":"http://localhost:4000/2022/10/18/notesOnNobreEtAl.html","@type":"BlogPosting","description":"There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:","headline":"More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)","@context":"https://schema.org"}</script>
+{"dateModified":"2022-10-18T00:00:00-04:00","datePublished":"2022-10-18T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2022/10/18/notesOnNobreEtAl.html"},"author":{"@type":"Person","name":"RWG"},"url":"https://fossacademic.tech/2022/10/18/notesOnNobreEtAl.html","@type":"BlogPosting","description":"There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:","headline":"More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -75,7 +75,7 @@
 
     <p>There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one.</p>
 
-<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
+<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="https://link.springer.com/chapter/10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
 
 <p>Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper.</p>
 
@@ -131,7 +131,11 @@
 
 <p>But would it be effective? I took a look at the previous open letter and note that many of the remedies requested haven’t been achieved. While Harvard’s Dataverse did pull the Zignani et al dataset, the paper itself remains published and unretracted. Unlike the case of Zignani et al, Nobre et al appear to have not posted their dataset anywhere.</p>
 
-<p>Unlike Zignani et al, however, Nobre et al don’t mention privacy considerations. It could be that an open letter to their institutions (Universidade Federal de Minas Gerais and Universidade Federal de Ouro Preto) <em>might</em> result in these institution’s ethics boards to take a look at the work of Nobre et al. And since Nobre et al discuss future research plans involving media scraping from Mastodon, an open letter might prompt these researchers to do better.</p>
+<p>Unlike Zignani et al, however, Nobre et al don’t mention privacy considerations. It could be that an open letter to their institutions (Universidade Federal de Minas Gerais and Universidade Federal de Ouro Preto) <em>might</em> result in these institutions’ ethics boards to take a look at the work of Nobre et al. And since Nobre et al discuss future research plans involving media scraping from Mastodon, an open letter might prompt these researchers to do better.</p>
+
+<h2 id="addendum">ADDENDUM</h2>
+
+<p>A fellow Mastodon member noted that <a href="https://docs.joinmastodon.org/user/preferences/">there is an option in Mastodon for users to avoid being indexed by search engines</a>. In fact, I have it set on my account. So, for anyone whose posts were included in the Nobre et al study, they have been indexed by Google without their consent.</p>
 
 
        
@@ -158,9 +162,10 @@
 <!--<div class="article-content">-->
 <div class="content">
   <h1>Comments</h1>
-  <p>Use your Mastodon account <a class="link" href="https://scholar.social/@robertwgehl/"> to comment on this post</a>. Please note that these posts are public -- the only exception is if you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
-  <p>Don't have a Mastodon account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
-  <p><a class="button" href="https://scholar.social/interact/?type=reply">Reply</a></p>
+  <p>I'm afraid my fediverse-to-blog comment system hasn't been working for some time. I'm going to fix it... someday. In the meantime, I'll discuss these blog posts on Mastodon (I'm <a href="https://scholar.social/@robertwgehl">@robertwgehl@scholar.social</a>) and you can also reach me at robertwgehl @ protonmail DOT com.
+  <!-- <p>Use your Mastodon account <a class="link" href="https://scholar.social/@robertwgehl/109190664409816571"> to comment on this post</a>. Please note that these posts are public -- the only exception is if you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Don't have a Mastodon account and you want one? Ask me how! robertwgehl AT protonmail . com</p>-->
+  <p><a class="button" href="https://scholar.social/interact/109190664409816571?type=reply">Reply</a></p>
   <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
   <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
   <script src="/assets/js/purify.min.js"></script>
@@ -176,7 +181,7 @@
 
     document.getElementById("load-comment").addEventListener("click", function() {
       document.getElementById("load-comment").innerHTML = "Loading";
-      fetch('https://scholar.social/api/v1/statuses//context')
+      fetch('https://scholar.social/api/v1/statuses/109190664409816571/context')
         .then(function(response) {
           return response.json();
         })
@@ -257,6 +262,11 @@
     <section>
         <h1>Archives</h1>
         <ul class="posts">
+        
+            <li>
+                <span class="post-date">Oct 25, 2022</span>
+                <a class="post-link" href="/2022/10/25/ASM-not-RWASM.html">Expanding The Conversation (notes on the Pew Alternative Social Media Report)</a>
+            </li>
         
             <li>
                 <span class="post-date">Oct 18, 2022</span>

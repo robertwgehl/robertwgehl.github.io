@@ -1,6 +1,10 @@
-I"�#<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
+I"f'<p>There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one.</p>
 
-<p>Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/3262/3130">“Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”</a>, which resulted in a <a href="https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html">scathing open letter</a> and the retraction of a dataset from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R1HKVS">Harvard Dataverse</a>.</p>
+<p>Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a <a href="https://link.springer.com/chapter/10.1007/978-3-031-19097-1_11">paper that is now published</a> in proceedings from <em>International Conference on Social Informatics.</em> (Unfortunately, it’s not open access.)</p>
+
+<p>Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper.</p>
+
+<p>Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, <a href="https://ojs.aaai.org/index.php/ICWSM/article/view/3262/3130">“Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”</a>, which resulted in a <a href="https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html">scathing open letter</a> and the retraction of a dataset from the <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R1HKVS">Harvard Dataverse</a>.</p>
 
 <p>Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s <a href="https://cloud.google.com/vision">Vision AI</a> Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images.</p>
 
@@ -10,9 +14,9 @@
 
 <h2 id="key-problems-in-more-of-the-same">Key Problems in “More of the Same”</h2>
 <h3 id="violations-of-community-standards-and-privacy-policies">Violations of Community Standards and Privacy Policies</h3>
-<p>This is the big one. There has been a longstanding community prohibition against taking Mastodon posts out of context. This is something I have observed again and again as I do my participant observation in the fediverse. While many Mastodon users might be ok with having their posts taken, many do not. And many instances prohibit the practice in their terms of service. I myself am very careful about getting explicit consent from anyone I want to quote.</p>
+<p>This is the big one. There has been a longstanding community prohibition against taking Mastodon posts out of context. This is something I have observed again and again as I do my participant observation in the fediverse. While many Mastodon users might be ok with having their posts taken, many are not. And many instances prohibit the practice in their terms of service. I myself am very careful about getting explicit consent from anyone I want to quote.</p>
 
-<p>Did the authors examine the privacy policies or terms of service for all – or even any – of the 4K instances they culled content from? There’s no indication that they did. Indeed, unlike Zignani et al, these authors don’t even discuss privacy. The assumption seems to be that these posts are “public” and are thus fair game. But as the Association of Internet Researcher’s ethics guidelines have noted over the years, sometimes “public” doesn’t mean “public” – that is, it doesn’t mean “I want everyone in the world to see this.”</p>
+<p>Did the authors examine the privacy policies or terms of service for all – or even any – of the 4K instances they culled content from? There’s no indication that they did. Indeed, unlike Zignani et al, these authors don’t even discuss privacy. The assumption seems to be that these posts are “public” and are thus fair game. But as the <a href="https://aoir.org/reports/ethics3.pdf">Association of Internet Researcher’s ethics guidelines</a> have noted over the years, sometimes “public” doesn’t mean “public” – that is, it doesn’t mean “I want everyone in the world to see this.”</p>
 
 <p>And most egregious is the fact that there is no human subjects/institutional review board information in the paper – it doesn’t even appear that the authors took that basic step.</p>
 
@@ -26,19 +30,24 @@
 
 <p>In addition, the authors note a number of the images are “spoof” images, per the Google analysis, and that spoof images are explicit. How so? Indeed, what does “spoof” even mean?</p>
 
+<p>And, none of this accounts for the fact that Mastodon (and other fediverse sites) use content warnings and other devices to allow users a bit of control over what they see.</p>
+
 <p>As I mentioned above, the observation that there are explicit images led the authors to make a rather weak, in-passing argument “moderation is necessary in the Mastodon environment as images, while being a popular media format, indeed display a consistent level of explicit content” (page 189). But again, without context, these authors cannot really judge whether or not the “Mastodon environment” is moderated or not.</p>
 
 <h3 id="a-top-ten-image-sharing-mastodon-instance-is-actually-a-pleroma-instance">A top-ten image sharing Mastodon instance is actually a Pleroma instance</h3>
 
-<p>The authors don’t publish a list of all the 4K instances they scraped content from, but they do post the Top Ten image-sharing instances. Given that they scrape Mastodon.social’s federated timeline, it’s no surprise that that instance is #1. There are also other, unsurprising inclusions on the top ten: botsin.space (#2), mastodon.online (#6), There’s a surprising #3, though: milker.cafe. The authors talk about milker.cafe at length, because they note that milker.cafe’s 11 active users contributed a whopping 26K images to the dataset.</p>
+<p>The authors don’t publish a list of all the 4K instances they scraped content from, but they do post the Top Ten image-sharing instances. Given that they scrape Mastodon.social’s federated timeline, it’s no surprise that that instance is #1. There are also other, unsurprising inclusions on the top ten: botsin.space (#2), mastodon.online (#6).</p>
+
+<p>There’s a surprising #3, though: milker.cafe. The authors talk about milker.cafe at length, because they note that milker.cafe’s 11 active users contributed a whopping 26K images to the dataset.</p>
 
 <p>The problem is milker.cafe is a Pleroma instance, not a Mastodon one. Since they make claims about Mastodon not being moderated enough, this is a bit of a problem. I hadn’t heard of milker.cafe, so I took a look and got – surprise, surprise – eyeballs full of busty waifus… once I clicked through the “Adults Only” warnings. How many of Nobre et al’s “explicit” instances came from milker.cafe?</p>
+
+<p>And why didn’t the authors flag this Top Ten image sharing site as a Pleroma instance, not a Mastodon one? Could they not tell the difference?</p>
 
 <h3 id="the-denominator-problem">The Denominator Problem</h3>
 <p>Finally, the authors note that the largest instances share the most “explicit” images. This raises the denominator problem (as Eric Jardine might put it): they don’t offer any denominator, so we have no idea what percentage we’re dealing with.</p>
 
-<p>…
-As a whole, the paper, in my opinion, violates Mastodon community norms without really contributing much of anything to science. The authors’ key findings are a) people share images on Mastodon; that b) many of those images come from outside of Mastodon (e.g., Twitter, Reddit); and c) some of those images are – in the judgement of Google’s Safe Search algorithm – explicit. Therefore, they argue, Mastodon needs moderation. As I see it, the authors are relying on an age-old trick to get published: gin up a moral panic about some new digital media practice.</p>
+<p><strong>As a whole, the paper,</strong> in my opinion, violates Mastodon community norms without really contributing much of anything to science. The authors’ key findings are a) people share images on Mastodon; that b) many of those images come from outside of Mastodon (e.g., Twitter, Reddit); and c) some of those images are – in the judgement of Google’s Safe Search algorithm – explicit. Therefore, they argue, Mastodon needs moderation. As I see it, the authors are relying on an age-old trick to get published: gin up a moral panic about some new digital media practice.</p>
 
 <p>I  don’t think that these simplistic findings required such a breach of community norms and privacy policies.</p>
 
@@ -47,5 +56,9 @@ As a whole, the paper, in my opinion, violates Mastodon community norms without 
 
 <p>But would it be effective? I took a look at the previous open letter and note that many of the remedies requested haven’t been achieved. While Harvard’s Dataverse did pull the Zignani et al dataset, the paper itself remains published and unretracted. Unlike the case of Zignani et al, Nobre et al appear to have not posted their dataset anywhere.</p>
 
-<p>Unlike Zignani et al, however, Nobre et al don’t mention privacy considerations. It could be that an open letter to their institutions (Universidade Federal de Minas Gerais and Universidade Federal de Ouro Preto) <em>might</em> result in these institution’s ethics boards to take a look at the work of Nobre et al. And since Nobre et al discuss future research plans involving media scraping from Mastodon, an open letter might prompt these researchers to do better.</p>
+<p>Unlike Zignani et al, however, Nobre et al don’t mention privacy considerations. It could be that an open letter to their institutions (Universidade Federal de Minas Gerais and Universidade Federal de Ouro Preto) <em>might</em> result in these institutions’ ethics boards to take a look at the work of Nobre et al. And since Nobre et al discuss future research plans involving media scraping from Mastodon, an open letter might prompt these researchers to do better.</p>
+
+<h2 id="addendum">ADDENDUM</h2>
+
+<p>A fellow Mastodon member noted that <a href="https://docs.joinmastodon.org/user/preferences/">there is an option in Mastodon for users to avoid being indexed by search engines</a>. In fact, I have it set on my account. So, for anyone whose posts were included in the Nobre et al study, they have been indexed by Google without their consent.</p>
 :ET
