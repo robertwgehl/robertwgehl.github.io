@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109484892426613831
 ---
 A short FOSS Finds this time, but it contains something worth watching out for.
 
