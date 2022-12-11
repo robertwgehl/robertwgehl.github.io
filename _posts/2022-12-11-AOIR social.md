@@ -33,6 +33,8 @@ Put another way, will AOIR be a good organizational citizen of the fediverse? Wi
 
 <!-- more -->
 
+## Tough Questions
+
 The meeting with AOIR Executive Committee went, in my view, extremely well, because they asked me the hardest questions. And for anyone starting a fediverse instance, I recommend asking similar questions. The questions included:
 * Do we spin up our own cloud server, a la Digital Ocean, or do we seek out managed hosting?
 * Do we plan for our total membership to be involved (this year, 1000 people) or for a fraction of them?
