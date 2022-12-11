@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109230530918331552
 ---
 
 _NB: I just [published a piece in_ The Conversation](https://theconversation.com/citizens-social-media-can-provide-an-antidote-to-propaganda-and-disinformation-192491) _about a recent Pew Research report, ["The Role of Alternative Social Media in the News and Information Environment"](https://www.pewresearch.org/journalism/2022/10/06/the-role-of-alternative-social-media-in-the-news-and-information-environment/). I argue that the authors get "alternative social media " wrong. I lay out some of my concerns in that_ Conversation _piece, but I only had about 900 words to work with._
