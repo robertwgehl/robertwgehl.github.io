@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid: 
+  fediid: 109496316975939228
 ---
 Elon Musk has crazy timing.
 
