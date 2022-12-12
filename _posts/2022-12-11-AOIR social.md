@@ -65,3 +65,7 @@ Finally, what would AOIR members get out of it? I mean, if you ask me, life beyo
 The conversation isn't over, and that means more tough questions. But it's a good sign that it's the Executive Committee asking them.
 
 I will post more as things develop.
+
+## Edit for Credit
+
+I didn't mention in the original post that Sarah T. Roberts, Aram, and I drafted a Code of Conduct for the Executive Committee ahead of the meeting. I want to acknowledge Sarah and Aram's work on that document, too. I imagine we can share a draft of the COC with the fediverse, but for now we're working on it in-house.
