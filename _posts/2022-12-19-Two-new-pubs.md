@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109540563779083081
 ---
 
 Just a quick note: I have a new journal article, co-authored with Diana Zulli: "[The Digital Covenant: Non-centralized Platform Governance on the Mastodon Social Network](https://www.thestar.com/opinion/contributors/2022/12/18/elon-musks-stance-on-free-speech-doesnt-include-competition-to-twitter.html)." The abstract is:
