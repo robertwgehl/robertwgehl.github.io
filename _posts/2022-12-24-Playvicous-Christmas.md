@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109570154245060641
 ---
 This Christmas season, we all received a gift: Ro is blogging about Playvicious.social. He currently has four posts with more on the way:
 
