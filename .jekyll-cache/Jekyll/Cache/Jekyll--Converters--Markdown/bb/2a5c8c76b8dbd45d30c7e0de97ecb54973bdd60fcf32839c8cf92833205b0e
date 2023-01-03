@@ -1,0 +1,68 @@
+I"�$<p>I don’t often do “Year in Review” posts, but… this past year has been something else. I’ve started a new job in a new country, I published another book, and my area of research (alternative social media) got a lot of media attention. In addition, I’ve formulated a new book project – and in doing so, I almost regret the name of this blog! But don’t worry: the <a href="..2020/11/27/introduction.html">FOSS Academic Lifestyle Dream</a> is still alive, even if it is a bit more self-reflexive about about FOSS means.</p>
+
+<p>I’ll do this post in roughly chronological order. Sorta.</p>
+
+<!-- more -->
+
+<h2 id="a-new-book-social-engineering">A New Book: Social Engineering</h2>
+<p>My 2022 started out as ‘21 ended: I was the F. Jay Taylor Endowed Research Chair of Communication at Louisiana Tech. And at the start of 2022, I was eagerly awaiting the physical appearance of my third book. Co-authored with my good friend Sean Lawson, <em>Social Engineering: How Crowdmasters, Phreaks, Hackers, and Trolls Created a New Form of Manipulative Communication</em> tackles disinformation in the digital age. Sean and I drew on two histories of disinformation to tell the tale. First, there’s early 20th century propaganda (think of the work of Doris Fleischman, Edward Bernays, and Ivy Lee). Second, there’s mid-century phone and computer hacking (think of Suzy Thunder and Kevin Mitnick). We argue that today’s manipulation (think Russian election interference or deceptive marketing) is a mix of old-school propaganda and newer, interpersonal hacking.</p>
+
+<p>Enough about that book, though. You’re probably wondering, “what software did you use to write it?” As I’ve written about here on the blog, Sean and I used a lot of FOSS to put this work together, including Zotero and Nextcloud. I was able to do much of my work at LaTech using Linux and LibreOffice, among other tools. So the FOSS Academic Lifestyle Dream was in full effect for the composition of <em>Social Engineering.</em> And! MIT Press also generously made the book Open Access, so open source is a theme here.</p>
+
+<p>I think the book is doing well. Sean and I presented it to various audiences, including Town Hall Seattle.</p>
+
+<h2 id="the-next-book-questioning-foss">The Next Book: Questioning FOSS</h2>
+<p>As I have found myself doing when one book is wrapping up, I start looking around for the next project. And as <em>Social Engineering</em> was nearing completion, I realized I already had a project: alternative social media. After all, I started this very blog with the vague idea of writing a book about FOSS. And many alternative social media projects are FOSS projects.</p>
+
+<p>One such FOSS alternative in particular I had been watching for a few years: Mastodon.</p>
+
+<p>I had been studying alternative social media for many years – in fact, my dissertation and first book concluded with a call for alternatives, and I’ve been publishing about them ever since. At this point, early in 2022, it felt like a lonely area of study (although read on for more about this!).</p>
+
+<p>So, I started conceptualizing a book about Mastodon. And the more I looked at Mastodon, the more I learned how FOSS is much, much more complex than I had even realized. For example, how do we understand the fact that Mastodon was built predominantly by queer and trans folks, but that it was appropriated by white supremacists (in the form of Gab.com)? In other words, how do we understand the “freedom” in FOSS?</p>
+
+<p>A lightning bolt struck me when I came across the work of Coraline Ada Ehmke. I started studying her work on “Ethical Source Software,” which is essentially FOSS for collective good. Rather than the absolute freedom of Freedom 0 – including the freedom to use software for destructive or unjust purposes – Ethical Source is about licensing software for use by anyone, but only for just purposes. It’s a radical project – radical in the best sense, in that it is getting to the root of problem.</p>
+
+<p>I had the privilege of interviewing Ehmke to learn more. And all of it makes me wish I titled this blog something other than “fossacademic.tech”!</p>
+
+<p>I also had the privilege of representing the Organization for Ethical Source at a Mastodon/Hometown workshop in May of 2022. Conducted by the Varia Collective (the good folks behind post.lurk.org), I participated in a masterclass in digital community building and moderation. I also talked to folks about the contradictions of FOSS – not only the issues of Freedom 0, but also issues around the devaluing of non-technical contributions and environmental impacts of digital media. I wrote a report for the OES on whether or not that organization should start its own Mastodon instance.</p>
+
+<p>All of this has influenced my work on Mastodon. I worked with Diana Zulli, a political communication scholar at Purdue, to think about non-centralized platform governance, ethics, and content moderation on Mastodon. This work helped me think through <em>some</em> of the questions people like Ehmke are raising, but certainly not all.</p>
+
+<p>And, I started interviewing Mastodon folks to learn more about its history, from its pre-cursors to ActivityPub to Playvicious to the prenent.</p>
+
+<p>What all this showed me is that things are even <em>more</em> complicated! But also that there is a book in all this. It should be a fascinating book – I’ve tentatively titled it <em>Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Social Media.</em> (And do not despair, fediverse friends: I will talk about the rest of the fediverse, too. I just need a main ‘character’ to do it, and Mastodon is it).</p>
+
+<h2 id="a-new-job-in-a-new-country">A New Job in a New Country</h2>
+<p>As if starting a new book project wasn’t enough, I started a new job in a new country. In September, I moved North to York University in Toronto! I am so excited to be in Toronto, in Canada, and at York. Why? First, Toronto is not far from where I grew up in Michigan, and of course it’s an exciting city. Second, I’ve wanted to get to Canada for years now, especially since doing a Fulbright in Calgary. Third, I’ve admired York University – the Department of Communication and Media Studies in particular – for a long time.</p>
+
+<p>“Enough of that,” I hear you say. “Can you live the FOSS Academic Lifestyle Dream at York?”</p>
+
+<p>The answer is: yes, but it’s a bit harder than other places I’ve been. It’s a Microsoft shop, with Outlook and Teams running amok.</p>
+
+<p>However, I’m writing this post on a Linux box I was able to purchase through York with my startup funds. And I’ve been able to route emails and calendars from Outlook to Thunderbird. I can of course edit documents with LibreOffice – the compatibility with Word is solid. I just have to use Teams (and Zoom) on occasion.</p>
+
+<p>I can live with that.</p>
+
+<h2 id="my-research-gets-noticed">My Research Gets Noticed</h2>
+<p>Ok, so all of that takes me through the early part of the year (the <em>Social Engineering</em> book, starting a new book on Mastodon) and the middle bit (moving to York). What I would have liked is a quiet end to the year.</p>
+
+<p>I didn’t get it.</p>
+
+<p>Rumblings of a noisy end to 2022 started back in April, when a fellow named Musk offered to buy Twitter. That started a minor wave of folks who either started new Mastodon/fediverse accounts or revived dormant ones.</p>
+
+<p>But that wasn’t the big wave.</p>
+
+<p>Late October, 2022: Musk completes the purchase. And the waves start coming.</p>
+
+<p>Because I have published work on Mastodon and other alternative social media, I had the privilege of talking to a lot of reporters at this time. I was interviewed about Musk, Twitter, and Mastodon by the CBC, Kai Ryssdal (of NPR Marketplace fame) and Kimberly Adams, <em>WIRED</em>, and Radio New Zealand, among other outlets. It was a wild time!</p>
+
+<p>I also went to the annual Association of Internet Researchers conference in the midst of all this. AOIR is now talking about starting its own Mastodon/Hometown instance.</p>
+
+<p>All of this cements my idea that my next book should be about Mastodon. Indeed, it’s made me rethink that project – I don’t want to write it for academics. I want to write it for all the people who are deeply troubled by the fact that corporate social media can be dominated by billionaires, that we have no control over it, and that these systems are designed to exploit our sociality for profit. What the Musk wave taught me is that there are literally <em>millions</em> of such people out there.</p>
+
+<p>I no longer feel lonely in studying alternatives like Mastodon. In fact, I have the great privilege of connecting to people around the world who are thinking deeply about what social media means for our lives. Some of them have been on non-centralized, FOSS, democratically-run social media for years. Some are only now experimenting with these systems. But the conversation is now rich.</p>
+
+<p>So, in an effort to reach a broader audience, I’m now writing <em>Move Slowly and Build Bridges</em> in a more accessible format. I’m also looking for a book agent for my next project. (Perhaps that’s you? Please contact me!) And I will continue to blog about it here.</p>
+
+<p>2023 is going to be an exciting year, I think!</p>
+:ET
