@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid: 
+  fediid: 109626823298258002
 ---
 
 I don't often do "Year in Review" posts, but... this past year has been something else. I've started a new job in a new country, I published another book, and my area of research (alternative social media) got a lot of media attention. In addition, I've formulated a new book project -- and in doing so, I almost regret the name of this blog! But don't worry: the [FOSS Academic Lifestyle Dream](/2020/11/27/introduction.html) is still alive, even if it is a bit more self-reflexive about about FOSS means.
