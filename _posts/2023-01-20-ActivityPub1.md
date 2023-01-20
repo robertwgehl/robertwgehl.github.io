@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109723434611493654
 ---
 
 _NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come._
