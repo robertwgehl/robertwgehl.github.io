@@ -45,7 +45,7 @@ Our *New Media and Society* article provides citations, but here I'll quickly co
 
 We can see the same thing over the past few months with Mastodon coverage. In the fall, journalists asked me if Mastodon will replace Twitter. My typical reply was something like this:
 
-> I've seen massive discontent over corporate social media many times (e.g., Emotional Contagion, Cambridge Analytica) and somehow people keep using Facebook and Twitter et al. So, probably not, although if Twitter went away, I'd be fine with it. Regardless, what Mastodon and its kin offer is an alternative to corporate social media for those of us concerned about surveillance, disinformation, and harassment.
+> I've seen massive discontent over corporate social media many times (e.g., [Emotional Contagion](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), [Cambridge Analytica](https://www.theguardian.com/news/series/cambridge-analytica-files)) and somehow people keep using Facebook and Twitter et al. So, probably not, although if Twitter went away, I'd be fine with it. Regardless, what Mastodon and its kin offer is an alternative to corporate social media for those of us concerned about surveillance, disinformation, and harassment.
 
 But, no matter what I said, the very emphasis on "will it replace Twitter?" is not too far off of "will it kill Twitter?".
 
@@ -55,12 +55,11 @@ Fast forward to last week, and WIRED's Hoover asked me if I was concerned about 
 
 I also stressed the fact that the real lesson of the Fall of 2022 was that ActivityPub succeeded in scaling up.
 
-Like I said, the [resulting article](https://www.wired.com/story/the-mastodon-bump-is-now-a-slump/) is actually quite good. I commend Hoover for the article because it covered things like legal liability and the fact that the network did scale and because she interviewed a Mastodon admin.
+Like I said, the [resulting article](https://www.wired.com/story/the-mastodon-bump-is-now-a-slump/) is actually quite good. I commend Hoover for the article because it covered things like emerging questions about [legal liability](https://www.eff.org/deeplinks/2022/12/user-generated-content-and-fediverse-legal-primer) and the fact that the network did scale and because she interviewed a Mastodon admin.
 
 But it does however imply that Mastodon is somehow failing because of the "slump." It implies that Mastodon is dying.
 
 And I know this because just a day after it came out, *another* reporter called to ask about Mastodon's impending demise -- and that reporter cited Hoover's WIRED article.
-
 That second reporter was working on a story about... new and emerging alternatives to corporate social media. And they were starting with the premise that Mastodon failed and it was time to find something new.
 
 In other words, that reporter was looking for the next Killer Hype Cycle.
