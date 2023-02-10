@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: scholar.social
   fediusername: robertwgehl
-  fediid:
+  fediid: 109842104960137707
 ---
 Ok, you all probably remember last fall, when the Muskening happened. When Mastodon saw a massive influx of new members. When Mastodon admins were struggling to keep up with the influx but ultimately showed that the network can, in fact, scale up. It was, in my view, the biggest stress on the [ActivityPub](https://www.w3.org/TR/activitypub/) protocol -- and ActivityPub kicked ass. Millions of people signed up for Mastodon.
 
