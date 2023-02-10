@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-20T14:46:17-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Reading the Minutes of the Social Web Working Group, part 1</title><link href="http://localhost:4000/2023/01/20/ActivityPub1.html" rel="alternate" type="text/html" title="Reading the Minutes of the Social Web Working Group, part 1" /><published>2023-01-20T00:00:00-05:00</published><updated>2023-01-20T00:00:00-05:00</updated><id>http://localhost:4000/2023/01/20/ActivityPub1</id><content type="html" xml:base="http://localhost:4000/2023/01/20/ActivityPub1.html">&lt;p&gt;&lt;em&gt;NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-10T14:18:15-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Bumps, Slumps and the Killer Hype Cycle</title><link href="http://localhost:4000/2023/02/10/bumpAndSlump.html" rel="alternate" type="text/html" title="Bumps, Slumps and the Killer Hype Cycle" /><published>2023-02-10T00:00:00-05:00</published><updated>2023-02-10T00:00:00-05:00</updated><id>http://localhost:4000/2023/02/10/bumpAndSlump</id><content type="html" xml:base="http://localhost:4000/2023/02/10/bumpAndSlump.html">&lt;p&gt;Ok, you all probably remember last fall, when the Muskening happened. When Mastodon saw a massive influx of new members. When Mastodon admins were struggling to keep up with the influx but ultimately showed that the network can, in fact, scale up. It was, in my view, the biggest stress on the &lt;a href=&quot;https://www.w3.org/TR/activitypub/&quot;&gt;ActivityPub&lt;/a&gt; protocol – and ActivityPub kicked ass. Millions of people signed up for Mastodon.&lt;/p&gt;
+
+&lt;p&gt;That’s the titular Mastodon “bump.”&lt;/p&gt;
+
+&lt;p&gt;Since I’ve published academic articles on Mastodon, during that Eternal Muskvember, I was approached by a lot of journalists (&lt;a href=&quot;https://www.wired.com/story/twitter-users-mastodon-meltdown/&quot;&gt;here&lt;/a&gt;, &lt;a href=&quot;https://www.rnz.co.nz/national/programmes/ninetonoon/audio/2018866818/twitter-users-seek-alternative-to-musk-run-platform&quot;&gt;here&lt;/a&gt;, and &lt;a href=&quot;https://www.marketplace.org/shows/make-me-smart/unpacking-mastodon/&quot;&gt;here&lt;/a&gt;, for example) to talk about Mastodon, answering questions ranging from “what is it?” to “will it replace Twitter?” It was an exciting and sometimes exasperating time. I basically told myself, “Self, this sort of media attention is rare. Enjoy it, but know that it won’t last.” And indeed, a few weeks later, the story died down.&lt;/p&gt;
+
+&lt;p&gt;I also told myself to expect the inevitable follow-up. That’s what I’m writing about here.&lt;/p&gt;
+
+&lt;p&gt;As many readers of this blog are likely aware, after the new year, Mastodon’s active user base dropped off. As with every wave of social media movement from platform to platform, some percentage of people just don’t stick with the new site.&lt;/p&gt;
+
+&lt;p&gt;There’s the titular Mastodon “slump.”&lt;/p&gt;
+
+&lt;p&gt;Last week, I got an interview request from WIRED’s Amanda Hoover, who was working on &lt;a href=&quot;https://www.wired.com/story/the-mastodon-bump-is-now-a-slump/amp&quot;&gt;a story&lt;/a&gt; about how Mastodon’s drop in active users signaled that it had failed in its mission to replace Twitter.&lt;/p&gt;
+
+&lt;p&gt;Now, before I go any further I will say Hoover’s reporting on Mastodon has been excellent. She asks great questions, and she does more than just interview Eugen Rochko – she talks to instance admins, lawyers, and academics like myself. And, in fact, the article I’m going to critique is quite good.&lt;/p&gt;
+
+&lt;p&gt;But I am going to use her latest WIRED article to illustrate an all-too-common trope in reporting on alternative social media: it’s what I call “The Killer Hype Cycle.”&lt;/p&gt;
+
+&lt;!-- more --&gt;
+&lt;h2 id=&quot;the-killer-hype-cycle&quot;&gt;The Killer Hype Cycle&lt;/h2&gt;
+&lt;p&gt;So, here’s the Killer Hype Cycle, as a couple colleagues and I describe it in a &lt;a href=&quot;https://hcommons.org/deposits/objects/hc:29856/datastreams/CONTENT/content&quot;&gt;&lt;em&gt;New Media and Society&lt;/em&gt; article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Killer Hype Cycles are often seen in tech reporting on alternatives to mainstream social media platforms, such as Facebook and Twitter. The Cycle goes like this: first, a journalist notices a fledgling alternative social media system. Looking for a click-worthy angle, the journalist declares it the next ‘Facebook Killer’ or ‘Twitter
+Killer,’ arguing that within months, the corporate social media giant will be ‘killed’ because its users will leave en masse for the new alternative. Later, when someone notices that Facebook or Twitter is still active despite the presence of the ‘Killer,’ another journalist (or even the original journalist) will declare the alternative a ‘failure’ or simply ‘dead,’ mainly because it did not attract hundreds of millions of new users in a matter of weeks. The cycle appears to end—that is, until another alternative is noticed by a tech reporter, and the cycle is repeated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our &lt;em&gt;New Media and Society&lt;/em&gt; article provides citations, but here I’ll quickly cover some examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In 2010, when diaspora* was getting attention, journalists declared it to be a “Facebook killer,” and soon after, declared it to be a failure.&lt;/li&gt;
+  &lt;li&gt;In 2014, ello was dubbed a Facebook killer, and then weeks later it was called a failure.&lt;/li&gt;
+  &lt;li&gt;And in 2017, the same happened to… Mastodon, which was dubbed a “Twitter Killer” only to be written off for dead that same year.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We can see the same thing over the past few months with Mastodon coverage. In the fall, journalists asked me if Mastodon will replace Twitter. My typical reply was something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’ve seen massive discontent over corporate social media many times (e.g., Emotional Contagion, Cambridge Analytica) and somehow people keep using Facebook and Twitter et al. So, probably not, although if Twitter went away, I’d be fine with it. Regardless, what Mastodon and its kin offer is an alternative to corporate social media for those of us concerned about surveillance, disinformation, and harassment.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But, no matter what I said, the very emphasis on “will it replace Twitter?” is not too far off of “will it kill Twitter?”.&lt;/p&gt;
+
+&lt;p&gt;Fast forward to last week, and WIRED’s Hoover asked me if I was concerned about the dropoff in Mastodon active users. I didn’t write down my exact reply, but I said something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No, because these waves come and go, and while some percentage of new users might stop using Mastodon, Mastodon’s overall membership has gone up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I also stressed the fact that the real lesson of the Fall of 2022 was that ActivityPub succeeded in scaling up.&lt;/p&gt;
+
+&lt;p&gt;Like I said, the &lt;a href=&quot;https://www.wired.com/story/the-mastodon-bump-is-now-a-slump/&quot;&gt;resulting article&lt;/a&gt; is actually quite good. I commend Hoover for the article because it covered things like legal liability and the fact that the network did scale and because she interviewed a Mastodon admin.&lt;/p&gt;
+
+&lt;p&gt;But it does however imply that Mastodon is somehow failing because of the “slump.” It implies that Mastodon is dying.&lt;/p&gt;
+
+&lt;p&gt;And I know this because just a day after it came out, &lt;em&gt;another&lt;/em&gt; reporter called to ask about Mastodon’s impending demise – and that reporter cited Hoover’s WIRED article.&lt;/p&gt;
+
+&lt;p&gt;That second reporter was working on a story about… new and emerging alternatives to corporate social media. And they were starting with the premise that Mastodon failed and it was time to find something new.&lt;/p&gt;
+
+&lt;p&gt;In other words, that reporter was looking for the next Killer Hype Cycle.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-do-about-this-trope&quot;&gt;What to do about this trope?&lt;/h2&gt;
+
+&lt;p&gt;I’d recommend to tech journalists covering alternative social media to push past the “Killer” trope and consider each alternative on its own terms, rather than strictly in opposition to a corporate counterpart. Yes, some comparison is inevitable – after all, we understand “alternative” in relation to a “mainstream.” But these are not 1:1 replacements – they have their own logics and cultures.&lt;/p&gt;
+
+&lt;p&gt;For example, part of the appeal of the alternatives is the refusal of the growth logics of corporate social media. Mastodon admins, for example, don’t really want to run instances on the scale of Twitter. They want small instances that are more easily moderated at a human scale. Because of this, growth of Mastodon as a whole depends on the establishment of many new instances, which takes time and effort. As I say over and over, it’s not a matter of signing up at a central site, like Twitter.com. This is purposeful building of democratic social media, and growth is not always the best thing.&lt;/p&gt;
+
+&lt;p&gt;Reporting in this space needs to focus on these nuances and eliminate the oversimplification “growth always equals good.” That’s hard to do when we’re conditioned by 20 years of corporate, venture capital, Silicon Valley thinking, but there is a world beyond the Valley.&lt;/p&gt;
+
+&lt;p&gt;As for the rest of us in Mastodon and across the fediverse, I probably don’t need to say this, but I will, anyway: don’t be phased. Keep on doing what you’re doing.&lt;/p&gt;
+
+&lt;p&gt;La lucha sigue.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Mastodon" /><category term="Goal 2" /><summary type="html">Ok, you all probably remember last fall, when the Muskening happened. When Mastodon saw a massive influx of new members. When Mastodon admins were struggling to keep up with the influx but ultimately showed that the network can, in fact, scale up. It was, in my view, the biggest stress on the ActivityPub protocol – and ActivityPub kicked ass. Millions of people signed up for Mastodon. That’s the titular Mastodon “bump.” Since I’ve published academic articles on Mastodon, during that Eternal Muskvember, I was approached by a lot of journalists (here, here, and here, for example) to talk about Mastodon, answering questions ranging from “what is it?” to “will it replace Twitter?” It was an exciting and sometimes exasperating time. I basically told myself, “Self, this sort of media attention is rare. Enjoy it, but know that it won’t last.” And indeed, a few weeks later, the story died down. I also told myself to expect the inevitable follow-up. That’s what I’m writing about here. As many readers of this blog are likely aware, after the new year, Mastodon’s active user base dropped off. As with every wave of social media movement from platform to platform, some percentage of people just don’t stick with the new site. There’s the titular Mastodon “slump.” Last week, I got an interview request from WIRED’s Amanda Hoover, who was working on a story about how Mastodon’s drop in active users signaled that it had failed in its mission to replace Twitter. Now, before I go any further I will say Hoover’s reporting on Mastodon has been excellent. She asks great questions, and she does more than just interview Eugen Rochko – she talks to instance admins, lawyers, and academics like myself. And, in fact, the article I’m going to critique is quite good. But I am going to use her latest WIRED article to illustrate an all-too-common trope in reporting on alternative social media: it’s what I call “The Killer Hype Cycle.”</summary></entry><entry><title type="html">Reading the Minutes of the Social Web Working Group, part 1</title><link href="http://localhost:4000/2023/01/20/ActivityPub1.html" rel="alternate" type="text/html" title="Reading the Minutes of the Social Web Working Group, part 1" /><published>2023-01-20T00:00:00-05:00</published><updated>2023-01-20T00:00:00-05:00</updated><id>http://localhost:4000/2023/01/20/ActivityPub1</id><content type="html" xml:base="http://localhost:4000/2023/01/20/ActivityPub1.html">&lt;p&gt;&lt;em&gt;NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;As readers of the blog know by now, Goal 2 of the blog is &lt;a href=&quot;/2022/01/06/Goal2.html&quot;&gt;to document my writing of my next book&lt;/a&gt;, which I’m tentatively titling &lt;em&gt;Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Alternative Social Media&lt;/em&gt;.&lt;/p&gt;
 
@@ -446,49 +517,4 @@ So, for researchers and journalists, these systems are only different – they a
 
 &lt;h2 id=&quot;addendum&quot;&gt;ADDENDUM&lt;/h2&gt;
 
-&lt;p&gt;A fellow Mastodon member noted that &lt;a href=&quot;https://docs.joinmastodon.org/user/preferences/&quot;&gt;there is an option in Mastodon for users to avoid being indexed by search engines&lt;/a&gt;. In fact, I have it set on my account. So, for anyone whose posts were included in the Nobre et al study, they have been indexed by Google without their consent.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Mastodon" /><category term="Research Ethics" /><summary type="html">There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:</summary></entry><entry><title type="html">A Deep Dive into a Zotero Workflow</title><link href="http://localhost:4000/2022/10/05/deepdivezotero.html" rel="alternate" type="text/html" title="A Deep Dive into a Zotero Workflow" /><published>2022-10-05T00:00:00-04:00</published><updated>2022-10-05T00:00:00-04:00</updated><id>http://localhost:4000/2022/10/05/deepdivezotero</id><content type="html" xml:base="http://localhost:4000/2022/10/05/deepdivezotero.html">&lt;p&gt;I’ve previously posted about &lt;a href=&quot;/2020/12/01/Zotero-Tips-and-Tricks.html&quot;&gt;Zotero “tips and tricks,”&lt;/a&gt; I have a &lt;a href=&quot;/2021/04/02/ZoteroComments.html&quot;&gt;brief review of the beta version of Zotero’s PDF system&lt;/a&gt;, and I have an overview of &lt;a href=&quot;/2020/12/27/Workflow.html&quot;&gt;my workflow in Linux&lt;/a&gt;, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Here, I will offer a two-for-one post: I’ll use my annotations of Derek Caelin’s &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-030-79072-1_8&quot;&gt;excellent book chapter on fediverse moderation&lt;/a&gt; as examples.&lt;/p&gt;
-
-&lt;h1 id=&quot;colors&quot;&gt;Colors&lt;/h1&gt;
-&lt;p&gt;I think the most consistent thing I’ve done over my nearly 15 years (oof I’m old) of using Zotero is taking advantage of the highlighting color palette. Originally, this was limited to Zotero’s notes, but now is part of the PDF annotation.&lt;/p&gt;
-
-&lt;p&gt;Currently, Zotero offers a 5-color palette (yellow, red, green, blue, and purple). As I read a PDF in Zotero’s reader, I highlight passages according to this scheme:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Yellow are good quotes or things to pay attention to.&lt;/li&gt;
-  &lt;li&gt;Red is similar, except “hotter,” so to speak. If yellow means “this is important,” red means “this is &lt;em&gt;really&lt;/em&gt; important.”&lt;/li&gt;
-  &lt;li&gt;Green are definitions. When authors define their terms, it gets greened.&lt;/li&gt;
-  &lt;li&gt;Purple are meta comments from the author about the paper. Things like, “In this article, I argue that…” and “Using a methdology of…”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/assets/images/caelinQuote1.png&quot; alt=&quot;a screenshot of a note being taken in Zotero&quot; /&gt;
-  &lt;figcaption&gt;Excellent point! That&apos;s a quotable quote.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Anything I highlight in the Zotero PDF reader can be easily added to a corresponding note. These can also be sorted/highlighted in the Zotero PDF annotator, so it’s easy to spot Green (definitions) or Red (“hot” quotes).&lt;/p&gt;
-
-&lt;h2 id=&quot;what-about-blue&quot;&gt;What about Blue?&lt;/h2&gt;
-&lt;p&gt;You might notice Blue is missing. This is because I reserve that color for notes to myself. Whenever I take notes on someone’s work, I might put in a comment to myself, such as a connection to another article or an idea I have about how things fit together. Because of this, I don’t really use blue in the PDF, but I do use it in my own notes.&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/assets/images/bluenote.png&quot; alt=&quot;a screenshot of a note being taken in Zotero&quot; /&gt;
-  &lt;figcaption&gt;This is a blue note. No, not the cool jazz, but a connection I am drawing.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;What I do put in the PDF reader is comments on the highlighted portions. These eventually become Blue highlighted sections of the corresponding note. I also put these comments in brackets and italicize them, so it’s very clear these are my own musings.&lt;/p&gt;
-
-&lt;h1 id=&quot;tagging&quot;&gt;Tagging&lt;/h1&gt;
-&lt;p&gt;As I mention in the &lt;a href=&quot;2020/12/01/Zotero-Tips-and-Tricks.html&quot;&gt;Tips and Tricks&lt;/a&gt; post, I make extensive use of tagging. Zotero’s new PDF annotation system extends tagging into the PDF itself. Each of the highlighted portions can be tagged, and those tags are now searchable in the main Zotero window. This is awesome!&lt;/p&gt;
-
-&lt;p&gt;In addition, tags can also be selected in the PDF annotator. Also, quite awesome!&lt;/p&gt;
-
-&lt;figure&gt;
-  &lt;img src=&quot;/assets/images/taggedAnnotation.png&quot; alt=&quot;a screenshot of a tag being selected in Zotero&apos;s PDF reader&quot; /&gt;
-  &lt;figcaption&gt;Selecting a tag means the corresponding annotation is selected.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h1 id=&quot;to-synthesis-and-beyond&quot;&gt;To Synthesis and Beyond&lt;/h1&gt;
-&lt;p&gt;You might notice that all this work is based on a one-to-one, note-to-PDF system. And of course, writing is about synthesizing ideas from across many sources. A weakness of my system is synthesis – blue notes to self won’t cut it. However, I will address that step in another post – and it will focus on Zettlr.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 1" /><category term="Zotero" /><summary type="html">I’ve previously posted about Zotero “tips and tricks,” I have a brief review of the beta version of Zotero’s PDF system, and I have an overview of my workflow in Linux, but here I want to do a deep dive into how I conduct note-taking in Zotero. I imagine this can be part of a series where I talk about how Zotero notes flow into Zettlr and from there into drafting out ideas in Libreoffice Writer.</summary></entry></feed>
+&lt;p&gt;A fellow Mastodon member noted that &lt;a href=&quot;https://docs.joinmastodon.org/user/preferences/&quot;&gt;there is an option in Mastodon for users to avoid being indexed by search engines&lt;/a&gt;. In fact, I have it set on my account. So, for anyone whose posts were included in the Nobre et al study, they have been indexed by Google without their consent.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Mastodon" /><category term="Research Ethics" /><summary type="html">There’s a new paper out about Mastodon! But unfortunately, it’s a deeply problematic one. Nobre et al’s “More of the Same? A Study of Images Shared on Mastodon’s Federated Timeline” is a paper that is now published in proceedings from International Conference on Social Informatics. (Unfortunately, it’s not open access.) Because I’m currently researching the fediverse and blogging about that process, I thought I’d write up notes on this paper. Why this paper? Frankly, because I’m pretty certain it violates the community norms, as well as terms of service, of many Mastodon instances. It instantly reminded me of the controversial paper from Zignani et al, “Mastodon Content Warnings: Inappropriate Contents on a Microblogging Platform”, which resulted in a scathing open letter and the retraction of a dataset from the Harvard Dataverse. Nobre et al’s “More of the Same” is a study of image-sharing. The authors claim that it is about image-sharing on Mastodon, but really their focus is on images they culled from Mastodon.social’s federated timeline. They pulled 4M posts from 103K active users, of which 1M had images. Since they pulled posts from Mastodon.social’s federated timeline, they saw posts from 4K separate instances. The authors state that a “relevant number” of the images they found are “explicit.” They categorize the images as such after running them through Google’s Vision AI Safe Search system. They also run the images they find through Google’s image search to trace where the images came from and how they are shared on Mastodon. Ultimately, the authors don’t really make an argument, other than stating in passing that Mastodon needs better moderation, since people share explicit images. In some ways, “More of the Same” lives up to its title: it’s more of the same poor scholarship that can be seen in Zignani et al (in fact, Nobre et al cite that controversial paper). Here are my critiques:</summary></entry></feed>
