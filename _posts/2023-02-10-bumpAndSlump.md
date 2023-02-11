@@ -72,6 +72,6 @@ For example, part of the appeal of the alternatives is the refusal of the growth
 
 Reporting in this space needs to focus on these nuances and eliminate the oversimplification "growth always equals good." That's hard to do when we're conditioned by 20 years of corporate, venture capital, Silicon Valley thinking, but there is a world beyond the Valley.
 
-As for the rest of us in Mastodon and across the fediverse, I probably don't need to say this, but I will, anyway: don't be phased. Keep on doing what you're doing.
+As for the rest of us in Mastodon and across the fediverse, I probably don't need to say this, but I will, anyway: don't be fazed. Keep on doing what you're doing.
 
 La lucha sigue.
