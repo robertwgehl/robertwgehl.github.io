@@ -6,7 +6,7 @@ tag:
     - Association of Internet Researchers
     - Mastodon
 comments: 
-  show: true
+  show: false
   fedihost: scholar.social
   fediusername: robertwgehl
   fediid:
