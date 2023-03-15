@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 110028697826175082
 ---
 So, as I noted in the [last post](/2023/03/03/AOIR-social.html), AoIR.social is [live](https://aoir.social)! It's in beta testing, so to speak, as we bring on board moderators to learn the system before rolling out to the Association of Internet Researchers membership.
 
