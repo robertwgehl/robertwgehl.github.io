@@ -22,7 +22,7 @@ And I have to do some work on preemptively blocking instances that don't share o
 
 Oh, and we have to finalize our Code of Conduct (both for the Mastodon instance and for the organization as a whole).
 
-And I want to investigate signing the [Mastodon Server Covenant]. (I want this to be a respectable part of the fediverse, after all).
+And I want to investigate signing the [Mastodon Server Covenant](https://joinmastodon.org/covenant). (I want this to be a respectable part of the fediverse, after all).
 
 There's probably more that I'm not thinking about, but in any case... it's happening, people!
 
