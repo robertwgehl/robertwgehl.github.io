@@ -115,11 +115,14 @@ Image descriptions (alt-text)</p>
 ## The Feedback, So Far
 (_NB: I will provide attribution when I have the permission of the author. I'll also add more as I observe it._)
 
+Suggestions coming from: Nancy Baym, Jean Burgess, Charlotte Spencer-Smith, Tama Leaver, and others.
+
 * Mission statement: we should include a bit more about what this server is about. Why have we set it up? What is it for?
-  * Similarly, another member noted that we should be clearer that socializing -- in addition to being professional -- is encouraged (indeed, that the very personal/professional divide in the academy needs to be troubled)
+* Similarly, another member noted that we should be clearer that socializing -- in addition to being professional -- is encouraged (indeed, that the very personal/professional divide in the academy needs to be troubled)
 * Explanation for each section: for example, a bit more explaining why we ask for CWs. This would be good for new Mastodon members.
 * Moderation commitments: how many moderators do we have? What's the typical turnaround for responding to issues?
 * A bit more clarity about what we mean about no crypto-shilling, especially when we have scholars who *study* cryptcurrencies.
 * A bit of clarity about sexual expression, e.g., discussions of sex work
+* Clarifying why a CW on a selfie is needed (it's about eye contact, not about self-portraiture as such)
+* Clarification about blocklists and moderation speed
 
-<!-- That's it, so far, but I expect our moderators to add more. The current COC is a draft, and even after it's gone through this round of revision, I would consider it a living document. -->
