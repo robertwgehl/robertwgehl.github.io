@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 110339691525442849
 ---
 _NB: This is the second in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. The [first one is here](/2023/01/20/ActivityPub1.html). Future posts to come._
 
