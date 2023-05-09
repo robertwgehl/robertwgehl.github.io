@@ -8,8 +8,8 @@ tag:
     - Tag 3
 comments: 
   show: true
-  fedihost: scholar.social
-  fediusername: robertwgehl
+  fedihost: aoir.social
+  fediusername: rwg
   fediid:
 ---
 

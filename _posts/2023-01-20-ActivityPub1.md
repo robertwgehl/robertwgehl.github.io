@@ -46,7 +46,7 @@ Let's dive in!
 
 <!-- more -->
 
-## Part : Getting Started, Getting Organized (2014 to end of 2015)
+## Part 1: Getting Started, Getting Organized (2014 to end of 2015)
 
 ### The Charter
 
