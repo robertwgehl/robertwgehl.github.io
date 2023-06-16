@@ -1,0 +1,30 @@
+I"<p><em>NB: I’ve started an alternative social media email list, and I regularly email the list with news from the world of ASM. Since many ASM are free and open source software, it occurred to me that I should mirror those emails here on the blog. These might be the next iteration of “FOSS finds,” a series I ran in previous posts. If you are an ASM researcher and want to subscribe to the email list, contact me and I can add you. Or, just watch this space for (roughly) fortnightly updates.</em></p>
+
+<p>Here’s an update on the world of ASM – at least as I see it!</p>
+
+<!-- more -->
+
+<h2 id="reddit-meltdown">Reddit meltdown</h2>
+
+<p>I never was a Redditor, but even so, it’s hard not to notice what’s going on over there: what can only be called a labor strike on the part of subreddit moderators, done in protest to changes in the Reddit API. Specifically, subreddit moderators are making their subs private.</p>
+
+<p>If you guess that there are alternatives to Reddit, you guessed right. One that I knew about is <a href="https://join-lemmy.org/">Lemmy</a>. However, I’ve also learned about <a href="https://github.com/ernestwisniewski/kbin">Kbin</a>. From what I understand, both are gaining new members. And I also have seen people join Mastodon and cite the Reddit meltdown as the reason why.</p>
+
+<p>This all bears watching, particularly in terms of moderation and governance discussions. (And if you know more about what’s going on, please let me know!)</p>
+
+<h2 id="warwick">Warwick</h2>
+
+<p>Next week, the Centre for Interdisciplinary Methods will host a <a href="https://events.teams.microsoft.com/event/4d682da3-3b4e-4909-9239-743d86cc7dcc@09bacfbd-47ef-4465-9265-3546f2eaf6bc">Mastodon Tools and Research workshop</a>. I have the honor of giving the plenary address, and you can see the abstract in that link. Basically, I’ll be talking about the struggles of queer and Black members to make the fediverse a better space, and how the Association of Internet Researchers will need to acknowledge that history on its aoir.social instance.</p>
+
+<p>The program includes a lot of people on this list. I’m really looking forward to the event – I’m going to take a ton of notes!</p>
+
+<h2 id="noncentralized-origin-stories">Noncentralized Origin Stories</h2>
+
+<p>Earlier this week, the Colorado Media Lab <a href="https://www.colorado.edu/lab/medlab/2023/06/06/open-social-media-origin-stories">hosted a discussion</a> by Christine Lemmer-Webber, Rabble (aka Evan Henshaw-Plath), and Golda Vez. Each of these are heavily involved in noncentralized protocol development. Lemmer-Webber is a co-author of ActivityPub and is currently working on <a href="https://gitlab.com/spritely/ocappub">OcaPPub</a>. Rabble worked on Indymedia, <a href="https://en.wikipedia.org/wiki/Secure_Scuttlebutt">Secure Scuttlebutt</a>, and now <a href="https://en.wikipedia.org/wiki/Nostr">Nostr</a>. Vez is involved with BlueSky.</p>
+
+<p>The conversation gets a bit technical at points, but there’s plenty of history and discussion of content moderation mixed in, too.</p>
+
+<h2 id="humbernews">Humber.news</h2>
+<p>Finally, I don’t know if I shared this, but here’s an interesting pedagogical project: <a href="https://humber.news">humber.news</a>, run by Mike Wise, a journalism professor at Humber College in Toronto. Mike tells me that humber.news is a Mastodon instance he’s using in teaching journalism students about the fediverse. In my view, it’s a much-needed project; journalists will have to adjust their approaches if they want to share news and get news from the fediverse.</p>
+
+:ET
