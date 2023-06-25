@@ -11,7 +11,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 110604355394599338
 ---
 This update focuses on the University of Warwick [Mastodon Research Symposium](https://events.teams.microsoft.com/event/4d682da3-3b4e-4909-9239-743d86cc7dcc@09bacfbd-47ef-4465-9265-3546f2eaf6bc).
 
