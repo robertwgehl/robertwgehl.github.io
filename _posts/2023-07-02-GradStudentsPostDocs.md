@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 110645924914285991
 ---
 This is just a short note to announce that, thanks to some generous funding at York University, I am recruiting graduate students (MA and PhD) as well as post-docs. I'd like to work with folks on alternative social media, in particular. Methodologically, I tend to use qualitative approaches, such as digital ethnography, software studies, and grounded theory/situational analysis. I am a critical scholar, as well, so I prefer working with people who are actively examining power relations in technical systems.
 
