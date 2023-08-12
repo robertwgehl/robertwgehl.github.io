@@ -1,0 +1,29 @@
+I"�<p>It’s been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I’m back with another Alternative Social Media update!</p>
+
+<!-- more -->
+
+<h2 id="new-challenges-in-moderation-and-new-responses">New challenges in moderation and new responses</h2>
+
+<p><em>Content warning: abuse mention</em></p>
+
+<p>I imagine most readers of this blog saw news about the <a href="https://cyber.fsi.stanford.edu/io/news/addressing-child-exploitation-federated-social-media">Stanford Internet Observatory report</a> on child sexual abuse material (CSAM) on the fediverse. I know I did. I’m currently the admin of <a href="https://aoir.social/">AoIR.social</a>, and the report came out while I was in the middle of moving apartments – and in the middle of relying on dodgy mobile hotspot internet. Regardless of the bad connection and stress of unpacking, the report’s publication prompted me to immediately do an audit of AoIR.social’s instance blocklist to see if we were facing any risk of having CSAM hit our server.</p>
+
+<p>I am quite confident AoIR.social is in good shape. Why? Because on day one of AoIR.social (months before the Stanford report), I imported blocklists. First, I grabbed <a href="https://codeberg.org/oliphant/blocklists">Oliphant’s Tier 0 Blocklist</a>, and later <a href="https://thebad.space/">Ro’s The Bad Space</a> list. Both of those are based on community consensus about who are the bad actors on the fediverse, and by importing the lists into AoIR.social’s moderation panel, bad actors – including the ones implicitly identified in Stanford report – were already blocked.</p>
+
+<p>So, while the Stanford report was scary as hell, the community has been aware of bad instances for a while now. The community is sharing knowledge about the bad servers and is blocking them. As one admin put it to me, any fedi admin with any consciousness about moderation has been blocking the bad instances for a while now.</p>
+
+<p>In the time since the report came out, I’ve interviewed Oliphant, Ro, and other respected fediverse admins and they are advocating for easier use of blocklists to prevent the fediverse from being swamped with bad servers.</p>
+
+<p>In fact, a great response to moderation challenges is coming in the form of Ro’s <a href="https://nivenly.org/docs/papers/fsep/">Fediverse Safety Enhancement Project</a>. This project is about automated, consensus-based subscription blocklists. The proposed interface looks a lot like one of my favorite tools, The <a href="https://pi-hole.net/">Pi-Hole ad-blocking system</a>.</p>
+
+<p>This is <em>huge.</em> There are so many interesting things to figure out, from the technical to social. Special attention should be paid to how such lists will be governed. The good news is there are folks working on that exact issue, including Ro and Oliphant.</p>
+
+<p>Hint, hint, fellow ASM academics: this is a good topic to study! I know Ro and people like him would welcome academic knowledge about how to improve this new form of moderation.</p>
+
+<p>In addition, if you’re interested in supporting Ro’s project, I recommend giving (you gotta give!) <a href="https://www.gofundme.com/f/a-new-way-to-social-media">to his GoFundMe</a>.</p>
+
+<h2 id="aoir-workshop-is-a-go">AOIR Workshop is a Go</h2>
+<p>In other news, Jessa Lingel, Ashwin Nagappa, and I are hosting an <a href="https://aoir.org/aoir2023/preconfworkshops/">Association of Internet Researchers Preconference focusing on alternative social media</a>. This will take place in Philadelphia on October 18. From what we’ve seen, we’re just short of full capacity. If you’re going to AOIR, there may be still time to sign up if you haven’t.</p>
+
+<p>We’re still planning details but our focus will be on research project creation and ethics.</p>
+:ET

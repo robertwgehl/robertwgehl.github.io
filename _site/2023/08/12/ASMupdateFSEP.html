@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>FOSS ACADEMIC | ASM update, August 12 2023</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="FOSS Academic" />
+	<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>ASM update, August 12 2023 | FOSS Academic</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="ASM update, August 12 2023" />
+<meta name="author" content="RWG" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="It’s been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I’m back with another Alternative Social Media update!" />
+<meta property="og:description" content="It’s been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I’m back with another Alternative Social Media update!" />
+<link rel="canonical" href="http://localhost:4000/2023/08/12/ASMupdateFSEP.html" />
+<meta property="og:url" content="http://localhost:4000/2023/08/12/ASMupdateFSEP.html" />
+<meta property="og:site_name" content="FOSS Academic" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-08-12T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ASM update, August 12 2023" />
+<script type="application/ld+json">
+{"headline":"ASM update, August 12 2023","dateModified":"2023-08-12T00:00:00-04:00","datePublished":"2023-08-12T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2023/08/12/ASMupdateFSEP.html"},"author":{"@type":"Person","name":"RWG"},"url":"http://localhost:4000/2023/08/12/ASMupdateFSEP.html","@type":"BlogPosting","description":"It’s been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I’m back with another Alternative Social Media update!","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+    <img src="/assets/images/tuxpen.png" alt="Tux the Penguin reading books">
+    <h1><a href="/index.html">FOSS Academic</a></h1>
+</header>
+
+    <nav>
+    <ul>
+  
+        <li>
+	        <a href="/" >
+		        Home
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/about.html" >
+		        About
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/feed.xml" >
+		        Feed
+	        </a>
+        </li>
+  
+    </ul>
+</nav>
+	
+    <main>
+    <div>
+    <h1 class="postHeader">ASM update, August 12 2023</h1>
+
+    <p class="byline">
+        12 Aug 2023
+        
+        
+        - <a href="/authors/RWG.html">Robert W. Gehl</a>
+        
+    </p>
+
+    <p>It’s been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I’m back with another Alternative Social Media update!</p>
+
+<!-- more -->
+
+<h2 id="new-challenges-in-moderation-and-new-responses">New challenges in moderation and new responses</h2>
+
+<p><em>Content warning: abuse mention</em></p>
+
+<p>I imagine most readers of this blog saw news about the <a href="https://cyber.fsi.stanford.edu/io/news/addressing-child-exploitation-federated-social-media">Stanford Internet Observatory report</a> on child sexual abuse material (CSAM) on the fediverse. I know I did. I’m currently the admin of <a href="https://aoir.social/">AoIR.social</a>, and the report came out while I was in the middle of moving apartments – and in the middle of relying on dodgy mobile hotspot internet. Regardless of the bad connection and stress of unpacking, the report’s publication prompted me to immediately do an audit of AoIR.social’s instance blocklist to see if we were facing any risk of having CSAM hit our server.</p>
+
+<p>I am quite confident AoIR.social is in good shape. Why? Because on day one of AoIR.social (months before the Stanford report), I imported blocklists. First, I grabbed <a href="https://codeberg.org/oliphant/blocklists">Oliphant’s Tier 0 Blocklist</a>, and later <a href="https://thebad.space/">Ro’s The Bad Space</a> list. Both of those are based on community consensus about who are the bad actors on the fediverse, and by importing the lists into AoIR.social’s moderation panel, bad actors – including the ones implicitly identified in Stanford report – were already blocked.</p>
+
+<p>So, while the Stanford report was scary as hell, the community has been aware of bad instances for a while now. The community is sharing knowledge about the bad servers and is blocking them. As one admin put it to me, any fedi admin with any consciousness about moderation has been blocking the bad instances for a while now.</p>
+
+<p>In the time since the report came out, I’ve interviewed Oliphant, Ro, and other respected fediverse admins and they are advocating for easier use of blocklists to prevent the fediverse from being swamped with bad servers.</p>
+
+<p>In fact, a great response to moderation challenges is coming in the form of Ro’s <a href="https://nivenly.org/docs/papers/fsep/">Fediverse Safety Enhancement Project</a>. This project is about automated, consensus-based subscription blocklists. The proposed interface looks a lot like one of my favorite tools, The <a href="https://pi-hole.net/">Pi-Hole ad-blocking system</a>.</p>
+
+<p>This is <em>huge.</em> There are so many interesting things to figure out, from the technical to social. Special attention should be paid to how such lists will be governed. The good news is there are folks working on that exact issue, including Ro and Oliphant.</p>
+
+<p>Hint, hint, fellow ASM academics: this is a good topic to study! I know Ro and people like him would welcome academic knowledge about how to improve this new form of moderation.</p>
+
+<p>In addition, if you’re interested in supporting Ro’s project, I recommend giving (you gotta give!) <a href="https://www.gofundme.com/f/a-new-way-to-social-media">to his GoFundMe</a>.</p>
+
+<h2 id="aoir-workshop-is-a-go">AOIR Workshop is a Go</h2>
+<p>In other news, Jessa Lingel, Ashwin Nagappa, and I are hosting an <a href="https://aoir.org/aoir2023/preconfworkshops/">Association of Internet Researchers Preconference focusing on alternative social media</a>. This will take place in Philadelphia on October 18. From what we’ve seen, we’re just short of full capacity. If you’re going to AOIR, there may be still time to sign up if you haven’t.</p>
+
+<p>We’re still planning details but our focus will be on research project creation and ethics.</p>
+
+
+       
+    <section>
+        <h1>Post Tags</h1>
+        <ul id="tagList">
+            
+            <li>
+                <a href="/tags/goal 2.html">Goal 2</a>
+            </li>
+            
+            <li>
+                <a href="/tags/moderation.html">Moderation</a>
+            </li>
+            
+            <li>
+                <a href="/tags/alternative social media.html">alternative social media</a>
+            </li>
+            
+        </ul>
+    </section>
+    
+    <div id="comments">
+        <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
+          <!-- load comments from fediverse (mastodon, pleroma,...) "comments" is the name of the variable in front-matter -->
+   
+   
+<!--<div class="article-content">-->
+<div class="content">
+  <h1>Comments</h1>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
+  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
+  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
+  <script src="/assets/js/purify.min.js"></script>
+  <script type="text/javascript">
+    function escapeHtml(unsafe) {
+      return unsafe
+           .replace(/&/g, "&amp;")
+           .replace(/</g, "&lt;")
+           .replace(/>/g, "&gt;")
+           .replace(/"/g, "&quot;")
+           .replace(/'/g, "&#039;");
+   }
+
+    document.getElementById("load-comment").addEventListener("click", function() {
+      document.getElementById("load-comment").innerHTML = "Loading";
+      fetch('https://aoir.social/api/v1/statuses//context')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if(data['descendants'] &&
+             Array.isArray(data['descendants']) && 
+            data['descendants'].length > 0) {
+              document.getElementById('mastodon-comments-list').innerHTML = "";
+              data['descendants'].forEach(function(reply) {
+                reply.account.display_name = escapeHtml(reply.account.display_name);
+                reply.account.emojis.forEach(emoji => {
+                  reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                    `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                });
+                /* handling CWs, thanks to https://codeberg.org/ashwinvis/m.css/commit/c622ad23dc976c2ce8029e6aee06f57942eb9394 */
+                let fediCommentContent
+                if (reply.spoiler_text === '') {
+                  fediCommentContent = reply.content
+                } else {
+                  fediCommentContent =
+                   `<details><summary><span id="fedicomment-cw">CW: ${escapeHtml(reply.spoiler_text)}</span></summary>
+                      ${reply.content}
+                   </details>`
+                }
+                mastodonComment =
+                  `<div class="mastodon-comment">
+                     <div class="avatar">
+                       <img src="${escapeHtml(reply.account.avatar_static)}" class="commentAvatar" alt="">
+                     </div>
+
+                     <div class="author">
+                        <p>
+                          <a href="${reply.account.url}" rel="nofollow">
+                            <span>${reply.account.display_name}</span>
+                            <span class="disabled">${escapeHtml(reply.account.acct)}</span>
+                          </a>
+                        </p>
+                        <p>
+                          <a class="date" href="${reply.uri}" rel="nofollow">
+                            ${reply.created_at.substr(0, 10)}
+                          </a>
+                        </p>
+                     </div>
+                     
+                     <div class="mastodon-comment-content">${fediCommentContent}
+                     </div> 
+                     
+                   </div>`;
+                document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+              });
+          } else {
+            document.getElementById('mastodon-comments-list').innerHTML = "<p>No comments</p>";
+          }
+        });
+      });
+  </script>
+</div>
+
+
+
+
+<!--  end of comments section -->
+
+
+    </div>
+
+    
+</div>
+
+    </main>
+    <aside>
+    <section>
+        <h1>Contact</h1>
+        <p><strong>Mastodon:</strong> <a rel="me" href="https://aoir.social/@rwg">@rwg@aoir.social</a></p>
+        <p><strong>Email: </strong> robertwgehl %AT% protonmail</p>
+    </section>
+
+    <section>
+        <h1>Archives</h1>
+        <ul class="posts">
+        
+            <li>
+                <span class="post-date">Aug 12, 2023</span>
+                <a class="post-link" href="/2023/08/12/ASMupdateFSEP.html">ASM update, August 12 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 2, 2023</span>
+                <a class="post-link" href="/2023/07/02/GradStudentsPostDocs.html">Seeking Grad Students and Postdocs</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 25, 2023</span>
+                <a class="post-link" href="/2023/06/25/ASMupdate-Warwick.html">ASM Update, June 25 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 16, 2023</span>
+                <a class="post-link" href="/2023/06/16/ASMupdate1.html">ASM Update, June 16 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 9, 2023</span>
+                <a class="post-link" href="/2023/05/09/ActivityPub2.html">Reading the Minutes of the Social Web Working Group, part 2</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 15, 2023</span>
+                <a class="post-link" href="/2023/03/15/AOIRsocialCOC.html">AoIR Social's Code of Conduct</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 3, 2023</span>
+                <a class="post-link" href="/2023/03/03/AOIR-social.html">AOIR.social!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 10, 2023</span>
+                <a class="post-link" href="/2023/02/10/bumpAndSlump.html">Bumps, Slumps and the Killer Hype Cycle</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2023</span>
+                <a class="post-link" href="/2023/01/20/ActivityPub1.html">Reading the Minutes of the Social Web Working Group, part 1</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 3, 2023</span>
+                <a class="post-link" href="/2023/01/03/FOSSacademicYIR-copy.html">FOSS Academic Year in Review 2022</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 24, 2022</span>
+                <a class="post-link" href="/2022/12/24/Playvicous-Christmas.html">A Very Playvicious Christmas</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 19, 2022</span>
+                <a class="post-link" href="/2022/12/19/Two-new-pubs.html">Two New Publications</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2022</span>
+                <a class="post-link" href="/2022/12/11/AOIR-social.html">AOIR.social?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 9, 2022</span>
+                <a class="post-link" href="/2022/12/09/FOSSFinds.html">FOSS Finds, Content Moderation webinar</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 19, 2022</span>
+                <a class="post-link" href="/2022/11/19/Surge.html">Twitter Isn't That Important</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 25, 2022</span>
+                <a class="post-link" href="/2022/10/25/ASM-not-RWASM.html">Expanding The Conversation (notes on the Pew Alternative Social Media Report)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 18, 2022</span>
+                <a class="post-link" href="/2022/10/18/notesOnNobreEtAl.html">More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 5, 2022</span>
+                <a class="post-link" href="/2022/10/05/deepdivezotero.html">A Deep Dive into a Zotero Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 13, 2022</span>
+                <a class="post-link" href="/2022/09/13/FOSSFindsASM.html">FOSS Finds, Scuttlebutt Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 17, 2022</span>
+                <a class="post-link" href="/2022/08/17/MovingToYork.html">Movin' North</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 29, 2022</span>
+                <a class="post-link" href="/2022/06/29/FOSSFindsOnDemand.html">FOSS Finds, On Demand Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 26, 2022</span>
+                <a class="post-link" href="/2022/05/26/Subscribe.html">(I'm) Mashing That Subscribe Button</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2022</span>
+                <a class="post-link" href="/2022/04/23/FOSSFinds.html">FOSS Finds, StoryCorps Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 17, 2022</span>
+                <a class="post-link" href="/2022/04/17/InterviewWorkflow.html">FOSS Interview Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 26, 2022</span>
+                <a class="post-link" href="/2022/03/26/NewBookOldBook.html">New Book, Old Book</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 7, 2022</span>
+                <a class="post-link" href="/2022/03/07/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 15, 2022</span>
+                <a class="post-link" href="/2022/02/15/CodingFreedom.html">Coding Freedom, by Biella Coleman</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 3, 2022</span>
+                <a class="post-link" href="/2022/02/03/Zettlr.html">I Have Settled on Zettlr</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 29, 2022</span>
+                <a class="post-link" href="/2022/01/29/FOSS-Finds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 26, 2022</span>
+                <a class="post-link" href="/2022/01/26/Very-Kool.html">Very Kool + Jellyfin</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 21, 2022</span>
+                <a class="post-link" href="/2022/01/21/FossFinds2.html">FOSS Finds, Environment and Labor Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 11, 2022</span>
+                <a class="post-link" href="/2022/01/11/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 6, 2022</span>
+                <a class="post-link" href="/2022/01/06/Goal2.html">Goal 2, Initiate</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 16, 2021</span>
+                <a class="post-link" href="/2021/12/16/CommentsTest.html">Test post for Mastodon Comments</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2021</span>
+                <a class="post-link" href="/2021/12/11/Tuxies2021.html">Tuxies 2021</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 30, 2021</span>
+                <a class="post-link" href="/2021/10/30/PraiseMastodonAgain.html">In Praise of Mastodon, Again</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 25, 2021</span>
+                <a class="post-link" href="/2021/09/25/Appointments.html">Nextcloud Appointments!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 10, 2021</span>
+                <a class="post-link" href="/2021/09/10/Update.html">September update</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 18, 2021</span>
+                <a class="post-link" href="/2021/07/18/Manjaro-Madness.html">Manjaro Mania!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 3, 2021</span>
+                <a class="post-link" href="/2021/07/03/DeGoogleSearch.html">(Almost) De-Googled Research</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 24, 2021</span>
+                <a class="post-link" href="/2021/06/24/Vacation-and-FDroid.html">A Vacation and F-Droid</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 14, 2021</span>
+                <a class="post-link" href="/2021/05/14/FALDupdate.html">FALD Updates</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 29, 2021</span>
+                <a class="post-link" href="/2021/04/29/Wireguard.html">Messin' with Wireguard</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2021</span>
+                <a class="post-link" href="/2021/04/23/DarkMode.html">Sudo Install Dark Mode</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 2, 2021</span>
+                <a class="post-link" href="/2021/04/02/ZoteroComments.html">Review of Zotero's New PDF Annotation Features</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 28, 2021</span>
+                <a class="post-link" href="/2021/03/28/RMMess.html">RM Mess</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 19, 2021</span>
+                <a class="post-link" href="/2021/03/19/cuttingZotero.html">Cutting-Edge Zotero</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 11, 2021</span>
+                <a class="post-link" href="/2021/03/11/GDPR.html">GDPR Compliance</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 10, 2021</span>
+                <a class="post-link" href="/2021/03/10/PDFhell.html">PDF Hell</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 28, 2021</span>
+                <a class="post-link" href="/2021/02/28/LostPosts.html">A Lost Weekend of Lost Posts</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 21, 2021</span>
+                <a class="post-link" href="/2021/02/21/LinuxMars.html">Linux on Mars</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 9, 2021</span>
+                <a class="post-link" href="/2021/02/09/MastodonSurvey.html">A Survey for Mastodon Developers, Admins, and Users</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 7, 2021</span>
+                <a class="post-link" href="/2021/02/07/CloudAcademic.html">I Asked Mastodon About FOSS for Academics. Here's What They Said</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 24, 2021</span>
+                <a class="post-link" href="/2021/01/24/Staticman.html">Staticman Comments Test Post</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2021</span>
+                <a class="post-link" href="/2021/01/20/20-years-wikipedia.html">20 Years of Wikipedia</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 8, 2021</span>
+                <a class="post-link" href="/2021/01/08/PraiseMastodon.html">In Praise of Mastodon After an Insurrection, or, What if Donald Trump Had Joined Mastodon?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 29, 2020</span>
+                <a class="post-link" href="/2020/12/29/Minor-Update.html">Minor Update -- New Publication, No More Hyvor</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 27, 2020</span>
+                <a class="post-link" href="/2020/12/27/Workflow.html">My Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 20, 2020</span>
+                <a class="post-link" href="/2020/12/20/Minor-Update.html">Minor Update -- Tagging System</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 15, 2020</span>
+                <a class="post-link" href="/2020/12/15/FOSS-Journey.html">My FOSS Journey</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 10, 2020</span>
+                <a class="post-link" href="/2020/12/10/The-Tuxies-Academic-Style.html">The Tuxies, Academic Style</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 6, 2020</span>
+                <a class="post-link" href="/2020/12/06/Dreaming-In-Code.html">Dreaming in code</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 1, 2020</span>
+                <a class="post-link" href="/2020/12/01/Zotero-Tips-and-Tricks.html">Zotero tips and tricks</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 27, 2020</span>
+                <a class="post-link" href="/2020/11/27/introduction.html">Introduction</a>
+            </li>
+        
+        </ul>
+    </section>
+
+</aside>
+
+    <footer>
+    <p>All content on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted.</p>
+
+    <!-- Default Statcounter code for FOSS Academic
+    https://www.fossacademic.tech/ -->
+    <script type="text/javascript">
+    var sc_project=12437984; 
+    var sc_invisible=1; 
+    var sc_security="98ee29d4"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12437984/0/98ee29d4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+
+</footer>
+
+    </div>
+</body>
+</html>
