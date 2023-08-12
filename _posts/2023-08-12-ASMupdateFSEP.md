@@ -11,7 +11,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 110878304823659934
 ---
 
 It's been a while, thanks to drama with rent and apartments (welcome to Toronto, Robert), but I'm back with another Alternative Social Media update!
