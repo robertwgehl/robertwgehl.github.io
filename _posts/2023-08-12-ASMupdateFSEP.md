@@ -5,7 +5,7 @@ title: ASM update, August 12 2023
 tag:
     - Goal 2
     - Moderation
-    - alternative social media
+    - ASM update
 
 comments:
   show: true
