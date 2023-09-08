@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111031649776090802
 ---
 This is a minor update, but I hope it's useful to anyone interested in doing alternative social media research. I've long hosted a Zotero group, the [Social Media Alternatives Project](https://www.zotero.org/groups/542752/social_media_alternatives_project_bibliography), which has a library. As much as I love Zotero, though, I've not had much luck with groups for fostering public discussion. Their libraries are a bit too tucked away.
 
