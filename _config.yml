@@ -44,25 +44,5 @@ plugins:
 #excerpt separator
 excerpt_separator: <!-- more -->
 
-# STATICMAN configuration
-# based on https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html
-# The URL for the staticman API bridge endpoint
-# You will want to modify some of the values:
-#  ${github-username}: the username of the account with which you publish your blog
-#  ${blog-repo}: the name of your blog repository in github
-#  master: this the branch out of which your blog is published, often master or gh-pages
-#  (mine appears to be "main") -- RWG
-#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
-#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
-#
-# for me, this line reads:
-# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
-staticman_url: https://fossacademic.herokuapp.com/v2/entry/robertwgehl/robertwgehl.github.io/main/comments
 
-# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
-# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
-# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
-#reCaptcha:
-#  siteKey: 6LcTfjoaAAAAAJgTcSQlhmZRNjfPHuD5YL97jENi
-#  secret: Ti+QCeYZp39sBWudBP1aulUerqyI4eZTEGmM4x2zKRDhLf/n3yoMVYx2Y+6+5dk0h/jXBYzAUwn5nF/Z9Wuke0dhD9S5X//rp5vtE03fhxzyWvY9deEkj5ay0emmG1wHMvNBIg7Ln+DCdMEZWxdT/3Pm6h3XppiAo5T5jPNoVU6Egx5MOFxrAiXuTHEDjS/F+GvcgMbiWh03ZlmeX5CO7xRqXuRXDSu/rzP5HH18+bEqX+II0OYrjnd7c2WIjvOTaDfDXstjbPs+4AWUT30Bb63rXc4z8I7+HQWFwWpKUyW5PPEM6lpZw2titw8GsmLaDh57F4HY3XcjbkPry+mjprnqLVdEIBvx8De0ThgFtwTuC0ZxHTFsRejKPZRYB3lrbCIm8ECoamvzAiRctgQrlgJdklNtqqlZJ9LhZpkKZHa6rbXiBL+0U+2Q+OAwaRdlj/48Advb5ZhhLbsXpMwqazgsc6reZe1APMcGzE7rSXhyF4VXYSZA4XytwiWsrsy3z7HLpKmUWmXCW8/sbwGI0DrmMwXS8+HOPkXOWup396c4etHAnzVT1FbBz/DUNOocHY7NeOIik0awinhO8ySX4YifdyqMcDViK/tIzoSOiaj+1OdD4LPSE1gbEy1lKkVqi6w1vRh1O6nf6yUIvbsP4d/P3muU5B2/Btt6cFArlrs=
 

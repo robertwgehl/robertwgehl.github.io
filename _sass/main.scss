@@ -13,7 +13,7 @@ $contentFont: Helvetica, sans-serif;
 $headerFont: 'Source Code Pro', monospace;
 
 /* dimensions */
-$wrapperWidth: 1080px;
+$wrapperWidth: 1200px;
 $headerHeight: 100px;
 $standardMargin: 4%;
 
@@ -91,7 +91,7 @@ body {
 
 /* =======HEADER============== */
 header {
-    width: $wrapperWidth * .33;
+    width: $wrapperWidth * .45;
     float: left;
     height: $headerHeight;
     text-align: left;
@@ -104,8 +104,9 @@ header {
 
     h1 {
         font-size: 2em;
-        margin-top: 11%;
-        margin-left: 35%;
+        /*margin-top: 2%;*/
+        line-height: 2em;
+        margin-left: 25%;
         font-weight: bold;
 
         a {
@@ -120,7 +121,7 @@ header {
 
 /* =======NAV================= */
 nav {
-    width: $wrapperWidth * .66;
+    width: $wrapperWidth * .55;
     float: left;
     height: $headerHeight;
     font-family: $headerFont;
@@ -128,18 +129,20 @@ nav {
     ul {
         list-style: none;
         width: 70%;
-        margin-top: 11%;
+        margin-top: 8%;
         float: right;
        }
 
     li {
         float: left;
-        width: 15%;
+        /*width: 22%;*/
+        margin-right: 2%;
+        line-height: 1.6em;
         }
 
     a {
         display: block;
-        text-align:center;
+        text-align: center;
     }
 
     .current {

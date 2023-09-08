@@ -7,5 +7,7 @@
   link: /
 - name: About
   link: /about.html
+- name: Bibliography
+  link: /bib.html
 - name: Feed
   link: /feed.xml
