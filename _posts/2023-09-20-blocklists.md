@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111099538435893526
 ---
 So I tried to take part in Fediforum today, but I wasn't really able to participate. My initial idea was to get into a debate with my friend [Roel Roscam Abbing](https://test.roelof.info/), who is an incredibly deep thinker and is writing what will no doubt be a foundational dissertation about the fediverse. We were hoping to prompt a discussion about importable, instance blocklists on the fediverse.
 
