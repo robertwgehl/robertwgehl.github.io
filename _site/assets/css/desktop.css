@@ -108,4 +108,7 @@ footer p { text-align: center; padding-top: 2em; }
 
 footer a { color: #F32828; }
 
+/* ======Bibliography======= */
+.csl-entry { margin-left: 3em; text-indent: -3em; }
+
 /*# sourceMappingURL=desktop.css.map */
