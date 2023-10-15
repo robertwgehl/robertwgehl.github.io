@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111240793574116926
 ---
 
 In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It's my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up [their own Mastodon instance](https://aoir.social) (I participate in that project by helping run the instance).
