@@ -1,0 +1,68 @@
+I"�$<p>In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up <a href="https://aoir.social">their own Mastodon instance</a> (I participate in that project by helping run the instance).</p>
+
+<p>While there, I will present a paper about the creation of <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>, the protocol that allows the contemporary fediverse to run.</p>
+
+<p>Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, <a href="https://www.w3.org/wiki/Socialwg">the Social Web Working Group</a> during <a href="https://www.w3.org/2023/Process-20230612/">a W3C standard process</a>, there were many non-standard aspects to its creation.</p>
+
+<p>In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents.</p>
+
+<p>Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, <a href="/2023/08/17/OxfordUP.html"><em>Move Slowly and Build Bridges</em></a>.</p>
+
+<!-- more -->
+
+<h2 id="four-non-standard-aspects-of-the-activitypub-standard">Four Non-Standard Aspects of the ActivityPub standard</h2>
+<h3 id="1-corporate-social-media-was-not-involved">1) Corporate social media was not involved</h3>
+<p>Corporate social media wasn’t involved in the production of ActivityPub. At best, corporations like Facebook or Twitter (as they were known at the time) treated the SocialWG with benign neglect. At worst, they saw the group as utterly irrelevant to the future of social media.</p>
+
+<p>It wasn’t as if the SocialWG didn’t try to get corporate social media involved: they repeatedly reached out to Facebook, Twitter, Sina Weibo, and other major social media corporations. But none of these companies got involved.</p>
+
+<p>This is very unusual in the world of internet standards. Companies such as IBM, Microsoft, Apple, Google, Meta, Oracle, or Samsung pay membership fees and regularly send employees to standards-setting bodies, such as the Internet Engineering Task Force and the World Wide Web Consortium, in order to shape the standards that govern their industries. In fact, as much as corporations like Apple, Microsoft, and Google appear to be competing with one another, in reality they often cooperate when building standards, because the general rule is that standardized technologies are good for business.</p>
+
+<p>But when it came to the SocialWG, as ActivityPub co-author Amy Guy told me, “None of the big players… no one took us seriously. No one saw [the SocialWG] as a threat. No one expected it to go anywhere…. The feeling was, it was small beans, and it wasn’t worth their time.”</p>
+
+<h3 id="2-the-social-web-working-group-didnt-make-a-standard--they-made-seven">2) The Social Web Working Group Didn’t Make a Standard – They Made <em>Seven</em></h3>
+<p>Instead of settling on one approach to standardizing social media – in other words, a single, standard approach – the group made <a href="https://www.w3.org/groups/wg/social/publications/">seven standards</a>. For a typical W3C working group, that is decidedly non-standard behavior – most groups make one or two.</p>
+
+<p>Based on interviews, it’s clear this happened because of a lack of corporate involvement. Say what we will about corporate social media, they at least have a clear goal in mind: more users. More people’s lives to datamine, more eyeballs on behavioral ads.</p>
+
+<p>In contrast, the SocialWG members took a predominantly academic or theoretical approach, which initially resulted in multiple factions each championing their own approaches. The group easily could have produced zero standards.</p>
+
+<p>But in a compromise, the SocialWG decided to produce many standards. In a sense, as SocialWG member Bengo told me, the group succeeded <em>too much</em> – it made many standards, instead of just one or two.</p>
+
+<p>All this said, while lack of corporate involvement might have unmoored the group somewhat, the interviewees I spoke to said they were grateful to make standards that did not simply support the needs of corporate social media.</p>
+
+<h3 id="3-activitypub-almost-didnt-happen">3) ActivityPub Almost Didn’t Happen</h3>
+<p>This is the biggee. ActivityPub – the most successful product of the SocialWG by far – almost didn’t get done.</p>
+
+<p>One big reason was that a federation protocol was considered to be optional by the <a href="https://www.w3.org/2013/socialweb/social-wg-charter.html">SocialWG’s charter</a>.</p>
+
+<p>But an even bigger hurdle came in the face of resistance to ActivityPub from within the SocialWG itself. As an example of the pushback, consider this Mean Girls meme:</p>
+
+<figure>
+  <img src="/assets/images/fetchfederation.jpg" alt="Mean Girls &quot;Stop Trying to Make Federation Happen&quot; meme" title="Stop Trying to Make Federation Happen" />
+  <figcaption>A variation on the Mean Girls "stop trying to make fetch happen," adapted to refer to the federation protocol</figcaption>
+</figure>
+
+<p>Fortunately for us, ActivityPub advocates such as eventual co-author <a href="https://dustycloud.org/">Christine Lemmer-Webber</a> weren’t taking no for an answer. Lemmer-Webber pushed back hard against the resistance to ActivityPub.</p>
+
+<p>However, even with Lemmer-Webber championing it, time was running out: the SocialWG charter set the end of the group to be mid-2017.</p>
+
+<p>It took Mastodon to save ActivityPub. <a href="https://hackernoon.com/mastodon-and-the-w3c-f75f376f422">Mastodon implemented a draft version of ActivityPub</a>, and because this was a big deal, the W3C gave the SocialWG <em>two</em> deadline extensions, now known as the “Mastodon Extension.”</p>
+
+<p>Mastodon and ActivityPub connected because of their respective developers’ desire for safety for queer and trans people. Just as “the fediverse has historically been extremely queer,” <a href="https://fossandcrafts.org/episodes/053-fediverse-reflections-while-the-bird-burns.html">Christine Lemmer-Webber explains that ActivityPub was, as well</a>. Lemmer-Webber says ActivityPub “was largely developed by queer people – myself included – and including also implementation developers.” Four of the five ActivityPub authors self-identified as queer.</p>
+
+<p>As for Mastodon, Lemmer-Webber recalls that a large number of its “key contributors, kind of set the tone by pushing for certain features and pushing for kind of certain cultural norms that were to support queer communities that did not feel well-supported by Twitter.”</p>
+
+<p>So, ActivityPub solved many problems for Mastodon – it functioned as a privacy-respecting upgrade over <a href="https://en.wikipedia.org/wiki/OStatus">OStatus</a> (the original protocol used by Mastodon), a means to break away from harassment coming from some <a href="https://medium.com/@Trevatos/gnu-social-pleroma-and-the-mastodon-culture-conflict-3b10872937c2">GNU social servers</a>, and a way to further differentiate itself from Twitter. And Mastodon helped ActivityPub by giving its authors a big implementation – gold in the world of standards.</p>
+
+<h3 id="4-mastodon-prompted-us-to-ignore-12-of-activitypub">4) Mastodon Prompted Us to Ignore 1/2 of ActivityPub</h3>
+<p>However, while Mastodon saved ActivityPub from oblivion, it has also effectively erased half of the ActivityPub standard from the internet. This is because the <a href="https://docs.joinmastodon.org/api/">Mastodon API</a> is dominant across the fediverse, with non-Mastodon projects adopting it. This is in spite of the fact that the ActivityPub protocol includes an API for clients, which would allow end clients to connect to any fediverse server regardless of what software the server is running.</p>
+
+<p>This client-to-server portion of ActivityPub is cited by SocialWG members as their favorite part of the standard. But it is effectively ignored. So while ActivityPub’s creators are grateful to Mastodon for saving their work, Mastodon is also a cause for lament on the part of the ActivityPub authors.</p>
+
+<h2 id="implications-for-the-future">Implications for the Future?</h2>
+
+<p>Overall, I found the story of ActivityPub, the non-standard standard, to be fascinating. Obviously, it’s also important to the history of Mastodon. As Evan Prodromou told me in an interview, the meeting of Mastodon and ActivityPub at just the right moment in both their development “has changed history. It could be a very different story now. A different story for Mastodon and a different story for the social web.”</p>
+
+<p>I also wonder how this story will affect the future, as well. People are currently reviving the SocialWG, with debates happening right now about what its scope should be. Given the history I’ve observed, I would argue that concentrating on the SocialWG’s most successful product, ActivityPub, may be the wisest move.</p>
+:ET

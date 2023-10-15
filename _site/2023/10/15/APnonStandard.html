@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>FOSS ACADEMIC | ActivityPub, the Non-Standard Standard</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+	<link type="application/atom+xml" rel="alternate" href="https://fossacademic.tech/feed.xml" title="FOSS Academic" />
+	<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>ActivityPub, the Non-Standard Standard | FOSS Academic</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="ActivityPub, the Non-Standard Standard" />
+<meta name="author" content="RWG" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up their own Mastodon instance (I participate in that project by helping run the instance). While there, I will present a paper about the creation of ActivityPub, the protocol that allows the contemporary fediverse to run. Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, the Social Web Working Group during a W3C standard process, there were many non-standard aspects to its creation. In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents. Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, Move Slowly and Build Bridges." />
+<meta property="og:description" content="In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up their own Mastodon instance (I participate in that project by helping run the instance). While there, I will present a paper about the creation of ActivityPub, the protocol that allows the contemporary fediverse to run. Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, the Social Web Working Group during a W3C standard process, there were many non-standard aspects to its creation. In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents. Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, Move Slowly and Build Bridges." />
+<link rel="canonical" href="https://fossacademic.tech/2023/10/15/APnonStandard.html" />
+<meta property="og:url" content="https://fossacademic.tech/2023/10/15/APnonStandard.html" />
+<meta property="og:site_name" content="FOSS Academic" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-10-15T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ActivityPub, the Non-Standard Standard" />
+<script type="application/ld+json">
+{"headline":"ActivityPub, the Non-Standard Standard","dateModified":"2023-10-15T00:00:00-04:00","datePublished":"2023-10-15T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2023/10/15/APnonStandard.html"},"author":{"@type":"Person","name":"RWG"},"url":"https://fossacademic.tech/2023/10/15/APnonStandard.html","@type":"BlogPosting","description":"In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up their own Mastodon instance (I participate in that project by helping run the instance). While there, I will present a paper about the creation of ActivityPub, the protocol that allows the contemporary fediverse to run. Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, the Social Web Working Group during a W3C standard process, there were many non-standard aspects to its creation. In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents. Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, Move Slowly and Build Bridges.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+    <img src="/assets/images/tuxpen.png" alt="Tux the Penguin reading books">
+    <h1><a href="/index.html">FOSS Academic</a></h1>
+</header>
+
+    <nav>
+    <ul>
+  
+        <li>
+	        <a href="/" >
+		        Home
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/about.html" >
+		        About
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/bib.html" >
+		        Bibliography
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/feed.xml" >
+		        Feed
+	        </a>
+        </li>
+  
+    </ul>
+</nav>
+	
+    <main>
+    <div>
+    <h1 class="postHeader">ActivityPub, the Non-Standard Standard</h1>
+
+    <p class="byline">
+        15 Oct 2023
+        
+        
+        - <a href="/authors/RWG.html">Robert W. Gehl</a>
+        
+    </p>
+
+    <p>In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up <a href="https://aoir.social">their own Mastodon instance</a> (I participate in that project by helping run the instance).</p>
+
+<p>While there, I will present a paper about the creation of <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>, the protocol that allows the contemporary fediverse to run.</p>
+
+<p>Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, <a href="https://www.w3.org/wiki/Socialwg">the Social Web Working Group</a> during <a href="https://www.w3.org/2023/Process-20230612/">a W3C standard process</a>, there were many non-standard aspects to its creation.</p>
+
+<p>In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents.</p>
+
+<p>Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, <a href="/2023/08/17/OxfordUP.html"><em>Move Slowly and Build Bridges</em></a>.</p>
+
+<!-- more -->
+
+<h2 id="four-non-standard-aspects-of-the-activitypub-standard">Four Non-Standard Aspects of the ActivityPub standard</h2>
+<h3 id="1-corporate-social-media-was-not-involved">1) Corporate social media was not involved</h3>
+<p>Corporate social media wasn’t involved in the production of ActivityPub. At best, corporations like Facebook or Twitter (as they were known at the time) treated the SocialWG with benign neglect. At worst, they saw the group as utterly irrelevant to the future of social media.</p>
+
+<p>It wasn’t as if the SocialWG didn’t try to get corporate social media involved: they repeatedly reached out to Facebook, Twitter, Sina Weibo, and other major social media corporations. But none of these companies got involved.</p>
+
+<p>This is very unusual in the world of internet standards. Companies such as IBM, Microsoft, Apple, Google, Meta, Oracle, or Samsung pay membership fees and regularly send employees to standards-setting bodies, such as the Internet Engineering Task Force and the World Wide Web Consortium, in order to shape the standards that govern their industries. In fact, as much as corporations like Apple, Microsoft, and Google appear to be competing with one another, in reality they often cooperate when building standards, because the general rule is that standardized technologies are good for business.</p>
+
+<p>But when it came to the SocialWG, as ActivityPub co-author Amy Guy told me, “None of the big players… no one took us seriously. No one saw [the SocialWG] as a threat. No one expected it to go anywhere…. The feeling was, it was small beans, and it wasn’t worth their time.”</p>
+
+<h3 id="2-the-social-web-working-group-didnt-make-a-standard--they-made-seven">2) The Social Web Working Group Didn’t Make a Standard – They Made <em>Seven</em></h3>
+<p>Instead of settling on one approach to standardizing social media – in other words, a single, standard approach – the group made <a href="https://www.w3.org/groups/wg/social/publications/">seven standards</a>. For a typical W3C working group, that is decidedly non-standard behavior – most groups make one or two.</p>
+
+<p>Based on interviews, it’s clear this happened because of a lack of corporate involvement. Say what we will about corporate social media, they at least have a clear goal in mind: more users. More people’s lives to datamine, more eyeballs on behavioral ads.</p>
+
+<p>In contrast, the SocialWG members took a predominantly academic or theoretical approach, which initially resulted in multiple factions each championing their own approaches. The group easily could have produced zero standards.</p>
+
+<p>But in a compromise, the SocialWG decided to produce many standards. In a sense, as SocialWG member Bengo told me, the group succeeded <em>too much</em> – it made many standards, instead of just one or two.</p>
+
+<p>All this said, while lack of corporate involvement might have unmoored the group somewhat, the interviewees I spoke to said they were grateful to make standards that did not simply support the needs of corporate social media.</p>
+
+<h3 id="3-activitypub-almost-didnt-happen">3) ActivityPub Almost Didn’t Happen</h3>
+<p>This is the biggee. ActivityPub – the most successful product of the SocialWG by far – almost didn’t get done.</p>
+
+<p>One big reason was that a federation protocol was considered to be optional by the <a href="https://www.w3.org/2013/socialweb/social-wg-charter.html">SocialWG’s charter</a>.</p>
+
+<p>But an even bigger hurdle came in the face of resistance to ActivityPub from within the SocialWG itself. As an example of the pushback, consider this Mean Girls meme:</p>
+
+<figure>
+  <img src="/assets/images/fetchfederation.jpg" alt="Mean Girls &quot;Stop Trying to Make Federation Happen&quot; meme" title="Stop Trying to Make Federation Happen" />
+  <figcaption>A variation on the Mean Girls "stop trying to make fetch happen," adapted to refer to the federation protocol</figcaption>
+</figure>
+
+<p>Fortunately for us, ActivityPub advocates such as eventual co-author <a href="https://dustycloud.org/">Christine Lemmer-Webber</a> weren’t taking no for an answer. Lemmer-Webber pushed back hard against the resistance to ActivityPub.</p>
+
+<p>However, even with Lemmer-Webber championing it, time was running out: the SocialWG charter set the end of the group to be mid-2017.</p>
+
+<p>It took Mastodon to save ActivityPub. <a href="https://hackernoon.com/mastodon-and-the-w3c-f75f376f422">Mastodon implemented a draft version of ActivityPub</a>, and because this was a big deal, the W3C gave the SocialWG <em>two</em> deadline extensions, now known as the “Mastodon Extension.”</p>
+
+<p>Mastodon and ActivityPub connected because of their respective developers’ desire for safety for queer and trans people. Just as “the fediverse has historically been extremely queer,” <a href="https://fossandcrafts.org/episodes/053-fediverse-reflections-while-the-bird-burns.html">Christine Lemmer-Webber explains that ActivityPub was, as well</a>. Lemmer-Webber says ActivityPub “was largely developed by queer people – myself included – and including also implementation developers.” Four of the five ActivityPub authors self-identified as queer.</p>
+
+<p>As for Mastodon, Lemmer-Webber recalls that a large number of its “key contributors, kind of set the tone by pushing for certain features and pushing for kind of certain cultural norms that were to support queer communities that did not feel well-supported by Twitter.”</p>
+
+<p>So, ActivityPub solved many problems for Mastodon – it functioned as a privacy-respecting upgrade over <a href="https://en.wikipedia.org/wiki/OStatus">OStatus</a> (the original protocol used by Mastodon), a means to break away from harassment coming from some <a href="https://medium.com/@Trevatos/gnu-social-pleroma-and-the-mastodon-culture-conflict-3b10872937c2">GNU social servers</a>, and a way to further differentiate itself from Twitter. And Mastodon helped ActivityPub by giving its authors a big implementation – gold in the world of standards.</p>
+
+<h3 id="4-mastodon-prompted-us-to-ignore-12-of-activitypub">4) Mastodon Prompted Us to Ignore 1/2 of ActivityPub</h3>
+<p>However, while Mastodon saved ActivityPub from oblivion, it has also effectively erased half of the ActivityPub standard from the internet. This is because the <a href="https://docs.joinmastodon.org/api/">Mastodon API</a> is dominant across the fediverse, with non-Mastodon projects adopting it. This is in spite of the fact that the ActivityPub protocol includes an API for clients, which would allow end clients to connect to any fediverse server regardless of what software the server is running.</p>
+
+<p>This client-to-server portion of ActivityPub is cited by SocialWG members as their favorite part of the standard. But it is effectively ignored. So while ActivityPub’s creators are grateful to Mastodon for saving their work, Mastodon is also a cause for lament on the part of the ActivityPub authors.</p>
+
+<h2 id="implications-for-the-future">Implications for the Future?</h2>
+
+<p>Overall, I found the story of ActivityPub, the non-standard standard, to be fascinating. Obviously, it’s also important to the history of Mastodon. As Evan Prodromou told me in an interview, the meeting of Mastodon and ActivityPub at just the right moment in both their development “has changed history. It could be a very different story now. A different story for Mastodon and a different story for the social web.”</p>
+
+<p>I also wonder how this story will affect the future, as well. People are currently reviving the SocialWG, with debates happening right now about what its scope should be. Given the history I’ve observed, I would argue that concentrating on the SocialWG’s most successful product, ActivityPub, may be the wisest move.</p>
+
+
+       
+    <section>
+        <h1>Post Tags</h1>
+        <ul id="tagList">
+            
+            <li>
+                <a href="/tags/activitypub.html">ActivityPub</a>
+            </li>
+            
+            <li>
+                <a href="/tags/goal 2.html">Goal 2</a>
+            </li>
+            
+            <li>
+                <a href="/tags/move slowly and build bridges.html">Move Slowly and Build Bridges</a>
+            </li>
+            
+        </ul>
+    </section>
+    
+    <div id="comments">
+        <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
+          <!-- load comments from fediverse (mastodon, pleroma,...) "comments" is the name of the variable in front-matter -->
+   
+   
+<!--<div class="article-content">-->
+<div class="content">
+  <h1>Comments</h1>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
+  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
+  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
+  <script src="/assets/js/purify.min.js"></script>
+  <script type="text/javascript">
+    function escapeHtml(unsafe) {
+      return unsafe
+           .replace(/&/g, "&amp;")
+           .replace(/</g, "&lt;")
+           .replace(/>/g, "&gt;")
+           .replace(/"/g, "&quot;")
+           .replace(/'/g, "&#039;");
+   }
+
+    document.getElementById("load-comment").addEventListener("click", function() {
+      document.getElementById("load-comment").innerHTML = "Loading";
+      fetch('https://aoir.social/api/v1/statuses//context')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if(data['descendants'] &&
+             Array.isArray(data['descendants']) && 
+            data['descendants'].length > 0) {
+              document.getElementById('mastodon-comments-list').innerHTML = "";
+              data['descendants'].forEach(function(reply) {
+                reply.account.display_name = escapeHtml(reply.account.display_name);
+                reply.account.emojis.forEach(emoji => {
+                  reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                    `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                });
+                /* handling CWs, thanks to https://codeberg.org/ashwinvis/m.css/commit/c622ad23dc976c2ce8029e6aee06f57942eb9394 */
+                let fediCommentContent
+                if (reply.spoiler_text === '') {
+                  fediCommentContent = reply.content
+                } else {
+                  fediCommentContent =
+                   `<details><summary><span id="fedicomment-cw">CW: ${escapeHtml(reply.spoiler_text)}</span></summary>
+                      ${reply.content}
+                   </details>`
+                }
+                mastodonComment =
+                  `<div class="mastodon-comment">
+                     <div class="avatar">
+                       <img src="${escapeHtml(reply.account.avatar_static)}" class="commentAvatar" alt="">
+                     </div>
+
+                     <div class="author">
+                        <p>
+                          <a href="${reply.account.url}" rel="nofollow">
+                            <span>${reply.account.display_name}</span>
+                            <span class="disabled">${escapeHtml(reply.account.acct)}</span>
+                          </a>
+                        </p>
+                        <p>
+                          <a class="date" href="${reply.uri}" rel="nofollow">
+                            ${reply.created_at.substr(0, 10)}
+                          </a>
+                        </p>
+                     </div>
+                     
+                     <div class="mastodon-comment-content">${fediCommentContent}
+                     </div> 
+                     
+                   </div>`;
+                document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+              });
+          } else {
+            document.getElementById('mastodon-comments-list').innerHTML = "<p>No comments</p>";
+          }
+        });
+      });
+  </script>
+</div>
+
+
+
+
+<!--  end of comments section -->
+
+
+    </div>
+
+    
+</div>
+
+    </main>
+    <aside>
+    <section>
+        <h1>Contact</h1>
+        <p><strong>Mastodon:</strong> <a rel="me" href="https://aoir.social/@rwg">@rwg@aoir.social</a></p>
+        <p><strong>Email: </strong> robertwgehl %AT% protonmail</p>
+    </section>
+
+    <section>
+        <h1>Archives</h1>
+        <ul class="posts">
+        
+            <li>
+                <span class="post-date">Oct 15, 2023</span>
+                <a class="post-link" href="/2023/10/15/APnonStandard.html">ActivityPub, the Non-Standard Standard</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 20, 2023</span>
+                <a class="post-link" href="/2023/09/20/blocklists.html">A defense of the humble, importable blocklist</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 8, 2023</span>
+                <a class="post-link" href="/2023/09/08/ASMupdateBib.html">ASM update, Bibliography Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 17, 2023</span>
+                <a class="post-link" href="/2023/08/17/OxfordUP.html">Move Slowly and Build Bridges to be published by Oxford University Press</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 12, 2023</span>
+                <a class="post-link" href="/2023/08/12/ASMupdateFSEP.html">ASM update, August 12 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 2, 2023</span>
+                <a class="post-link" href="/2023/07/02/GradStudentsPostDocs.html">Seeking Grad Students and Postdocs</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 25, 2023</span>
+                <a class="post-link" href="/2023/06/25/ASMupdate-Warwick.html">ASM Update, June 25 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 16, 2023</span>
+                <a class="post-link" href="/2023/06/16/ASMupdate1.html">ASM Update, June 16 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 9, 2023</span>
+                <a class="post-link" href="/2023/05/09/ActivityPub2.html">Reading the Minutes of the Social Web Working Group, part 2</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 15, 2023</span>
+                <a class="post-link" href="/2023/03/15/AOIRsocialCOC.html">AoIR Social's Code of Conduct</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 3, 2023</span>
+                <a class="post-link" href="/2023/03/03/AOIR-social.html">AOIR.social!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 10, 2023</span>
+                <a class="post-link" href="/2023/02/10/bumpAndSlump.html">Bumps, Slumps and the Killer Hype Cycle</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2023</span>
+                <a class="post-link" href="/2023/01/20/ActivityPub1.html">Reading the Minutes of the Social Web Working Group, part 1</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 3, 2023</span>
+                <a class="post-link" href="/2023/01/03/FOSSacademicYIR-copy.html">FOSS Academic Year in Review 2022</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 24, 2022</span>
+                <a class="post-link" href="/2022/12/24/Playvicous-Christmas.html">A Very Playvicious Christmas</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 19, 2022</span>
+                <a class="post-link" href="/2022/12/19/Two-new-pubs.html">Two New Publications</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2022</span>
+                <a class="post-link" href="/2022/12/11/AOIR-social.html">AOIR.social?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 9, 2022</span>
+                <a class="post-link" href="/2022/12/09/FOSSFinds.html">FOSS Finds, Content Moderation webinar</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 19, 2022</span>
+                <a class="post-link" href="/2022/11/19/Surge.html">Twitter Isn't That Important</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 25, 2022</span>
+                <a class="post-link" href="/2022/10/25/ASM-not-RWASM.html">Expanding The Conversation (notes on the Pew Alternative Social Media Report)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 18, 2022</span>
+                <a class="post-link" href="/2022/10/18/notesOnNobreEtAl.html">More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 5, 2022</span>
+                <a class="post-link" href="/2022/10/05/deepdivezotero.html">A Deep Dive into a Zotero Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 13, 2022</span>
+                <a class="post-link" href="/2022/09/13/FOSSFindsASM.html">FOSS Finds, Scuttlebutt Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 17, 2022</span>
+                <a class="post-link" href="/2022/08/17/MovingToYork.html">Movin' North</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 29, 2022</span>
+                <a class="post-link" href="/2022/06/29/FOSSFindsOnDemand.html">FOSS Finds, On Demand Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 26, 2022</span>
+                <a class="post-link" href="/2022/05/26/Subscribe.html">(I'm) Mashing That Subscribe Button</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2022</span>
+                <a class="post-link" href="/2022/04/23/FOSSFinds.html">FOSS Finds, StoryCorps Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 17, 2022</span>
+                <a class="post-link" href="/2022/04/17/InterviewWorkflow.html">FOSS Interview Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 26, 2022</span>
+                <a class="post-link" href="/2022/03/26/NewBookOldBook.html">New Book, Old Book</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 7, 2022</span>
+                <a class="post-link" href="/2022/03/07/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 15, 2022</span>
+                <a class="post-link" href="/2022/02/15/CodingFreedom.html">Coding Freedom, by Biella Coleman</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 3, 2022</span>
+                <a class="post-link" href="/2022/02/03/Zettlr.html">I Have Settled on Zettlr</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 29, 2022</span>
+                <a class="post-link" href="/2022/01/29/FOSS-Finds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 26, 2022</span>
+                <a class="post-link" href="/2022/01/26/Very-Kool.html">Very Kool + Jellyfin</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 21, 2022</span>
+                <a class="post-link" href="/2022/01/21/FossFinds2.html">FOSS Finds, Environment and Labor Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 11, 2022</span>
+                <a class="post-link" href="/2022/01/11/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 6, 2022</span>
+                <a class="post-link" href="/2022/01/06/Goal2.html">Goal 2, Initiate</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 16, 2021</span>
+                <a class="post-link" href="/2021/12/16/CommentsTest.html">Test post for Mastodon Comments</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2021</span>
+                <a class="post-link" href="/2021/12/11/Tuxies2021.html">Tuxies 2021</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 30, 2021</span>
+                <a class="post-link" href="/2021/10/30/PraiseMastodonAgain.html">In Praise of Mastodon, Again</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 25, 2021</span>
+                <a class="post-link" href="/2021/09/25/Appointments.html">Nextcloud Appointments!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 10, 2021</span>
+                <a class="post-link" href="/2021/09/10/Update.html">September update</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 18, 2021</span>
+                <a class="post-link" href="/2021/07/18/Manjaro-Madness.html">Manjaro Mania!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 3, 2021</span>
+                <a class="post-link" href="/2021/07/03/DeGoogleSearch.html">(Almost) De-Googled Research</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 24, 2021</span>
+                <a class="post-link" href="/2021/06/24/Vacation-and-FDroid.html">A Vacation and F-Droid</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 14, 2021</span>
+                <a class="post-link" href="/2021/05/14/FALDupdate.html">FALD Updates</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 29, 2021</span>
+                <a class="post-link" href="/2021/04/29/Wireguard.html">Messin' with Wireguard</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2021</span>
+                <a class="post-link" href="/2021/04/23/DarkMode.html">Sudo Install Dark Mode</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 2, 2021</span>
+                <a class="post-link" href="/2021/04/02/ZoteroComments.html">Review of Zotero's New PDF Annotation Features</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 28, 2021</span>
+                <a class="post-link" href="/2021/03/28/RMMess.html">RM Mess</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 19, 2021</span>
+                <a class="post-link" href="/2021/03/19/cuttingZotero.html">Cutting-Edge Zotero</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 11, 2021</span>
+                <a class="post-link" href="/2021/03/11/GDPR.html">GDPR Compliance</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 10, 2021</span>
+                <a class="post-link" href="/2021/03/10/PDFhell.html">PDF Hell</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 28, 2021</span>
+                <a class="post-link" href="/2021/02/28/LostPosts.html">A Lost Weekend of Lost Posts</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 21, 2021</span>
+                <a class="post-link" href="/2021/02/21/LinuxMars.html">Linux on Mars</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 9, 2021</span>
+                <a class="post-link" href="/2021/02/09/MastodonSurvey.html">A Survey for Mastodon Developers, Admins, and Users</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 7, 2021</span>
+                <a class="post-link" href="/2021/02/07/CloudAcademic.html">I Asked Mastodon About FOSS for Academics. Here's What They Said</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 24, 2021</span>
+                <a class="post-link" href="/2021/01/24/Staticman.html">Staticman Comments Test Post</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2021</span>
+                <a class="post-link" href="/2021/01/20/20-years-wikipedia.html">20 Years of Wikipedia</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 8, 2021</span>
+                <a class="post-link" href="/2021/01/08/PraiseMastodon.html">In Praise of Mastodon After an Insurrection, or, What if Donald Trump Had Joined Mastodon?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 29, 2020</span>
+                <a class="post-link" href="/2020/12/29/Minor-Update.html">Minor Update -- New Publication, No More Hyvor</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 27, 2020</span>
+                <a class="post-link" href="/2020/12/27/Workflow.html">My Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 20, 2020</span>
+                <a class="post-link" href="/2020/12/20/Minor-Update.html">Minor Update -- Tagging System</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 15, 2020</span>
+                <a class="post-link" href="/2020/12/15/FOSS-Journey.html">My FOSS Journey</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 10, 2020</span>
+                <a class="post-link" href="/2020/12/10/The-Tuxies-Academic-Style.html">The Tuxies, Academic Style</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 6, 2020</span>
+                <a class="post-link" href="/2020/12/06/Dreaming-In-Code.html">Dreaming in code</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 1, 2020</span>
+                <a class="post-link" href="/2020/12/01/Zotero-Tips-and-Tricks.html">Zotero tips and tricks</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 27, 2020</span>
+                <a class="post-link" href="/2020/11/27/introduction.html">Introduction</a>
+            </li>
+        
+        </ul>
+    </section>
+
+</aside>
+
+    <footer>
+    <p>All content on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted.</p>
+
+    <!-- Default Statcounter code for FOSS Academic
+    https://www.fossacademic.tech/ -->
+    <script type="text/javascript">
+    var sc_project=12437984; 
+    var sc_invisible=1; 
+    var sc_security="98ee29d4"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12437984/0/98ee29d4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+
+</footer>
+
+    </div>
+</body>
+</html>

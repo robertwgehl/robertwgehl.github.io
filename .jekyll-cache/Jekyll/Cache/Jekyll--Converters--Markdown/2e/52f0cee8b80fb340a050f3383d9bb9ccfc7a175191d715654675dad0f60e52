@@ -1,0 +1,11 @@
+I"�<p>In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up <a href="https://aoir.social">their own Mastodon instance</a> (I participate in that project by helping run the instance).</p>
+
+<p>While there, I will present a paper about the creation of <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>, the protocol that allows the contemporary fediverse to run.</p>
+
+<p>Titled “The Non-Standard Standard: A Critical Genealogy of ActivityPub,” I will argue that ActivityPub is a very unusual standard. While it was created by a W3C working group, <a href="https://www.w3.org/wiki/Socialwg">the Social Web Working Group</a> during <a href="https://www.w3.org/2023/Process-20230612/">a W3C standard process</a>, there were many non-standard aspects to its creation.</p>
+
+<p>In this post, I’ll sum up my findings, arguing that there are four ways in which ActivityPub is a non-standard standard. This work is informed by reading the Social Web Working Group (SocialWG) meeting minutes, interviews with SocialWG members, and a study of historical documents.</p>
+
+<p>Comments are very welcome, since this is going to be a chapter in my forthcoming book about the fediverse, <a href="/2023/08/17/OxfordUP.html"><em>Move Slowly and Build Bridges</em></a>.</p>
+
+:ET
