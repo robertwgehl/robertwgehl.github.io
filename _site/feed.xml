@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-10-15T15:52:10-04:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">ActivityPub, the Non-Standard Standard</title><link href="https://fossacademic.tech/2023/10/15/APnonStandard.html" rel="alternate" type="text/html" title="ActivityPub, the Non-Standard Standard" /><published>2023-10-15T00:00:00-04:00</published><updated>2023-10-15T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/10/15/APnonStandard</id><content type="html" xml:base="https://fossacademic.tech/2023/10/15/APnonStandard.html">&lt;p&gt;In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up &lt;a href=&quot;https://aoir.social&quot;&gt;their own Mastodon instance&lt;/a&gt; (I participate in that project by helping run the instance).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-10-19T16:07:19-04:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Alternative Social Media Preconference at AoIR</title><link href="https://fossacademic.tech/2023/10/19/AoIR_ASM_preconfernce.html" rel="alternate" type="text/html" title="Alternative Social Media Preconference at AoIR" /><published>2023-10-19T00:00:00-04:00</published><updated>2023-10-19T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/10/19/AoIR_ASM_preconfernce</id><content type="html" xml:base="https://fossacademic.tech/2023/10/19/AoIR_ASM_preconfernce.html">&lt;p&gt;On October 18, at 8.30 am, a group of about 30 Internet Scholars gathered for a Association of Internet Researchers preconference, called “Building an Alternative Social Media Network.”&lt;/p&gt;
+
+&lt;p&gt;Organized by Jessa Lingel, Ashwin Nagappi, and myself, the preconference achieved one of its big goals: getting many researchers in a room to talk about alternative social media (ASM). Yay!&lt;/p&gt;
+
+&lt;p&gt;The other big goal was igniting a research agenda for ASM. Did we succeed?
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;asm-research-futures&quot;&gt;ASM Research futures&lt;/h2&gt;
+&lt;p&gt;I would say: “yes!”&lt;/p&gt;
+
+&lt;p&gt;The discussion during our roughly four hours was rich. First of all, Ashwin had the brilliant idea of building an ad-hoc timeline of social media, dating back to the 1970s through today.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&quot;/assets/images/smwall.jpg&quot; alt=&quot;A wall of post-it notes that creates a timeline of social media, starting with email in the 1970s through the fediverse today&quot; title=&quot;social media timeline&quot; /&gt;
+  &lt;figcaption&gt;The participants in the preconference remembered various social media, broadly construed, and posted notes about them to the wall.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This actually helped us see the variety of ways people were defining “social media” right away. It also showed us that there may have been bursts of activity in two key moments: the early 2010s (quite understandable) and right now.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-asm&quot;&gt;What are ASM?&lt;/h2&gt;
+&lt;p&gt;This segued into a discussion about a key question: what are “alternative social media”? From my corner of the room, I heard two key words:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;relational&lt;/li&gt;
+  &lt;li&gt;emergent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is, ASM are always in relation to something typically considered mainstream. This actually replicates a paper Roel Roscam Abbing and I are working on, where we will conclude with a similar observation. ASM are in relation to a mainstream, a relation that can change over time. RRA and I presented an early &lt;a href=&quot;https://nextcloud.robertwgehl.org/index.php/s/qkZBjbznzkjTbkT&quot;&gt;version of that paper back in May of this year&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The other key word was “emergent,” in that alternative &lt;em&gt;practices&lt;/em&gt; often appear across many locations, including on mainstream corporate social media. These practices can influence both corporate &lt;em&gt;and&lt;/em&gt; alternative social media.&lt;/p&gt;
+
+&lt;p&gt;However, even with this relative consensus, much as the conception of social media was very broad, so, too the conception of alternative social media. Some of us felt that this would hinder the field, replicating the worst of the alternative media debates of the 1990s-2000s. Others of us felt that the variety of meanings could aid in research.&lt;/p&gt;
+
+&lt;h2 id=&quot;methods-and-ethics&quot;&gt;Methods and Ethics&lt;/h2&gt;
+&lt;p&gt;We next turned to ASM research methods – which were immediately tied to research ethics.&lt;/p&gt;
+
+&lt;p&gt;First of all, since ASM is hard to define, then it struck many of us that ethnographic or participatory methods are called for. We agreed that often we have to listen to communities as they define themselves as “alternative.”&lt;/p&gt;
+
+&lt;p&gt;But we also noted that we should be free to reject a community’s self-definition as “alternative” – it could be mere marketing. Or it could be a self-serving gloss on unethical replication of mainstream practices.&lt;/p&gt;
+
+&lt;p&gt;Historical methods were also recommended, since tracing alternative practices (such as, for example, federated political practices) could shed light on contemporary social media.&lt;/p&gt;
+
+&lt;p&gt;We also discussed approaches like the walk-through method or software studies approaches.&lt;/p&gt;
+
+&lt;p&gt;If there was controversy, it was over data-scraping methods. Readers of this blog know I am adverse to them on the fediverse (and I am working on a paper on this topic). However, participants argued that scraping may be warranted in situations where we study the alt-right.&lt;/p&gt;
+
+&lt;p&gt;Ethics was, as it should be, a central consideration. The participants tended to agree with the basic idea of consent – a position I &lt;a href=&quot;/2023/06/25/ASMupdate-Warwick.html&quot;&gt;wholly endorse for the study of the fediverse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The sticky bit, again, was in cases where researchers felt that consent would be hard to get, or interfere with the study: again, this tended to focus on studying right-wing alternative social media.&lt;/p&gt;
+
+&lt;p&gt;For me (and many of the folks in the room, I believe), there’s a major upshot to ethical engagement with many ASM groups: we researchers can make a difference! We can do work that resonates with ASM communities: we can ask them what they need and how we could help provide it through research. I really don’t think Facebook or Twitter cares a bit about critical social media research… but people on the fediverse, for example, might. If we do this right, we can actually help grow a more ethical social media.&lt;/p&gt;
+
+&lt;p&gt;I’m down for that!&lt;/p&gt;
+
+&lt;h2 id=&quot;future-steps&quot;&gt;Future steps&lt;/h2&gt;
+&lt;p&gt;We are now building an email listserv for researchers interested in the field of ASM, as well as a Zotero library. I particularly hope that collecting a bibliography might shed light on the field.&lt;/p&gt;
+
+&lt;p&gt;We are also talking about meeting again, either virtually or in person. Watch this space for more!&lt;/p&gt;</content><author><name>RWG</name></author><category term="alternative social media" /><category term="Association of Internet Researchers" /><category term="Goal 2" /><summary type="html">On October 18, at 8.30 am, a group of about 30 Internet Scholars gathered for a Association of Internet Researchers preconference, called “Building an Alternative Social Media Network.” Organized by Jessa Lingel, Ashwin Nagappi, and myself, the preconference achieved one of its big goals: getting many researchers in a room to talk about alternative social media (ASM). Yay! The other big goal was igniting a research agenda for ASM. Did we succeed?</summary></entry><entry><title type="html">ActivityPub, the Non-Standard Standard</title><link href="https://fossacademic.tech/2023/10/15/APnonStandard.html" rel="alternate" type="text/html" title="ActivityPub, the Non-Standard Standard" /><published>2023-10-15T00:00:00-04:00</published><updated>2023-10-15T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/10/15/APnonStandard</id><content type="html" xml:base="https://fossacademic.tech/2023/10/15/APnonStandard.html">&lt;p&gt;In a couple days, I head to Philadelphia for the 2023 version of the Association of Internet Researchers conference. It’s my favorite conference. And to give AOIR even more credit, they were one of the first professional academic organizations to set up &lt;a href=&quot;https://aoir.social&quot;&gt;their own Mastodon instance&lt;/a&gt; (I participate in that project by helping run the instance).&lt;/p&gt;
 
 &lt;p&gt;While there, I will present a paper about the creation of &lt;a href=&quot;https://www.w3.org/TR/activitypub/&quot;&gt;ActivityPub&lt;/a&gt;, the protocol that allows the contemporary fediverse to run.&lt;/p&gt;
 
@@ -329,118 +386,4 @@
 &lt;p&gt;To me, user stories exemplify what I call &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/Reverse-Engineering-Social-Media-Capitalism/dp/1439910359&quot;&gt;critical reverse engineering&lt;/a&gt;&lt;/em&gt; – taking apart existing practices, deriving abstractions from those practices, and then re-implementing those abstractions in a new (and better) way. Since corporate social media companies weren’t coming to the table to agree on a standard, the SocialWG simply told simple stories and developed their vocabulary (and Social API, the focus of a later post) from those stories.&lt;/p&gt;
 
 &lt;h3 id=&quot;success&quot;&gt;Success!&lt;/h3&gt;
-&lt;p&gt;While they weren’t able to attract representatives from corporate social media, the SocialWG did get their first win: ActivityStreams 2.0 drafts were &lt;a href=&quot;https://www.w3.org/wiki/Socialwg/2015-06-30-minutes&quot;&gt;published in June of 2015&lt;/a&gt; and the Candidate Recommendation appeared later that year. ActivityStreams 2.0 is now a key part of ActivityPub – but that’s a story for later.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="ActivityPub" /><summary type="html">NB: This is the second in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. The first one is here. Future posts to come. As I mentioned several months ago, my book about Mastodon and the rest of the fediverse can’t be complete without a deep understanding of ActivityPub, the protocol that powers the fediverse. ActivityPub itself is getting a bit of love in the press (see this Verge article for an example). And to understand ActivityPub, we have to look at the group that created it, the W3C’s Social Web Working Group, or SocialWG for short. They posted their meeting minutes on the Web and I have read all of them. In the previous post on the SocialWG minutes, I focused on the very early years, 2014 to 2015, finding that the period was dominated by organizational issues – how to meet, how to make decisions, and so on. In this section, I will cover the development of ActivityStreams 2.0, the first goal of the SocialWG charter.</summary></entry><entry><title type="html">AoIR Social’s Code of Conduct</title><link href="https://fossacademic.tech/2023/03/15/AOIRsocialCOC.html" rel="alternate" type="text/html" title="AoIR Social’s Code of Conduct" /><published>2023-03-15T00:00:00-04:00</published><updated>2023-03-15T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/03/15/AOIRsocialCOC</id><content type="html" xml:base="https://fossacademic.tech/2023/03/15/AOIRsocialCOC.html">&lt;p&gt;So, as I noted in the &lt;a href=&quot;/2023/03/03/AOIR-social.html&quot;&gt;last post&lt;/a&gt;, AoIR.social is &lt;a href=&quot;https://aoir.social&quot;&gt;live&lt;/a&gt;! It’s in beta testing, so to speak, as we bring on board moderators to learn the system before rolling out to the Association of Internet Researchers membership.&lt;/p&gt;
-
-&lt;p&gt;And moderators can’t &lt;a href=&quot;https://www.youtube.com/watch?v=1plPyJdXKIY&quot;&gt;mount up&lt;/a&gt; and moderate without a Code of Conduct. Along with Sarah Roberts and Aram Sinnreich, we drafted a COC based on the successful one found at &lt;a href=&quot;https://scholar.social&quot;&gt;scholar.social&lt;/a&gt;. We posted it to AoIR.social this week, and the moderators are weighing in.&lt;/p&gt;
-
-&lt;p&gt;This post is meant to document this process, not just for posterity, but also for the Fediverse writ large. Below, I’ll post the full AoIR.social COC and document the feedback the moderators are giving it.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h2 id=&quot;the-coc-so-far&quot;&gt;The COC, So Far&lt;/h2&gt;
-
-&lt;details&gt;
-&lt;summary&gt;Click the little arrow to see the AoIR.social Code of Conduct, March 2023&lt;/summary&gt;
-  &lt;blockquote&gt;
-&lt;h2&gt; Code of Conduct&lt;/h2&gt;
-
-&lt;p&gt;&lt;i&gt;NB: This is a DRAFT Code of Conduct, based in part on the Code of Conduct from scholar.social. As of March 2023, it is being reviewed by volunteer moderators.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;This is an instance for current members of the Association of Internet Researchers. Real names and credentials are only recommended if you plan to use your account on this instance for networking purposes; they are absolutely not required.&lt;/p&gt;
-
-&lt;h2&gt;Encouraged uses of AoIR.Social&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Brag about your publications&lt;/li&gt;
-&lt;li&gt;Share references and resources&lt;/li&gt;
-&lt;li&gt;Network with other AoIR members&lt;/li&gt;
-&lt;li&gt;Put it on the last slide of your conference presentation&lt;/li&gt;
-&lt;li&gt;Recruit participants for academic surveys—formal, IRB-approved ones or even informal ones (just make sure to use content warnings so that others can consent and don&apos;t get too obnoxious about it; see below for more about research on AoIR.social&lt;/li&gt;
-&lt;li&gt;Satire and activism are welcome here, but they must make a good-faith effort to punch up. (&quot;Punching up&quot;: making jokes or criticism at the expense of those with more power, higher status or greater privilege.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you are an AoIR member in good standing, and you are willing to engage with others respectfully, and you will respect our community&apos;s efforts to make this a safe space for queer, BIPOC, and other structurally disadvantaged people, you are absolutely welcome here.&lt;/p&gt;
-
-&lt;p&gt;If your AoIR membership has lapsed for longer than 2 years, you will be contacted about renewing your membership. If you choose not to renew, you will have 60 days to download your data. You may move your data to another Mastodon instance.&lt;/p&gt;
-
-&lt;h2&gt;Introduce yourself!&lt;/h2&gt;
-
-&lt;p&gt;After signing up, post a message to the Local Timeline telling us who you are, what your academic interests are, and helping us to get to know you better. We have set the administrative account to automatically boost public posts tagged with #introductions. (But if you abuse this by using it for anything else, we will close your account without warning.)&lt;/p&gt;
-
-&lt;h2&gt;Content Warnings (CW&apos;s)&lt;/h2&gt;
-
-&lt;p&gt;Please add CW&apos;s (content warnings) that are accurate and descriptive enough to enable reader consent to the following types of posts:&lt;/p&gt;
-
-&lt;li&gt;strong language,&lt;/li&gt;
-&lt;li&gt;   selfies,&lt;/li&gt;
-&lt;li&gt;   current events (includes: US or non-US, local, national, international, and should be applied regardless of whether sources are academic or non-partisan), high-conflict or otherwise exhausting issues of popular debate (e.g. climate change, GMO&apos;s, privacy issues, elections, etc.),&lt;/li&gt;
-&lt;li&gt;   mentions of death or violence,&lt;/li&gt;
-&lt;li&gt;   photographs or illustrations of insects, genitals, wounds (even if they come from a scientific source)&lt;/li&gt;
-&lt;li&gt;   references or links to Facebook/Twitter/other big tech companies,&lt;/li&gt;
-&lt;li&gt;   spoilers of popular and recent TV shows or other media, ASCII art (this one is important to ensure that someone using a screen reader doesn&apos;t have to listen to an attempt to read out a bunch of obscure symbols)&lt;/li&gt;
-&lt;li&gt;   stresses particular to academia such as grades, exams, thesis progress, academic job market prospects, and&lt;/li&gt;
-&lt;li&gt;   anything else where another user might want to decide for themselves whether or when they want to interact with your post.&lt;/li&gt;
-
-&lt;p&gt;There is a setting in your preferences to open all posts with Content Warnings automatically, if you don&apos;t want to click through each one.
-Image descriptions (alt-text)&lt;/p&gt;
-
-&lt;p&gt;It is an expectation of this instance that you add accurate descriptions to all images and video that you post to aid in accessibility. (A description like &quot;image.jpg&quot; that does not aid in accessibility would not meet this expectation.)&lt;/p&gt;
-
-&lt;p&gt;If you post an image of a screenshot of text, it is an expectation of this instance that you transcribe the text in the image description. Here’s a guide on how and why to supply alt-text.&lt;/p&gt;
-
-&lt;h2&gt;Unwelcome conduct on AoIR.Social&lt;/h2&gt;
-
-&lt;p&gt;The following will result in: a warning from the admin or having offending posts deleted, possibly without prior notice.&lt;/p&gt;
-
-&lt;li&gt; Providing unsolicited advice to strangers&lt;/li&gt;
-&lt;li&gt;  Inappropriate un-CW&apos;d posts on the Local Timeline (see above for CW policies)&lt;/li&gt;
-&lt;li&gt;   Posts with un-described images or video&lt;/li&gt;
-&lt;li&gt;   Shortened links, e.g. bit.ly, t.ly, tinyurl.com, goo.gl, ift.tt, lnkd.in, is.gd or t.co (These are considered malicious because link-shorteners track users without their consent and obscure the destination address, which also prevents users from being able to decide whether they want to visit the link beforehand)&lt;/li&gt;
-&lt;li&gt;   Advertisement or apologia for cryptocurrencies, NFT&apos;s, or multi-level marketing schemes.&lt;/li&gt;
-&lt;li&gt;   Unrequested solicitations to join religious, political, or other ideologically-defined organizations&lt;/li&gt;
-
-&lt;p&gt;Exceptions:&lt;/p&gt;
-
-&lt;p&gt;DOI links (e.g. https://doi.org/10.1136/bmj.k959) are allowed but the post must accurately describe the title/author/journal to allow the reader to decide for themselves whether they would like to follow the link. (In cases of very long titles, you may truncate it, and in cases of long author lists, &quot;First-Author et al&quot; will do.) Posts with DOI links where the target of the link is not described, or not described sufficiently, may be deleted without warning.&lt;/p&gt;
-
-&lt;h2&gt;Things that will get your account closed, possibly without warning&lt;/h2&gt;
-
-&lt;li&gt;   Racism, sexism, homophobia, transphobia, casteism, able-ism, etc. (will result in a permanent ban, you may not receive a prior warning)&lt;/li&gt;
-&lt;li&gt;   Serious dishonesty that is hurtful to others (e.g. falsely representing oneself as a member of a minority; services offering to write academic papers to help students cheat; vaccine denialism; predatory conferences or journals; overt pseudoscience such as flat-earther-ism etc.)&lt;/li&gt;
-&lt;li&gt;   Anything that could be described as &quot;spam&quot;&lt;/li&gt;
-&lt;li&gt;   Impersonating other people&lt;/li&gt;
-&lt;li&gt;   Harassment of any kind, including condemnations of individuals or institutions based on location, nationality, class, caste, religion, ethnicity, age, gender, or sexual identity&lt;/li&gt;
-&lt;li&gt;   No bots and no &quot;institutional&quot; accounts operated by non-members please; AoIR.social is for people. The obvious exception is that the AoIR organization itself will post official communications here. Any official communications will be marked as such.&lt;/li&gt;
-&lt;li&gt;   Accounts that automatically repeat a Twitter account, RSS feed, etc. must post to AoIR.social as Unlisted, not Public&lt;/li&gt;
-
-&lt;h3&gt;Regarding attempts to abuse these anti-abuse tools and policies&lt;/h3&gt;
-
-&lt;p&gt;Do not attempt to weaponize our Community Standards or anti-abuse tools/policies against marginalized groups such as people of colour, women or queer people. Users of AoIR.social are expected to have the literacy to understand that &quot;reverse discrimination&quot; is not real, and so attempts to re-centre discussions of marginalized people around the feelings of the privileged will be taken as manipulative behaviour undertaken deliberately in bad-faith. (E.g. white people should not demand that people of colour put CW&apos;s on every discussion of race). Furthermore, the abuse of content moderation tools for targeted efforts to silence, smear, or otherwise harass any individual account holder, for any reason, will not be tolerated.&lt;/p&gt;
-
-&lt;h2&gt;Use of AoIR.Social for research&lt;/h2&gt;
-
-&lt;p&gt;Researchers who wish to study AoIR.social or our users by collecting data using the API or through any other means that does not involve an &quot;opt-in&quot; from individual users are required to submit their protocol, analysis plan and all relevant ethics approval documentation from their institutional review board or departmental internal review documentation by email to the AoIR Fediverse admin account. You may also be required to submit code you plan to execute so that it can be tested to ensure it does not degrade the quality of service to other users.&lt;/p&gt;
-
-&lt;p&gt;This does not apply to, e.g. surveys circulated on AoIR.social that individual users can consent to participating in. This does apply to database scraping software, or any means of recording user activity where our users might be surprised that they were included afterward, because they were not given a chance to consent.&lt;/p&gt;
-
-&lt;p&gt;AoIR is well known for being the leading organization developing ethical online research. Ethical research on this instance (and much of the fediverse) should be sensitive to the privacy expectations of its members. Many people came to the fediverse in order to avoid being included in unethical social media research, and so we place a higher value on conducting research on human subjects with informed consent than most other social media, in order to maintain high ethical standards.&lt;/p&gt;
-
-&lt;p&gt;At the admin&apos;s discretion, you may be asked to submit your research protocol, and the institution that is providing ethical review, even in the case that it is an opt-in survey. Failure to disclose your research plan may result in closure of your account, or having your network banned from our service.&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&quot;the-feedback-so-far&quot;&gt;The Feedback, So Far&lt;/h2&gt;
-&lt;p&gt;(&lt;em&gt;NB: I will provide attribution when I have the permission of the author. I’ll also add more as I observe it.&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;Suggestions coming from: Nancy Baym, Jean Burgess, Charlotte Spencer-Smith, Tama Leaver, and others.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mission statement: we should include a bit more about what this server is about. Why have we set it up? What is it for?&lt;/li&gt;
-  &lt;li&gt;Similarly, another member noted that we should be clearer that socializing – in addition to being professional – is encouraged (indeed, that the very personal/professional divide in the academy needs to be troubled)&lt;/li&gt;
-  &lt;li&gt;Explanation for each section: for example, a bit more explaining why we ask for CWs. This would be good for new Mastodon members.&lt;/li&gt;
-  &lt;li&gt;Moderation commitments: how many moderators do we have? What’s the typical turnaround for responding to issues?&lt;/li&gt;
-  &lt;li&gt;A bit more clarity about what we mean about no crypto-shilling, especially when we have scholars who &lt;em&gt;study&lt;/em&gt; cryptcurrencies.&lt;/li&gt;
-  &lt;li&gt;A bit of clarity about sexual expression, e.g., discussions of sex work&lt;/li&gt;
-  &lt;li&gt;Clarifying why a CW on a selfie is needed (it’s about eye contact, not about self-portraiture as such)&lt;/li&gt;
-  &lt;li&gt;Clarification about blocklists and moderation speed&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>RWG</name></author><category term="Association of Internet Researchers" /><category term="Mastodon" /><category term="goal 1" /><summary type="html">So, as I noted in the last post, AoIR.social is live! It’s in beta testing, so to speak, as we bring on board moderators to learn the system before rolling out to the Association of Internet Researchers membership. And moderators can’t mount up and moderate without a Code of Conduct. Along with Sarah Roberts and Aram Sinnreich, we drafted a COC based on the successful one found at scholar.social. We posted it to AoIR.social this week, and the moderators are weighing in. This post is meant to document this process, not just for posterity, but also for the Fediverse writ large. Below, I’ll post the full AoIR.social COC and document the feedback the moderators are giving it.</summary></entry></feed>
+&lt;p&gt;While they weren’t able to attract representatives from corporate social media, the SocialWG did get their first win: ActivityStreams 2.0 drafts were &lt;a href=&quot;https://www.w3.org/wiki/Socialwg/2015-06-30-minutes&quot;&gt;published in June of 2015&lt;/a&gt; and the Candidate Recommendation appeared later that year. ActivityStreams 2.0 is now a key part of ActivityPub – but that’s a story for later.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="ActivityPub" /><summary type="html">NB: This is the second in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. The first one is here. Future posts to come. As I mentioned several months ago, my book about Mastodon and the rest of the fediverse can’t be complete without a deep understanding of ActivityPub, the protocol that powers the fediverse. ActivityPub itself is getting a bit of love in the press (see this Verge article for an example). And to understand ActivityPub, we have to look at the group that created it, the W3C’s Social Web Working Group, or SocialWG for short. They posted their meeting minutes on the Web and I have read all of them. In the previous post on the SocialWG minutes, I focused on the very early years, 2014 to 2015, finding that the period was dominated by organizational issues – how to meet, how to make decisions, and so on. In this section, I will cover the development of ActivityStreams 2.0, the first goal of the SocialWG charter.</summary></entry></feed>
