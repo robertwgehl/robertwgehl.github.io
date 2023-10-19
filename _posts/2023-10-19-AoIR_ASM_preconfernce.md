@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111263494793259068
 ---
 On October 18, at 8.30 am, a group of about 30 Internet Scholars gathered for a Association of Internet Researchers preconference, called "Building an Alternative Social Media Network."
 
