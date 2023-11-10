@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111387781311156195
 ---
 My first full-time academic job was at the University of Utah. Utah is, of course, very famous. No, not because of [cold fusion](https://en.wikipedia.org/wiki/Stanley_Pons) or teaching Ted Bundy about the law.
 
