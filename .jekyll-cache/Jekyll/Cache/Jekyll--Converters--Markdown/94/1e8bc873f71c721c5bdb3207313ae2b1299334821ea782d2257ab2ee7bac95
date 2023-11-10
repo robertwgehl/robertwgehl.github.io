@@ -1,0 +1,30 @@
+I"_<p>My first full-time academic job was at the University of Utah. Utah is, of course, very famous. No, not because of <a href="https://en.wikipedia.org/wiki/Stanley_Pons">cold fusion</a> or teaching Ted Bundy about the law.</p>
+
+<p>It is famous because it was the <a href="https://it.utah.edu/node4/posts/2017/august/node4-history.php">fourth node on the ARPAnet</a>, the forerunner to the modern internet. The other three nodes were in California; connecting to Utah was a major test of the network’s ability to work across long distances.</p>
+
+<p>Although it was a US Defense Department-funded project, the ARPAnet was a <a href="https://ieeexplore.ieee.org/document/5432117">playground for academics</a> who took its mission (command-and-control even in spite of a nuclear attack) and turned it into research into networking and collaboration.</p>
+
+<p>Fast forward to the early 2010s. I’m working at Utah, hired in part to teach a Web design class to Communication majors. Simple enough: each and every person affiliated with Utah had their own domain (something like domain.utah.edu/~username) on a local server, complete with FTP access via their email credentials. I taught students the basics of HTML and CSS. It was fun!</p>
+
+<p>Until it was not. I was at Utah for 10 years. Over that time, it became harder and harder to get students into their web space. It turns out that Utah was winding down web hosting for everyone, centralizing its web presence. Towards the end of my time there, the IT folks helpfully carved out some space on a server, specifically for our Comm Intro to the Web Design students. At the end of my time there, students were accessing their servers over a convoluted “thin client” computer lab setup, and I was spending the first 2 weeks just showing them how to FTP into a server over a client-to-cloud-to-FTP setup. (And this was for students who had no networking or web design experience – it was <em>rough</em>). I’m sorry to say I spent a great deal of that time in an increasingly adversarial relationship with the IT folks.</p>
+
+<p>As this happened, my colleague, Sean Lawson, and I would vent our frustration by jokingly saying, “welcome to Node 4!” The irony being that Utah was once <em>25%</em> of the freakin’ Internet but we could not get easy access to basic Web hosting. It was an ordeal just to get students to the point where they could move a text file from their local machines to a server.</p>
+
+<p>All of this is why I would propose, were I to have time, to write a book called “How Universities Lost the Internet.” I think there’s quite a readership for this book, judging from a recent thread on the fediverse. (Someone else can write it, though; I’m too busy with <a href="/2023/08/17/OxfordUP.html">my current project</a>!)</p>
+
+<!-- more -->
+
+<p>I posted this <a href="https://aoir.social/@rwg/111308895829845440">proposed book idea on Mastodon</a> a few days back:</p>
+
+<blockquote>
+  <p>Does this book exist?
+“How Universities Lost the Internet”
+or has someone done research on this topic? That is, the fact that many North American universities have ceded all technical capacity to Microsoft, Google, etc?
+It used to be students could get web hosting, email, and even some cool experimental online stuff through their schools. Now every online communication channel is locked down.</p>
+</blockquote>
+
+<p>It was animated by an observation at my current university, York, that my department would not be allowed to post anything to the university website, nor to social media, without the consent of the central administration.</p>
+
+<h2 id="more-stuff">More Stuff</h2>
+<p>More stuff…</p>
+:ET
