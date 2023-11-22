@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<meta charset="utf-8">
-	<title>FOSS ACADEMIC | Reading the Minutes of the Social Web Working Group, part 1</title>
+	<title>FOSS ACADEMIC | Ethics and Codes of Conduct on Mastodon</title>
     <link rel="stylesheet" href="/assets/css/reset.css">
 	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
     <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/favicon.ico" />
 	<link type="application/atom+xml" rel="alternate" href="https://fossacademic.tech/feed.xml" title="FOSS Academic" />
 	<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Reading the Minutes of the Social Web Working Group, part 1 | FOSS Academic</title>
+<title>Ethics and Codes of Conduct on Mastodon | FOSS Academic</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Reading the Minutes of the Social Web Working Group, part 1" />
+<meta property="og:title" content="Ethics and Codes of Conduct on Mastodon" />
 <meta name="author" content="RWG" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come. As readers of the blog know by now, Goal 2 of the blog is to document my writing of my next book, which I’m tentatively titling Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Alternative Social Media. To that end, I have been studying the workings of the Social Web Working Group (SocialWG), a W3C standards group which ran from 2014 through 2017 and ultimately produced, among other things, ActivityPub, the protocol that underpins much of the fediverse. I figure I cannot tell any stories about Mastodon without understanding the production of ActivityPub. Looking through the SocialWG meetings, it’s quite clear that Mastodon and ActivityPub’s histories are deeply intertwined. Mastodon adopted ActivityPub it prior to AP being a Candidate Recommendation (the penultimate stage in the W3C recommendation process). Mastodon is also a key reason why the Social Web Working Group got a 6 month extension for their work in 2017 – see this meeting. They even set up a Mastodon instance (w3c.social) to show W3C members that software. This post will discuss the early period of the SocialWG (circa 2014 through 2015). I’ll follow up later with more posts and notes. Importantly, I need to offer a couple caveats. First, I didn’t participate in the group. Instead, I’m basing much of this off the meeting minutes, as well as blog posts by SocialWG members, and to a lesser extent on informal discussions and formal interviews with some of the members. It’s possible – likely, even – that I will get details wrong, not simply because I wasn’t there, but also because this poor English major was not trained in computer science. The notes here are things that caught my eye. If you have corrections or critiques of my interpretation, please do share in the comments! And, as I talk to more people, I might change my interpretations, as well. Second, my focus is predominantly going to be on ActivityPub. However, the SocialWG produced quite a few other standards. That said, in focusing on the group’s history, I should cover a lot of ground, even with my emphasis on ActivityPub. Third, the meeting minutes are not verbatim transcripts (which makes sense – meeting minutes almost never are). They were taken by volunteers from among the SocialWG, who were trying to transcribe phone conversations while an IRC chat was going. So, any quotes I include here should not be taken as verbatim statements. In addition, given the sheer number of times I read statements such as “who’s speaking now?” and “I can hear weird noises” – these were largely telephone conferences, after all – I would take any attributions here with a major grain of salt, as well. Take, for example, the following exchange from this meeting: harry: so a cheapo understanding of heirarchy … am confused when I read the spec scribe: was that harry or dret ? sorry if I set the wrong one dret: me Notice in this example statements are attributed to harry when they were actually said by dret. So, I will tend to cite statements and ideas with minimal attribution unless I am 99% certain the statement can be attributed to the person. Let’s dive in!" />
-<meta property="og:description" content="NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come. As readers of the blog know by now, Goal 2 of the blog is to document my writing of my next book, which I’m tentatively titling Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Alternative Social Media. To that end, I have been studying the workings of the Social Web Working Group (SocialWG), a W3C standards group which ran from 2014 through 2017 and ultimately produced, among other things, ActivityPub, the protocol that underpins much of the fediverse. I figure I cannot tell any stories about Mastodon without understanding the production of ActivityPub. Looking through the SocialWG meetings, it’s quite clear that Mastodon and ActivityPub’s histories are deeply intertwined. Mastodon adopted ActivityPub it prior to AP being a Candidate Recommendation (the penultimate stage in the W3C recommendation process). Mastodon is also a key reason why the Social Web Working Group got a 6 month extension for their work in 2017 – see this meeting. They even set up a Mastodon instance (w3c.social) to show W3C members that software. This post will discuss the early period of the SocialWG (circa 2014 through 2015). I’ll follow up later with more posts and notes. Importantly, I need to offer a couple caveats. First, I didn’t participate in the group. Instead, I’m basing much of this off the meeting minutes, as well as blog posts by SocialWG members, and to a lesser extent on informal discussions and formal interviews with some of the members. It’s possible – likely, even – that I will get details wrong, not simply because I wasn’t there, but also because this poor English major was not trained in computer science. The notes here are things that caught my eye. If you have corrections or critiques of my interpretation, please do share in the comments! And, as I talk to more people, I might change my interpretations, as well. Second, my focus is predominantly going to be on ActivityPub. However, the SocialWG produced quite a few other standards. That said, in focusing on the group’s history, I should cover a lot of ground, even with my emphasis on ActivityPub. Third, the meeting minutes are not verbatim transcripts (which makes sense – meeting minutes almost never are). They were taken by volunteers from among the SocialWG, who were trying to transcribe phone conversations while an IRC chat was going. So, any quotes I include here should not be taken as verbatim statements. In addition, given the sheer number of times I read statements such as “who’s speaking now?” and “I can hear weird noises” – these were largely telephone conferences, after all – I would take any attributions here with a major grain of salt, as well. Take, for example, the following exchange from this meeting: harry: so a cheapo understanding of heirarchy … am confused when I read the spec scribe: was that harry or dret ? sorry if I set the wrong one dret: me Notice in this example statements are attributed to harry when they were actually said by dret. So, I will tend to cite statements and ideas with minimal attribution unless I am 99% certain the statement can be attributed to the person. Let’s dive in!" />
-<link rel="canonical" href="https://fossacademic.tech/2023/01/20/ActivityPub1.html" />
-<meta property="og:url" content="https://fossacademic.tech/2023/01/20/ActivityPub1.html" />
+<meta name="description" content="Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using Charle Ess’s Digital Media Ethics (3rd edition) as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others). Much of the course has been about learning the ethical theories and then discussing case studies. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.” But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation. And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server? In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar." />
+<meta property="og:description" content="Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using Charle Ess’s Digital Media Ethics (3rd edition) as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others). Much of the course has been about learning the ethical theories and then discussing case studies. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.” But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation. And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server? In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar." />
+<link rel="canonical" href="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html" />
+<meta property="og:url" content="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html" />
 <meta property="og:site_name" content="FOSS Academic" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-01-20T00:00:00-05:00" />
+<meta property="article:published_time" content="2023-11-22T00:00:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Reading the Minutes of the Social Web Working Group, part 1" />
+<meta property="twitter:title" content="Ethics and Codes of Conduct on Mastodon" />
 <script type="application/ld+json">
-{"headline":"Reading the Minutes of the Social Web Working Group, part 1","dateModified":"2023-01-20T00:00:00-05:00","datePublished":"2023-01-20T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2023/01/20/ActivityPub1.html"},"author":{"@type":"Person","name":"RWG"},"url":"https://fossacademic.tech/2023/01/20/ActivityPub1.html","@type":"BlogPosting","description":"NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come. As readers of the blog know by now, Goal 2 of the blog is to document my writing of my next book, which I’m tentatively titling Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Alternative Social Media. To that end, I have been studying the workings of the Social Web Working Group (SocialWG), a W3C standards group which ran from 2014 through 2017 and ultimately produced, among other things, ActivityPub, the protocol that underpins much of the fediverse. I figure I cannot tell any stories about Mastodon without understanding the production of ActivityPub. Looking through the SocialWG meetings, it’s quite clear that Mastodon and ActivityPub’s histories are deeply intertwined. Mastodon adopted ActivityPub it prior to AP being a Candidate Recommendation (the penultimate stage in the W3C recommendation process). Mastodon is also a key reason why the Social Web Working Group got a 6 month extension for their work in 2017 – see this meeting. They even set up a Mastodon instance (w3c.social) to show W3C members that software. This post will discuss the early period of the SocialWG (circa 2014 through 2015). I’ll follow up later with more posts and notes. Importantly, I need to offer a couple caveats. First, I didn’t participate in the group. Instead, I’m basing much of this off the meeting minutes, as well as blog posts by SocialWG members, and to a lesser extent on informal discussions and formal interviews with some of the members. It’s possible – likely, even – that I will get details wrong, not simply because I wasn’t there, but also because this poor English major was not trained in computer science. The notes here are things that caught my eye. If you have corrections or critiques of my interpretation, please do share in the comments! And, as I talk to more people, I might change my interpretations, as well. Second, my focus is predominantly going to be on ActivityPub. However, the SocialWG produced quite a few other standards. That said, in focusing on the group’s history, I should cover a lot of ground, even with my emphasis on ActivityPub. Third, the meeting minutes are not verbatim transcripts (which makes sense – meeting minutes almost never are). They were taken by volunteers from among the SocialWG, who were trying to transcribe phone conversations while an IRC chat was going. So, any quotes I include here should not be taken as verbatim statements. In addition, given the sheer number of times I read statements such as “who’s speaking now?” and “I can hear weird noises” – these were largely telephone conferences, after all – I would take any attributions here with a major grain of salt, as well. Take, for example, the following exchange from this meeting: harry: so a cheapo understanding of heirarchy … am confused when I read the spec scribe: was that harry or dret ? sorry if I set the wrong one dret: me Notice in this example statements are attributed to harry when they were actually said by dret. So, I will tend to cite statements and ideas with minimal attribution unless I am 99% certain the statement can be attributed to the person. Let’s dive in!","@context":"https://schema.org"}</script>
+{"headline":"Ethics and Codes of Conduct on Mastodon","dateModified":"2023-11-22T00:00:00-05:00","datePublished":"2023-11-22T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html"},"author":{"@type":"Person","name":"RWG"},"url":"https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html","@type":"BlogPosting","description":"Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using Charle Ess’s Digital Media Ethics (3rd edition) as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others). Much of the course has been about learning the ethical theories and then discussing case studies. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.” But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation. And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server? In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -69,108 +69,119 @@
 	
     <main>
     <div>
-    <h1 class="postHeader">Reading the Minutes of the Social Web Working Group, part 1</h1>
+    <h1 class="postHeader">Ethics and Codes of Conduct on Mastodon</h1>
 
     <p class="byline">
-        20 Jan 2023
+        22 Nov 2023
         
         
         - <a href="/authors/RWG.html">Robert W. Gehl</a>
         
     </p>
 
-    <p><em>NB: This is the first in a series of posts where I will share my notes on my readings of the minutes of the Social Web Working Group. Future posts to come.</em></p>
+    <p>Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using <a href="https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428">Charle Ess’s <em>Digital Media Ethics</em> (3rd edition)</a> as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).</p>
 
-<p>As readers of the blog know by now, Goal 2 of the blog is <a href="/2022/01/06/Goal2.html">to document my writing of my next book</a>, which I’m tentatively titling <em>Move Slowly and Build Bridges: Mastodon and the Struggle for Ethical Alternative Social Media</em>.</p>
+<p>Much of the course has been about learning the ethical theories and then discussing <a href="https://mediaengagement.org/vertical/media-ethics/">case studies</a>. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.”</p>
 
-<p>To that end, I have been studying the workings of the <a href="https://www.w3.org/Social/WG">Social Web Working Group</a> (SocialWG), a W3C standards group which ran from 2014 through 2017 and ultimately produced, among other things, <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>, the protocol that underpins much of the fediverse.</p>
+<p>But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation.</p>
 
-<p>I figure I cannot tell any stories about Mastodon without understanding the production of ActivityPub. Looking through the SocialWG meetings, it’s quite clear that Mastodon and ActivityPub’s histories are deeply intertwined. Mastodon adopted ActivityPub it prior to AP being a Candidate Recommendation (the penultimate stage in the W3C recommendation process). Mastodon is also a key reason why the Social Web Working Group got a 6 month extension for their work in 2017 – see <a href="https://www.w3.org/wiki/Socialwg/2017-06-27-minutes">this meeting</a>. They even set up a Mastodon instance (w3c.social) to show W3C members that software.</p>
+<p>And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server?</p>
 
-<p>This post will discuss the early period of the SocialWG (circa 2014 through 2015). I’ll follow up later with more posts and notes.</p>
+<p>In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.
+<!-- more --></p>
 
-<p>Importantly, I need to offer a couple caveats.</p>
+<h2 id="mastodon-in-the-classroom">Mastodon in the classroom</h2>
 
-<p>First, I didn’t participate in the group. Instead, I’m basing much of this off the meeting minutes, as well as blog posts by SocialWG members, and to a lesser extent on informal discussions and formal interviews with some of the members. It’s possible – likely, even – that I will get details wrong, not simply because I wasn’t there, but also because this poor English major was not trained in computer science. The notes here are things that caught my eye. If you have corrections or critiques of my interpretation, please do share in the comments! And, as I talk to more people, I might change my interpretations, as well.</p>
+<p>I spun up a relatively inexpensive Digital Ocean server and installed the latest version of Mastodon. I also imported a <a href="https://thebad.space">server blocklist</a>, because I did not want to have the students – all of whom were new to Mastodon – experience some nasty trolling in their first foray. At the same time, I still wanted students to be able to follow accounts outside of our server, so blocking known bad instances made the most sense. I recommend anyone using Mastodon in the classroom do something similar.</p>
 
-<p>Second, my focus is predominantly going to be on ActivityPub. However, the SocialWG produced quite a few other standards. That said, in focusing on the group’s history, I should cover a lot of ground, even with my emphasis on ActivityPub.</p>
+<p>I then invited students to join and mess around with our server – post, share, make profiles, etc. I realized that they would see essentially an empty stream and few others – this is all part of the process. I wanted to stress to them that everything on the server is under our control, so we – not some big company – have to decide how active our server would be.</p>
 
-<p>Third, the meeting minutes are not verbatim transcripts (which makes sense – meeting minutes almost never are). They were taken by volunteers from among the SocialWG, who were trying to transcribe phone conversations while an IRC chat was going. So, any quotes I include here should not be taken as verbatim statements. In addition, given the sheer number of times I read statements such as “who’s speaking now?” and “I can hear weird noises” – these were largely telephone conferences, after all – I would take any attributions here with a major grain of salt, as well. Take, for example, the following exchange from <a href="https://www.w3.org/wiki/Socialwg/2015-02-17-minutes">this meeting</a>:</p>
-<blockquote>
-  <p>harry: so a cheapo understanding of heirarchy</p>
-</blockquote>
+<h2 id="what-about-a-code-of-conduct">What about a Code of Conduct?</h2>
 
-<blockquote>
-  <p>… am confused when I read the spec</p>
-</blockquote>
+<p>One step I skipped in setting up was setting server rules and a code of conduct. I did this on purpose: it was the point of the in-class discussion. After providing some background details about Mastodon and the fediverse and answering student questions, we then discussed codes of conduct. For background, I gave them a draft chapter of my <a href="/2023/08/17/OxfordUP.html">current book</a>, which focuses on the history of codes of conduct (and thus draws heavily on an interview with <a href="https://where.coraline.codes/">Coraline Ada Ehmke</a>).</p>
 
-<blockquote>
-  <p>scribe: was that harry or dret ?</p>
-</blockquote>
+<p>After we talked codes of conduct, I talked about how running Mastodon requires us to be active in making choices about content moderation. Running a Mastodon server is a moment of applied ethics.</p>
 
-<blockquote>
-  <p>sorry if I set the wrong one</p>
-</blockquote>
-
-<blockquote>
-  <p>dret: me</p>
-</blockquote>
-
-<p>Notice in this example statements are attributed to harry when they were actually said by dret. So, I will tend to cite statements and ideas with minimal attribution unless I am 99% certain the statement can be attributed to the person.</p>
-
-<p>Let’s dive in!</p>
-
-<!-- more -->
-
-<h2 id="part-1-getting-started-getting-organized-2014-to-end-of-2015">Part 1: Getting Started, Getting Organized (2014 to end of 2015)</h2>
-
-<h3 id="the-charter">The Charter</h3>
-
-<p>The first phase of a Working Group at the W3C is a Charter, and the Social Web Working Group is no exception. <a href="https://www.w3.org/2013/socialweb/social-wg-charter.html">Their charter</a> stated</p>
-
-<blockquote>
-  <p>“The Social Web Working Group will create <strong>Recommendation Track</strong> deliverables that standardize a common JSON-based syntax for social data, a client-side API, and a Web protocol for federating social information such as status updates.”</p>
-</blockquote>
-
-<p>That is, there are three goals (although one was actually optional, more on that in a bit):</p>
+<p>I then asked them to break into four groups:</p>
 
 <ul>
-  <li>A social syntax (what would ultimately become <a href="https://www.w3.org/TR/activitystreams-core/">Activity Streams 2.0</a>)</li>
-  <li>A client API</li>
-  <li>A federation protocol</li>
+  <li>One group focusing on <strong>feminist ethics of care,</strong></li>
+  <li>Another focusing on <strong>deontology,</strong></li>
+  <li>Another on <strong>virtue ethics,</strong></li>
+  <li>And the last on <strong>utilitarianism.</strong></li>
 </ul>
 
-<p>In addition, the Charter connected the SocialWG to another group, the <a href="https://www.w3.org/2013/socialweb/social-ig-charter.html">Social Interest Group</a>. As we’ll see in posts to come, the Social Interest Group played a key role by creating “user stories” that capture online social activities. Those stories would help structure the specifications the SocialWG would ultimately produce.</p>
+<p>I asked the group to first summarize the ethical theory (not an easy task, I know).</p>
 
-<h3 id="organizational-issues">Organizational Issues</h3>
+<p>Next, I asked them to apply the ideas from their ethical theory to our potential Mastodon code of conduct.</p>
 
-<p>After the Charter, the Group began meeting, and the early meetings are marked by seemingly mundane and yet important issues, such as how teleconferencing works, how to take and post minutes, and when and where to meet in person. Those early meetings were about setting workflows and meeting schedules, including how the Draft and Recommendation process works at the W3C.</p>
+<p>I really, really liked the results!</p>
 
-<p>These meetings also established/emphasized rules about who is allowed to participate in a Working Group.</p>
+<p>Here are summaries of each:</p>
 
-<h3 id="what-caught-my-eye">What Caught My Eye</h3>
+<h3 id="feminist-ethics-of-care">Feminist ethics of care</h3>
+<p>Feminist ethics of care (FEOC) rejects the idea (most associated with deontology) that ethical decisions are the sole purview of individual, autonomous rational actors. Instead, FEOC argues we make ethical choices based upon, and informed by, relationships we have with one another. Moreover, an ethical choice is not purely a rational matter, but also involves emotions. Finally, FEOC elevates care of others to the center (but it rejects the idea that only one segment of our society is responsible for care work).</p>
 
-<p>Ok, so the first thing that I found fascinating was a desire for and fear of established social media corporations (specifically, Twitter, Google, Facebook). The SocialWG stated again and again that they wanted Facebook or Twitter to participate – here is but <a href="https://www.w3.org/wiki/Socialwg/2015-09-29-minutes">one example</a> of such a discussion –  but there is also a strong fear of the work being appropriated or buried. Two things are often mentioned as cautionary tales: Schema.org and the Open Web Foundation. Obviously, the desire for and fear of corporate social media involvement relates to who can or should participate. And the lack of involvement from those corporations is really important for this history, I would think.</p>
-
-<p>It’s also interesting to note that federation was bracketed off at this point. This is consistent with the Charter, which contemplated that Federation would be an optional deliverable: “Note that the Working Group may not develop the Federation Protocol into a Recommendation and it may become a Working Group Note.” Given that, from my perspective, the most important product of this group was the ActivityPub federation protocol, it’s remarkable that it almost didn’t get done because it was seen as optional. More on that in posts to follow.</p>
-
-<p>Another thing that caught my eye is that implementation and real-world examples were emphasized right away. The W3C specification process requires at least two implementations of every feature:</p>
-<blockquote>
-  <p>Arnaud: Would like to remind people that as a part of the W3C spec track, there will be a point at which we have a call for implementations, at which point we need 2 implementations of <em>every</em> feature to move forward <a href="https://www.w3.org/wiki/Socialwg/2014-09-30-minutes">(2014-09-30 meeting)</a></p>
-</blockquote>
-
-<p>This would be very important in terms of the eventual ActivityPub and Mastodon. The first time we see much emphasis on implementation would be <a href="https://www.w3.org/wiki/Socialwg/2015-10-06-minutes">when ActivityStreams 2.0 is set to move to Candidate Recommendation</a> in late 2015.</p>
-
-<p>Another fascinating aspect is that roughly a year into its existence, the SocialWG members would have a pretty heated debate about how to communicate. I tagged this in Zotero as “org comm,” short for “organizational communication,” or how an organization is constituted through its communicative practices. So, even though much time was spent early on in 2014 on how the group would get things done, communication conflicts emerged later on, with discussions about overloads in terms of channels and even flare-ups about who gets to speak when.</p>
-
-<p>A final note, but an important one. There are three distinct “camps” in the SocialWG:</p>
+<p>Based on this theory, the students argued that our Mastodon server code of conduct should</p>
 <ul>
-  <li>An academic-focused group centered on SoLiD and semantic markup;</li>
-  <li>People with previous federation experience, such as Pump.io folks,</li>
-  <li>and IndieWeb, a group of folks who put the webpage at the center of everything.</li>
+  <li>Describe how we can network with other servers who share our values.</li>
+  <li>Take inspiration from the first clause of Canadian charter: your rights end where someone else’s begin. You can post so long as you don’t violate others’ rights.</li>
+  <li>Emphasize contextual judgement (considering potential violations in context).</li>
+  <li>Emphasize communication during moderation, using empathy for would-be violators.</li>
 </ul>
 
-<p>I’ll say more about these groups and their competing visions in future posts.</p>
+<p>My take: this is a great set of insights. It echoes what I’ve learned over the past few years doing interviews with fediverse admins. Many told me that their approach to moderation is to talk to people and find out what’s going on. They also talk about how they choose to federate/block other instances.</p>
+
+<h3 id="deontology">Deontology</h3>
+<p>Deontology emphasizes individual rights and autonomy, as well as duties to do what is right. Intentions often matter more than consequences. Often deontology is expressed as rules (although that’s a bit reductive.)</p>
+
+<p>Students in this group did offer rules, likely inspired by reading sample Mastodon codes of conduct:</p>
+<ul>
+  <li>Post nothing illegal!</li>
+  <li>No discrimination based on age, race, gender, sexuality</li>
+  <li>No harassment</li>
+  <li>No trolling</li>
+  <li>No defamation or coercion</li>
+  <li>Show some respect in the community</li>
+</ul>
+
+<p>My take: if there’s one ethical theory that Mastodon seems designed for, it’s deontology. Mastodon’s software prompts the admin to put in “Server Rules,” short statements about expectations would-be members should live up to. Many, many Mastodon codes of conduct have rules similar to the above.</p>
+
+<h3 id="virtue-ethics">Virtue Ethics</h3>
+<p>Virtue ethics is less about intentions or consequences than it is about character. Virtues in a digital environment might include honesty, humility, courage, and compassion, and these are balanced against vicious extremes. Virtue ethics is also relational in that we teach children about virtues and provide advice to them when they have to make ethical choices.</p>
+
+<p>The students in this group suggested that our code of conduct should</p>
+<ul>
+  <li>Call for displays of virtous traits, such as wisdom, courage, loyalty,</li>
+  <li>Emphasize being polite and respectful, and</li>
+  <li>Have high standards for moderation.</li>
+</ul>
+
+<p>My take: I was really curious what the students would say in this group, and they delivered some good stuff. What’s useful, I think, is contrasting the negative rules of deontology with these positive virtues and character traits. I could imagine a code of conduct that integrates virtue ethics to emphasize positive behaviors.</p>
+
+<h3 id="utilitarianism">Utilitarianism</h3>
+<p>Alongside another consequentialist theory, libertarianism, utilitarianism is probably the most familiar theory to me, since I grew up in the USA. (I’m not saying I endorse either; just that I think I soaked in them). Utilitarianism judges acts based on their consequences: if an act creates the greatest happiness for the greatest number of people, it’s an ethical one.</p>
+
+<p>Students in this group emphasized the greatest happiness principle in their code of conduct ideas:</p>
+<ul>
+  <li>Let’s promote inclusivity to make people safe, welcome, and heard.</li>
+  <li>We need to listen to user feedback.</li>
+  <li>We need to consider well-being of the community.</li>
+  <li>Server members should report stuff to the moderators.</li>
+  <li>We should promote free speech but exclude hate speech.</li>
+</ul>
+
+<p>My take: Students really leaned into thinking about the would-be Mastodon server as a community, and so this approach emphasized group happiness. I think this was a good addition to the other ideas, because social media can be fun and happy – why not build a code of conduct that emphasizes these aspects?</p>
+
+<h2 id="summing-it-all-up">Summing it all up</h2>
+
+<p>We concluded the class by considering how these different approaches to a code of conduct could be synthesized. We kinda ran out of time for that, but I think we may have been able to write a pretty sweet code if we had more time.</p>
+
+<p>I did spend some time talking about enforcement, since no code of conduct is worth anything if you’re not willing to live up to it. I ran various scenarios past them – what if someone outside our server violates our code? What if someone outside our server reports one of our members?</p>
+
+<p>Their answers reflected the ideas I’ve heard from seasoned admins, including how admins discuss things with one another and how admins talk to members.</p>
+
+<p>All in all, I think this experiment was really exciting. Unlike corporate social media – Facebook, TikTok, X, etc – <em>we</em> get to make decisions about moderation when we run our own instance. It’s a big responsibility, but these students showed they’re up for it.</p>
 
 
        
@@ -183,7 +194,11 @@
             </li>
             
             <li>
-                <a href="/tags/activitypub.html">ActivityPub</a>
+                <a href="/tags/mastodon.html">Mastodon</a>
+            </li>
+            
+            <li>
+                <a href="/tags/codes of conduct.html">Codes of Conduct</a>
             </li>
             
         </ul>
@@ -197,9 +212,9 @@
 <!--<div class="article-content">-->
 <div class="content">
   <h1>Comments</h1>
-  <p>For each of these posts, <a class="link" href="https://scholar.social/@robertwgehl/109723434611493654"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
   <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
-  <p><a class="button" href="https://scholar.social/@robertwgehl/109723434611493654">Reply through Fediverse</a></p>
+  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
   <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
   <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
   <script src="/assets/js/purify.min.js"></script>
@@ -215,7 +230,7 @@
 
     document.getElementById("load-comment").addEventListener("click", function() {
       document.getElementById("load-comment").innerHTML = "Loading";
-      fetch('https://scholar.social/api/v1/statuses/109723434611493654/context')
+      fetch('https://aoir.social/api/v1/statuses//context')
         .then(function(response) {
           return response.json();
         })

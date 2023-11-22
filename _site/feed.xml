@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-11-10T17:52:00-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">How Universities Lost the Internet</title><link href="https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT.html" rel="alternate" type="text/html" title="How Universities Lost the Internet" /><published>2023-11-10T00:00:00-05:00</published><updated>2023-11-10T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT</id><content type="html" xml:base="https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT.html">&lt;p&gt;My first full-time academic job was at the University of Utah. Utah is, of course, very famous. No, not because of &lt;a href=&quot;https://en.wikipedia.org/wiki/Stanley_Pons&quot;&gt;cold fusion&lt;/a&gt; or teaching Ted Bundy about the law.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-11-22T14:26:36-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Ethics and Codes of Conduct on Mastodon</title><link href="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html" rel="alternate" type="text/html" title="Ethics and Codes of Conduct on Mastodon" /><published>2023-11-22T00:00:00-05:00</published><updated>2023-11-22T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/11/22/EthicsAndCOCs</id><content type="html" xml:base="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html">&lt;p&gt;Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using &lt;a href=&quot;https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428&quot;&gt;Charle Ess’s &lt;em&gt;Digital Media Ethics&lt;/em&gt; (3rd edition)&lt;/a&gt; as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).&lt;/p&gt;
+
+&lt;p&gt;Much of the course has been about learning the ethical theories and then discussing &lt;a href=&quot;https://mediaengagement.org/vertical/media-ethics/&quot;&gt;case studies&lt;/a&gt;. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.”&lt;/p&gt;
+
+&lt;p&gt;But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation.&lt;/p&gt;
+
+&lt;p&gt;And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server?&lt;/p&gt;
+
+&lt;p&gt;In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mastodon-in-the-classroom&quot;&gt;Mastodon in the classroom&lt;/h2&gt;
+
+&lt;p&gt;I spun up a relatively inexpensive Digital Ocean server and installed the latest version of Mastodon. I also imported a &lt;a href=&quot;https://thebad.space&quot;&gt;server blocklist&lt;/a&gt;, because I did not want to have the students – all of whom were new to Mastodon – experience some nasty trolling in their first foray. At the same time, I still wanted students to be able to follow accounts outside of our server, so blocking known bad instances made the most sense. I recommend anyone using Mastodon in the classroom do something similar.&lt;/p&gt;
+
+&lt;p&gt;I then invited students to join and mess around with our server – post, share, make profiles, etc. I realized that they would see essentially an empty stream and few others – this is all part of the process. I wanted to stress to them that everything on the server is under our control, so we – not some big company – have to decide how active our server would be.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-a-code-of-conduct&quot;&gt;What about a Code of Conduct?&lt;/h2&gt;
+
+&lt;p&gt;One step I skipped in setting up was setting server rules and a code of conduct. I did this on purpose: it was the point of the in-class discussion. After providing some background details about Mastodon and the fediverse and answering student questions, we then discussed codes of conduct. For background, I gave them a draft chapter of my &lt;a href=&quot;/2023/08/17/OxfordUP.html&quot;&gt;current book&lt;/a&gt;, which focuses on the history of codes of conduct (and thus draws heavily on an interview with &lt;a href=&quot;https://where.coraline.codes/&quot;&gt;Coraline Ada Ehmke&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;After we talked codes of conduct, I talked about how running Mastodon requires us to be active in making choices about content moderation. Running a Mastodon server is a moment of applied ethics.&lt;/p&gt;
+
+&lt;p&gt;I then asked them to break into four groups:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One group focusing on &lt;strong&gt;feminist ethics of care,&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Another focusing on &lt;strong&gt;deontology,&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Another on &lt;strong&gt;virtue ethics,&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;And the last on &lt;strong&gt;utilitarianism.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I asked the group to first summarize the ethical theory (not an easy task, I know).&lt;/p&gt;
+
+&lt;p&gt;Next, I asked them to apply the ideas from their ethical theory to our potential Mastodon code of conduct.&lt;/p&gt;
+
+&lt;p&gt;I really, really liked the results!&lt;/p&gt;
+
+&lt;p&gt;Here are summaries of each:&lt;/p&gt;
+
+&lt;h3 id=&quot;feminist-ethics-of-care&quot;&gt;Feminist ethics of care&lt;/h3&gt;
+&lt;p&gt;Feminist ethics of care (FEOC) rejects the idea (most associated with deontology) that ethical decisions are the sole purview of individual, autonomous rational actors. Instead, FEOC argues we make ethical choices based upon, and informed by, relationships we have with one another. Moreover, an ethical choice is not purely a rational matter, but also involves emotions. Finally, FEOC elevates care of others to the center (but it rejects the idea that only one segment of our society is responsible for care work).&lt;/p&gt;
+
+&lt;p&gt;Based on this theory, the students argued that our Mastodon server code of conduct should&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Describe how we can network with other servers who share our values.&lt;/li&gt;
+  &lt;li&gt;Take inspiration from the first clause of Canadian charter: your rights end where someone else’s begin. You can post so long as you don’t violate others’ rights.&lt;/li&gt;
+  &lt;li&gt;Emphasize contextual judgement (considering potential violations in context).&lt;/li&gt;
+  &lt;li&gt;Emphasize communication during moderation, using empathy for would-be violators.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My take: this is a great set of insights. It echoes what I’ve learned over the past few years doing interviews with fediverse admins. Many told me that their approach to moderation is to talk to people and find out what’s going on. They also talk about how they choose to federate/block other instances.&lt;/p&gt;
+
+&lt;h3 id=&quot;deontology&quot;&gt;Deontology&lt;/h3&gt;
+&lt;p&gt;Deontology emphasizes individual rights and autonomy, as well as duties to do what is right. Intentions often matter more than consequences. Often deontology is expressed as rules (although that’s a bit reductive.)&lt;/p&gt;
+
+&lt;p&gt;Students in this group did offer rules, likely inspired by reading sample Mastodon codes of conduct:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Post nothing illegal!&lt;/li&gt;
+  &lt;li&gt;No discrimination based on age, race, gender, sexuality&lt;/li&gt;
+  &lt;li&gt;No harassment&lt;/li&gt;
+  &lt;li&gt;No trolling&lt;/li&gt;
+  &lt;li&gt;No defamation or coercion&lt;/li&gt;
+  &lt;li&gt;Show some respect in the community&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My take: if there’s one ethical theory that Mastodon seems designed for, it’s deontology. Mastodon’s software prompts the admin to put in “Server Rules,” short statements about expectations would-be members should live up to. Many, many Mastodon codes of conduct have rules similar to the above.&lt;/p&gt;
+
+&lt;h3 id=&quot;virtue-ethics&quot;&gt;Virtue Ethics&lt;/h3&gt;
+&lt;p&gt;Virtue ethics is less about intentions or consequences than it is about character. Virtues in a digital environment might include honesty, humility, courage, and compassion, and these are balanced against vicious extremes. Virtue ethics is also relational in that we teach children about virtues and provide advice to them when they have to make ethical choices.&lt;/p&gt;
+
+&lt;p&gt;The students in this group suggested that our code of conduct should&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Call for displays of virtous traits, such as wisdom, courage, loyalty,&lt;/li&gt;
+  &lt;li&gt;Emphasize being polite and respectful, and&lt;/li&gt;
+  &lt;li&gt;Have high standards for moderation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My take: I was really curious what the students would say in this group, and they delivered some good stuff. What’s useful, I think, is contrasting the negative rules of deontology with these positive virtues and character traits. I could imagine a code of conduct that integrates virtue ethics to emphasize positive behaviors.&lt;/p&gt;
+
+&lt;h3 id=&quot;utilitarianism&quot;&gt;Utilitarianism&lt;/h3&gt;
+&lt;p&gt;Alongside another consequentialist theory, libertarianism, utilitarianism is probably the most familiar theory to me, since I grew up in the USA. (I’m not saying I endorse either; just that I think I soaked in them). Utilitarianism judges acts based on their consequences: if an act creates the greatest happiness for the greatest number of people, it’s an ethical one.&lt;/p&gt;
+
+&lt;p&gt;Students in this group emphasized the greatest happiness principle in their code of conduct ideas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Let’s promote inclusivity to make people safe, welcome, and heard.&lt;/li&gt;
+  &lt;li&gt;We need to listen to user feedback.&lt;/li&gt;
+  &lt;li&gt;We need to consider well-being of the community.&lt;/li&gt;
+  &lt;li&gt;Server members should report stuff to the moderators.&lt;/li&gt;
+  &lt;li&gt;We should promote free speech but exclude hate speech.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My take: Students really leaned into thinking about the would-be Mastodon server as a community, and so this approach emphasized group happiness. I think this was a good addition to the other ideas, because social media can be fun and happy – why not build a code of conduct that emphasizes these aspects?&lt;/p&gt;
+
+&lt;h2 id=&quot;summing-it-all-up&quot;&gt;Summing it all up&lt;/h2&gt;
+
+&lt;p&gt;We concluded the class by considering how these different approaches to a code of conduct could be synthesized. We kinda ran out of time for that, but I think we may have been able to write a pretty sweet code if we had more time.&lt;/p&gt;
+
+&lt;p&gt;I did spend some time talking about enforcement, since no code of conduct is worth anything if you’re not willing to live up to it. I ran various scenarios past them – what if someone outside our server violates our code? What if someone outside our server reports one of our members?&lt;/p&gt;
+
+&lt;p&gt;Their answers reflected the ideas I’ve heard from seasoned admins, including how admins discuss things with one another and how admins talk to members.&lt;/p&gt;
+
+&lt;p&gt;All in all, I think this experiment was really exciting. Unlike corporate social media – Facebook, TikTok, X, etc – &lt;em&gt;we&lt;/em&gt; get to make decisions about moderation when we run our own instance. It’s a big responsibility, but these students showed they’re up for it.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="Mastodon" /><category term="Codes of Conduct" /><summary type="html">Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using Charle Ess’s Digital Media Ethics (3rd edition) as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others). Much of the course has been about learning the ethical theories and then discussing case studies. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.” But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation. And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server? In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.</summary></entry><entry><title type="html">How Universities Lost the Internet</title><link href="https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT.html" rel="alternate" type="text/html" title="How Universities Lost the Internet" /><published>2023-11-10T00:00:00-05:00</published><updated>2023-11-10T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT</id><content type="html" xml:base="https://fossacademic.tech/2023/11/10/HowUniversitiesLostIT.html">&lt;p&gt;My first full-time academic job was at the University of Utah. Utah is, of course, very famous. No, not because of &lt;a href=&quot;https://en.wikipedia.org/wiki/Stanley_Pons&quot;&gt;cold fusion&lt;/a&gt; or teaching Ted Bundy about the law.&lt;/p&gt;
 
 &lt;p&gt;It is famous because it was the &lt;a href=&quot;https://it.utah.edu/node4/posts/2017/august/node4-history.php&quot;&gt;fourth node on the ARPAnet&lt;/a&gt;, the forerunner to the modern internet. The other three nodes were in California; connecting to Utah was a major test of the network’s ability to work across long distances.&lt;/p&gt;
 
@@ -296,31 +398,4 @@ It used to be students could get web hosting, email, and even some cool experime
 
 &lt;p&gt;So what’s next? I believe we can continue this conversation at the &lt;a href=&quot;https://aoir.org/aoir2023/preconfworkshops/#building&quot;&gt;AOIR preconference&lt;/a&gt; that several of us are hosting.&lt;/p&gt;
 
-&lt;p&gt;And of course, let’s keep talking research ethics on the fediverse – a conversation that has been happening for years – see &lt;a href=&quot;https://apintandaparma.club/katlh/research-ethics-and-the-fediverse&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://blogghoran.se/2020/01/27/on-scraping-mastodon/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html&quot;&gt;here&lt;/a&gt; for just three examples.&lt;/p&gt;</content><author><name>RWG</name></author><category term="ASM update" /><category term="Goal 2" /><category term="FOSS finds" /><summary type="html">This update focuses on the University of Warwick Mastodon Research Symposium.</summary></entry><entry><title type="html">ASM Update, June 16 2023</title><link href="https://fossacademic.tech/2023/06/16/ASMupdate1.html" rel="alternate" type="text/html" title="ASM Update, June 16 2023" /><published>2023-06-16T00:00:00-04:00</published><updated>2023-06-16T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/06/16/ASMupdate1</id><content type="html" xml:base="https://fossacademic.tech/2023/06/16/ASMupdate1.html">&lt;p&gt;&lt;em&gt;NB: I’ve started an alternative social media email list, and I regularly email the list with news from the world of ASM. Since many ASM are free and open source software, it occurred to me that I should mirror those emails here on the blog. These might be the next iteration of “FOSS finds,” a series I ran in previous posts. If you are an ASM researcher and want to subscribe to the email list, contact me and I can add you. Or, just watch this space for (roughly) fortnightly updates.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s an update on the world of ASM – at least as I see it!&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h2 id=&quot;reddit-meltdown&quot;&gt;Reddit meltdown&lt;/h2&gt;
-
-&lt;p&gt;I never was a Redditor, but even so, it’s hard not to notice what’s going on over there: what can only be called a labor strike on the part of subreddit moderators, done in protest to changes in the Reddit API. Specifically, subreddit moderators are making their subs private.&lt;/p&gt;
-
-&lt;p&gt;If you guess that there are alternatives to Reddit, you guessed right. One that I knew about is &lt;a href=&quot;https://join-lemmy.org/&quot;&gt;Lemmy&lt;/a&gt;. However, I’ve also learned about &lt;a href=&quot;https://github.com/ernestwisniewski/kbin&quot;&gt;Kbin&lt;/a&gt;. From what I understand, both are gaining new members. And I also have seen people join Mastodon and cite the Reddit meltdown as the reason why.&lt;/p&gt;
-
-&lt;p&gt;This all bears watching, particularly in terms of moderation and governance discussions. (And if you know more about what’s going on, please let me know!)&lt;/p&gt;
-
-&lt;h2 id=&quot;warwick&quot;&gt;Warwick&lt;/h2&gt;
-
-&lt;p&gt;Next week, the Centre for Interdisciplinary Methods will host a &lt;a href=&quot;https://events.teams.microsoft.com/event/4d682da3-3b4e-4909-9239-743d86cc7dcc@09bacfbd-47ef-4465-9265-3546f2eaf6bc&quot;&gt;Mastodon Tools and Research workshop&lt;/a&gt;. I have the honor of giving the plenary address, and you can see the abstract in that link. Basically, I’ll be talking about the struggles of queer and Black members to make the fediverse a better space, and how the Association of Internet Researchers will need to acknowledge that history on its aoir.social instance.&lt;/p&gt;
-
-&lt;p&gt;The program includes a lot of people on this list. I’m really looking forward to the event – I’m going to take a ton of notes!&lt;/p&gt;
-
-&lt;h2 id=&quot;noncentralized-origin-stories&quot;&gt;Noncentralized Origin Stories&lt;/h2&gt;
-
-&lt;p&gt;Earlier this week, the Colorado Media Lab &lt;a href=&quot;https://www.colorado.edu/lab/medlab/2023/06/06/open-social-media-origin-stories&quot;&gt;hosted a discussion&lt;/a&gt; by Christine Lemmer-Webber, Rabble (aka Evan Henshaw-Plath), and Golda Vez. Each of these are heavily involved in noncentralized protocol development. Lemmer-Webber is a co-author of ActivityPub and is currently working on &lt;a href=&quot;https://gitlab.com/spritely/ocappub&quot;&gt;OcaPPub&lt;/a&gt;. Rabble worked on Indymedia, &lt;a href=&quot;https://en.wikipedia.org/wiki/Secure_Scuttlebutt&quot;&gt;Secure Scuttlebutt&lt;/a&gt;, and now &lt;a href=&quot;https://en.wikipedia.org/wiki/Nostr&quot;&gt;Nostr&lt;/a&gt;. Vez is involved with BlueSky.&lt;/p&gt;
-
-&lt;p&gt;The conversation gets a bit technical at points, but there’s plenty of history and discussion of content moderation mixed in, too.&lt;/p&gt;
-
-&lt;h2 id=&quot;humbernews&quot;&gt;Humber.news&lt;/h2&gt;
-&lt;p&gt;Finally, I don’t know if I shared this, but here’s an interesting pedagogical project: &lt;a href=&quot;https://humber.news&quot;&gt;humber.news&lt;/a&gt;, run by Mike Wise, a journalism professor at Humber College in Toronto. Mike tells me that humber.news is a Mastodon instance he’s using in teaching journalism students about the fediverse. In my view, it’s a much-needed project; journalists will have to adjust their approaches if they want to share news and get news from the fediverse.&lt;/p&gt;</content><author><name>RWG</name></author><category term="ASM update" /><category term="Goal 2" /><category term="FOSS finds" /><summary type="html">NB: I’ve started an alternative social media email list, and I regularly email the list with news from the world of ASM. Since many ASM are free and open source software, it occurred to me that I should mirror those emails here on the blog. These might be the next iteration of “FOSS finds,” a series I ran in previous posts. If you are an ASM researcher and want to subscribe to the email list, contact me and I can add you. Or, just watch this space for (roughly) fortnightly updates. Here’s an update on the world of ASM – at least as I see it!</summary></entry></feed>
+&lt;p&gt;And of course, let’s keep talking research ethics on the fediverse – a conversation that has been happening for years – see &lt;a href=&quot;https://apintandaparma.club/katlh/research-ethics-and-the-fediverse&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://blogghoran.se/2020/01/27/on-scraping-mastodon/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html&quot;&gt;here&lt;/a&gt; for just three examples.&lt;/p&gt;</content><author><name>RWG</name></author><category term="ASM update" /><category term="Goal 2" /><category term="FOSS finds" /><summary type="html">This update focuses on the University of Warwick Mastodon Research Symposium.</summary></entry></feed>
