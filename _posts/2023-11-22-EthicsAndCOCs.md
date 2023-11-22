@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111455856756949632
 ---
 Yesterday, I taught one of the final meetings of my undergrad "Ethics and the Media" course at York. We're using [Charle Ess's _Digital Media Ethics_ (3rd edition)](https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428) as our textbook, and so we've had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).
 
