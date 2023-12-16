@@ -82,7 +82,7 @@ It should have been easy to block Gab. However, while the story told about Gab t
 
 Basically, let them join, see how they act, and then block. That sort of thing.
 
-It's a naive view of free speech that critical theorist Herbert Marcuse would call ["repressive tolerance."](https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html) As Marcuse argues, ff we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.
+It's a naive view of free speech that critical theorist Herbert Marcuse would call ["repressive tolerance."](https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html) As Marcuse argues, if we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.
 
 Those who argued for preemptively blocking Gab recognized this. Rather than allowing for self-described Nazis to spout hate, the Gab-blockers rejected the free speech and openness argument in favor of supporting marginalized people so *they* could have a chance to speak. Because spaces for the marginalized to speak are rare.
 
