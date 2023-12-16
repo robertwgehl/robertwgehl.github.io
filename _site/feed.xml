@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-11-22T14:26:36-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Ethics and Codes of Conduct on Mastodon</title><link href="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html" rel="alternate" type="text/html" title="Ethics and Codes of Conduct on Mastodon" /><published>2023-11-22T00:00:00-05:00</published><updated>2023-11-22T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/11/22/EthicsAndCOCs</id><content type="html" xml:base="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html">&lt;p&gt;Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using &lt;a href=&quot;https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428&quot;&gt;Charle Ess’s &lt;em&gt;Digital Media Ethics&lt;/em&gt; (3rd edition)&lt;/a&gt; as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://fossacademic.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fossacademic.tech/" rel="alternate" type="text/html" /><updated>2023-12-16T11:40:24-05:00</updated><id>https://fossacademic.tech/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Thoughts on Threads, or Is Mark Zuckerberg Jesus?</title><link href="https://fossacademic.tech/2023/12/16/ThoughtsThreads.html" rel="alternate" type="text/html" title="Thoughts on Threads, or Is Mark Zuckerberg Jesus?" /><published>2023-12-16T00:00:00-05:00</published><updated>2023-12-16T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/12/16/ThoughtsThreads</id><content type="html" xml:base="https://fossacademic.tech/2023/12/16/ThoughtsThreads.html">&lt;p&gt;(Sorry about the provocative title, but I just had to do it.)&lt;/p&gt;
+
+&lt;p&gt;Today, a lot of people have thoughts on Threads, which is &lt;a href=&quot;https://techcrunch.com/2023/12/14/mastodon-founder-touts-threads-federation-saying-it-makes-his-x-rival-a-far-more-attractive-option/&quot;&gt;actively testing ActivityPub federation&lt;/a&gt;. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi.&lt;/p&gt;
+
+&lt;p&gt;Full disclosure: I’m more in the latter camp.&lt;/p&gt;
+
+&lt;p&gt;As readers of this blog know, I’m working on a &lt;a href=&quot;/2023/08/17/OxfordUP.html&quot;&gt;book about the fediverse&lt;/a&gt;, and part of my process is to share ideas out in the open. Since any book about the fediverse will have to talk about Threads, I figured this might be a good place to share a rough idea of how a chapter about Threads might go. Comments are welcome, of course!&lt;/p&gt;
+
+&lt;p&gt;Away we go…&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;recapitulation&quot;&gt;Recapitulation&lt;/h2&gt;
+
+&lt;p&gt;I’ve been &lt;a href=&quot;https://fossacademic.tech/2022/04/17/InterviewWorkflow.html&quot;&gt;interviewing people&lt;/a&gt; for the book. One of them is a key figure in alternative social media: &lt;a href=&quot;https://en.wikipedia.org/wiki/Evan_Prodromou&quot;&gt;Evan Prodromou&lt;/a&gt;. He’s one of the folks behind OStatus, was involved in the creation of ActivityPub, and is currently actively involved in the Social Web Interest group.&lt;/p&gt;
+
+&lt;p&gt;During our interview earlier this year, I mentioned how I saw Mastodon as an “alternative,” and he immediately replied with another term: “recapitulation.”&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You used the term “alternative” there. We use it for music, for lifestyles, right? And then there’s the reabsorbtion of the alternative back into the mainstream, which can be difficult. So there’s the… recapitulation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Recapitulation was Prodromou’s term for something we’ve seen again and again: an alternative cultural practice, like punk rock, or hip hop, becoming absorbed by mainstream culture, shorn of its radical potential, and sold back to us.&lt;/p&gt;
+
+&lt;p&gt;Prodromou’s term “recapitulation” has stuck with me since we spoke months ago. I’ve been rolling it around in my mind, like a marble in the palm of the hand. It’s so generative.&lt;/p&gt;
+
+&lt;p&gt;And today, as Meta’s Threads starts the long-awaited (or long-feared) process of federating via ActivityPub, I’m turning back to Prodromou’s insight.&lt;/p&gt;
+
+&lt;p&gt;After all, “recapitulation” is a kind of keyword in the sense &lt;a href=&quot;https://en.wikipedia.org/wiki/Keywords:_A_Vocabulary_of_Culture_and_Society&quot;&gt;Raymond Williams meant&lt;/a&gt;: a term that has multiple, contested meanings, meanings that are bound up with multiple problems. Look it up in the Oxford English Dictionary and you’ll find three ways “recapitulation” helps us pick apart Meta’s Threads and the fediverse:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a Christian theological meaning, where all of human history is recapitulated by Jesus Christ,&lt;/li&gt;
+  &lt;li&gt;a summing up of previous arguments, and&lt;/li&gt;
+  &lt;li&gt;a unificiation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s take a look at each in turn.&lt;/p&gt;
+
+&lt;h2 id=&quot;theological-recapitulation&quot;&gt;Theological recapitulation&lt;/h2&gt;
+&lt;p&gt;According to the Oxford English Dictionary, the theological meaning of “recapitulation” dates back at least to 1629: “the summing up and redemption of all human experience in the life and death of Christ.” In this &lt;a href=&quot;https://www.pharosjot.com/uploads/7/1/6/3/7163688/article_1_vol_101__2020_.pdf&quot;&gt;theological theory&lt;/a&gt;, Jesus Christ is a second Adam, one who did not sin. In delivering the rest of us from sin, human history from the Fall of Adam to the present is summed up under the name of Christ. Our acceptance of Christ allows for a return to pre-lapsarian life.&lt;/p&gt;
+
+&lt;p&gt;Ok, what the hell does that have to with Threads?&lt;/p&gt;
+
+&lt;p&gt;Well, let me drop a few quotes from coverage of Threads:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kalhan Rosenblatt, &lt;a href=&quot;https://www.nbcnews.com/tech/threads-meta-twitter-rival-app-reaction-nostalgia-chaos-rcna92867&quot;&gt;writing for NBC&lt;/a&gt;: “Threads has been chaotic yet blissful, users said, noting the app reminded them of the early days of the internet — especially since ads have yet to hit the platform.”&lt;/li&gt;
+  &lt;li&gt;Tamara Palmer, &lt;a href=&quot;https://48hills.org/2023/07/threads-vs-twitter-look-ma-no-nazis-yet/&quot;&gt;writing in 48Hills&lt;/a&gt;: “Threads has a much lighter and nostalgic feel than Twitter at the moment; I even got to, um, Thread with a Vanderpump Rules star last night. (They’re just like us!) It almost feels like 2006 again.”&lt;/li&gt;
+  &lt;li&gt;Jay Clouse, &lt;a href=&quot;https://creatorscience.com/&quot;&gt;writing in Creator Science&lt;/a&gt;: “For the last several days, I’ve actually published more on Threads than anywhere else. And not because I’m chasing an opportunity – because it was more fun for me!”&lt;/li&gt;
+  &lt;li&gt;Kari Paul, &lt;a href=&quot;https://www.theguardian.com/technology/2023/jul/06/we-tried-threads-metas-new-twitter-rival-heres-what-happened&quot;&gt;writing in the Guardian&lt;/a&gt;: “As a tech writer who has reported extensively on the privacy concerns surrounding Meta, the company’s shameless copying of competitors’ apps, and tech’s growing unchecked power, it pains me to say that I actually enjoyed using Threads.”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There’s a clear theme here: nostalgia for a more fun time online. It’s a time before something awful ruined it all. The nostalgic tone becomes even clearer when we consider the context: Threads started not long after Elon Musk purchased Twitter and turned it into a hellscape.&lt;/p&gt;
+
+&lt;p&gt;Across much of the coverage of Twitter alternatives (including Bluesky and, to be fair, Mastodon), there’s a sense that the new thing is a return to a better, lost time. For some, it was Twitter before #gamergate. For others – I think journalists fall in this camp – it’s a time when they had authority and were respected. For others, it’s Twitter before Donald Trump. And for everyone, it’s Twitter before Musk.&lt;/p&gt;
+
+&lt;p&gt;Astute readers will see where I’m going with this: Mark Zuckerberg is here to cleanse us of our sins and take us back to the Garden of Microblogging Eden. Or I should put it like this: Meta, a major social media corporation, is swooping in to make microblogging great again.&lt;/p&gt;
+
+&lt;p&gt;Zuckerberg – or maybe Meta – is Jesus.&lt;/p&gt;
+
+&lt;p&gt;(I apologize if those last few sentences made you want to smash your phone or computer against the wall.)&lt;/p&gt;
+
+&lt;p&gt;As Meta federates via ActivityPub, this sort of nostalgia might get amplified. If we could only return to Twitter before the Fall, many people seem to be saying. Who will lead us there?&lt;/p&gt;
+
+&lt;h2 id=&quot;repetition-of-the-argument&quot;&gt;Repetition of the argument&lt;/h2&gt;
+&lt;p&gt;So that’s one meaning of recapitulation. But of course, it’s not the only one, and probably not the first one most readers thought of.&lt;/p&gt;
+
+&lt;p&gt;The most common meaning is (again, per the OED) “The action or an act of recapitulating (something); a brief restatement or repetition; a summing up; a summary.” This is where we get the term “recap,” a restatement, a summary form of an argument or plot. (It’s also used in music in sonatas, – the repetition of a melody). The verb form is “to go through or repeat again, usually in a more concise manner; to go over the main points or substance of (an argument, statement, etc.); to summarize, restate briefly.”&lt;/p&gt;
+
+&lt;p&gt;When it comes to Meta and the fedivere, oh, yeah – there are a lot of repeated arguments happening.&lt;/p&gt;
+
+&lt;p&gt;As &lt;a href=&quot;https://www.youtube.com/watch?v=yZoASOyfvGQ&quot;&gt;Derek Caelin has documented&lt;/a&gt;, the fediverse went through a massive debate when another large entity attempted to federate. That entity was Gab.com, a white Christian nationalist social networking site. Or, if you prefer, a Nazi site, since it does host self-described Nazis.&lt;/p&gt;
+
+&lt;p&gt;It should have been easy to block Gab. However, while the story told about Gab today is that it was defederated quickly, people who lived through that period note how much benefit of the doubt Gab got. The counter-argument against blocking Gab was pretty simple: openness and free speech. That is, rather than preemptively blocking them, this argument goes, we should give them a chance. Ours is an open network. When they say racist stuff, we should counter it with rational, anti-racist arguments. If any of their users are truly bad actors, we will eventually see evidence of it, and then we can block those users. If after a period of time it turns out that the whole domain is a bad actor, then block them.&lt;/p&gt;
+
+&lt;p&gt;Basically, let them join, see how they act, and then block. That sort of thing.&lt;/p&gt;
+
+&lt;p&gt;It’s a naive view of free speech that critical theorist Herbert Marcuse would call &lt;a href=&quot;https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html&quot;&gt;“repressive tolerance.”&lt;/a&gt; As Marcuse argues, ff we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.&lt;/p&gt;
+
+&lt;p&gt;Those who argued for preemptively blocking Gab recognized this. Rather than allowing for self-described Nazis to spout hate, the Gab-blockers rejected the free speech and openness argument in favor of supporting marginalized people so &lt;em&gt;they&lt;/em&gt; could have a chance to speak. Because spaces for the marginalized to speak are rare.&lt;/p&gt;
+
+&lt;p&gt;Those who called for preemptive blocking were called tyrants, because they would violate the sanctity of openness and free speech. The naive free speech view, while naive, is powerful in its simplicity.&lt;/p&gt;
+
+&lt;p&gt;Fast forward to today: we’re recapitulating that debate.&lt;/p&gt;
+
+&lt;p&gt;Back in June or so, vanta black created &lt;a href=&quot;https://fedipact.online/&quot;&gt;the Fedipact&lt;/a&gt;, asking admins to preemptively block Threads (full disclosure, my instance is on the list). Why? Well, &lt;a href=&quot;https://fedipact.online/why&quot;&gt;I’ll just quote her&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;that time [Meta] helped facilitate a genocide&lt;/li&gt;
+    &lt;li&gt;that time they helped try to rig an election&lt;/li&gt;
+    &lt;li&gt;that time they did creepy behavioral experimentation on their users&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We could add more to vanta’s list: Meta platforms hate speech (Libs of Tiktok is often invoked here). Instagram has a destructive influence on teen girls’s sense of worth. Meta attempts to moderate globally on the cheap with underpaid laborers (who get crushed when they try to unionize for their rights).&lt;/p&gt;
+
+&lt;p&gt;And none of this is to mention the idea that prompted my whole academic career back in 2008: on Meta properties, we do the free work of declaring what we like, and then Meta sells our attention to advertisers.&lt;/p&gt;
+
+&lt;p&gt;So, blocking Meta’s Threads should be easy, right?&lt;/p&gt;
+
+&lt;p&gt;It turns out, not so much. Fedipact has received a lot of criticism. Other people have summed up (or made) the arguments in favor of not blocking Meta, so I won’t exhaustively recap them, but here are the big ones:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It will be good for ActivityPub,&lt;/li&gt;
+  &lt;li&gt;It will legitimate the fediverse,&lt;/li&gt;
+  &lt;li&gt;It will allow fediverse members to increase their follower counts, or&lt;/li&gt;
+  &lt;li&gt;of course: free speech and openness&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In spite of all the well-documented, terrible, awful, horrifying things that company has done, &lt;em&gt;we are recapitulating the same conflict we saw with Gab.&lt;/em&gt; Just like Gab, Meta’s Threads is also getting a great deal of benefit of the doubt.&lt;/p&gt;
+
+&lt;p&gt;It’s just that this time, there feels like a lot more is at stake.&lt;/p&gt;
+
+&lt;h2 id=&quot;unification&quot;&gt;Unification&lt;/h2&gt;
+&lt;p&gt;What do we do about this? Where do we go from here?&lt;/p&gt;
+
+&lt;p&gt;Well, let’s look at a third (and admitedly obscure) meaning of “recapitulate”: “to come together into one.”&lt;/p&gt;
+
+&lt;p&gt;At first glance, this is the great fear that Meta’s Threads invokes. In my book, I’m arguing that Mastodon and the fediverse are a noncentralized system. Not &lt;em&gt;decentralized,&lt;/em&gt; but &lt;em&gt;noncentralized&lt;/em&gt;. By that I mean the fediverse is actively resistant to centers. For example, if an instance gets to be too big – Mastodon.social comes to mind – people start openly critiquing it, arguing folks should move accounts from it. So much of the structure of the fediverse, from its open protocols to its FOSS code to its cultural practice, is about noncentralization.&lt;/p&gt;
+
+&lt;p&gt;But with Meta in town? The fear is that this massive corporation will absorb the fediverse. It could do so in many ways: taking over the ActivityPub protocol. Drawing many of the most popular accounts away from the rest of the fedi and onto Threads. Overwhelming the fediverse with marketer and influencer content. Swamping the fedi with disinformation, conspiracy theories, and hate speech.&lt;/p&gt;
+
+&lt;p&gt;But maybe the third meaning of “recapitulation” shows us a way out.&lt;/p&gt;
+
+&lt;p&gt;What if the coming together into one, the recapitulation of the fediverse, is to unify – once again – against an unethical actor? I noted that the defederation of Gab wasn’t a simple thing, but it did happen.&lt;/p&gt;
+
+&lt;p&gt;Elsewhere, &lt;a href=&quot;https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400&quot;&gt;a colleague and I argued&lt;/a&gt; that the emergent, shared ethical core of the fediverse represents a digital covenant. As instances develop their distinct codes of conduct, and as they federate, we see an emergent, shared, global-yet-thin set of deontological rules about content moderation.&lt;/p&gt;
+
+&lt;p&gt;The fediverse in 2023, I would argue, is an even stronger covenantal network than it was in the Gab days. Let’s look at what’s going on: Fedipact. #Fediblock. Communal blocklists. The Mastodon Server Covenant. There is a shared ethical core on the fediverse, and it is possible that this unity-through-federation could be successful in fending off Meta.&lt;/p&gt;
+
+&lt;p&gt;This is why the third meaning of recapitulation – the term Prodromou dropped so eloquently – is my favorite. Because it’s not nostalgic or atavistic. It’s not about a sole figure (or a sole corporation) saving us. It’s not a rehash of an argument we endlessly have. It’s about unifying. And the fediverse could do the seemingly impossible: unifying through heterogeneity.&lt;/p&gt;
+
+&lt;p&gt;A noncentralized unity.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Meta" /><category term="Threads" /><category term="digital covenant" /><summary type="html">(Sorry about the provocative title, but I just had to do it.) Today, a lot of people have thoughts on Threads, which is actively testing ActivityPub federation. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi. Full disclosure: I’m more in the latter camp. As readers of this blog know, I’m working on a book about the fediverse, and part of my process is to share ideas out in the open. Since any book about the fediverse will have to talk about Threads, I figured this might be a good place to share a rough idea of how a chapter about Threads might go. Comments are welcome, of course! Away we go…</summary></entry><entry><title type="html">Ethics and Codes of Conduct on Mastodon</title><link href="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html" rel="alternate" type="text/html" title="Ethics and Codes of Conduct on Mastodon" /><published>2023-11-22T00:00:00-05:00</published><updated>2023-11-22T00:00:00-05:00</updated><id>https://fossacademic.tech/2023/11/22/EthicsAndCOCs</id><content type="html" xml:base="https://fossacademic.tech/2023/11/22/EthicsAndCOCs.html">&lt;p&gt;Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using &lt;a href=&quot;https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428&quot;&gt;Charle Ess’s &lt;em&gt;Digital Media Ethics&lt;/em&gt; (3rd edition)&lt;/a&gt; as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).&lt;/p&gt;
 
 &lt;p&gt;Much of the course has been about learning the ethical theories and then discussing &lt;a href=&quot;https://mediaengagement.org/vertical/media-ethics/&quot;&gt;case studies&lt;/a&gt;. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.”&lt;/p&gt;
 
@@ -384,18 +514,4 @@ It used to be students could get web hosting, email, and even some cool experime
 
 &lt;p&gt;Post-docs, York U has received a very generous grant called &lt;a href=&quot;https://www.yorku.ca/research/connected-minds/opportunities/&quot;&gt;Connected Minds&lt;/a&gt; which includes many funding opportunities. Contact me if you have some interest there.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.robertwgehl.org/text/gehl_vita.pdf&quot;&gt;Here’s a PDF of my CV&lt;/a&gt; if you want to get a sense of my work.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="alternative social media" /><summary type="html">This is just a short note to announce that, thanks to some generous funding at York University, I am recruiting graduate students (MA and PhD) as well as post-docs. I’d like to work with folks on alternative social media, in particular. Methodologically, I tend to use qualitative approaches, such as digital ethnography, software studies, and grounded theory/situational analysis. I am a critical scholar, as well, so I prefer working with people who are actively examining power relations in technical systems. Grad students, York has two programs I’m affiliated with: Science and Technology Studies and Communication and Culture, a communication and media studies focused program. My understanding is that STS in particular is eager for students, so if you have any background in STS, I would recommend that route. Either way, please do contact me via email (I have a protonmail account, robertwgehl) or find me on the fediverse. Post-docs, York U has received a very generous grant called Connected Minds which includes many funding opportunities. Contact me if you have some interest there. Here’s a PDF of my CV if you want to get a sense of my work.</summary></entry><entry><title type="html">ASM Update, June 25 2023</title><link href="https://fossacademic.tech/2023/06/25/ASMupdate-Warwick.html" rel="alternate" type="text/html" title="ASM Update, June 25 2023" /><published>2023-06-25T00:00:00-04:00</published><updated>2023-06-25T00:00:00-04:00</updated><id>https://fossacademic.tech/2023/06/25/ASMupdate-Warwick</id><content type="html" xml:base="https://fossacademic.tech/2023/06/25/ASMupdate-Warwick.html">&lt;p&gt;This update focuses on the University of Warwick &lt;a href=&quot;https://events.teams.microsoft.com/event/4d682da3-3b4e-4909-9239-743d86cc7dcc@09bacfbd-47ef-4465-9265-3546f2eaf6bc&quot;&gt;Mastodon Research Symposium&lt;/a&gt;.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;Nate Tkacz, Carlos Cámara-Menoyo, and Fangzhou Zhang put on a wonderful, and intensive, two days focused on Mastodon and the broader fediverse.&lt;/p&gt;
-
-&lt;p&gt;Particularly of value, I thought, was the second day, which was unfortunately not streamed. We gathered together to talk about research ethics and methods. I posted some notes about what we said on the fediverse, using the &lt;a href=&quot;https://aoir.social/tags/mastosymposium&quot;&gt;#MastoSymposium hashtag&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In my view, one of the most important conversations we need to have – and openly have – is about research ethics &lt;em&gt;with&lt;/em&gt; the fediverse. I talked about this at length &lt;a href=&quot;https://nextcloud.robertwgehl.org/index.php/s/G34Y5X2PoNBq5Xp&quot;&gt;in my plenary presentation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And the point was hammered home for me on day 2 by the &lt;a href=&quot;https://systerserver.net/&quot;&gt;SysterServer&lt;/a&gt; collective, a group that hosts some instances and who attended the workshop. They aren’t academics, so they aren’t concerned with filling up CVs. But they have needs. Ethical research &lt;em&gt;with&lt;/em&gt; them could help address their needs. Our research ought to resonate with the fediverse.&lt;/p&gt;
-
-&lt;p&gt;So what’s next? I believe we can continue this conversation at the &lt;a href=&quot;https://aoir.org/aoir2023/preconfworkshops/#building&quot;&gt;AOIR preconference&lt;/a&gt; that several of us are hosting.&lt;/p&gt;
-
-&lt;p&gt;And of course, let’s keep talking research ethics on the fediverse – a conversation that has been happening for years – see &lt;a href=&quot;https://apintandaparma.club/katlh/research-ethics-and-the-fediverse&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://blogghoran.se/2020/01/27/on-scraping-mastodon/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://www.sunclipse.org/wp-content/downloads/2020/01/open-letter.html&quot;&gt;here&lt;/a&gt; for just three examples.&lt;/p&gt;</content><author><name>RWG</name></author><category term="ASM update" /><category term="Goal 2" /><category term="FOSS finds" /><summary type="html">This update focuses on the University of Warwick Mastodon Research Symposium.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.robertwgehl.org/text/gehl_vita.pdf&quot;&gt;Here’s a PDF of my CV&lt;/a&gt; if you want to get a sense of my work.&lt;/p&gt;</content><author><name>RWG</name></author><category term="Goal 2" /><category term="alternative social media" /><summary type="html">This is just a short note to announce that, thanks to some generous funding at York University, I am recruiting graduate students (MA and PhD) as well as post-docs. I’d like to work with folks on alternative social media, in particular. Methodologically, I tend to use qualitative approaches, such as digital ethnography, software studies, and grounded theory/situational analysis. I am a critical scholar, as well, so I prefer working with people who are actively examining power relations in technical systems. Grad students, York has two programs I’m affiliated with: Science and Technology Studies and Communication and Culture, a communication and media studies focused program. My understanding is that STS in particular is eager for students, so if you have any background in STS, I would recommend that route. Either way, please do contact me via email (I have a protonmail account, robertwgehl) or find me on the fediverse. Post-docs, York U has received a very generous grant called Connected Minds which includes many funding opportunities. Contact me if you have some interest there. Here’s a PDF of my CV if you want to get a sense of my work.</summary></entry></feed>
