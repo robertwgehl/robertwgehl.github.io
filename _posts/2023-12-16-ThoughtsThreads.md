@@ -74,7 +74,7 @@ So that's one meaning of recapitulation. But of course, it's not the only one, a
 
 The most common meaning is (again, per the OED) "The action or an act of recapitulating (something); a brief restatement or repetition; a summing up; a summary." This is where we get the term "recap," a restatement, a summary form of an argument or plot. (It's also used in music in sonatas, -- the repetition of a melody). The verb form is “to go through or repeat again, usually in a more concise manner; to go over the main points or substance of (an argument, statement, etc.); to summarize, restate briefly.”
 
-When it comes to Meta and the fedivere, oh, yeah -- there are a lot of repeated arguments happening.
+When it comes to Meta and the fediverse, oh, yeah -- there are a lot of repeated arguments happening.
 
 As [Derek Caelin has documented](https://www.youtube.com/watch?v=yZoASOyfvGQ), the fediverse went through a massive debate when another large entity attempted to federate. That entity was Gab.com, a white Christian nationalist social networking site. Or, if you prefer, a Nazi site, since it does host self-described Nazis.
 
