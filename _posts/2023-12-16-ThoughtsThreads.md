@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111591091350173589
 ---
 (Sorry about the provocative title, but I just had to do it.)
 
