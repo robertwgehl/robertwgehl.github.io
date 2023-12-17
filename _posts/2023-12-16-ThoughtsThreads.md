@@ -25,18 +25,9 @@ Away we go...
 <!-- more -->
 
 ## Recapitulation
+There's a term I heard a few months back, a bit by accident: "recapitulation."[[1]](#note1) I've been been rolling it around in my mind, like a marble in the palm of the hand. It's so generative.
 
-I've been [interviewing people](https://fossacademic.tech/2022/04/17/InterviewWorkflow.html) for the book. One of them is a key figure in alternative social media: [Evan Prodromou](https://en.wikipedia.org/wiki/Evan_Prodromou). He's one of the folks behind OStatus, was involved in the creation of ActivityPub, and is currently actively involved in the Social Web Interest group.
-
-During our interview earlier this year, I mentioned how I saw Mastodon as an "alternative," and he immediately replied with another term: "recapitulation."
-
-> You used the term “alternative” there. We use it for music, for lifestyles, right? And then there's the reabsorbtion of the alternative back into the mainstream, which can be difficult. So there's the... recapitulation.
-
-Recapitulation was Prodromou's term for something we've seen again and again: an alternative cultural practice, like punk rock, or hip hop, becoming absorbed by mainstream culture, shorn of its radical potential, and sold back to us.
-
-Prodromou's term "recapitulation" has stuck with me since we spoke months ago. I've been rolling it around in my mind, like a marble in the palm of the hand. It's so generative.
-
-And today, as Meta's Threads starts the long-awaited (or long-feared) process of federating via ActivityPub, I'm turning back to Prodromou's insight.
+And today, as Meta's Threads starts the long-awaited (or long-feared) process of federating via ActivityPub, I think I have a way to pick apart what's going on with this term.
 
 After all, "recapitulation" is a kind of keyword in the sense [Raymond Williams meant](https://en.wikipedia.org/wiki/Keywords:_A_Vocabulary_of_Culture_and_Society): a term that has multiple, contested meanings, meanings that are bound up with multiple problems. Look it up in the Oxford English Dictionary and you'll find three ways "recapitulation" helps us pick apart Meta's Threads and the fediverse:
 * a Christian theological meaning, where all of human history is recapitulated by Jesus Christ,
@@ -128,6 +119,16 @@ Elsewhere, [a colleague and I argued](https://www.tandfonline.com/doi/full/10.10
 
 The fediverse in 2023, I would argue, is an even stronger covenantal network than it was in the Gab days. Let's look at what's going on: Fedipact. #Fediblock. Communal blocklists. The Mastodon Server Covenant. There is a shared ethical core on the fediverse, and it is possible that this unity-through-federation could be successful in fending off Meta.
 
-This is why the third meaning of recapitulation -- the term Prodromou dropped so eloquently -- is my favorite. Because it's not nostalgic or atavistic. It's not about a sole figure (or a sole corporation) saving us. It's not a rehash of an argument we endlessly have. It's about unifying. And the fediverse could do the seemingly impossible: unifying through heterogeneity.
+This is why the third meaning of recapitulation is my favorite. Because it's not nostalgic or atavistic. It's not about a sole figure (or a sole corporation) saving us. It's not a rehash of an argument we endlessly have. It's about unifying. And the fediverse could do the seemingly impossible: unifying through heterogeneity.
 
 A noncentralized unity.
+
+## Notes
+
+<a name="note1">[1]</a> My digging into the concept of recapitulation happened by accident. One of my interviewees used it to refer to how mainstream culture absorbs alternative practices. As a commenter on the fediverse noted, my interviewee most likely meant to say "recuperation", a [term of art from the Situationists](https://en.wikipedia.org/wiki/Recuperation_(politics). Based on the context of the interview, I would say this is the case. I've edited this post to reflect this to respect the fact that my interviewee probably didn't intend me to interpret him that way.
+
+I now consider this take on Threads to be the product of a happy accident, since looking at recapitulation led me to the idea of some savior coming to take us back to a lost time. I think the narrative around Threads outside of the fedi has been about nostalgia. I *definitely* think the narrative about Bluesky has been about nostalgia. Even the discourse about Mastodon in its early days was about that.
+
+And I also like the idea of a unification-through-difference that the third meaning implies.
+
+However, I don't think this post will form the basis of the chapter of the book. Some ideas will travel from it -- including some ideas based on the feedback I got on the fedi -- but this recapitulation idea is a bit to convoluted to make it into my book, which is intended for a broad audience.

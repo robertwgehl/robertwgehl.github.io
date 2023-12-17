@@ -1,4 +1,4 @@
-I"�7<p>(Sorry about the provocative title, but I just had to do it.)</p>
+I"9<p>(Sorry about the provocative title, but I just had to do it.)</p>
 
 <p>Today, a lot of people have thoughts on Threads, which is <a href="https://techcrunch.com/2023/12/14/mastodon-founder-touts-threads-federation-saying-it-makes-his-x-rival-a-far-more-attractive-option/">actively testing ActivityPub federation</a>. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi.</p>
 
@@ -11,18 +11,7 @@
 <!-- more -->
 
 <h2 id="recapitulation">Recapitulation</h2>
-
-<p>I’ve been <a href="https://fossacademic.tech/2022/04/17/InterviewWorkflow.html">interviewing people</a> for the book. One of them is a key figure in alternative social media: <a href="https://en.wikipedia.org/wiki/Evan_Prodromou">Evan Prodromou</a>. He’s one of the folks behind OStatus, was involved in the creation of ActivityPub, and is currently actively involved in the Social Web Interest group.</p>
-
-<p>During our interview earlier this year, I mentioned how I saw Mastodon as an “alternative,” and he immediately replied with another term: “recapitulation.”</p>
-
-<blockquote>
-  <p>You used the term “alternative” there. We use it for music, for lifestyles, right? And then there’s the reabsorbtion of the alternative back into the mainstream, which can be difficult. So there’s the… recapitulation.</p>
-</blockquote>
-
-<p>Recapitulation was Prodromou’s term for something we’ve seen again and again: an alternative cultural practice, like punk rock, or hip hop, becoming absorbed by mainstream culture, shorn of its radical potential, and sold back to us.</p>
-
-<p>Prodromou’s term “recapitulation” has stuck with me since we spoke months ago. I’ve been rolling it around in my mind, like a marble in the palm of the hand. It’s so generative.</p>
+<p>There’s a term I heard, a bit by accident: “recapitulation.”<a href="#note1">1</a> I’ve been been rolling it around in my mind, like a marble in the palm of the hand. It’s so generative.</p>
 
 <p>And today, as Meta’s Threads starts the long-awaited (or long-feared) process of federating via ActivityPub, I’m turning back to Prodromou’s insight.</p>
 
@@ -66,7 +55,7 @@
 
 <p>The most common meaning is (again, per the OED) “The action or an act of recapitulating (something); a brief restatement or repetition; a summing up; a summary.” This is where we get the term “recap,” a restatement, a summary form of an argument or plot. (It’s also used in music in sonatas, – the repetition of a melody). The verb form is “to go through or repeat again, usually in a more concise manner; to go over the main points or substance of (an argument, statement, etc.); to summarize, restate briefly.”</p>
 
-<p>When it comes to Meta and the fedivere, oh, yeah – there are a lot of repeated arguments happening.</p>
+<p>When it comes to Meta and the fediverse, oh, yeah – there are a lot of repeated arguments happening.</p>
 
 <p>As <a href="https://www.youtube.com/watch?v=yZoASOyfvGQ">Derek Caelin has documented</a>, the fediverse went through a massive debate when another large entity attempted to federate. That entity was Gab.com, a white Christian nationalist social networking site. Or, if you prefer, a Nazi site, since it does host self-described Nazis.</p>
 
@@ -74,7 +63,7 @@
 
 <p>Basically, let them join, see how they act, and then block. That sort of thing.</p>
 
-<p>It’s a naive view of free speech that critical theorist Herbert Marcuse would call <a href="https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html">“repressive tolerance.”</a> As Marcuse argues, ff we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.</p>
+<p>It’s a naive view of free speech that critical theorist Herbert Marcuse would call <a href="https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html">“repressive tolerance.”</a> As Marcuse argues, if we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.</p>
 
 <p>Those who argued for preemptively blocking Gab recognized this. Rather than allowing for self-described Nazis to spout hate, the Gab-blockers rejected the free speech and openness argument in favor of supporting marginalized people so <em>they</em> could have a chance to speak. Because spaces for the marginalized to speak are rare.</p>
 
@@ -129,4 +118,14 @@
 <p>This is why the third meaning of recapitulation – the term Prodromou dropped so eloquently – is my favorite. Because it’s not nostalgic or atavistic. It’s not about a sole figure (or a sole corporation) saving us. It’s not a rehash of an argument we endlessly have. It’s about unifying. And the fediverse could do the seemingly impossible: unifying through heterogeneity.</p>
 
 <p>A noncentralized unity.</p>
+
+<h2 id="notes">Notes</h2>
+
+<p><a href="note1">[1]</a> My digging into the concept of recapitulation happened by accident. One of my interviewees used it to refer to how mainstream culture absorbs alternative practices. As a commenter on the fediverse noted, my interviewee most likely meant to say “recuperation”, a [term of art from the Situationists](https://en.wikipedia.org/wiki/Recuperation_(politics). Based on the context of the interview, I would say this is the case. I’ve edited this post to reflect this to respect the fact that my interviewee probably didn’t intend me to interpret him that way.</p>
+
+<p>I now consider this take on Threads to be the product of a happy accident, since looking at recapitulation led me to the idea of some savior coming to take us back to a lost time. I think the narrative around Threads outside of the fedi has been about nostalgia. I <em>definitely</em> think the narrative about Bluesky has been about nostalgia. Even the discourse about Mastodon in its early days was about that.</p>
+
+<p>And I also like the idea of a unification-through-difference that the third meaning implies.</p>
+
+<p>However, I don’t think this post will form the basis of the chapter of the book. Some ideas will travel from it – including some ideas based on the feedback I got on the fedi – but this recapitulation idea is a bit to convoluted to make it into my book, which is intended for a broad audience.</p>
 :ET

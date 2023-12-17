@@ -1,0 +1,131 @@
+I"9<p>(Sorry about the provocative title, but I just had to do it.)</p>
+
+<p>Today, a lot of people have thoughts on Threads, which is <a href="https://techcrunch.com/2023/12/14/mastodon-founder-touts-threads-federation-saying-it-makes-his-x-rival-a-far-more-attractive-option/">actively testing ActivityPub federation</a>. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi.</p>
+
+<p>Full disclosure: I’m more in the latter camp.</p>
+
+<p>As readers of this blog know, I’m working on a <a href="/2023/08/17/OxfordUP.html">book about the fediverse</a>, and part of my process is to share ideas out in the open. Since any book about the fediverse will have to talk about Threads, I figured this might be a good place to share a rough idea of how a chapter about Threads might go. Comments are welcome, of course!</p>
+
+<p>Away we go…</p>
+
+<!-- more -->
+
+<h2 id="recapitulation">Recapitulation</h2>
+<p>There’s a term I heard, a bit by accident: “recapitulation.”<sup><a href="#note1">[1]</a></sup> I’ve been been rolling it around in my mind, like a marble in the palm of the hand. It’s so generative.</p>
+
+<p>And today, as Meta’s Threads starts the long-awaited (or long-feared) process of federating via ActivityPub, I’m turning back to Prodromou’s insight.</p>
+
+<p>After all, “recapitulation” is a kind of keyword in the sense <a href="https://en.wikipedia.org/wiki/Keywords:_A_Vocabulary_of_Culture_and_Society">Raymond Williams meant</a>: a term that has multiple, contested meanings, meanings that are bound up with multiple problems. Look it up in the Oxford English Dictionary and you’ll find three ways “recapitulation” helps us pick apart Meta’s Threads and the fediverse:</p>
+<ul>
+  <li>a Christian theological meaning, where all of human history is recapitulated by Jesus Christ,</li>
+  <li>a summing up of previous arguments, and</li>
+  <li>a unificiation.</li>
+</ul>
+
+<p>Let’s take a look at each in turn.</p>
+
+<h2 id="theological-recapitulation">Theological recapitulation</h2>
+<p>According to the Oxford English Dictionary, the theological meaning of “recapitulation” dates back at least to 1629: “the summing up and redemption of all human experience in the life and death of Christ.” In this <a href="https://www.pharosjot.com/uploads/7/1/6/3/7163688/article_1_vol_101__2020_.pdf">theological theory</a>, Jesus Christ is a second Adam, one who did not sin. In delivering the rest of us from sin, human history from the Fall of Adam to the present is summed up under the name of Christ. Our acceptance of Christ allows for a return to pre-lapsarian life.</p>
+
+<p>Ok, what the hell does that have to with Threads?</p>
+
+<p>Well, let me drop a few quotes from coverage of Threads:</p>
+
+<ul>
+  <li>Kalhan Rosenblatt, <a href="https://www.nbcnews.com/tech/threads-meta-twitter-rival-app-reaction-nostalgia-chaos-rcna92867">writing for NBC</a>: “Threads has been chaotic yet blissful, users said, noting the app reminded them of the early days of the internet — especially since ads have yet to hit the platform.”</li>
+  <li>Tamara Palmer, <a href="https://48hills.org/2023/07/threads-vs-twitter-look-ma-no-nazis-yet/">writing in 48Hills</a>: “Threads has a much lighter and nostalgic feel than Twitter at the moment; I even got to, um, Thread with a Vanderpump Rules star last night. (They’re just like us!) It almost feels like 2006 again.”</li>
+  <li>Jay Clouse, <a href="https://creatorscience.com/">writing in Creator Science</a>: “For the last several days, I’ve actually published more on Threads than anywhere else. And not because I’m chasing an opportunity – because it was more fun for me!”</li>
+  <li>Kari Paul, <a href="https://www.theguardian.com/technology/2023/jul/06/we-tried-threads-metas-new-twitter-rival-heres-what-happened">writing in the Guardian</a>: “As a tech writer who has reported extensively on the privacy concerns surrounding Meta, the company’s shameless copying of competitors’ apps, and tech’s growing unchecked power, it pains me to say that I actually enjoyed using Threads.”</li>
+</ul>
+
+<p>There’s a clear theme here: nostalgia for a more fun time online. It’s a time before something awful ruined it all. The nostalgic tone becomes even clearer when we consider the context: Threads started not long after Elon Musk purchased Twitter and turned it into a hellscape.</p>
+
+<p>Across much of the coverage of Twitter alternatives (including Bluesky and, to be fair, Mastodon), there’s a sense that the new thing is a return to a better, lost time. For some, it was Twitter before #gamergate. For others – I think journalists fall in this camp – it’s a time when they had authority and were respected. For others, it’s Twitter before Donald Trump. And for everyone, it’s Twitter before Musk.</p>
+
+<p>Astute readers will see where I’m going with this: Mark Zuckerberg is here to cleanse us of our sins and take us back to the Garden of Microblogging Eden. Or I should put it like this: Meta, a major social media corporation, is swooping in to make microblogging great again.</p>
+
+<p>Zuckerberg – or maybe Meta – is Jesus.</p>
+
+<p>(I apologize if those last few sentences made you want to smash your phone or computer against the wall.)</p>
+
+<p>As Meta federates via ActivityPub, this sort of nostalgia might get amplified. If we could only return to Twitter before the Fall, many people seem to be saying. Who will lead us there?</p>
+
+<h2 id="repetition-of-the-argument">Repetition of the argument</h2>
+<p>So that’s one meaning of recapitulation. But of course, it’s not the only one, and probably not the first one most readers thought of.</p>
+
+<p>The most common meaning is (again, per the OED) “The action or an act of recapitulating (something); a brief restatement or repetition; a summing up; a summary.” This is where we get the term “recap,” a restatement, a summary form of an argument or plot. (It’s also used in music in sonatas, – the repetition of a melody). The verb form is “to go through or repeat again, usually in a more concise manner; to go over the main points or substance of (an argument, statement, etc.); to summarize, restate briefly.”</p>
+
+<p>When it comes to Meta and the fediverse, oh, yeah – there are a lot of repeated arguments happening.</p>
+
+<p>As <a href="https://www.youtube.com/watch?v=yZoASOyfvGQ">Derek Caelin has documented</a>, the fediverse went through a massive debate when another large entity attempted to federate. That entity was Gab.com, a white Christian nationalist social networking site. Or, if you prefer, a Nazi site, since it does host self-described Nazis.</p>
+
+<p>It should have been easy to block Gab. However, while the story told about Gab today is that it was defederated quickly, people who lived through that period note how much benefit of the doubt Gab got. The counter-argument against blocking Gab was pretty simple: openness and free speech. That is, rather than preemptively blocking them, this argument goes, we should give them a chance. Ours is an open network. When they say racist stuff, we should counter it with rational, anti-racist arguments. If any of their users are truly bad actors, we will eventually see evidence of it, and then we can block those users. If after a period of time it turns out that the whole domain is a bad actor, then block them.</p>
+
+<p>Basically, let them join, see how they act, and then block. That sort of thing.</p>
+
+<p>It’s a naive view of free speech that critical theorist Herbert Marcuse would call <a href="https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html">“repressive tolerance.”</a> As Marcuse argues, if we tolerate dominant ideas (e.g., white supremacy, transphobia), then we effectively eradicate marginalized ideas.</p>
+
+<p>Those who argued for preemptively blocking Gab recognized this. Rather than allowing for self-described Nazis to spout hate, the Gab-blockers rejected the free speech and openness argument in favor of supporting marginalized people so <em>they</em> could have a chance to speak. Because spaces for the marginalized to speak are rare.</p>
+
+<p>Those who called for preemptive blocking were called tyrants, because they would violate the sanctity of openness and free speech. The naive free speech view, while naive, is powerful in its simplicity.</p>
+
+<p>Fast forward to today: we’re recapitulating that debate.</p>
+
+<p>Back in June or so, vanta black created <a href="https://fedipact.online/">the Fedipact</a>, asking admins to preemptively block Threads (full disclosure, my instance is on the list). Why? Well, <a href="https://fedipact.online/why">I’ll just quote her</a>:</p>
+<blockquote>
+  <ul>
+    <li>that time [Meta] helped facilitate a genocide</li>
+    <li>that time they helped try to rig an election</li>
+    <li>that time they did creepy behavioral experimentation on their users</li>
+  </ul>
+</blockquote>
+
+<p>We could add more to vanta’s list: Meta platforms hate speech (Libs of Tiktok is often invoked here). Instagram has a destructive influence on teen girls’s sense of worth. Meta attempts to moderate globally on the cheap with underpaid laborers (who get crushed when they try to unionize for their rights).</p>
+
+<p>And none of this is to mention the idea that prompted my whole academic career back in 2008: on Meta properties, we do the free work of declaring what we like, and then Meta sells our attention to advertisers.</p>
+
+<p>So, blocking Meta’s Threads should be easy, right?</p>
+
+<p>It turns out, not so much. Fedipact has received a lot of criticism. Other people have summed up (or made) the arguments in favor of not blocking Meta, so I won’t exhaustively recap them, but here are the big ones:</p>
+<ul>
+  <li>It will be good for ActivityPub,</li>
+  <li>It will legitimate the fediverse,</li>
+  <li>It will allow fediverse members to increase their follower counts, or</li>
+  <li>of course: free speech and openness</li>
+</ul>
+
+<p>In spite of all the well-documented, terrible, awful, horrifying things that company has done, <em>we are recapitulating the same conflict we saw with Gab.</em> Just like Gab, Meta’s Threads is also getting a great deal of benefit of the doubt.</p>
+
+<p>It’s just that this time, there feels like a lot more is at stake.</p>
+
+<h2 id="unification">Unification</h2>
+<p>What do we do about this? Where do we go from here?</p>
+
+<p>Well, let’s look at a third (and admitedly obscure) meaning of “recapitulate”: “to come together into one.”</p>
+
+<p>At first glance, this is the great fear that Meta’s Threads invokes. In my book, I’m arguing that Mastodon and the fediverse are a noncentralized system. Not <em>decentralized,</em> but <em>noncentralized</em>. By that I mean the fediverse is actively resistant to centers. For example, if an instance gets to be too big – Mastodon.social comes to mind – people start openly critiquing it, arguing folks should move accounts from it. So much of the structure of the fediverse, from its open protocols to its FOSS code to its cultural practice, is about noncentralization.</p>
+
+<p>But with Meta in town? The fear is that this massive corporation will absorb the fediverse. It could do so in many ways: taking over the ActivityPub protocol. Drawing many of the most popular accounts away from the rest of the fedi and onto Threads. Overwhelming the fediverse with marketer and influencer content. Swamping the fedi with disinformation, conspiracy theories, and hate speech.</p>
+
+<p>But maybe the third meaning of “recapitulation” shows us a way out.</p>
+
+<p>What if the coming together into one, the recapitulation of the fediverse, is to unify – once again – against an unethical actor? I noted that the defederation of Gab wasn’t a simple thing, but it did happen.</p>
+
+<p>Elsewhere, <a href="https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400">a colleague and I argued</a> that the emergent, shared ethical core of the fediverse represents a digital covenant. As instances develop their distinct codes of conduct, and as they federate, we see an emergent, shared, global-yet-thin set of deontological rules about content moderation.</p>
+
+<p>The fediverse in 2023, I would argue, is an even stronger covenantal network than it was in the Gab days. Let’s look at what’s going on: Fedipact. #Fediblock. Communal blocklists. The Mastodon Server Covenant. There is a shared ethical core on the fediverse, and it is possible that this unity-through-federation could be successful in fending off Meta.</p>
+
+<p>This is why the third meaning of recapitulation – the term Prodromou dropped so eloquently – is my favorite. Because it’s not nostalgic or atavistic. It’s not about a sole figure (or a sole corporation) saving us. It’s not a rehash of an argument we endlessly have. It’s about unifying. And the fediverse could do the seemingly impossible: unifying through heterogeneity.</p>
+
+<p>A noncentralized unity.</p>
+
+<h2 id="notes">Notes</h2>
+
+<p><a name="note1">[1]</a> My digging into the concept of recapitulation happened by accident. One of my interviewees used it to refer to how mainstream culture absorbs alternative practices. As a commenter on the fediverse noted, my interviewee most likely meant to say “recuperation”, a [term of art from the Situationists](https://en.wikipedia.org/wiki/Recuperation_(politics). Based on the context of the interview, I would say this is the case. I’ve edited this post to reflect this to respect the fact that my interviewee probably didn’t intend me to interpret him that way.</p>
+
+<p>I now consider this take on Threads to be the product of a happy accident, since looking at recapitulation led me to the idea of some savior coming to take us back to a lost time. I think the narrative around Threads outside of the fedi has been about nostalgia. I <em>definitely</em> think the narrative about Bluesky has been about nostalgia. Even the discourse about Mastodon in its early days was about that.</p>
+
+<p>And I also like the idea of a unification-through-difference that the third meaning implies.</p>
+
+<p>However, I don’t think this post will form the basis of the chapter of the book. Some ideas will travel from it – including some ideas based on the feedback I got on the fedi – but this recapitulation idea is a bit to convoluted to make it into my book, which is intended for a broad audience.</p>
+:ET
