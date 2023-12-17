@@ -131,4 +131,4 @@ I now consider this take on Threads to be the product of a happy accident, since
 
 And I also like the idea of a unification-through-difference that the third meaning implies.
 
-However, I don't think this post will form the basis of the chapter of the book. Some ideas will travel from it -- including some ideas based on the feedback I got on the fedi -- but this recapitulation idea is a bit to convoluted to make it into my book, which is intended for a broad audience.
+However, I don't think this post will form the basis of the chapter of the book. Some ideas will travel from it -- including some ideas based on the feedback I got on the fedi -- but this recapitulation idea is a bit too convoluted to make it into my book, which is intended for a broad audience.
