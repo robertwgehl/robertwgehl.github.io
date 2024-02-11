@@ -13,7 +13,7 @@ comments:
 ---
 So... it's coming together.
 
-My current book, _Move Slowly and Build Bridges: Mastodon, the Fediverse, and the Struggle for Ethical Social Media_ is mostly drafted! I am drafting a conclusion, but for now, I figured I provide an overview of the book.
+My current book, _Move Slowly and Build Bridges: Mastodon, the Fediverse, and the Struggle for Ethical Social Media_ is mostly drafted! I am drafting a conclusion, but for now, I figured I would provide an overview of the book.
 
 This post gives a chapter-by-chapter summary of the draft. Since it's a draft, things can still change, but as of today, I'm pretty pleased with the structure.
 
