@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 111914565165180155
 ---
 So... it's coming together.
 
