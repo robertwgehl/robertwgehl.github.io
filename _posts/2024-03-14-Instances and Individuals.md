@@ -54,7 +54,7 @@ I do focus on individual members in the book, particularly artists, mutual aid p
 Overall, I privilege admins and moderators in my research. And this is a limitation of my own perspective. While I can see much from this view, it -- like Dunbar-Hester's -- is not a view from nowhere. It is situated, as well.
 
 ## Multiple Perspectives Needed
-I contrast our approaches because they reveal ways forward for other researchers. Echoing Dunbar-Hester, I would also say: someone ought to write this up! More research on the fediverse is needed. My approach is not superior to Dunbar-Hester's. I can see certain things, and she can see others. So, for future researchers, be mindful of perspective.
+I contrast our approaches because they reveal ways forward for other researchers. Echoing Dunbar-Hester, I would also say: someone ought to write this up! More research on the fediverse is needed. My approach is not superior to Dunbar-Hester's. I can see certain things, and she can see others. So, future researchers, be mindful of perspective.
 
 Her approach provides valuable documentation and insight into what it's like to be a skilled researcher coming to the fediverse. The individual, self-reflexive perspective Dunbar-Hester brings is incredibly important. It can inform work on human-computer interaction, masspersonal communication, and activism, among other things.
 
