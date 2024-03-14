@@ -13,7 +13,7 @@ comments:
 
 I just read a new article focusing on Mastodon: Christina Dunbar-Hester's "[Showing Your Ass on Mastodon](https://firstmonday.org/ojs/index.php/fm/article/view/13367/11436)." (I've put in [the bibliography](/bib.html), too). It has inspired a blog post!
 
-Dunbar-Hester's article discusses a controversy -- and a harassment campaign -- centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk's purchase of Twitter. The #asstodon hashtag was created to inject a bit of levity into the network: it was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix.
+Dunbar-Hester's article discusses a controversy -- and a harassment campaign -- centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk's purchase of Twitter. The #asstodon hashtag was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix.
 
 In this paper, which is a kind of accidental autoethnography, Dunbar-Hester discusses how one donkeyposter become irate over the presence of human butts instead of donkeys in #asstodon posts. The donkeyposter eventually began harassing people -- including Dunbar-Hester, using multiple accounts, posting racist content, and even emailing Dunbar-Hester at her work.
 
@@ -30,7 +30,7 @@ Dunbar-Hester notes multiple times she did not start out to do research on Masto
 
 However, she gained a great deal of insight into Mastodon's socio-technical politics when she started using/creating a whimsical #asstodon hashtag. The goal was to inject a bit of levity into the otherwise professional media studies community; she posted #asstodon with a picture of a donkey, and soon others followed suit. This replicates what other animal lovers have done -- #dogsofmastodon is one of my favorite hashtags. And, sure, there are things for cats -- even though cats are terrible pets.
 
-Like many hashtags, this one somewhat escaped her control. In my book, I write about how #fediblock -- as hashtag created by two women -- was appropriated without credit by people building blocklists. The women, Marcia X and Ginger, have since gotten credit, but only after asserting their role in creating the hashtag.
+Like many hashtags, this one somewhat escaped her control. In my book, I write about how #fediblock -- a hashtag created by two women -- was appropriated without credit by people building blocklists. The women, Marcia X and Ginger, have since gotten credit, but only after asserting their role in creating the hashtag.
 
 In the case of #asstodon, the donkeyposter saw it as a chance to create "donkey content" on the network, sharing pictures of (their own? it's not entirely clear) donkeys. The donkeyposter seems to have claimed the hashtag for their own, even going so far as to ask people to only use it for donkeys and not, inevitable as it was, human derrières. It seems that people did not listen to donkeyposter, who then began harassing folks for even suggesting that "ass" has multiple meanings. Dunbar-Hester came into donkeyposter's sights when she agreed that "a thousand asses should bloom."
 
