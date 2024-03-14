@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 112094715094701246
 ---
 
 I just read a new article focusing on Mastodon: Christina Dunbar-Hester's "[Showing Your Ass on Mastodon](https://firstmonday.org/ojs/index.php/fm/article/view/13367/11436)." (I've put in [the bibliography](/bib.html), too). It has inspired a blog post!
