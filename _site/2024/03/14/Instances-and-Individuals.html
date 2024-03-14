@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title>FOSS ACADEMIC | Researching the Fediverse: Instances and Individuals</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+	<link rel="stylesheet" media="screen and (min-width: 1080px)" href="/assets/css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1079px)" href="/assets/css/mobile.css" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+	<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="FOSS Academic" />
+	<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Researching the Fediverse: Instances and Individuals | FOSS Academic</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Researching the Fediverse: Instances and Individuals" />
+<meta name="author" content="RWG" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I just read a new article focusing on Mastodon: Christina Dunbar-Hester’s “Showing Your Ass on Mastodon.” (I’ve put in the bibliography, too). It has inspired a blog post! Dunbar-Hester’s article discusses a controversy – and a harassment campaign – centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk’s purchase of Twitter. The #asstodon hashtag was created to inject a bit of levity into the network: it was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix. In this paper, which is a kind of accidental autoethnography, Dunbar-Hester discusses how one donkeyposter become irate over the presence of human butts instead of donkeys in #asstodon posts. The donkeyposter eventually began harassing people – including Dunbar-Hester, using multiple accounts, posting racist content, and even emailing Dunbar-Hester at her work. In researching donkeyposter’s actions, Dunbar-Hester argues that the structure of Mastodon may not be amenable to hashtag activism. I should note the article has a delightful amount of butt puns! I only managed one in this post (see if you can find it). I want to draw on Dunbar-Hester’s article to write about something I’ve been wrestling with: methodologies for studying the fediverse. Specifically, I want to highlight a distinction between Dunbar-Hester’s approach and the one I’ve chosen for my book project. This is not to say Dunbar-Hester did it wrong – in fact, her paper is excellent, and as fediverse scholarship grows, we will need multiple studies and many perspectives. I will highlight my instance-centric approach as a contrast." />
+<meta property="og:description" content="I just read a new article focusing on Mastodon: Christina Dunbar-Hester’s “Showing Your Ass on Mastodon.” (I’ve put in the bibliography, too). It has inspired a blog post! Dunbar-Hester’s article discusses a controversy – and a harassment campaign – centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk’s purchase of Twitter. The #asstodon hashtag was created to inject a bit of levity into the network: it was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix. In this paper, which is a kind of accidental autoethnography, Dunbar-Hester discusses how one donkeyposter become irate over the presence of human butts instead of donkeys in #asstodon posts. The donkeyposter eventually began harassing people – including Dunbar-Hester, using multiple accounts, posting racist content, and even emailing Dunbar-Hester at her work. In researching donkeyposter’s actions, Dunbar-Hester argues that the structure of Mastodon may not be amenable to hashtag activism. I should note the article has a delightful amount of butt puns! I only managed one in this post (see if you can find it). I want to draw on Dunbar-Hester’s article to write about something I’ve been wrestling with: methodologies for studying the fediverse. Specifically, I want to highlight a distinction between Dunbar-Hester’s approach and the one I’ve chosen for my book project. This is not to say Dunbar-Hester did it wrong – in fact, her paper is excellent, and as fediverse scholarship grows, we will need multiple studies and many perspectives. I will highlight my instance-centric approach as a contrast." />
+<link rel="canonical" href="http://localhost:4000/2024/03/14/Instances-and-Individuals.html" />
+<meta property="og:url" content="http://localhost:4000/2024/03/14/Instances-and-Individuals.html" />
+<meta property="og:site_name" content="FOSS Academic" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-03-14T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Researching the Fediverse: Instances and Individuals" />
+<script type="application/ld+json">
+{"headline":"Researching the Fediverse: Instances and Individuals","dateModified":"2024-03-14T00:00:00-04:00","datePublished":"2024-03-14T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/03/14/Instances-and-Individuals.html"},"author":{"@type":"Person","name":"RWG"},"url":"http://localhost:4000/2024/03/14/Instances-and-Individuals.html","@type":"BlogPosting","description":"I just read a new article focusing on Mastodon: Christina Dunbar-Hester’s “Showing Your Ass on Mastodon.” (I’ve put in the bibliography, too). It has inspired a blog post! Dunbar-Hester’s article discusses a controversy – and a harassment campaign – centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk’s purchase of Twitter. The #asstodon hashtag was created to inject a bit of levity into the network: it was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix. In this paper, which is a kind of accidental autoethnography, Dunbar-Hester discusses how one donkeyposter become irate over the presence of human butts instead of donkeys in #asstodon posts. The donkeyposter eventually began harassing people – including Dunbar-Hester, using multiple accounts, posting racist content, and even emailing Dunbar-Hester at her work. In researching donkeyposter’s actions, Dunbar-Hester argues that the structure of Mastodon may not be amenable to hashtag activism. I should note the article has a delightful amount of butt puns! I only managed one in this post (see if you can find it). I want to draw on Dunbar-Hester’s article to write about something I’ve been wrestling with: methodologies for studying the fediverse. Specifically, I want to highlight a distinction between Dunbar-Hester’s approach and the one I’ve chosen for my book project. This is not to say Dunbar-Hester did it wrong – in fact, her paper is excellent, and as fediverse scholarship grows, we will need multiple studies and many perspectives. I will highlight my instance-centric approach as a contrast.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+    <img src="/assets/images/tuxpen.png" alt="Tux the Penguin reading books">
+    <h1><a href="/index.html">FOSS Academic</a></h1>
+</header>
+
+    <nav>
+    <ul>
+  
+        <li>
+	        <a href="/" >
+		        Home
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/about.html" >
+		        About
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/bib.html" >
+		        Bibliography
+	        </a>
+        </li>
+  
+        <li>
+	        <a href="/feed.xml" >
+		        Feed
+	        </a>
+        </li>
+  
+    </ul>
+</nav>
+	
+    <main>
+    <div>
+    <h1 class="postHeader">Researching the Fediverse: Instances and Individuals</h1>
+
+    <p class="byline">
+        14 Mar 2024
+        
+        
+        - <a href="/authors/RWG.html">Robert W. Gehl</a>
+        
+    </p>
+
+    <p>I just read a new article focusing on Mastodon: Christina Dunbar-Hester’s “<a href="https://firstmonday.org/ojs/index.php/fm/article/view/13367/11436">Showing Your Ass on Mastodon</a>.” (I’ve put in <a href="/bib.html">the bibliography</a>, too). It has inspired a blog post!</p>
+
+<p>Dunbar-Hester’s article discusses a controversy – and a harassment campaign – centering on the #asstodon hashtag on the fediverse. She created (or co-created) that hashtag in late 2022, not long after the large wave of people joined Mastodon due to Musk’s purchase of Twitter. The #asstodon hashtag was created to inject a bit of levity into the network: it was used predominantly to share pictures of donkeys. However, because of the double-meaning, there was at least one buttshot included in the mix.</p>
+
+<p>In this paper, which is a kind of accidental autoethnography, Dunbar-Hester discusses how one donkeyposter become irate over the presence of human butts instead of donkeys in #asstodon posts. The donkeyposter eventually began harassing people – including Dunbar-Hester, using multiple accounts, posting racist content, and even emailing Dunbar-Hester at her work.</p>
+
+<p>In researching donkeyposter’s actions, Dunbar-Hester argues that the structure of Mastodon may not be amenable to hashtag activism.</p>
+
+<p>I should note the article has a delightful amount of butt puns! I only managed one in this post (see if you can find it).</p>
+
+<p>I want to draw on Dunbar-Hester’s article to write about something I’ve been wrestling with: methodologies for studying the fediverse. Specifically, I want to highlight a distinction between Dunbar-Hester’s approach and the one I’ve chosen for my <a href="/2024/02/11/Move-Slowy-Preview.html">book project</a>. This is not to say Dunbar-Hester did it wrong – in fact, her paper is excellent, and as fediverse scholarship grows, we will need multiple studies and many perspectives. I will highlight my instance-centric approach as a contrast.</p>
+
+<!-- more -->
+
+<h2 id="the-individual-member-perspective">The Individual Member Perspective</h2>
+<p>Dunbar-Hester notes multiple times she did not start out to do research on Mastodon (let alone the broader fediverse). Instead, like many folks, she came there after Musk bought Twitter. Like other academics, she worked to rebuild networks on Mastodon, using a hashtag (#commodon) to gather.</p>
+
+<p>However, she gained a great deal of insight into Mastodon’s socio-technical politics when she started using/creating a whimsical #asstodon hashtag. The goal was to inject a bit of levity into the otherwise professional media studies community; she posted #asstodon with a picture of a donkey, and soon others followed suit. This replicates what other animal lovers have done – #dogsofmastodon is one of my favorite hashtags. And, sure, there are things for cats – even though cats are terrible pets.</p>
+
+<p>Like many hashtags, this one somewhat escaped her control. In my book, I write about how #fediblock – as hashtag created by two women – was appropriated without credit by people building blocklists. The women, Marcia X and Ginger, have since gotten credit, but only after asserting their role in creating the hashtag.</p>
+
+<p>In the case of #asstodon, the donkeyposter saw it as a chance to create “donkey content” on the network, sharing pictures of (their own? it’s not entirely clear) donkeys. The donkeyposter seems to have claimed the hashtag for their own, even going so far as to ask people to only use it for donkeys and not, inevitable as it was, human derrières. It seems that people did not listen to donkeyposter, who then began harassing folks for even suggesting that “ass” has multiple meanings. Dunbar-Hester came into donkeyposter’s sights when she agreed that “a thousand asses should bloom.”</p>
+
+<p>In trying to get to the bottom of it all, Dunbar-Hester and some allies realized that there is a kind of <em>Rashomon</em>-esque quality to studying the fediverse. Trying to find out what set off the donkeyposter on a noncentralized network was difficult: posts were deleted, admins (rightfully) blocked the donkeyposter after that person degraded into racism and harassment, and the view from one instance is not the same as the view from another. Dunbar-Hester uses this insight to argue that hashtag activism will not function the same on Mastodon as it did on Twitter, because the latter, for all its faults, could centralized all hashtags and give people a more global view of them. Mastodon and the fediverse, in contrast, can only give a partial view – a “lossy” one, to use her term.</p>
+
+<p>While she did not start out wanting to research Mastodon, there are few people more qualified to do this work: Dunbar-Hester is the author of two excellent books: <em><a href="https://mitpress.mit.edu/9780262534765/low-power-to-the-people/">Low Power to the People</a></em> focuses on community radio, and <em><a href="https://press.princeton.edu/books/hardcover/9780691182070/hacking-diversity">Hacking Diversity</a></em> focuses on diversity advocacy in FOSS communities. Mashing the two together – community media and FOSS – and you get tremendous insight into Mastodon and the fediverse. So when she flips the switch and investigates “donkeygate” on the fedi, she is well-equiped.</p>
+
+<p>But, as she notes, she only makes claims from her own perspective. It’s the perspective of an individual Mastodon member – a valuable one, but a limited view.</p>
+
+<h2 id="the-instance-perspective">The Instance Perspective</h2>
+<p>Unlike Dunbar-Hester, I’ve explicitly set out to research Mastodon and the fediverse from day 1.</p>
+
+<p>I’ve focused on a particular aspect of the fediverse: instance-to-instance relations. I’ve highlighted what I call (drawing on a <a href="https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400">paper co-authored with Diana Zulli</a>) the “covenantal” approach to network building, where the smallest unit is the group. I focus on the decisions to maintain or break federated connections, which means I spend a great deal of time analyzing the role of codes of conduct, blocklists, funding models, and hashtag coordination in building a network of instances.</p>
+
+<p>I chose this because the fediverse is comprised of instances, and the act of making an instance is a political act – an instance admin must set policies, decide who should be allowed to set up, and how long connections between instances should be maintained. Even if an admin shirks these things and says “anything goes,” that’s still a political decision.</p>
+
+<p>And choosing an instance does require some effort – selecting one, agreeing to a code of conduct, and learning the ropes of a specific community. Even if someone chooses an instance at random, there’s still some demand that the person abide by norms. This is why I tend to use the term “member” instead of “user” for individual fediverse accounts.</p>
+
+<p>I do focus on individual members in the book, particularly artists, mutual aid practitioners, and people who have shifted from Twitter. But by and large my view tends to put these individuals in relation with instances or larger instance-to-instance relations.</p>
+
+<p>Overall, I privilege admins and moderators in my research. And this is a limitation of my own perspective. While I can see much from this view, it – like Dunbar-Hester’s – is not a view from nowhere. It is situated, as well.</p>
+
+<h2 id="multiple-perspectives-needed">Multiple Perspectives Needed</h2>
+<p>I contrast our approaches because they reveal ways forward for other researchers. Echoing Dunbar-Hester, I would also say: someone ought to write this up! More research on the fediverse is needed. My approach is not superior to Dunbar-Hester’s. I can see certain things, and she can see others. So, for future researchers, be mindful of perspective.</p>
+
+<p>Her approach provides valuable documentation and insight into what it’s like to be a skilled researcher coming to the fediverse. The individual, self-reflexive perspective Dunbar-Hester brings is incredibly important. It can inform work on human-computer interaction, masspersonal communication, and activism, among other things.</p>
+
+<p>But as Dunbar-Hester found, it has limits: individuals can only get a partial view. In some ways, this is a good thing – I would be nervous if any one person could get a global view of the fediverse without the consent of network members. I don’t even think it’s wise for <em>researchers</em> to get a global view without the consent of members. At most, I would support a global view of instances, but not the ability to dive into any given individual account.</p>
+
+<p>More importantly, if we stress individual perspectives, we run the risk of erasing instances. If the fediverse is a network of individuals who can interact without regard to the instance, than instance administration becomes a mere service and not a political act. (In some ways, I think Bluesky is going this direction, and I fear that such an approach replicates the eliding of things like moderation, much as corporate social media has done, hiding moderation practices behind layers of abstraction).</p>
+
+<p>So what are the limitations of my more instance-centric view? Well, obviously, the perspective of individual members can get lost.</p>
+
+<p>But more importantly, it puts a lot of weight on the admin’s perspective – and as <a href="https://www.ucpress.edu/book/9780520393943/governable-spaces">Nathan Schneider has argued</a>, this (crypto or explicit) valorization of the almighty sysadmin can lead to authoritarianism. The danger is that an instance becomes a pseudo-state, with the admin reigning supreme. Privileging the admin may not challenge this view. (I agree, to a point, but I would note that noncentralized instance-to-instance relations, as well as the ability to move instances, mitigate the power of individual admins to a large degree).</p>
+
+<p>Ultimately, of course, Dunbar-Hester’s work doesn’t merely provide a foil for what I’m doing. Her conclusion is that activists need to influence the fediverse for more tools to make large-scale collective organizing possible. I agree. What those tools end up looking like – individual- or instance-centric – will shape the network to come, but in any case, the status quo may not be working well for activists.</p>
+
+
+
+       
+    <section>
+        <h1>Post Tags</h1>
+        <ul id="tagList">
+            
+            <li>
+                <a href="/tags/goal 2.html">Goal 2</a>
+            </li>
+            
+        </ul>
+    </section>
+    
+    <div id="comments">
+        <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
+          <!-- load comments from fediverse (mastodon, pleroma,...) "comments" is the name of the variable in front-matter -->
+   
+   
+<!--<div class="article-content">-->
+<div class="content">
+  <h1>Comments</h1>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
+  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
+  <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
+  <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
+  <script src="/assets/js/purify.min.js"></script>
+  <script type="text/javascript">
+    function escapeHtml(unsafe) {
+      return unsafe
+           .replace(/&/g, "&amp;")
+           .replace(/</g, "&lt;")
+           .replace(/>/g, "&gt;")
+           .replace(/"/g, "&quot;")
+           .replace(/'/g, "&#039;");
+   }
+
+    document.getElementById("load-comment").addEventListener("click", function() {
+      document.getElementById("load-comment").innerHTML = "Loading";
+      fetch('https://aoir.social/api/v1/statuses//context')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          if(data['descendants'] &&
+             Array.isArray(data['descendants']) && 
+            data['descendants'].length > 0) {
+              document.getElementById('mastodon-comments-list').innerHTML = "";
+              data['descendants'].forEach(function(reply) {
+                reply.account.display_name = escapeHtml(reply.account.display_name);
+                reply.account.emojis.forEach(emoji => {
+                  reply.account.display_name = reply.account.display_name.replace(`:${emoji.shortcode}:`,
+                    `<img src="${escapeHtml(emoji.static_url)}" alt="Emoji ${emoji.shortcode}" height="20" width="20" />`);
+                });
+                /* handling CWs, thanks to https://codeberg.org/ashwinvis/m.css/commit/c622ad23dc976c2ce8029e6aee06f57942eb9394 */
+                let fediCommentContent
+                if (reply.spoiler_text === '') {
+                  fediCommentContent = reply.content
+                } else {
+                  fediCommentContent =
+                   `<details><summary><span id="fedicomment-cw">CW: ${escapeHtml(reply.spoiler_text)}</span></summary>
+                      ${reply.content}
+                   </details>`
+                }
+                mastodonComment =
+                  `<div class="mastodon-comment">
+                     <div class="avatar">
+                       <img src="${escapeHtml(reply.account.avatar_static)}" class="commentAvatar" alt="">
+                     </div>
+
+                     <div class="author">
+                        <p>
+                          <a href="${reply.account.url}" rel="nofollow">
+                            <span>${reply.account.display_name}</span>
+                            <span class="disabled">${escapeHtml(reply.account.acct)}</span>
+                          </a>
+                        </p>
+                        <p>
+                          <a class="date" href="${reply.uri}" rel="nofollow">
+                            ${reply.created_at.substr(0, 10)}
+                          </a>
+                        </p>
+                     </div>
+                     
+                     <div class="mastodon-comment-content">${fediCommentContent}
+                     </div> 
+                     
+                   </div>`;
+                document.getElementById('mastodon-comments-list').appendChild(DOMPurify.sanitize(mastodonComment, {'RETURN_DOM_FRAGMENT': true}));
+              });
+          } else {
+            document.getElementById('mastodon-comments-list').innerHTML = "<p>No comments</p>";
+          }
+        });
+      });
+  </script>
+</div>
+
+
+
+
+<!--  end of comments section -->
+
+
+    </div>
+
+    
+</div>
+
+    </main>
+    <aside>
+    <section>
+        <h1>Contact</h1>
+        <p><strong>Mastodon:</strong> <a rel="me" href="https://aoir.social/@rwg">@rwg@aoir.social</a></p>
+        <p><strong>Email: </strong> robertwgehl %AT% protonmail</p>
+    </section>
+
+    <section>
+        <h1>Archives</h1>
+        <ul class="posts">
+        
+            <li>
+                <span class="post-date">Mar 14, 2024</span>
+                <a class="post-link" href="/2024/03/14/Instances-and-Individuals.html">Researching the Fediverse: Instances and Individuals</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 11, 2024</span>
+                <a class="post-link" href="/2024/02/11/Move-Slowy-Preview.html">"Move Slowly and Build Bridges" Preview</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 16, 2023</span>
+                <a class="post-link" href="/2023/12/16/ThoughtsThreads.html">Thoughts on Threads, or Is Mark Zuckerberg Jesus?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 22, 2023</span>
+                <a class="post-link" href="/2023/11/22/EthicsAndCOCs.html">Ethics and Codes of Conduct on Mastodon</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 10, 2023</span>
+                <a class="post-link" href="/2023/11/10/HowUniversitiesLostIT.html">How Universities Lost the Internet</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 19, 2023</span>
+                <a class="post-link" href="/2023/10/19/AoIR_ASM_preconfernce.html">Alternative Social Media Preconference at AoIR</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 15, 2023</span>
+                <a class="post-link" href="/2023/10/15/APnonStandard.html">ActivityPub, the Non-Standard Standard</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 20, 2023</span>
+                <a class="post-link" href="/2023/09/20/blocklists.html">A defense of the humble, importable blocklist</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 8, 2023</span>
+                <a class="post-link" href="/2023/09/08/ASMupdateBib.html">ASM update, Bibliography Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 17, 2023</span>
+                <a class="post-link" href="/2023/08/17/OxfordUP.html">Move Slowly and Build Bridges to be published by Oxford University Press</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 12, 2023</span>
+                <a class="post-link" href="/2023/08/12/ASMupdateFSEP.html">ASM update, August 12 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 2, 2023</span>
+                <a class="post-link" href="/2023/07/02/GradStudentsPostDocs.html">Seeking Grad Students and Postdocs</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 25, 2023</span>
+                <a class="post-link" href="/2023/06/25/ASMupdate-Warwick.html">ASM Update, June 25 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 16, 2023</span>
+                <a class="post-link" href="/2023/06/16/ASMupdate1.html">ASM Update, June 16 2023</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 9, 2023</span>
+                <a class="post-link" href="/2023/05/09/ActivityPub2.html">Reading the Minutes of the Social Web Working Group, part 2</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 15, 2023</span>
+                <a class="post-link" href="/2023/03/15/AOIRsocialCOC.html">AoIR Social's Code of Conduct</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 3, 2023</span>
+                <a class="post-link" href="/2023/03/03/AOIR-social.html">AOIR.social!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 10, 2023</span>
+                <a class="post-link" href="/2023/02/10/bumpAndSlump.html">Bumps, Slumps and the Killer Hype Cycle</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2023</span>
+                <a class="post-link" href="/2023/01/20/ActivityPub1.html">Reading the Minutes of the Social Web Working Group, part 1</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 3, 2023</span>
+                <a class="post-link" href="/2023/01/03/FOSSacademicYIR-copy.html">FOSS Academic Year in Review 2022</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 24, 2022</span>
+                <a class="post-link" href="/2022/12/24/Playvicous-Christmas.html">A Very Playvicious Christmas</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 19, 2022</span>
+                <a class="post-link" href="/2022/12/19/Two-new-pubs.html">Two New Publications</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2022</span>
+                <a class="post-link" href="/2022/12/11/AOIR-social.html">AOIR.social?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 9, 2022</span>
+                <a class="post-link" href="/2022/12/09/FOSSFinds.html">FOSS Finds, Content Moderation webinar</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 19, 2022</span>
+                <a class="post-link" href="/2022/11/19/Surge.html">Twitter Isn't That Important</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 25, 2022</span>
+                <a class="post-link" href="/2022/10/25/ASM-not-RWASM.html">Expanding The Conversation (notes on the Pew Alternative Social Media Report)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 18, 2022</span>
+                <a class="post-link" href="/2022/10/18/notesOnNobreEtAl.html">More Mastodon Scraping Without Consent (Notes on Nobre et al 2022)</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 5, 2022</span>
+                <a class="post-link" href="/2022/10/05/deepdivezotero.html">A Deep Dive into a Zotero Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 13, 2022</span>
+                <a class="post-link" href="/2022/09/13/FOSSFindsASM.html">FOSS Finds, Scuttlebutt Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Aug 17, 2022</span>
+                <a class="post-link" href="/2022/08/17/MovingToYork.html">Movin' North</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 29, 2022</span>
+                <a class="post-link" href="/2022/06/29/FOSSFindsOnDemand.html">FOSS Finds, On Demand Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 26, 2022</span>
+                <a class="post-link" href="/2022/05/26/Subscribe.html">(I'm) Mashing That Subscribe Button</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2022</span>
+                <a class="post-link" href="/2022/04/23/FOSSFinds.html">FOSS Finds, StoryCorps Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 17, 2022</span>
+                <a class="post-link" href="/2022/04/17/InterviewWorkflow.html">FOSS Interview Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 26, 2022</span>
+                <a class="post-link" href="/2022/03/26/NewBookOldBook.html">New Book, Old Book</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 7, 2022</span>
+                <a class="post-link" href="/2022/03/07/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 15, 2022</span>
+                <a class="post-link" href="/2022/02/15/CodingFreedom.html">Coding Freedom, by Biella Coleman</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 3, 2022</span>
+                <a class="post-link" href="/2022/02/03/Zettlr.html">I Have Settled on Zettlr</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 29, 2022</span>
+                <a class="post-link" href="/2022/01/29/FOSS-Finds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 26, 2022</span>
+                <a class="post-link" href="/2022/01/26/Very-Kool.html">Very Kool + Jellyfin</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 21, 2022</span>
+                <a class="post-link" href="/2022/01/21/FossFinds2.html">FOSS Finds, Environment and Labor Edition</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 11, 2022</span>
+                <a class="post-link" href="/2022/01/11/FOSSFinds.html">FOSS Finds</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 6, 2022</span>
+                <a class="post-link" href="/2022/01/06/Goal2.html">Goal 2, Initiate</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 16, 2021</span>
+                <a class="post-link" href="/2021/12/16/CommentsTest.html">Test post for Mastodon Comments</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 11, 2021</span>
+                <a class="post-link" href="/2021/12/11/Tuxies2021.html">Tuxies 2021</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Oct 30, 2021</span>
+                <a class="post-link" href="/2021/10/30/PraiseMastodonAgain.html">In Praise of Mastodon, Again</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 25, 2021</span>
+                <a class="post-link" href="/2021/09/25/Appointments.html">Nextcloud Appointments!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Sep 10, 2021</span>
+                <a class="post-link" href="/2021/09/10/Update.html">September update</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 18, 2021</span>
+                <a class="post-link" href="/2021/07/18/Manjaro-Madness.html">Manjaro Mania!</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jul 3, 2021</span>
+                <a class="post-link" href="/2021/07/03/DeGoogleSearch.html">(Almost) De-Googled Research</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jun 24, 2021</span>
+                <a class="post-link" href="/2021/06/24/Vacation-and-FDroid.html">A Vacation and F-Droid</a>
+            </li>
+        
+            <li>
+                <span class="post-date">May 14, 2021</span>
+                <a class="post-link" href="/2021/05/14/FALDupdate.html">FALD Updates</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 29, 2021</span>
+                <a class="post-link" href="/2021/04/29/Wireguard.html">Messin' with Wireguard</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 23, 2021</span>
+                <a class="post-link" href="/2021/04/23/DarkMode.html">Sudo Install Dark Mode</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Apr 2, 2021</span>
+                <a class="post-link" href="/2021/04/02/ZoteroComments.html">Review of Zotero's New PDF Annotation Features</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 28, 2021</span>
+                <a class="post-link" href="/2021/03/28/RMMess.html">RM Mess</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 19, 2021</span>
+                <a class="post-link" href="/2021/03/19/cuttingZotero.html">Cutting-Edge Zotero</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 11, 2021</span>
+                <a class="post-link" href="/2021/03/11/GDPR.html">GDPR Compliance</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Mar 10, 2021</span>
+                <a class="post-link" href="/2021/03/10/PDFhell.html">PDF Hell</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 28, 2021</span>
+                <a class="post-link" href="/2021/02/28/LostPosts.html">A Lost Weekend of Lost Posts</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 21, 2021</span>
+                <a class="post-link" href="/2021/02/21/LinuxMars.html">Linux on Mars</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 9, 2021</span>
+                <a class="post-link" href="/2021/02/09/MastodonSurvey.html">A Survey for Mastodon Developers, Admins, and Users</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Feb 7, 2021</span>
+                <a class="post-link" href="/2021/02/07/CloudAcademic.html">I Asked Mastodon About FOSS for Academics. Here's What They Said</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 24, 2021</span>
+                <a class="post-link" href="/2021/01/24/Staticman.html">Staticman Comments Test Post</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 20, 2021</span>
+                <a class="post-link" href="/2021/01/20/20-years-wikipedia.html">20 Years of Wikipedia</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Jan 8, 2021</span>
+                <a class="post-link" href="/2021/01/08/PraiseMastodon.html">In Praise of Mastodon After an Insurrection, or, What if Donald Trump Had Joined Mastodon?</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 29, 2020</span>
+                <a class="post-link" href="/2020/12/29/Minor-Update.html">Minor Update -- New Publication, No More Hyvor</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 27, 2020</span>
+                <a class="post-link" href="/2020/12/27/Workflow.html">My Workflow</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 20, 2020</span>
+                <a class="post-link" href="/2020/12/20/Minor-Update.html">Minor Update -- Tagging System</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 15, 2020</span>
+                <a class="post-link" href="/2020/12/15/FOSS-Journey.html">My FOSS Journey</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 10, 2020</span>
+                <a class="post-link" href="/2020/12/10/The-Tuxies-Academic-Style.html">The Tuxies, Academic Style</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 6, 2020</span>
+                <a class="post-link" href="/2020/12/06/Dreaming-In-Code.html">Dreaming in code</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Dec 1, 2020</span>
+                <a class="post-link" href="/2020/12/01/Zotero-Tips-and-Tricks.html">Zotero tips and tricks</a>
+            </li>
+        
+            <li>
+                <span class="post-date">Nov 27, 2020</span>
+                <a class="post-link" href="/2020/11/27/introduction.html">Introduction</a>
+            </li>
+        
+        </ul>
+    </section>
+
+</aside>
+
+    <footer>
+    <p>All content on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted.</p>
+
+    <!-- Default Statcounter code for FOSS Academic
+    https://www.fossacademic.tech/ -->
+    <script type="text/javascript">
+    var sc_project=12437984; 
+    var sc_invisible=1; 
+    var sc_security="98ee29d4"; 
+    </script>
+    <script type="text/javascript"
+    src="https://www.statcounter.com/counter/counter.js"
+    async></script>
+    <noscript><div class="statcounter"><a title="Web Analytics"
+    href="https://statcounter.com/" target="_blank"><img
+    class="statcounter"
+    src="https://c.statcounter.com/12437984/0/98ee29d4/1/"
+    alt="Web Analytics"></a></div></noscript>
+    <!-- End of Statcounter Code -->
+
+</footer>
+
+    </div>
+</body>
+</html>
