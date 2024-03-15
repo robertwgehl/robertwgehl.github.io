@@ -45,7 +45,7 @@ Unlike Dunbar-Hester, I've explicitly set out to research Mastodon and the fediv
 
 I've focused on a particular aspect of the fediverse: instance-to-instance relations. I've highlighted what I call (drawing on a [paper co-authored with Diana Zulli](https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400)) the "covenantal" approach to network building, where the smallest unit is the group. I focus on the decisions to maintain or break federated connections, which means I spend a great deal of time analyzing the role of codes of conduct, blocklists, funding models, and hashtag coordination in building a network of instances.
 
-I chose this because the fediverse is comprised of instances, and the act of making an instance is a political act -- an instance admin must set policies, decide who should be allowed to set up, and how long connections between instances should be maintained. Even if an admin shirks these things and says "anything goes," that's still a political decision.
+I chose this because the fediverse is comprised of instances, and the act of making an instance is a political act -- an instance admin must set policies, decide who should be allowed to sign up, and how long connections between instances should be maintained. Even if an admin shirks these things and says "anything goes," that's still a political decision.
 
 And choosing an instance does require some effort -- selecting one, agreeing to a code of conduct, and learning the ropes of a specific community. Even if someone chooses an instance at random, there's still some demand that the person abide by norms. This is why I tend to use the term "member" instead of "user" for individual fediverse accounts.
 
