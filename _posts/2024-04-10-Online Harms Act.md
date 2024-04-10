@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 112249058642915613
 ---
 The [Online Harms Act](https://www.canada.ca/en/canadian-heritage/services/online-harms.html) is currently the talk of Canada. As the government’s website describes it,
 > The internet is an exceptional tool for people of all ages to learn, play and connect with family, friends and those with similar interests. However, just like the outside world, the digital world can pose significant dangers. Social media can be used to sexually exploit children, promote self-harm to children, incite violence, put people’s safety at risk and foment hate. Online harms have real-world impacts with tragic, even fatal, consequences.
