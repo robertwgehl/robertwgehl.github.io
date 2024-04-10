@@ -96,7 +96,7 @@ But this does raise a separate potential problem. If the Act sees the fediverse 
 
 So, maybe the Act should require me (and other fedi instances) to document flags I get from outside my server -- that is, maybe the Act _should_ see the fediverse as one large network.
 
-But if the Act requires me to document flags coming from outside my server, I could also imagine another problem: being burdened by reporting on malicious or coordinated flagging from outside one’s server. I would have to write up reports for those flags, even if they are done in bad faith. There is language about my being able to ignore “vexatious” or “frivolous” flags, but do I have document them, anyway, to prove that all the reports were indeed, vexatious?
+But if the Act requires me to document flags coming from outside my server, I could also imagine another problem: being burdened by reporting on malicious or coordinated flagging from outside one’s server. I would have to write up reports for those flags, even if they are done in bad faith. There is language about my being able to ignore “vexatious” or “frivolous” flags, but do I have document them, anyway, to prove that all the reports were, indeed, vexatious?
 
 Taken as a whole, I think the Act should treat each instance as an independent entity.
 
