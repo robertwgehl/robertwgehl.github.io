@@ -60,7 +60,7 @@ Segment's presence on the site raises the specter of behavioral advertising -- a
 
 That's not a "no." It's hard to understand exactly what it is.
 
-It might be, "we won't do ads." But then what's Segment integration for? Segment's presence might just mean Bluesky will sell data to marketers but not allow ads. (After all, brands are certainly welcome on Bluesky and may want insights into their audiences.)
+It might be, "we won't do ads." But then what's the Segment integration for? Segment's presence might just mean Bluesky will sell data to marketers but not allow ads. (After all, brands are certainly welcome on Bluesky and may want insights into their audiences.)
 
 Or, it might be, "if we do ads _wrong_ people will leave, so we better do them right." That seems likely given the Segment integration.
 
