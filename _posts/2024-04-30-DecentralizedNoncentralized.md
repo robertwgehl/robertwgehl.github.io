@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 112361505840566144
 ---
 I'm nearing wrapping up drafting _Move Slowly and Build Bridges_, [my book about the fediverse](/2024/02/11/Move-Slowy-Preview.html). I do several things in the book: provide some history, show the struggles of instance admins, talk about the politics of blocklists.
 
