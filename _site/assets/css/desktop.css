@@ -4,111 +4,251 @@
 /* fonts */
 /* dimensions */
 /* ========Fonts=============== */
-@font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; src: local("Source Code Pro"), url(../assets/fonts/SourceCodePro-Regular.ttf) format("ttf"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Code Pro"), url(../assets/fonts/SourceCodePro-Regular.ttf) format("ttf");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 /* =======BODY================ */
-body { background: #181A1B; /* Greetings, Joe! */ color: #C8C4BD; font-family: Helvetica, sans-serif; font-size: 1.1em; line-height: 1.25em; }
-
-body a { color: #C8C4BD; }
-
-body h1 { font-weight: bold; font-size: 2em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
-
-body h2 { font-weight: bold; font-size: 1.2em; margin-top: 4%; margin-bottom: 2%; font-family: "Source Code Pro", monospace; }
-
-body h3 { font-weight: bold; }
-
-body p { margin-bottom: 4%; }
-
-body ul { margin-top: 4%; }
-
-body em { font-style: italic; }
-
-body strong { font-weight: bold; }
-
-body figure { margin-top: 4%; }
+body {
+  background: #181A1B; /* Greetings, Joe! */
+  color: #C8C4BD;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.25em;
+}
+body a {
+  color: #C8C4BD;
+}
+body h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 4%;
+  font-family: "Source Code Pro", monospace;
+}
+body h2 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-family: "Source Code Pro", monospace;
+}
+body h3 {
+  font-weight: bold;
+}
+body p {
+  margin-bottom: 4%;
+}
+body ul {
+  margin-top: 4%;
+}
+body em {
+  font-style: italic;
+}
+body strong {
+  font-weight: bold;
+}
+body figure {
+  margin-top: 4%;
+}
 
 /* =======WRAPPER============= */
-#wrapper { width: 1200px; margin-left: auto; margin-right: auto; }
+#wrapper {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* =======HEADER============== */
-header { width: 540px; float: left; height: 100px; text-align: left; background: #181A1B; }
-
-header img { float: left; height: 100%; }
-
-header h1 { font-size: 2em; /*margin-top: 2%;*/ line-height: 2em; margin-left: 25%; font-weight: bold; }
-
-header h1 a { color: #C8C4BD; text-decoration: none; }
+header {
+  width: 540px;
+  float: left;
+  height: 100px;
+  text-align: left;
+  background: #181A1B;
+}
+header img {
+  float: left;
+  height: 100%;
+}
+header h1 {
+  font-size: 2em;
+  /*margin-top: 2%;*/
+  line-height: 2em;
+  margin-left: 25%;
+  font-weight: bold;
+}
+header h1 a {
+  color: #C8C4BD;
+  text-decoration: none;
+}
 
 /* =======NAV================= */
-nav { width: 660px; float: left; height: 100px; font-family: "Source Code Pro", monospace; }
-
-nav ul { list-style: none; width: 70%; margin-top: 8%; float: right; }
-
-nav li { float: left; /*width: 22%;*/ margin-right: 2%; line-height: 1.6em; }
-
-nav a { display: block; text-align: center; }
-
-nav .current { color: #F32828; }
+nav {
+  width: 660px;
+  float: left;
+  height: 100px;
+  font-family: "Source Code Pro", monospace;
+}
+nav ul {
+  list-style: none;
+  width: 70%;
+  margin-top: 8%;
+  float: right;
+}
+nav li {
+  float: left;
+  /*width: 22%;*/
+  margin-right: 2%;
+  line-height: 1.6em;
+}
+nav a {
+  display: block;
+  text-align: center;
+}
+nav .current {
+  color: #F32828;
+}
 
 /* =======MAIN=============== */
-main { width: 792px; padding-left: 48px; padding-right: 48px; float: left; margin-bottom: 4%; background: #181A1B; }
-
-main .postWrapper { border-bottom: 2px solid; margin-bottom: 10%; }
-
-main h1 { margin-bottom: 4%; }
-
-main img { width: 100%; }
-
-main figcaption { font-style: italic; font-size: .75em; margin-bottom: 4%; }
-
-main .postHeader { padding-top: 4px; margin-bottom: 4%; font-size: 2em; text-transform: uppercase; line-height: 1.1em; }
-
-main .postHeader a { color: #C8C4BD; }
-
-main .postHeader:nth-of-type(2) { border-top: 2px solid black; }
-
-main .byline { font-size: .9em; font-style: italic; margin-top: 1%; }
-
-main #tagList { margin-bottom: 4%; }
-
-main #tagList li { width: 30%; float: left; }
-
-main pre { font-family: monospace; padding: 5px; background: #474D50; margin-bottom: 4%; }
-
-main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
-
-main #comments { width: 100%; clear: both; }
-
-main ul { list-style: disc; margin-left: 4%; margin-botton: 4%; }
-
-main li { margin-bottom: 4%; }
-
-main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
+main {
+  width: 792px;
+  padding-left: 48px;
+  padding-right: 48px;
+  float: left;
+  margin-bottom: 4%;
+  background: #181A1B;
+}
+main .postWrapper {
+  border-bottom: 2px solid;
+  margin-bottom: 10%;
+}
+main h1 {
+  margin-bottom: 4%;
+}
+main img {
+  width: 100%;
+}
+main figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+  margin-bottom: 4%;
+}
+main .postHeader {
+  padding-top: 4px;
+  margin-bottom: 4%;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+main .postHeader a {
+  color: #C8C4BD;
+}
+main .postHeader:nth-of-type(2) {
+  border-top: 2px solid black;
+}
+main .byline {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-top: 1%;
+}
+main #tagList {
+  margin-bottom: 4%;
+}
+main #tagList li {
+  width: 30%;
+  float: left;
+}
+main pre {
+  font-family: monospace;
+  padding: 5px;
+  background: #474D50;
+  margin-bottom: 4%;
+}
+main blockquote {
+  margin-left: 5%;
+  margin-bottom: 4%;
+  font-style: italic;
+}
+main #comments {
+  width: 100%;
+  clear: both;
+}
+main ul {
+  list-style: disc;
+  margin-left: 4%;
+  margin-botton: 4%;
+}
+main li {
+  margin-bottom: 4%;
+}
+main .postList { /* this styles the ul handling the list of posts on the main page */
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+}
 
 /* =======MAIN COMMENTS====== */
-.mastodon-comment { float: left; padding-bottom: 8px; width: 100%; margin-bottom: 4%; }
+.mastodon-comment {
+  float: left;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: 4%;
+}
 
-.mastodon-comment:nth-child(odd) { background: #2A2E31; }
+.mastodon-comment:nth-child(odd) {
+  background: #2A2E31;
+}
 
-.avatar { width: 48px; float: left; padding-right: 8px; }
+.avatar {
+  width: 48px;
+  float: left;
+  padding-right: 8px;
+}
 
-.author p { margin: 0; }
+.author p {
+  margin: 0;
+}
 
-.mastodon-comment-content { width: 575px; float: right; padding-top: 10px; }
+.mastodon-comment-content {
+  width: 575px;
+  float: right;
+  padding-top: 10px;
+}
 
 /* =======ASIDE============== */
-aside { width: 300px; float: left; padding: 10px; margin-bottom: 4%; background: #474D50; }
-
-aside h1 { margin-bottom: 4%; }
+aside {
+  width: 300px;
+  float: left;
+  padding: 10px;
+  margin-bottom: 4%;
+  background: #474D50;
+}
+aside h1 {
+  margin-bottom: 4%;
+}
 
 /* ======FOOTER============== */
-footer { clear: both; background: black; color: white; height: 100px; }
-
-footer p { text-align: center; padding-top: 2em; }
-
-footer a { color: #F32828; }
+footer {
+  clear: both;
+  background: black;
+  color: white;
+  height: 100px;
+}
+footer p {
+  text-align: center;
+  padding-top: 2em;
+}
+footer a {
+  color: #F32828;
+}
 
 /* ======Bibliography======= */
-.csl-entry { margin-left: 3em; text-indent: -3em; }
+.csl-entry {
+  margin-left: 3em;
+  text-indent: -3em;
+}
 
 /*# sourceMappingURL=desktop.css.map */

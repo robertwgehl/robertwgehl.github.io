@@ -4,98 +4,231 @@
 /* fonts */
 /* dimensions */
 /* ========Fonts=============== */
-@font-face { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; src: local("Source Code Pro"), url(../assets/fonts/SourceCodePro-Regular.ttf) format("ttf"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Code Pro"), url(../assets/fonts/SourceCodePro-Regular.ttf) format("ttf");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 /* =======BODY================ */
-body { background: #181A1B; /* Greetings, Joe! */ font-family: Helvetica, sans-serif; font-size: 2.6em; line-height: 1.25em; color: #C8C4BD; }
-
-body a { color: #C8C4BD; }
-
-body h1 { font-weight: bold; font-size: 1em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
-
-body h2 { font-weight: bold; font-size: 1em; margin-top: 4%; font-family: "Source Code Pro", monospace; }
-
-body h3 { font-weight: bold; }
-
-body p { margin-top: 4%; }
-
-body ul { margin-top: 4%; }
-
-body em { font-style: italic; }
-
-body strong { font-weight: bold; }
-
-body figure { margin-top: 4%; }
+body {
+  background: #181A1B; /* Greetings, Joe! */
+  font-family: Helvetica, sans-serif;
+  font-size: 2.6em;
+  line-height: 1.25em;
+  color: #C8C4BD;
+}
+body a {
+  color: #C8C4BD;
+}
+body h1 {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 4%;
+  font-family: "Source Code Pro", monospace;
+}
+body h2 {
+  font-weight: bold;
+  font-size: 1em;
+  margin-top: 4%;
+  font-family: "Source Code Pro", monospace;
+}
+body h3 {
+  font-weight: bold;
+}
+body p {
+  margin-top: 4%;
+}
+body ul {
+  margin-top: 4%;
+}
+body em {
+  font-style: italic;
+}
+body strong {
+  font-weight: bold;
+}
+body figure {
+  margin-top: 4%;
+}
 
 /* =======WRAPPER============= */
-#wrapper { width: 100%; margin-left: auto; margin-right: auto; }
+#wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* =======HEADER============== */
-header { width: 90%; margin-left: 10%; height: 100px; text-align: left; float: left; }
-
-header img { height: 100%; float: left; }
-
-header h1 { font-size: 2em; margin-left: 4%; }
-
-header h1 a { color: #C8C4BD; text-decoration: none; }
+header {
+  width: 90%;
+  margin-left: 10%;
+  height: 100px;
+  text-align: left;
+  float: left;
+}
+header img {
+  height: 100%;
+  float: left;
+}
+header h1 {
+  font-size: 2em;
+  margin-left: 4%;
+}
+header h1 a {
+  color: #C8C4BD;
+  text-decoration: none;
+}
 
 /* =======NAV================= */
-nav { width: 100%; height: 60px; font-family: "Source Code Pro", monospace; clear: both; }
-
-nav ul { list-style: none; margin-top: 11%; margin-left: 22%; }
-
-nav li { float: left; /*width: 18%;*/ margin-right: 4%; }
-
-nav a { display: block; text-align: center; font-size: .75em; }
-
-nav .current { color: #F32828; }
+nav {
+  width: 100%;
+  height: 60px;
+  font-family: "Source Code Pro", monospace;
+  clear: both;
+}
+nav ul {
+  list-style: none;
+  margin-top: 11%;
+  margin-left: 22%;
+}
+nav li {
+  float: left;
+  /*width: 18%;*/
+  margin-right: 4%;
+}
+nav a {
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+}
+nav .current {
+  color: #F32828;
+}
 
 /* =======MAIN=============== */
-main { width: 100%; padding-left: 4%; padding-right: 4%; margin-bottom: 4%; margin-top: 4%; }
-
-main .postHeader { font-size: 2em; text-transform: uppercase; line-height: 1.1em; }
-
-main img { width: 100%; }
-
-main figcaption { font-style: italic; font-size: .75em; }
-
-main h1 { font-size: 1.5em; }
-
-main pre { font-family: monospace; padding: 5px; background: #474D50; margin-bottom: 4%; }
-
-main blockquote { margin-left: 5%; margin-bottom: 4%; font-style: italic; }
-
-main ul { list-style: disc; margin-left: 4%; margin-botton: 4%; }
-
-main li { margin-bottom: 4%; }
-
-main .postList { /* this styles the ul handling the list of posts on the main page */ list-style: none; margin-left: 0; margin-bottom: 0; }
+main {
+  width: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+main .postHeader {
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 1.1em;
+}
+main img {
+  width: 100%;
+}
+main figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+}
+main h1 {
+  font-size: 1.5em;
+}
+main pre {
+  font-family: monospace;
+  padding: 5px;
+  background: #474D50;
+  margin-bottom: 4%;
+}
+main blockquote {
+  margin-left: 5%;
+  margin-bottom: 4%;
+  font-style: italic;
+}
+main ul {
+  list-style: disc;
+  margin-left: 4%;
+  margin-botton: 4%;
+}
+main li {
+  margin-bottom: 4%;
+}
+main .postList { /* this styles the ul handling the list of posts on the main page */
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+}
 
 /* =======MAIN COMMENTS====== */
-/* .commentAvatar { width: 20%; height: 20%; float: left; margin-right: 8px; } .mastodon-comment-content p { width: 100%;   clear: both; margin-top: 25px; }*/
-#load-comment { width: 200px; height: 50px; font-size: .5em; }
+/*
 
-.mastodon-comment { float: left; padding-bottom: 8px; width: 100%; margin-bottom: 4%; }
+.commentAvatar {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-right: 8px;
+  }
 
-.mastodon-comment:nth-child(odd) { background: #2A2E31; }
+.mastodon-comment-content p {
+  width: 100%;  
+  clear: both;
+  margin-top: 25px;
+  }*/
+#load-comment {
+  width: 200px;
+  height: 50px;
+  font-size: 0.5em;
+}
 
-.avatar { width: 48px; float: left; padding-right: 8px; }
+.mastodon-comment {
+  float: left;
+  padding-bottom: 8px;
+  width: 100%;
+  margin-bottom: 4%;
+}
 
-.author p { margin: 0; }
+.mastodon-comment:nth-child(odd) {
+  background: #2A2E31;
+}
 
-.mastodon-comment-content { width: 100%; padding-top: 10px; }
+.avatar {
+  width: 48px;
+  float: left;
+  padding-right: 8px;
+}
+
+.author p {
+  margin: 0;
+}
+
+.mastodon-comment-content {
+  width: 100%;
+  padding-top: 10px;
+}
 
 /* =======ASIDE============== */
-aside { width: 100%; margin-left: 4%; padding: 10px; margin-bottom: 4%; }
+aside {
+  width: 100%;
+  margin-left: 4%;
+  padding: 10px;
+  margin-bottom: 4%;
+}
 
 /* ======FOOTER============== */
-footer { clear: both; background: black; color: white; height: 200px; }
-
-footer p { text-align: center; padding-top: 2em; }
-
-footer a { color: #C8C4BD; }
+footer {
+  clear: both;
+  background: black;
+  color: white;
+  height: 200px;
+}
+footer p {
+  text-align: center;
+  padding-top: 2em;
+}
+footer a {
+  color: #C8C4BD;
+}
 
 /* ======Bibliography======= */
-.csl-entry { margin-left: 3em; text-indent: -3em; }
+.csl-entry {
+  margin-left: 3em;
+  text-indent: -3em;
+}
 
 /*# sourceMappingURL=mobile.css.map */
