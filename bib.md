@@ -10,6 +10,8 @@ This page will be updated monthly. For more up-to-date access to the bibliograph
 
 Note that inclusion in this bibliography does not mean I endorse the study. Watch the blog for critiques of some of these studies.
 
+Also: is something missing? Let me know!
+
 ---
 
 {% include bibliography.html %}
