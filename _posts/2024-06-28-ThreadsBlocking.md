@@ -22,11 +22,11 @@ I think credit is due to the fediverse as a whole on this one, though. If Meta t
 ## This may be the first time millions see blocking in action
 When I first started out on the ActivityPub-based fediverse back in early 2017, most Mastodon instances published their blocklists. Admins can still do this -- indeed, Mastodon.social, the largest server, [does (scroll down and click on "moderated servers")](https://mastodon.social/about).
 
-However, over the past few years, many smaller servers stopped sharing this information publicly. Why? Well, it's obviously a vector for harassment. For example, if as an admin, I publicly say I block bad.instance, their friends could harass me with constant requests about why I did so, arguing that I need to change my mind. I have other stuff to do. Many admins just keep their blocklists to themselves.
+However, over the past few years, many smaller servers stopped sharing this information publicly. Why? Well, it's obviously a vector for harassment. For example, if as an admin I publicly say I block bad.instance, their friends could harass me with constant requests about why I did so, arguing that I need to change my mind. I have other stuff to do. Many admins just keep their blocklists to themselves.
 
 So Threads is revealing something many of the millions of new fediverse members have not often seen: the fact that a healthy server _must_ block many others in order to moderate effectively. It's a fact of fediverse life.
 
-This is a pretty radical change for Meta, to be honest: they now how to declare their relationship to the rest of the web, rather than just pretend that the web must flow through Meta properties.
+This is a pretty radical change for Meta, to be honest: they now have to declare their relationship to the rest of the web, rather than just pretend that the web must flow through Meta properties.
 
 ## Blocking Nazis and nudity
 Of course, transparency allows for scrutiny. We can take a look at the 660+ blocks and see what sort of values Meta adheres to.
