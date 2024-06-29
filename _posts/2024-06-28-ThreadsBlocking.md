@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 112700536320507252
 ---
 Meta's Threads, which is slowly enabling ActivityPub capabilities, has just posted a [list of servers it is blocking](https://www.threads.net/moderated_servers). The list (as of this writng) has over 660 entries. Since I am finalizing a chapter on Threads for my [forthcoming book](/2024/02/11/Move-Slowy-Preview.html), I will definitely have to consider this list in detail. For now, I wanted to offer a few comments on this development, since it's a decidedly important moment in the ActivityPub-based fediverse.
 
