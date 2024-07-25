@@ -90,11 +90,11 @@
 <h2 id="this-may-be-the-first-time-millions-see-blocking-in-action">This may be the first time millions see blocking in action</h2>
 <p>When I first started out on the ActivityPub-based fediverse back in early 2017, most Mastodon instances published their blocklists. Admins can still do this – indeed, Mastodon.social, the largest server, <a href="https://mastodon.social/about">does (scroll down and click on “moderated servers”)</a>.</p>
 
-<p>However, over the past few years, many smaller servers stopped sharing this information publicly. Why? Well, it’s obviously a vector for harassment. For example, if as an admin, I publicly say I block bad.instance, their friends could harass me with constant requests about why I did so, arguing that I need to change my mind. I have other stuff to do. Many admins just keep their blocklists to themselves.</p>
+<p>However, over the past few years, many smaller servers stopped sharing this information publicly. Why? Well, it’s obviously a vector for harassment. For example, if as an admin I publicly say I block bad.instance, their friends could harass me with constant requests about why I did so, arguing that I need to change my mind. I have other stuff to do. Many admins just keep their blocklists to themselves.</p>
 
 <p>So Threads is revealing something many of the millions of new fediverse members have not often seen: the fact that a healthy server <em>must</em> block many others in order to moderate effectively. It’s a fact of fediverse life.</p>
 
-<p>This is a pretty radical change for Meta, to be honest: they now how to declare their relationship to the rest of the web, rather than just pretend that the web must flow through Meta properties.</p>
+<p>This is a pretty radical change for Meta, to be honest: they now have to declare their relationship to the rest of the web, rather than just pretend that the web must flow through Meta properties.</p>
 
 <h2 id="blocking-nazis-and-nudity">Blocking Nazis and nudity</h2>
 <p>Of course, transparency allows for scrutiny. We can take a look at the 660+ blocks and see what sort of values Meta adheres to.</p>
@@ -166,9 +166,9 @@
 <!--<div class="article-content">-->
 <div class="content">
   <h1>Comments</h1>
-  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/112700536320507252"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
   <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
-  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
+  <p><a class="button" href="https://aoir.social/@rwg/112700536320507252">Reply through Fediverse</a></p>
   <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
   <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
   <script src="/assets/js/purify.min.js"></script>
@@ -184,7 +184,7 @@
 
     document.getElementById("load-comment").addEventListener("click", function() {
       document.getElementById("load-comment").innerHTML = "Loading";
-      fetch('https://aoir.social/api/v1/statuses//context')
+      fetch('https://aoir.social/api/v1/statuses/112700536320507252/context')
         .then(function(response) {
           return response.json();
         })
@@ -265,6 +265,11 @@
     <section>
         <h1>Archives</h1>
         <ul class="posts">
+        
+            <li>
+                <span class="post-date">Jul 25, 2024</span>
+                <a class="post-link" href="/2024/07/25/ASM-update.html">Hitting a Nerve and Presenting at IETF</a>
+            </li>
         
             <li>
                 <span class="post-date">Jun 28, 2024</span>
@@ -667,7 +672,7 @@
 </aside>
 
     <footer>
-    <p>All content on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted.</p>
+    <p>All material on this site is licensed <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</a>, unless otherwise noted. I <em>do not consent</em> to the use of my writing to train generative AI.</p>
 
     <!-- Default Statcounter code for FOSS Academic
     https://www.fossacademic.tech/ -->
