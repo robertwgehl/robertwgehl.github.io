@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 112848034098715182
 ---
 
 Nothing major this month, but I do want to note two things. First, I wrote a post on the fediverse that must have hit a nerve. It's about corporations selling off academic work to AI companies. Second, I presented research to a panel at the IETF, talking about the development of ActivityPub by the W3C's Social Web Working Group. The presentation is based on my [forthcoming book](/2024/02/11/Move-Slowy-Preview.html).
