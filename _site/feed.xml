@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-25T12:11:06-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Hitting a Nerve and Presenting at IETF</title><link href="http://localhost:4000/2024/07/25/ASM-update.html" rel="alternate" type="text/html" title="Hitting a Nerve and Presenting at IETF" /><published>2024-07-25T00:00:00-04:00</published><updated>2024-07-25T00:00:00-04:00</updated><id>http://localhost:4000/2024/07/25/ASM%20update</id><content type="html" xml:base="http://localhost:4000/2024/07/25/ASM-update.html"><![CDATA[<p>Nothing major this month, but I do want to note two things. First, I wrote a post on the fediverse that must have hit a nerve. It’s about corporations selling off academic work to AI companies. Second, I presented research to a panel at the IETF, talking about the development of ActivityPub by the W3C’s Social Web Working Group. The presentation is based on my <a href="/2024/02/11/Move-Slowy-Preview.html">forthcoming book</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-13T15:49:53-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Zotero 7 Early Review</title><link href="http://localhost:4000/2024/08/13/Zotero-7.html" rel="alternate" type="text/html" title="Zotero 7 Early Review" /><published>2024-08-13T00:00:00-04:00</published><updated>2024-08-13T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/13/Zotero%207</id><content type="html" xml:base="http://localhost:4000/2024/08/13/Zotero-7.html"><![CDATA[<p>I took a family vacation, so I was away from my work laptop when I learned <a href="https://www.zotero.org/blog/zotero-7/">Zotero has launched version 7, a major upgrade</a>. While I enjoyed my vacation, I was naturally eager to get home to try it out!</p>
+
+<p>In my initial review, I found an improved interface design with small changes that improve (instead of interrupt) my workflow, as well as some nice improvements to the PDF Reader (which is now really an Attachment Reader).</p>
+
+<p>I may do a more substantial review as I use Zotero 7 to get stuff done, but my first glance leaves me quite happy with this new version.</p>
+
+<!-- more -->
+
+<h2 id="easy-to-upgrade-and-easy-on-the-eyes">Easy to upgrade, and easy on the eyes</h2>
+<p>Upgrading was easy in Linux – I just used Zotero’s “check for updates” option and upgraded from Zotero 6 to 7. The only thing that “broke” was the application icon, but I just edited my menu to point to the new icon.</p>
+
+<p>On first run, it gave me an option between “Comfortable” and “Compact” layouts. I could toggle between the two to quickly see the differences. I choose Compact, which tightens up the gaps between entries and text. The overall look is clean while still very familiar. (I don’t know about you, but I really can’t stand major interface upgrades, which is a big reason I use Linux – I prefer to keep things stable for years).</p>
+
+<figure>
+  <img src="/assets/images/resm_zoteroPreview.png" alt="A preview of my first book in the Zotero Item Preview pane" />
+  <figcaption>My first book as shown in Zotero's new Item Preview pane</figcaption>
+</figure>
+
+<p>The new Item Preview is particularly attractive. One upshot is that it shows “Related” items in a more visible manner than in past Zotero iterations. I think this could be quite useful. In my experience, relating items really didn’t provide much insight for me. I did it, anyway, on the theory that maybe in the future the data would be useful. Perhaps the time is now?</p>
+
+<p>And a change that is very welcome is dark mode! I had installed a third-party dark mode theme in Zotero 6, so this didn’t jump out at me. That is, until I saw <strong>dark mode in PDFs</strong>! Amazing! I tried to hack this on my own (and largely failed), but it’s working natively now.</p>
+
+<h2 id="cool-new-features">Cool new features</h2>
+<p>Speaking of PDF annotation, it now includes underlining text in various colors in addition to highlighting. And, either can be converted to the other with just a click. This is a feature I didn’t even know I wanted, but now I think I like it! I can see myself doing underlining instead of highlighting from here on out.</p>
+
+<p>And the PDF reader does a bunch more than load PDFs! It also can handle EPUBs, and – importantly for me – it shows Web snapshots! It’s more of an Attachment Reader now. And those snapshots can be marked up in a similar fashion as PDFs. However, I did see some bugs – in my first test of the snapshot annotation feature, it didn’t show underlines, and it barely showed highlights. I can imagine it’s a tricky matter to code an annotation for heterogeneous HTML and CSS.</p>
+
+<figure>
+  <img src="/assets/images/snapshot_Highlighting.png" alt="An example of editing a web snapshot in Zotero" />
+  <figcaption>Editing my snapshot of the Post-Meritocratic Manifesto in Zotero. One problem here is highlights and underlines don't show up well.</figcaption>
+</figure>
+
+<p>In spite of this problem, it’s going to be a useful feature.</p>
+
+<p>Other interface improvements include tab selection with a drop-down. This is a really cool idea, letting me select tabs in a drop-down menu. This might be good for those who use a lot of tabs. I can also search across tabs. So far, it appears to be limited to item titles.</p>
+
+<p>As far as performance goes, Zotero opens at least as fast as before, and it uses 2GB of RAM. It’s clear version 7 is not a downgrade in terms of speed. In fact, PDFs seem to load slightly faster into the reader. I don’t really do benchmarking, but in my experience, their claim that there are performance improvements holds up.</p>
+
+<p>Turning to in-text citation system, I noticed no major changes here, but one subtle one: a way to export the document from one word processor (e.g., LibreOffice) to another (e.g., Word). I don’t know if this will solve the problem of cross-word processor collaboration or not yet.</p>
+
+<h2 id="features-i-dont-know-if-i-like--yet">Features I don’t know if I like – yet</h2>
+
+<p>Zotero has redesigned the item pane to include icons, rather than text, as the main navigational tool. This saves space, but it makes things a bit less accessible.</p>
+
+<p>They also changed the icons in the center column after many years of using the same icons. I might get used to picking out the differences between various item types at a glance, but I’m not sure I will get used to it. Fortunately, I can add “Item Type” as a column if need be.</p>
+
+<h2 id="features-i-still-want-to-see">Features I still want to see</h2>
+
+<p>There are still features I want to see – stuff I’ve been wanting for years.</p>
+
+<figure>
+  <img src="/assets/images/smartFolders.png" alt="A list of smart folders in Zotero" />
+  <figcaption>Here's a portion of my smart folders, specifically tied to my Mastodon/fediverse book project. Note my pre-pending each with a "1" -- that's my way to keep them organized.</figcaption>
+</figure>
+
+<p>First, I believe it would be great to have the ability to nest smart searches within traditional folders. Right now, the two folder types are traditional, where you create a folder and drag stuff into it, or smart, which dynamically updates based on search criteria. I use the latter almost exclusively, but this results is a long list of smart searches. As you can see from a screenshot, I use a simple fix – I prepend a number to the smart search folder titles to keep similar searches grouped together. I would much prefer to be able to make save these searches together in a top-level folder.</p>
+
+<p>I also remain underwhelmed by the tag management system. It remains a small corner section in the layout. I recall Endnote’s system, which was a separate window with all tags listed alphabetically, making it much easier to scroll through them, delete unwanted tags, and merge tags.</p>
+
+<h2 id="overall-7-looks-good">Overall, 7 looks good</h2>
+
+<p>Overall, however, 7 looks like a great new edition of the most important software I use to do my FOSS Academic work. 7 appears to be a great addition to the FOSS Academic Lifestyle Dream.</p>]]></content><author><name>RWG</name></author><category term="Zotero" /><category term="Goal 1" /><category term="FALD" /><summary type="html"><![CDATA[I took a family vacation, so I was away from my work laptop when I learned Zotero has launched version 7, a major upgrade. While I enjoyed my vacation, I was naturally eager to get home to try it out! In my initial review, I found an improved interface design with small changes that improve (instead of interrupt) my workflow, as well as some nice improvements to the PDF Reader (which is now really an Attachment Reader). I may do a more substantial review as I use Zotero 7 to get stuff done, but my first glance leaves me quite happy with this new version.]]></summary></entry><entry><title type="html">Hitting a Nerve and Presenting at IETF</title><link href="http://localhost:4000/2024/07/25/ASM-update.html" rel="alternate" type="text/html" title="Hitting a Nerve and Presenting at IETF" /><published>2024-07-25T00:00:00-04:00</published><updated>2024-07-25T00:00:00-04:00</updated><id>http://localhost:4000/2024/07/25/ASM%20update</id><content type="html" xml:base="http://localhost:4000/2024/07/25/ASM-update.html"><![CDATA[<p>Nothing major this month, but I do want to note two things. First, I wrote a post on the fediverse that must have hit a nerve. It’s about corporations selling off academic work to AI companies. Second, I presented research to a panel at the IETF, talking about the development of ActivityPub by the W3C’s Social Web Working Group. The presentation is based on my <a href="/2024/02/11/Move-Slowy-Preview.html">forthcoming book</a>.</p>
 
 <!-- more -->
 
@@ -691,106 +752,4 @@ I personally see this as an example of pragmatically shipping something, others 
 
 <p>And I also like the idea of a unification-through-difference that the third meaning implies.</p>
 
-<p>However, I don’t think this post will form the basis of the chapter of the book. Some ideas will travel from it – including some ideas based on the feedback I got on the fedi – but this recapitulation idea is a bit too convoluted to make it into my book, which is intended for a broad audience.</p>]]></content><author><name>RWG</name></author><category term="Meta" /><category term="Threads" /><category term="digital covenant" /><summary type="html"><![CDATA[(Sorry about the provocative title, but I just had to do it.) Today, a lot of people have thoughts on Threads, which is actively testing ActivityPub federation. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi. Full disclosure: I’m more in the latter camp. As readers of this blog know, I’m working on a book about the fediverse, and part of my process is to share ideas out in the open. Since any book about the fediverse will have to talk about Threads, I figured this might be a good place to share a rough idea of how a chapter about Threads might go. Comments are welcome, of course! Away we go…]]></summary></entry><entry><title type="html">Ethics and Codes of Conduct on Mastodon</title><link href="http://localhost:4000/2023/11/22/EthicsAndCOCs.html" rel="alternate" type="text/html" title="Ethics and Codes of Conduct on Mastodon" /><published>2023-11-22T00:00:00-05:00</published><updated>2023-11-22T00:00:00-05:00</updated><id>http://localhost:4000/2023/11/22/EthicsAndCOCs</id><content type="html" xml:base="http://localhost:4000/2023/11/22/EthicsAndCOCs.html"><![CDATA[<p>Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using <a href="https://bookshop.org/p/books/digital-media-ethics-charles-ess/7513541?ean=9781509533428">Charle Ess’s <em>Digital Media Ethics</em> (3rd edition)</a> as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others).</p>
-
-<p>Much of the course has been about learning the ethical theories and then discussing <a href="https://mediaengagement.org/vertical/media-ethics/">case studies</a>. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.”</p>
-
-<p>But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation.</p>
-
-<p>And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server?</p>
-
-<p>In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.
-<!-- more --></p>
-
-<h2 id="mastodon-in-the-classroom">Mastodon in the classroom</h2>
-
-<p>I spun up a relatively inexpensive Digital Ocean server and installed the latest version of Mastodon. I also imported a <a href="https://thebad.space">server blocklist</a>, because I did not want to have the students – all of whom were new to Mastodon – experience some nasty trolling in their first foray. At the same time, I still wanted students to be able to follow accounts outside of our server, so blocking known bad instances made the most sense. I recommend anyone using Mastodon in the classroom do something similar.</p>
-
-<p>I then invited students to join and mess around with our server – post, share, make profiles, etc. I realized that they would see essentially an empty stream and few others – this is all part of the process. I wanted to stress to them that everything on the server is under our control, so we – not some big company – have to decide how active our server would be.</p>
-
-<h2 id="what-about-a-code-of-conduct">What about a Code of Conduct?</h2>
-
-<p>One step I skipped in setting up was setting server rules and a code of conduct. I did this on purpose: it was the point of the in-class discussion. After providing some background details about Mastodon and the fediverse and answering student questions, we then discussed codes of conduct. For background, I gave them a draft chapter of my <a href="/2023/08/17/OxfordUP.html">current book</a>, which focuses on the history of codes of conduct (and thus draws heavily on an interview with <a href="https://where.coraline.codes/">Coraline Ada Ehmke</a>).</p>
-
-<p>After we talked codes of conduct, I talked about how running Mastodon requires us to be active in making choices about content moderation. Running a Mastodon server is a moment of applied ethics.</p>
-
-<p>I then asked them to break into four groups:</p>
-
-<ul>
-  <li>One group focusing on <strong>feminist ethics of care,</strong></li>
-  <li>Another focusing on <strong>deontology,</strong></li>
-  <li>Another on <strong>virtue ethics,</strong></li>
-  <li>And the last on <strong>utilitarianism.</strong></li>
-</ul>
-
-<p>I asked the group to first summarize the ethical theory (not an easy task, I know).</p>
-
-<p>Next, I asked them to apply the ideas from their ethical theory to our potential Mastodon code of conduct.</p>
-
-<p>I really, really liked the results!</p>
-
-<p>Here are summaries of each:</p>
-
-<h3 id="feminist-ethics-of-care">Feminist ethics of care</h3>
-<p>Feminist ethics of care (FEOC) rejects the idea (most associated with deontology) that ethical decisions are the sole purview of individual, autonomous rational actors. Instead, FEOC argues we make ethical choices based upon, and informed by, relationships we have with one another. Moreover, an ethical choice is not purely a rational matter, but also involves emotions. Finally, FEOC elevates care of others to the center (but it rejects the idea that only one segment of our society is responsible for care work).</p>
-
-<p>Based on this theory, the students argued that our Mastodon server code of conduct should</p>
-<ul>
-  <li>Describe how we can network with other servers who share our values.</li>
-  <li>Take inspiration from the first clause of Canadian charter: your rights end where someone else’s begin. You can post so long as you don’t violate others’ rights.</li>
-  <li>Emphasize contextual judgement (considering potential violations in context).</li>
-  <li>Emphasize communication during moderation, using empathy for would-be violators.</li>
-</ul>
-
-<p>My take: this is a great set of insights. It echoes what I’ve learned over the past few years doing interviews with fediverse admins. Many told me that their approach to moderation is to talk to people and find out what’s going on. They also talk about how they choose to federate/block other instances.</p>
-
-<h3 id="deontology">Deontology</h3>
-<p>Deontology emphasizes individual rights and autonomy, as well as duties to do what is right. Intentions often matter more than consequences. Often deontology is expressed as rules (although that’s a bit reductive.)</p>
-
-<p>Students in this group did offer rules, likely inspired by reading sample Mastodon codes of conduct:</p>
-<ul>
-  <li>Post nothing illegal!</li>
-  <li>No discrimination based on age, race, gender, sexuality</li>
-  <li>No harassment</li>
-  <li>No trolling</li>
-  <li>No defamation or coercion</li>
-  <li>Show some respect in the community</li>
-</ul>
-
-<p>My take: if there’s one ethical theory that Mastodon seems designed for, it’s deontology. Mastodon’s software prompts the admin to put in “Server Rules,” short statements about expectations would-be members should live up to. Many, many Mastodon codes of conduct have rules similar to the above.</p>
-
-<h3 id="virtue-ethics">Virtue Ethics</h3>
-<p>Virtue ethics is less about intentions or consequences than it is about character. Virtues in a digital environment might include honesty, humility, courage, and compassion, and these are balanced against vicious extremes. Virtue ethics is also relational in that we teach children about virtues and provide advice to them when they have to make ethical choices.</p>
-
-<p>The students in this group suggested that our code of conduct should</p>
-<ul>
-  <li>Call for displays of virtous traits, such as wisdom, courage, loyalty,</li>
-  <li>Emphasize being polite and respectful, and</li>
-  <li>Have high standards for moderation.</li>
-</ul>
-
-<p>My take: I was really curious what the students would say in this group, and they delivered some good stuff. What’s useful, I think, is contrasting the negative rules of deontology with these positive virtues and character traits. I could imagine a code of conduct that integrates virtue ethics to emphasize positive behaviors.</p>
-
-<h3 id="utilitarianism">Utilitarianism</h3>
-<p>Alongside another consequentialist theory, libertarianism, utilitarianism is probably the most familiar theory to me, since I grew up in the USA. (I’m not saying I endorse either; just that I think I soaked in them). Utilitarianism judges acts based on their consequences: if an act creates the greatest happiness for the greatest number of people, it’s an ethical one.</p>
-
-<p>Students in this group emphasized the greatest happiness principle in their code of conduct ideas:</p>
-<ul>
-  <li>Let’s promote inclusivity to make people safe, welcome, and heard.</li>
-  <li>We need to listen to user feedback.</li>
-  <li>We need to consider well-being of the community.</li>
-  <li>Server members should report stuff to the moderators.</li>
-  <li>We should promote free speech but exclude hate speech.</li>
-</ul>
-
-<p>My take: Students really leaned into thinking about the would-be Mastodon server as a community, and so this approach emphasized group happiness. I think this was a good addition to the other ideas, because social media can be fun and happy – why not build a code of conduct that emphasizes these aspects?</p>
-
-<h2 id="summing-it-all-up">Summing it all up</h2>
-
-<p>We concluded the class by considering how these different approaches to a code of conduct could be synthesized. We kinda ran out of time for that, but I think we may have been able to write a pretty sweet code if we had more time.</p>
-
-<p>I did spend some time talking about enforcement, since no code of conduct is worth anything if you’re not willing to live up to it. I ran various scenarios past them – what if someone outside our server violates our code? What if someone outside our server reports one of our members?</p>
-
-<p>Their answers reflected the ideas I’ve heard from seasoned admins, including how admins discuss things with one another and how admins talk to members.</p>
-
-<p>All in all, I think this experiment was really exciting. Unlike corporate social media – Facebook, TikTok, X, etc – <em>we</em> get to make decisions about moderation when we run our own instance. It’s a big responsibility, but these students showed they’re up for it.</p>]]></content><author><name>RWG</name></author><category term="Goal 2" /><category term="Mastodon" /><category term="Codes of Conduct" /><summary type="html"><![CDATA[Yesterday, I taught one of the final meetings of my undergrad “Ethics and the Media” course at York. We’re using Charle Ess’s Digital Media Ethics (3rd edition) as our textbook, and so we’ve had a good guide to ethical theories, such as virtue ethics, deontology, utilitarianism, and feminist ethics of care. (I also supplement Ess with readings and ideas from Shannon Vallor, Kwame Gyekye, Carissa Veliz, Michael Zimmer, and others). Much of the course has been about learning the ethical theories and then discussing case studies. It’s been quite an enjoyable course to teach, particularly because I’ve seen the students go from the vague and intellectually unsatisfying statement “Ethics is a subjective, personal thing” to the more robust “Let me lay out how a virtue ethicist would think about this.” But I wanted to have at least one day of the course dedicated to applied ethics. Instead of looking at a case that happened in the past, I wanted the students to apply the ethical theories to a concrete situation. And these days, we have a great situation in digital media ethics to consider: what to do when we start up a Mastodon server? In this post, I’ll write up what we did in the class, in case anyone out there wants to try something similar.]]></summary></entry></feed>
+<p>However, I don’t think this post will form the basis of the chapter of the book. Some ideas will travel from it – including some ideas based on the feedback I got on the fedi – but this recapitulation idea is a bit too convoluted to make it into my book, which is intended for a broad audience.</p>]]></content><author><name>RWG</name></author><category term="Meta" /><category term="Threads" /><category term="digital covenant" /><summary type="html"><![CDATA[(Sorry about the provocative title, but I just had to do it.) Today, a lot of people have thoughts on Threads, which is actively testing ActivityPub federation. The reactions range from triumphant proclamations about this making the fediverse more legitimate to abject horror that a company so reviled is attempting to join the fedi. Full disclosure: I’m more in the latter camp. As readers of this blog know, I’m working on a book about the fediverse, and part of my process is to share ideas out in the open. Since any book about the fediverse will have to talk about Threads, I figured this might be a good place to share a rough idea of how a chapter about Threads might go. Comments are welcome, of course! Away we go…]]></summary></entry></feed>
