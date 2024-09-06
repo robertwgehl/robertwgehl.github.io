@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113092548001487706
 ---
 
 In this ASM update, I'll write at length about [a new research study on Mastodon](https://link.springer.com/article/10.1007/s11616-024-00855-6) that gets the ethics of research right -- even though they pulled data from my home Mastodon instance. I'll also discuss [a recent podcast episode](https://latenightlinux.com/late-night-linux-episode-297/) that talks about the ethics of using and promoting FOSS.
