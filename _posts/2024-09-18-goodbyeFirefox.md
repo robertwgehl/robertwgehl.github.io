@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113160587914806871
 ---
 I think I'm going to stop using Firefox altogether. It was a tiny little weather app that did it.
 
