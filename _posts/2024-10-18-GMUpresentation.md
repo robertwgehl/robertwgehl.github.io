@@ -80,7 +80,7 @@ can and must leave corporate social media behind. That we can maintain
 their pleasures while effectively taking them over. For over a decade now, I've been talking to activists and technologists seeking to make something better than X or Facebook.
 
 This presentation is a bit of a reflection on my academic career and how I came to study alternative social media. It starts with my time in Cultural Studies at Mason (2005-2010), then the
-period around the writing of my first book, []*Reverse Engineering Social
+period around the writing of my first book, [*Reverse Engineering Social
 Media*](https://tupress.temple.edu/books/reverse-engineering-social-media) a decade ago, and culminating in my current book, *Move Slowly
 and Build Bridges,* which should come out next year.
 
