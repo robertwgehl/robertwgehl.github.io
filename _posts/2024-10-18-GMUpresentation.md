@@ -112,6 +112,13 @@ video blogs (as well as "vlogs" that [turned out to be fictional, yet compelling
 
 The users had made YouTube what it was -- contributing videos, commenting on them, building a culture. Were they getting a cut of the $1.65 billion?
 
+<figure>
+    <img src="/assets/images/battelleoreilly.jpg" alt="John Battelle and Tim O'Reilly at the Web 2.0 summit">
+    <figcaption>
+        John Battelle and Tim O'Reilly at the Web 2.0 summit. My understanding is that we may be on Web3 now. Or Web 4.0. Or Web 10.0. I'm not even sure anymore.
+    </figcaption>
+</figure>
+
 The case of YouTube led me to what at the time was called [Web 2.0](https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html), where, as Tim
 O'Reilly and John Batelle argued in 2004, users of digital technologies do the work of building businesses. Where users create data -- about the world, and about themselves -- that companies can harvest for new ideas and profit.
 
