@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113335427555663989
 ---
 I recently gave a presentation to the [Cultural Studies PhD program at George Mason University](https://culturalstudies.gmu.edu/). That's the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program.
 
