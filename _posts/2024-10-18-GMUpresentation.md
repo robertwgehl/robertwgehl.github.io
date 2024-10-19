@@ -86,10 +86,10 @@ and Build Bridges,* which should come out next year.
 
 My plan for this is roughly chronological:
 
-1.   Cultural Studies and Web 2.0
-2.   Seeking Critical Reverse Engineers
-3.   Adventures in Alternative Social Media
-4.   New Critical Reverse Engineers on the Fediverse
+- Part 1: Cultural Studies and Web 2.0
+- Part 2: Seeking Critical Reverse Engineers
+- Part 3: Adventures in Alternative Social Media
+- Part 4: New Critical Reverse Engineers on the Fediverse
 
 ## Part 1: GMU Cultural Studies, Web 2.0 (2005 -- 2010)
 
