@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-19T14:24:24-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">From reverse engineering to building bridges: adventures in alternative social media</title><link href="http://localhost:4000/2024/10/18/GMUpresentation.html" rel="alternate" type="text/html" title="From reverse engineering to building bridges: adventures in alternative social media" /><published>2024-10-18T00:00:00-04:00</published><updated>2024-10-18T00:00:00-04:00</updated><id>http://localhost:4000/2024/10/18/GMUpresentation</id><content type="html" xml:base="http://localhost:4000/2024/10/18/GMUpresentation.html"><![CDATA[<p>I recently gave a presentation to the <a href="https://culturalstudies.gmu.edu/">Cultural Studies PhD program at George Mason University</a>. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-19T18:26:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">From reverse engineering to building bridges: adventures in alternative social media</title><link href="http://localhost:4000/2024/10/18/GMUpresentation.html" rel="alternate" type="text/html" title="From reverse engineering to building bridges: adventures in alternative social media" /><published>2024-10-18T00:00:00-04:00</published><updated>2024-10-18T00:00:00-04:00</updated><id>http://localhost:4000/2024/10/18/GMUpresentation</id><content type="html" xml:base="http://localhost:4000/2024/10/18/GMUpresentation.html"><![CDATA[<p>I recently gave a presentation to the <a href="https://culturalstudies.gmu.edu/">Cultural Studies PhD program at George Mason University</a>. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program.</p>
 
 <p>I took the presentation as an opportunity to reflect on my academic career from my time at Mason (2005-2010) to my <a href="/2024/02/11/Move-Slowy-Preview.html">latest book project</a>. I’ve modified it for this blog. Take a look at the abstract and, if piques your interest, feel free to read it! (It’s a bit long.)</p>
 
@@ -254,7 +254,7 @@ built in reaction to the constant changes made to corporate social
 media</li>
   <li><em>Legal:</em> They rely on the rights of reverse engineering. Freitas in particular talked to me about clean-room
 requirements engineering.</li>
-  <li>*Normative: All of these projects make claims to being more ethical
+  <li><em>Normative</em>: All of these projects make claims to being more ethical
 than corporate social media for a variety of reasons.</li>
 </ul>
 
@@ -421,8 +421,8 @@ early Mastodon instance called “Playvicious.social.”</p>
 <p>Playvicious was likely the first Black-run instance on Mastodon. But Ro shut it down in 2020, citing racist harassment of the moderators.
 You can <a href="https://roiskinda.cool/2023/12/recuerda-pv-chapter-7-the-dark-and-ugly.html">read about it on his blog</a> – but I warn you, it’s heavy.</p>
 
-<p>The Playvicious episode – and many others – reflected what Jonathan Flowers would later call []”the whiteness of
-Mastodon,”](https://www.techpolicy.press/the-whiteness-of-mastodon/) the deeply embedded practices of whiteness that not only
+<p>The Playvicious episode – and many others – reflected what Jonathan Flowers would later call <a href="https://www.techpolicy.press/the-whiteness-of-mastodon/">“the whiteness of
+Mastodon,”</a> the deeply embedded practices of whiteness that not only
 include overt racism, but the subtle forms philosopher Myisha Cherry
 calls “white skepticism” and “white empathy.”</p>
 

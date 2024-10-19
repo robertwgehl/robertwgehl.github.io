@@ -261,7 +261,7 @@ So, how are these critical reverse engineering projects? Let's go back to the fo
     media
 -   *Legal:* They rely on the rights of reverse engineering. Freitas in particular talked to me about clean-room
     requirements engineering.
--   *Normative: All of these projects make claims to being more ethical
+-   *Normative*: All of these projects make claims to being more ethical
     than corporate social media for a variety of reasons.
 
 ### Critiques of their normative stances
@@ -427,7 +427,7 @@ early Mastodon instance called "Playvicious.social."
 Playvicious was likely the first Black-run instance on Mastodon. But Ro shut it down in 2020, citing racist harassment of the moderators.
 You can [read about it on his blog](https://roiskinda.cool/2023/12/recuerda-pv-chapter-7-the-dark-and-ugly.html) -- but I warn you, it's heavy.
 
-The Playvicious episode -- and many others -- reflected what Jonathan Flowers would later call []"the whiteness of
+The Playvicious episode -- and many others -- reflected what Jonathan Flowers would later call ["the whiteness of
 Mastodon,"](https://www.techpolicy.press/the-whiteness-of-mastodon/) the deeply embedded practices of whiteness that not only
 include overt racism, but the subtle forms philosopher Myisha Cherry
 calls "white skepticism" and "white empathy."
