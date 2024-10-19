@@ -1,7 +1,7 @@
 ---
 layout: post
 author: RWG
-title: TITLE
+title: 'TITLE'
 tag:
     - Tag 1
     - Tag 2
