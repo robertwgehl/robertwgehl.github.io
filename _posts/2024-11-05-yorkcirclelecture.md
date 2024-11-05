@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113431216882331888
 ---
 
 Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni.
