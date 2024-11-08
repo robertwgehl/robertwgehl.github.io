@@ -272,6 +272,10 @@ site</a> has a list.</p>
                 <a href="/tags/presentations.html">presentations</a>
             </li>
             
+            <li>
+                <a href="/tags/journalism.html">journalism</a>
+            </li>
+            
         </ul>
     </section>
     
@@ -283,9 +287,9 @@ site</a> has a list.</p>
 <!--<div class="article-content">-->
 <div class="content">
   <h1>Comments</h1>
-  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
+  <p>For each of these posts, <a class="link" href="https://aoir.social/@rwg/113431216882331888"> I will also post to Mastodon</a>. If you have a fediverse account and reply to my Mastodon post, that shows up as a comment on this blog <i>unless</i> you change your privacy settings to followers-only or DM. Content warnings will work. You can delete your comment by deleting it through Mastodon.</p>
   <p>Don't have a fediverse account and you want one? Ask me how! robertwgehl AT protonmail . com</p>
-  <p><a class="button" href="https://aoir.social/@rwg/">Reply through Fediverse</a></p>
+  <p><a class="button" href="https://aoir.social/@rwg/113431216882331888">Reply through Fediverse</a></p>
   <p id="mastodon-comments-list"><button id="load-comment">Load comments</button></p>
   <noscript><p>Precisas JavaScript para ver os comentarios.</p></noscript>
   <script src="/assets/js/purify.min.js"></script>
@@ -301,7 +305,7 @@ site</a> has a list.</p>
 
     document.getElementById("load-comment").addEventListener("click", function() {
       document.getElementById("load-comment").innerHTML = "Loading";
-      fetch('https://aoir.social/api/v1/statuses//context')
+      fetch('https://aoir.social/api/v1/statuses/113431216882331888/context')
         .then(function(response) {
           return response.json();
         })
@@ -382,6 +386,11 @@ site</a> has a list.</p>
     <section>
         <h1>Archives</h1>
         <ul class="posts">
+        
+            <li>
+                <span class="post-date">Nov 8, 2024</span>
+                <a class="post-link" href="/2024/11/08/ASMandTFG.html">Hey, Journalists: X is Now Truth Social</a>
+            </li>
         
             <li>
                 <span class="post-date">Nov 5, 2024</span>

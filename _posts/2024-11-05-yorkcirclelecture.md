@@ -5,6 +5,7 @@ title: 'York Circle Lecture: Fleeing Facebook and Exiting X'
 tag:
     - goal 2
     - presentations
+    - journalism
 comments: 
   show: true
   fedihost: aoir.social
