@@ -8,14 +8,14 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113444820214890682
 ---
 Hey, journalists, it's time to get off X. Today. And switch to the fediverse.
 
 Here's why.
 
 <!-- more -->
-When Elon Musk bought Twitter in 2022, rebranded it X, and converted it from the ostensible "public town square" into a his own personal right-wing techbro platform, many many people left it for the fediverse.
+When Elon Musk bought Twitter in 2022, rebranded it X, and converted it from the ostensible "public town square" into his own personal right-wing techbro platform, many many people left it for the fediverse.
 
 But a key group did not: journalists. Sure, there was some flirtation with the fediverse, and to be fair, some journalists did make the switch. But many stayed on X, arguing that the audience and the movers and shakers were still there, in spite of Musk's [gutting of content moderation on the platform](https://www.rollingstone.com/culture/culture-features/elon-musk-twitter-misinformation-timeline-1235076786/).
 
