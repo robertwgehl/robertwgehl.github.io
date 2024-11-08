@@ -14,6 +14,7 @@ comments:
 
 In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week.
 
+This has been edited to fix an error.
 <!-- more -->
 ## On #Fediblock
 
@@ -21,7 +22,7 @@ One of the most used hashtags on the fediverse is **#fediblock.** Created by Mar
 
 ## Flatlining?
 
-[Jon Pincus argues](https://privacy.thenexus.today/flatness/) that the ActivityPub fediverse is **flatlining,** particularly in relation to Bluesky. He puts the blame on the main Mastodon project, hoping that it changes for the better: "Whether or not there's a hard fork, the same opportunities are there for the official Mastodon project if its direction and leadership structure evolves. The official project has some big advantages – including funding – so let's hope that happens. And it's not an either-or situation; forks don't have to be hostile, and there are lots of potential synergies if they can work together effectively (as well as challenges)."
+[Jon Pincus argues](https://privacy.thenexus.today/flatness/) that ~~the ActivityPub fediverse~~ [edit: my mistake!] Mastodon is **flatlining,** particularly in relation to Bluesky. He puts the blame on the main Mastodon project, hoping that it changes for the better: "Whether or not there's a hard fork, the same opportunities are there for the official Mastodon project if its direction and leadership structure evolves. The official project has some big advantages – including funding – so let's hope that happens. And it's not an either-or situation; forks don't have to be hostile, and there are lots of potential synergies if they can work together effectively (as well as challenges)."
 
 ## But Just Say 'No' to Bluesky
 
