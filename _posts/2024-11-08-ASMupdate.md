@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113449428747958242
 ---
 [ASM updates](/tags/asm update.html) are back! Now that I'm done [drafting my book](/2024/02/11/Move-Slowy-Preview.html), I want to get back to doing this regularly.
 
