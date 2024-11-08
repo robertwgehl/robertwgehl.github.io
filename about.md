@@ -6,9 +6,9 @@ title: About
 
 Hi! This blog is meant to do two things. 
 
-First, one goal is to explore life as a **"FOSS Academic"** -- someone who uses Free and Open Source technologies to do academic work. I'm hoping that my discussions of FOSS technologies in an academic setting help others -- students, professors, university administrators -- understand the benefits and values of FOSS in the academy. I'm not a developer, but I am a professor who's been using FOSS to do his job for over a decade. I call this goal of exploring FOSS tools in the academy **Goal 1**.
+First, one goal is to explore life as a **"FOSS Academic"** -- someone who uses Free and Open Source technologies to do academic work. I'm hoping that my discussions of FOSS technologies in an academic setting help others -- students, professors, university administrators -- understand the benefits and values of FOSS in the academy. I'm not a developer, but I am a professor who's been using FOSS to do his job for over a decade. I call this goal of exploring FOSS tools in the academy **[Goal 1](/tags/goal 1.html)**.
 
-Second, this blog has **Goal 2** -- otherwise known as my **nefarious purpose**. I'm planning a book-length project about the culture, politics, and technical elements of FOSS. So, in addition to writing about using FOSS tools to do academic work, I will also write about the world of FOSS itself. Sometimes, the two topics will collide in a single post. My intent here is to be more open about my own research process and writing.
+Second, this blog has **[Goal 2](/tags/goal 2.html)**: writing a book about a FOSS topic. After some consideration, I decided to write a book about [Mastodon and the fediverse](/2024/02/11/Move-Slowy-Preview.html). It should be out in 2025. Sometimes, the two topics will collide in a single post. My intent here is to be more open about my own research process and writing.
 
 You can learn more about the goals of the blog in the [introductory post](/2020/11/27/introduction.html).
 
