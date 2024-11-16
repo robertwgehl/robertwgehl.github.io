@@ -3,9 +3,9 @@ layout: post
 author: RWG
 title: Decentralization or Noncentralization, Bluesky or the Fediverse?
 tag:
-    - Bluesky
-    - Fediverse
-    - Goal 2
+    - bluesky
+    - fediverse
+    - goal 2
 comments: 
   show: true
   fedihost: aoir.social

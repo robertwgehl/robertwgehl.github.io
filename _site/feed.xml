@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-08T21:11:08+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Hey, Journalists: X is Now Truth Social</title><link href="http://localhost:4000/2024/11/08/ASMandTFG.html" rel="alternate" type="text/html" title="Hey, Journalists: X is Now Truth Social" /><published>2024-11-08T00:00:00+00:00</published><updated>2024-11-08T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/08/ASMandTFG</id><content type="html" xml:base="http://localhost:4000/2024/11/08/ASMandTFG.html"><![CDATA[<p>Hey, journalists, it’s time to get off X. Today. And switch to the fediverse.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-16T18:37:57+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">ASM Updates: Bluesky growth continues</title><link href="http://localhost:4000/2024/11/16/ASMupdate.html" rel="alternate" type="text/html" title="ASM Updates: Bluesky growth continues" /><published>2024-11-16T00:00:00+00:00</published><updated>2024-11-16T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/16/ASMupdate</id><content type="html" xml:base="http://localhost:4000/2024/11/16/ASMupdate.html"><![CDATA[<p>Here’s what caught my eye (and ear) this week in the world of alternative social media. I didn’t plan this, but it turns out a lot of this is coming from <em><a href="https://www.404media.co">404 Media</a></em> – shout out to them! If you aren’t reading their articles… do it now!
+<!-- more --></p>
+
+<h2 id="the-bluesky-bump-continues">The Bluesky Bump continues</h2>
+<p>The coverage of Bluesky’s growth is everywhere. I just watched my local CBC station present a story on it during the 6 PM news.</p>
+
+<p>You can read lots of takes, but the one that caught my eye is <a href="https://www.404media.co/the-great-migration-to-bluesky-gives-me-hope-for-the-future-of-the-internet/">Jason Koebler’s article</a> in <em>404 Media</em>. He talks about the rapid growth of Bluesky, but also puts it in conversation with Mastodon – a system he had <a href="https://www.404media.co/mastodon-is-the-good-one/">previously been excited about</a>. While Bluesky is growing, Mastodon “feels” to Koebler to be more stagnant. His theory is that this is due to Meta’s Threads:</p>
+
+<blockquote>
+  <p>Threads’s uneven entry into the Fediverse feels like it has made my personal feeds deader. My theory and fear is that Threads has allowed people to perform the act of federating by having their Threads posts go to the fediverse, but it does not allow people on Threads to respond to people on Mastodon. This gives people a permission structure to abandon their Mastodon accounts, use Threads, and sort of passively invest in the future of decentralized social media while actually just giving more power to Mark Zuckerberg’s side project.</p>
+</blockquote>
+
+<p>In contrast, he argues Bluesky feels vibrant and human.</p>
+
+<p>Having watched the <a href="/2023/02/10/bumpAndSlump.html">“Killer Hype Cycle”</a> play out with Mastodon back in late 2022 and then seeing articles within a few months stating the fediverse had failed, I wonder at what point we will see articles with headlines such as “Remember Bluesky?”</p>
+
+<p><em>Maybe</em> this time will be different. In some ways, it has to be – Bluesky has accepted venture capital, and that brings with it the expectations of growth and profit. Which makes it hard for me to consider Bluesky a Twitter alternative. It strikes me as yet another corporate social media platform – with all the downsides that brings with it.</p>
+
+<h2 id="ai-and-social-engineering">AI and social engineering</h2>
+<p>What downsides, you might ask? Well, speaking of <em>404 Media</em>, their podcast <a href="https://podcasts.apple.com/us/podcast/how-ai-is-being-used-by-hackers-and-criminals-sponsored/id1703615331?i=1000677104448">just released an episode</a> featuring an interview with a cybersecurity expert Rachel Tobac on how generative AI is currently being integrated into social engineering. Tobac adeptly walks us through how deep fakes, voice cloning, and other AI tools are being used by scammers and computer hackers. For example, she discussed the case of a <a href="https://www.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html">social engineering attack using deepfake Zoom corporate clones</a> resulting in a loss of $25 million USD.</p>
+
+<p>I’ve been researching and writing about this with a colleague, Sean Lawson, for some years now (e.g., <a href="https://mitpress.mit.edu/9780262543453/social-engineering/">our book</a> and <a href="https://theconversation.com/chatbots-can-be-used-to-create-manipulative-content-understanding-how-this-works-can-help-address-it-207187">this article</a>). While I was not <em>particularly</em> shocked by what Tobac talked about, I did not find it comforting to hear she thinks such AI-powered social engineering can only be stopped with stronger privacy regulations, particularly of tech companies and social media corporations. I say this because that’s exactly what Sean and I have been arguing, and it seems like my native country the USA won’t be engaging regulations any time soon.</p>
+
+<p>Why not? Well, we’ve basically granted too much power to corporate social media and other big tech companies. Their lobbying power in the US was incredible before the recent presidential election, and it’s only going to be more powerful with Trump in office. The lack of privacy regulations forces US citizens into an opt-in setup where their personal data are ripe for the taking, fueling attention-grabbing <a href="https://www.404media.co/zuckerberg-the-ai-slop-will-continue-until-morale-improves/">AI slop</a> – and thus also tools easily adopted for targeted scams.</p>
+
+<p>I should note there’s nothing in <a href="https://bsky.social/about/support/privacy-policy">Bluesky’s Privacy Policy</a> that leads me to believe Bluesky won’t partipate in similar data abuses if it means providing a return on investement to its backers.</p>]]></content><author><name>RWG</name></author><category term="bluesky" /><category term="ASM update" /><category term="social engineering" /><summary type="html"><![CDATA[Here’s what caught my eye (and ear) this week in the world of alternative social media. I didn’t plan this, but it turns out a lot of this is coming from 404 Media – shout out to them! If you aren’t reading their articles… do it now!]]></summary></entry><entry><title type="html">Hey, Journalists: X is Now Truth Social</title><link href="http://localhost:4000/2024/11/08/ASMandTFG.html" rel="alternate" type="text/html" title="Hey, Journalists: X is Now Truth Social" /><published>2024-11-08T00:00:00+00:00</published><updated>2024-11-08T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/08/ASMandTFG</id><content type="html" xml:base="http://localhost:4000/2024/11/08/ASMandTFG.html"><![CDATA[<p>Hey, journalists, it’s time to get off X. Today. And switch to the fediverse.</p>
 
 <p>Here’s why.</p>
 
@@ -32,18 +57,19 @@
 
 <p>In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week.</p>
 
-<!-- more -->
+<p>This has been edited to fix an error.
+<!-- more --></p>
 <h2 id="on-fediblock">On #Fediblock</h2>
 
 <p>One of the most used hashtags on the fediverse is <strong>#fediblock.</strong> Created by Marcia X and Ginger, that hashtag is essential for admins who want to learn about problematic accounts and instances. But the history of fediblock is not well-known. Now, Marcia X has <a href="https://subscriptions.boricua.style/fediblock-a-tiny-history-2/">written a short history</a> to help shed some light. We learn it came out of personal experience: “I started the tag so that bad actors doing quite obvious trolling or isms could just easily posted about to other people with whom I didn’t share a server with could see. Like a serial misogynistic harasser. There were no set rules put in place.”</p>
 
 <h2 id="flatlining">Flatlining?</h2>
 
-<p><a href="https://privacy.thenexus.today/flatness/">Jon Pincus argues</a> that the ActivityPub fediverse is <strong>flatlining,</strong> particularly in relation to Bluesky. He puts the blame on the main Mastodon project, hoping that it changes for the better: “Whether or not there’s a hard fork, the same opportunities are there for the official Mastodon project if its direction and leadership structure evolves. The official project has some big advantages – including funding – so let’s hope that happens. And it’s not an either-or situation; forks don’t have to be hostile, and there are lots of potential synergies if they can work together effectively (as well as challenges).”</p>
+<p><a href="https://privacy.thenexus.today/flatness/">Jon Pincus argues</a> that <del>the ActivityPub fediverse</del> [edit: my mistake!] Mastodon is <strong>flatlining,</strong> particularly in relation to Bluesky. He puts the blame on the main Mastodon project, hoping that it changes for the better: “Whether or not there’s a hard fork, the same opportunities are there for the official Mastodon project if its direction and leadership structure evolves. The official project has some big advantages – including funding – so let’s hope that happens. And it’s not an either-or situation; forks don’t have to be hostile, and there are lots of potential synergies if they can work together effectively (as well as challenges).”</p>
 
 <h2 id="but-just-say-no-to-bluesky">But Just Say ‘No’ to Bluesky</h2>
 
-<p>And yet, <a href="https://pluralistic.net/2024/11/02/ulysses-pact/">Cory Doctorow notes</a> that he’s not going to ever use Bluesky. “I will never again devote my energies to building up an audience on a platform whose management can sever my relationship to that audience at will.”</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><summary type="html"><![CDATA[ASM updates are back! Now that I’m done drafting my book, I want to get back to doing this regularly. In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week.]]></summary></entry><entry><title type="html">York Circle Lecture: Fleeing Facebook and Exiting X</title><link href="http://localhost:4000/2024/11/05/yorkcirclelecture.html" rel="alternate" type="text/html" title="York Circle Lecture: Fleeing Facebook and Exiting X" /><published>2024-11-05T00:00:00+00:00</published><updated>2024-11-05T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/05/yorkcirclelecture</id><content type="html" xml:base="http://localhost:4000/2024/11/05/yorkcirclelecture.html"><![CDATA[<p>Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni.</p>
+<p>And yet, <a href="https://pluralistic.net/2024/11/02/ulysses-pact/">Cory Doctorow notes</a> that he’s not going to ever use Bluesky. “I will never again devote my energies to building up an audience on a platform whose management can sever my relationship to that audience at will.”</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><summary type="html"><![CDATA[ASM updates are back! Now that I’m done drafting my book, I want to get back to doing this regularly. In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week. This has been edited to fix an error.]]></summary></entry><entry><title type="html">York Circle Lecture: Fleeing Facebook and Exiting X</title><link href="http://localhost:4000/2024/11/05/yorkcirclelecture.html" rel="alternate" type="text/html" title="York Circle Lecture: Fleeing Facebook and Exiting X" /><published>2024-11-05T00:00:00+00:00</published><updated>2024-11-05T00:00:00+00:00</updated><id>http://localhost:4000/2024/11/05/yorkcirclelecture</id><content type="html" xml:base="http://localhost:4000/2024/11/05/yorkcirclelecture.html"><![CDATA[<p>Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni.</p>
 
 <p>My presentation was “Fleeing Facebook and Exiting X: How activists show the path away from corporate social media.” Here’s the abstract:</p>
 
@@ -944,78 +970,4 @@ That whoosh you’re hearing is me rushing to sign on to whatever class action l
 
 <p>As is clear from looking at the list, Meta continues to have a particular vision for global moderation. If you’re looking to emulate Meta-style blocking, you can copy their list. If you reject Meta values, take a long hard look at their list and ask yourself if you should block the same servers.</p>
 
-<p>If this were just any fediverse server, I don’t think this blocklist would draw too much attention. But if it is an indication that this incredibly large, powerful social media corporation intends to reshape the fediverse in its image, and if they insist on blocking several well-moderated servers, it is a disturbing list – not because of the choices they made that are right, but because of the arbitrary choices they make that simply get it wrong.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="Goal 2" /><summary type="html"><![CDATA[Meta’s Threads, which is slowly enabling ActivityPub capabilities, has just posted a list of servers it is blocking. The list (as of this writng) has over 660 entries. Since I am finalizing a chapter on Threads for my forthcoming book, I will definitely have to consider this list in detail. For now, I wanted to offer a few comments on this development, since it’s a decidedly important moment in the ActivityPub-based fediverse.]]></summary></entry><entry><title type="html">Maven Ain’t So Mavenly</title><link href="http://localhost:4000/2024/06/12/Maven.html" rel="alternate" type="text/html" title="Maven Ain’t So Mavenly" /><published>2024-06-12T00:00:00+01:00</published><updated>2024-06-12T00:00:00+01:00</updated><id>http://localhost:4000/2024/06/12/Maven</id><content type="html" xml:base="http://localhost:4000/2024/06/12/Maven.html"><![CDATA[<p>The ever-alert Liaizon Wakest has informed the rest of us on the ActivityPub-based fediverse of a new social media site, <a href="https://www.heymaven.com">Maven</a>, which has <a href="https://app.heymaven.com/discover/1190743">ingested millions of posts from fediverse accounts</a>, including mine.</p>
-
-<p>Multiple people have pointed out how this violates consent on the fediverse. In response, the CTO of Maven, Jimmy Secretran, <a href="https://mastodon.social/@jsecretan/112604200409755575">has explained their reasoning</a>:</p>
-
-<blockquote>
-  <p>We are trying to connect up to the Fediverse, to allow interaction with other ActivityPub servers.  This definitely seems to me to be within the spirit of what ActivityPub enables, but of course, I don’t want to have Maven connect to anybody who doesn’t want it.</p>
-</blockquote>
-
-<p>[Note that I normally do not quote fediverse posts without permission, but in this case, I am making an exception, for reasons that I think will be obvious.]</p>
-
-<p>I replied in the thread, arguing that, no, they are not really abiding by the spirit of ActivityPub:</p>
-
-<blockquote>
-  <p>This isn’t how this works. No one starts a fediverse (AP) server by ingesting a bunch of posts from others without their consent. They start servers and start federating with the rest of the network.
-Please stop ingesting posts from AoIR.social (I’m the admin, btw).</p>
-</blockquote>
-
-<p>and</p>
-
-<blockquote>
-  <p>The custom is to start a server with a code of conduct, including clear moderation rules, so that the rest of us can make informed choices about federating. What you’ve done with Maven is a pretty massive violation of norms, and likely it will result in your being defederated from many other instances. It’s a poor way to start an ActivityPub implementation.</p>
-</blockquote>
-
-<p>To be fair to Secretran and Maven, they have since stopped scraping my posts and, I presume, those of others who have asked them to stop. Still, I eagerly await Maven’s full ActivityPub implementation so that we can block them effectively.</p>
-
-<p>This incident got me to thinking about norms and customs on the fediverse and how important they are.</p>
-
-<!-- more -->
-
-<h2 id="states-of-exception-versus-the-big-empty">States of Exception versus The Big Empty</h2>
-<p>While the Maven incident was happening, the Mastodon instance I’m helping to run, AoIR.social, is gearing up for a wave of new members. The reason is that registration for the <a href="https://aoir.org/aoir2024/">2024 Association of Internet Researchers conference</a> is now open. Every paid AoIR member has access to our Mastodon server, and with every conference we get new folks who join the Association. So, we’re going to get new folks on the server. Our idea is that, since Twitter is now utterly garbage, our members need a new microblogging home to share their work.</p>
-
-<p>There’s an important contrast to be drawn between the Maven incident and the new wave of AoIR.social members. As a start-up, Maven appears to have adopted a classic Silicon Valley logic of the “<a href="https://firstmonday.org/ojs/index.php/fm/article/view/2799">state of exception</a>,” where one must quickly grow at all costs. One way to supercharge your growth is to simply steal content from other sources. It worked for YouTube back in the 2000s and for AI companies more recently. In the case of Maven, given its AI-based approach, it’s pretty clear the goal was to scrape a bunch of social content from an easy source (Mastodon.social) to train their models upon to produce their “interest-based” social media service.</p>
-
-<p>In contrast, joining a Mastodon server for the first time is a bit of lonely experience. I can imagine that many new AoIR.social members may be looking at their big, empty feeds and wondering what’s next. Whom should I follow? How do I find my colleagues? Will anyone follow me? Even with things like trending topics and recommended accounts to follow, Mastodon and the fediverse is not going to do much to shape what a new user does. In the interviews I’ve conducted <a href="/2024/02/11/Move-Slowy-Preview.html">for my book</a>, I heard from many folks who said joining the fediverse was much colder than joining a corporate social media site.</p>
-
-<p>So, perhaps the steal-and-grow approach is best? Perhaps Maven is justified to ingest a bunch of content to present to would-be new users? Doing so could jumpstart the hard process of making yet another social media site.</p>
-
-<p>But I don’t think so.</p>
-
-<h2 id="the-irony-of-maven">The Irony of Maven</h2>
-
-<p>Let’s consider the supreme irony of Maven’s ingestion of posts without consent. As <a href="https://www.heymaven.com/about">they explain on their “About” page</a>:</p>
-
-<blockquote>
-  <p>It’s not right that every alternative to the popularity contest on one site is just a popularity contest on another.  We deserve a place to go where you can connect to people simply because you share interests, where you can speak without 100% confidence because you aren’t “performing” in front of a bunch of judges, where you can simply hold a conversation because you’re curious about the subject matter, where everyone isn’t there to build a brand and become an influencer.</p>
-</blockquote>
-
-<p>That is, they’re suggesting that social media is mired in empty performances in order to gain clout, but thanks to their innovative AI, we can have social media without such clout-chasing. Instead of what’s <em>popular</em>, we’ll get what’s <em>good</em>:</p>
-
-<blockquote>
-  <p>Part of the idea behind Maven is that there is an enormous flux of ideas and interests out there on the internet that we never get to see or interact with because everything we experience is always based on popularity.  That changes with Maven.</p>
-</blockquote>
-
-<p>This would mitigate</p>
-
-<blockquote>
-  <p>the fact that only a tiny elite 0.1% of the population (with say 10K followers or more) can get any substantial amount of engagement while everyone else are just supporting cast members.</p>
-</blockquote>
-
-<p>That all sounds great: it’s addressing a key concern people have about corporate social media, that it’s just a platform for a handful of famous influencers.</p>
-
-<p>But here’s the irony: in order to get their service off the ground, they ingested millions of posts from the fediverse to make their service seem… <em>more popular than it actually is.</em> They’re using fediverse content to gain attention. Hell, they’ll probably get some media coverage out this, at least.</p>
-
-<p>In contrast, the new member of AoIR.social, staring down a blank feed, might think that the fediverse isn’t for them. There’s nothing to jumpstart the process of building out a presence on the fedi.</p>
-
-<p>But the new fedi member posts once, and gets a reply. Then again, and some followers. Over time, with a bit of work, they’re entering into conversations.</p>
-
-<p>And for those who want to start a fediverse instance, that will <em>really</em> be empty. But if you work at it – making a code of conduct, inviting people to join, doing the work of moderating – then your server will integrate into the fediverse.</p>
-
-<p>Those are the norms of the fediverse: do the work. Explore. Reach out. Moderate. Learn. Grow slowly.</p>
-
-<p>And don’t steal the work of others.</p>
-
-<p>By effectively stealing posts from the fediverse in order to look more popular than it is, Maven has utterly blown their chance to be the alternative they claim they want to be. And even if they have stopped scraping and do a proper ActivityPub implementation, they’re going to be #fediblocked pretty severely from here on out.</p>]]></content><author><name>RWG</name></author><category term="Maven" /><category term="Ethics" /><summary type="html"><![CDATA[The ever-alert Liaizon Wakest has informed the rest of us on the ActivityPub-based fediverse of a new social media site, Maven, which has ingested millions of posts from fediverse accounts, including mine. Multiple people have pointed out how this violates consent on the fediverse. In response, the CTO of Maven, Jimmy Secretran, has explained their reasoning: We are trying to connect up to the Fediverse, to allow interaction with other ActivityPub servers. This definitely seems to me to be within the spirit of what ActivityPub enables, but of course, I don’t want to have Maven connect to anybody who doesn’t want it. [Note that I normally do not quote fediverse posts without permission, but in this case, I am making an exception, for reasons that I think will be obvious.] I replied in the thread, arguing that, no, they are not really abiding by the spirit of ActivityPub: This isn’t how this works. No one starts a fediverse (AP) server by ingesting a bunch of posts from others without their consent. They start servers and start federating with the rest of the network. Please stop ingesting posts from AoIR.social (I’m the admin, btw). and The custom is to start a server with a code of conduct, including clear moderation rules, so that the rest of us can make informed choices about federating. What you’ve done with Maven is a pretty massive violation of norms, and likely it will result in your being defederated from many other instances. It’s a poor way to start an ActivityPub implementation. To be fair to Secretran and Maven, they have since stopped scraping my posts and, I presume, those of others who have asked them to stop. Still, I eagerly await Maven’s full ActivityPub implementation so that we can block them effectively. This incident got me to thinking about norms and customs on the fediverse and how important they are.]]></summary></entry></feed>
+<p>If this were just any fediverse server, I don’t think this blocklist would draw too much attention. But if it is an indication that this incredibly large, powerful social media corporation intends to reshape the fediverse in its image, and if they insist on blocking several well-moderated servers, it is a disturbing list – not because of the choices they made that are right, but because of the arbitrary choices they make that simply get it wrong.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="Goal 2" /><summary type="html"><![CDATA[Meta’s Threads, which is slowly enabling ActivityPub capabilities, has just posted a list of servers it is blocking. The list (as of this writng) has over 660 entries. Since I am finalizing a chapter on Threads for my forthcoming book, I will definitely have to consider this list in detail. For now, I wanted to offer a few comments on this development, since it’s a decidedly important moment in the ActivityPub-based fediverse.]]></summary></entry></feed>
