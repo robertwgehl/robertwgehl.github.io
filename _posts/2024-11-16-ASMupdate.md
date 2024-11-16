@@ -35,7 +35,7 @@ I've been researching and writing about this with a colleague, Sean Lawson, for 
 
 Why not? Well, we've basically granted too much power to corporate social media and other big tech companies. Their lobbying power in the US was incredible before the recent presidential election, and it's only going to be more powerful with Trump in office. The lack of privacy regulations forces US citizens into an opt-in setup where their personal data are ripe for the taking, fueling attention-grabbing [AI slop](https://www.404media.co/zuckerberg-the-ai-slop-will-continue-until-morale-improves/) -- and thus also tools easily adopted for targeted scams.
 
-I should note there's nothing in [Bluesky's Privacy Policy](https://bsky.social/about/support/privacy-policy) that leads me to believe Bluesky won't partipate in similar data abuses if it means providing a return on investement to its backers.
+I should note there's nothing in [Bluesky's Privacy Policy](https://bsky.social/about/support/privacy-policy) that leads me to believe Bluesky won't partipate in similar data abuses if it means providing a return on investement to its backers. It's also unclear to me that they are truly committed to moving the ATProto to the IETF -- it's been [more than a year since they floated that goal](https://docs.bsky.app/blog/protocol-roadmap). A defacto corporate-controlled protocol -- as open as it might be -- is still a corporate-controlled protocol.
 
 
 
