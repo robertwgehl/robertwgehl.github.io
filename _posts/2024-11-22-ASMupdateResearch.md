@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113528106091712071
 ---
 Bluesky continues to blow up. I hear about it everywhere. It's so backed up the [Brid.gy system has slowed to a crawl](https://github.com/snarfed/bridgy-fed/issues/1520).
 
