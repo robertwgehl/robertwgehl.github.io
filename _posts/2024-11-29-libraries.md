@@ -9,7 +9,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113567920792272367
 ---
 It's a simple, yet deep ASM update for this week. Last week, I posted about some [recent research](/2024/11/22/ASMupdateResearch.html) in the realm of alternative social media. I also drew attention to the bibliography I maintain [here on this blog](/bib.html). In response to that post, folks on the fediverse alerted me to other bibliographic projects collecting research in related ideas. Here I want to highlight two of them.
 
