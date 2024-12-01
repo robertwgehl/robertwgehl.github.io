@@ -1,4 +1,187 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-29T14:27:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">ASM update: libraries, libraries everywhere</title><link href="http://localhost:4000/2024/11/29/libraries.html" rel="alternate" type="text/html" title="ASM update: libraries, libraries everywhere" /><published>2024-11-29T00:00:00-05:00</published><updated>2024-11-29T00:00:00-05:00</updated><id>http://localhost:4000/2024/11/29/libraries</id><content type="html" xml:base="http://localhost:4000/2024/11/29/libraries.html"><![CDATA[<p>It’s a simple, yet deep ASM update for this week. Last week, I posted about some <a href="/2024/11/22/ASMupdateResearch.html">recent research</a> in the realm of alternative social media. I also drew attention to the bibliography I maintain <a href="/bib.html">here on this blog</a>. In response to that post, folks on the fediverse alerted me to other bibliographic projects collecting research in related ideas. Here I want to highlight two of them.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-01T13:01:22-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Marp!</title><link href="http://localhost:4000/2024/12/01/marp.html" rel="alternate" type="text/html" title="Marp!" /><published>2024-12-01T00:00:00-05:00</published><updated>2024-12-01T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/01/marp</id><content type="html" xml:base="http://localhost:4000/2024/12/01/marp.html"><![CDATA[<p>As avid readers of my blog know, I am livin’ the <a href="/tags/fald.html">FOSS Academic Lifestyle Dream</a>: I use FOSS tools to do my academic work. I use Nextcloud to manage files and <a href="/2021/09/25/Appointments.html">handle appointments</a>, Zotero and Zettlr to take notes, and LibreOffice Writer to write books and articles. This blog runs on Jekyll. I love it all!</p>
+
+<p>But there has been one part of the Lifestyle that has consistently been a disappointment: <a href="https://www.libreoffice.org/discover/impress/">LibreOffice Impress</a>, the presentation software. While I use Writer all the time and enjoy doing so, Impress has always bothered me. But I’m not one to complain too much, since LibreOffice software is provided free-of-charge and with a FOSS license. I’ve soldiered on with it to make presentations for conferences and class teaching.</p>
+
+<p>But that might change. <a href="https://marp.app/">Marp</a> – the Markdown Presentation Ecosystem – is poised to become a key part of the FOSS Academic Lifestyle Dream. If you’re familiar with Markdown, Marp is a really awesome tool.
+<!-- more --></p>
+
+<h2 id="thank-you-linux-matters">Thank you, Linux Matters</h2>
+<p>I learned about Marp from the <a href="https://linuxmatters.sh/43/"><em>Linux Matters</em> podcast</a>. Like any good podcast episode, their discussion of Marp made me drop everything to learn more. As Mark on <em>Linux Matters</em> explained, Marp allows for presentations to be built very quickly using Markdown. Since I use Markdown regularly to write up notes, particularly for class lectures, I was intrigued.</p>
+
+<p>And when I started experimenting with Marp, I think Mark might have undersold it a bit!</p>
+
+<h2 id="markdown-its-that-easy">Markdown: It’s That Easy</h2>
+<p>So, let’s make a slide. Instead of firing up LibreOffice Impress, though, I just open a text editor a create a Markdown (.md) file.</p>
+
+<p>First, I add “frontmatter,” which tells the system how to handle the file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+marp: true
+---
+</code></pre></div></div>
+
+<p>(You can do more with it than that, but we’ll keep it simple).</p>
+
+<p>Next, I start adding slides:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+marp: true
+---
+# Slide Title
+
+Slide Text
+</code></pre></div></div>
+<p>It’s that easy.</p>
+
+<p>That sort of thing <a href="https://robertwgehl.org/presentations/testPresentation.html#3">looks like this</a>.</p>
+
+<p>Let’s add another slide, this time with a list. Lists are handled in the Markdown way:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+marp: true
+---
+# Slide Title
+Slide Text
+
+---
+# Slide with List
+- List item 1
+- List item 2
+- List item 3
+</code></pre></div></div>
+
+<p>Here’s an <a href="https://robertwgehl.org/presentations/testPresentation.html#4">example of what that looks like</a>.</p>
+
+<p>Of course, people often use more than just text in slides. I can add images, as well. Marp uses a syntax like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![command](imagefile.jpg)
+</code></pre></div></div>
+
+<p>Where “command” handles stuff like size, whether the image is in the background, opacity or the like. So a three-slide presentation with an image might look like this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+marp: true
+---
+# Slide Title
+Slide Text
+
+---
+# Slide with List
+- List item 1
+- List item 2
+- List item 3
+
+---
+![command](imagefile.jpg)
+</code></pre></div></div>
+
+<p>However, as you’ll see, I prefer to do things with HTML, specifically the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> semantic tag, and style with CSS.</p>
+
+<h2 id="css-zen-presentations">CSS Zen Presentations</h2>
+<p>I love CSS. It blew me away when I saw the <a href="https://csszengarden.com/">CSS Zen Garden</a>, which was launched in 2003 to promote the full separation of content and presentation. I am no designer – don’t ask me to come up with color schemes! But I did take the CSS Zen Garden idea and apply it to <a href="https://www.robertwgehl.org">my website</a>, where you can choose your style if you view it on a laptop/tablet.</p>
+
+<p>Add in <a href="https://sass-lang.com/">SASS</a>, which allows for variables, and CSS is a really powerful tool.</p>
+
+<p>So when I learned Marp uses CSS – with some SASS-like aspects – to handle the design of slides, I knew I would like it.</p>
+
+<p>Marp comes with some default themes, but I was keen to build my own. It turns out that all I had to do was write a CSS file and point the Marp command line to it via a terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>marp -w --theme ./CSS/custom.scss testPresentation.md
+</code></pre></div></div>
+
+<p>Here’s a tip for those of you wanting to style via CSS: Marp uses the HTML semantic tag <code class="language-plaintext highlighter-rouge">&lt;section&gt;</code> for each slide. To customize the whole presentation, style <code class="language-plaintext highlighter-rouge">&lt;section&gt;</code>, rather than <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>, and you’re good to go: the whole presentation will be formatted.</p>
+
+<p>And what about specific slides? Marp uses an HTML-style comment you can add to Markdown: adding <code class="language-plaintext highlighter-rouge">&lt;!-- _class: CLASSNAME --&gt;</code> to the start of the specific slide adds a class that can be targeted. For example, I use <code class="language-plaintext highlighter-rouge">&lt;!-- _class: title --&gt;</code> on title slides. <a href="https://robertwgehl.org/presentations/testPresentation.html#1">Here’s how that looks</a>.</p>
+
+<h2 id="avoiding-death-by-powerpoint-the-css-way">Avoiding Death by Powerpoint the CSS way</h2>
+
+<p>When I present, I do my best to avoid <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo">death by Powerpoint</a>. I use a lot of slides with minimal objects on a dark background.</p>
+
+<p>Of course, with CSS, backgrounds are fully under my control. And since Marp allows SASS-like variables, I could just set a global value for the background (as well as other elements) in my custom.scss file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:root {
+  font-family: "Cantarell Light", sans-serif;
+  --text-color: #999999;
+  --bg-color: #000;
+  --standard-margin: 10%;
+  --shadow: 20px 10px 10px #121212;
+}
+</code></pre></div></div>
+
+<p>Here you’ll see I lazily set it to black. I will likely choose some other verydark color, but for now that will do. (And, if I want to change it, I just have to adjust that one value. That’s it!)</p>
+
+<p>Avoiding Death by Powerpoint means I tend to use a lot of single images. Wth two little bits – some Markdown/HTML and some CSS – I can drop in images with formatting.</p>
+
+<p>Here’s the example Markdown:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- _class: one-column --&gt;
+&lt;figure&gt;
+  &lt;img src="images/stage.jpg" alt="a picture of a theater stage"&gt;
+  &lt;figcaption&gt;A theater stage &lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre></div></div>
+<p>Notice I’ve moved away from the simpler <code class="language-plaintext highlighter-rouge">![command](image.jpg)</code> structure to an HTML5 semantic markup, complete with alt text and caption. It’s a bit more typing (or copypasting) but it will be worth it. Notice also the class, “one-column.”</p>
+
+<p>Now here’s some corresponding CSS:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>section.one-column figure {
+  float: left;
+  width: 90%;
+  margin-left:8%;
+  margin-top: 4%;
+}
+
+img {
+  width: 96%;
+  float: left;
+  z-index:-1;
+}
+
+figcaption {
+  margin-top: -8%;
+  font-size: 200%;
+  width: 80%;
+  line-height: 200%;
+  float: left;
+  text-align: center;
+  background-color:var(--bg-color);
+  opacity: .8;
+  z-index:1;
+}
+</code></pre></div></div>
+
+<p>The result can <a href="https://robertwgehl.org/presentations/testPresentation.html#6">be seen here</a>. Here’s a screenshot, too:</p>
+
+<figure>
+  <img src="/assets/images/presentationExample.png" alt="a screenshot of an example presentation slide. It's a picture of the woods on a black background." />
+  <figcaption>A screenshot of the slide</figcaption>
+</figure>
+
+<h2 id="i-can-make-it-do-things-libreoffice-impress-never-could">I can make it do things LibreOffice Impress never could</h2>
+
+<p>Much like <a href="https://www.youtube.com/watch?v=lxNYAe85L20">Kurt with his magazines</a>, with CSS I can make presentations do whatever I like. Including something that has eluded me in LibreOffice Impress for years: captions for images. That picture of the woods above includes a caption, styled with CSS.</p>
+
+<p>CSS has a lot of power, and I’m only scratching the surface of what could be done. Once my CSS template is complete, all I have to do from here on out is edit Markdown files. This can work for academic presentations as well as for class lectures (which I often base off Markdown files edited in Zettlr.)</p>
+
+<h2 id="dont-forget-about-html">Don’t forget about HTML</h2>
+
+<p>In the above example, I link to a <a href="https://robertwgehl.org/presentations/testPresentation.html#6">specific slide in the presentation.</a>. I can link to any point of the presentation. On the web. In beautiful HTML, with alt text for images.</p>
+
+<p>This is so cool!</p>
+
+<p>All I have to do is run a terminal command with marp-cli:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>marp -w --theme ./CSS/custom.scss testPresentation.md
+</code></pre></div></div>
+
+<p>Marp autogenerates an HTML file with CSS included. I move that to a server and boom! The presentation is online. This is so cool!</p>
+
+<p>And I’ve taken a look – it looks very similar across devices. Responsive!</p>
+
+<p>Now, instead of futzing with a LibreOffice .OPD file (or worse, so much worse, a .PPTX file), I can just post my presentations to the web and run them from there. It includes a presentation view, which shows notes that I put in the corresponding Markdown file within HTML comments.</p>
+
+<p>Or, if I want to run it off my local machine, I can just present a local HTML file.</p>
+
+<h2 id="whats-next">What’s next?</h2>
+
+<p>I’m going to do it: I’m going all-on on Marp for a while. If things go poorly, I’ll update this blog accordingly. But right now, I suspect Marp is a future fixture of the FOSS Academic Lifestyle Dream.</p>]]></content><author><name>RWG</name></author><category term="Goal 1" /><category term="FALD" /><category term="Marp" /><summary type="html"><![CDATA[As avid readers of my blog know, I am livin’ the FOSS Academic Lifestyle Dream: I use FOSS tools to do my academic work. I use Nextcloud to manage files and handle appointments, Zotero and Zettlr to take notes, and LibreOffice Writer to write books and articles. This blog runs on Jekyll. I love it all! But there has been one part of the Lifestyle that has consistently been a disappointment: LibreOffice Impress, the presentation software. While I use Writer all the time and enjoy doing so, Impress has always bothered me. But I’m not one to complain too much, since LibreOffice software is provided free-of-charge and with a FOSS license. I’ve soldiered on with it to make presentations for conferences and class teaching. But that might change. Marp – the Markdown Presentation Ecosystem – is poised to become a key part of the FOSS Academic Lifestyle Dream. If you’re familiar with Markdown, Marp is a really awesome tool.]]></summary></entry><entry><title type="html">ASM update: libraries, libraries everywhere</title><link href="http://localhost:4000/2024/11/29/libraries.html" rel="alternate" type="text/html" title="ASM update: libraries, libraries everywhere" /><published>2024-11-29T00:00:00-05:00</published><updated>2024-11-29T00:00:00-05:00</updated><id>http://localhost:4000/2024/11/29/libraries</id><content type="html" xml:base="http://localhost:4000/2024/11/29/libraries.html"><![CDATA[<p>It’s a simple, yet deep ASM update for this week. Last week, I posted about some <a href="/2024/11/22/ASMupdateResearch.html">recent research</a> in the realm of alternative social media. I also drew attention to the bibliography I maintain <a href="/bib.html">here on this blog</a>. In response to that post, folks on the fediverse alerted me to other bibliographic projects collecting research in related ideas. Here I want to highlight two of them.</p>
 
 <!-- more -->
 
@@ -849,65 +1032,4 @@ Instead, critically reverse engineer them.</p>]]></content><author><name>RWG</na
 
 <p>But the real answer came in their next segment, which was about advocating that Windows Subsystem for Linux users make the switch to mainline Linux. The LNL crew <a href="https://mastodon.cloud/@LateNightLinux/113005956969609375">posted this question to Mastodon</a>, and the dominant answer was: no. Let people solve problems in the way that works. The best you can do is show them the benefits of the better stuff you use.</p>
 
-<p>I think the same is true of the fediverse. We could berate people for using corporate social media. I’ve found over many years, however, that that doesn’t work. Instead, show people what you use and talk about why it’s better. If they switch, great! If not, that’s ok. The fediverse isn’t about infinite or rapid growth. It’s about growing slowly and purposely.</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><category term="research ethics" /><summary type="html"><![CDATA[In this ASM update, I’ll write at length about a new research study on Mastodon that gets the ethics of research right – even though they pulled data from my home Mastodon instance. I’ll also discuss a recent podcast episode that talks about the ethics of using and promoting FOSS.]]></summary></entry><entry><title type="html">Zotero 7 Early Review</title><link href="http://localhost:4000/2024/08/13/Zotero-7.html" rel="alternate" type="text/html" title="Zotero 7 Early Review" /><published>2024-08-13T00:00:00-04:00</published><updated>2024-08-13T00:00:00-04:00</updated><id>http://localhost:4000/2024/08/13/Zotero%207</id><content type="html" xml:base="http://localhost:4000/2024/08/13/Zotero-7.html"><![CDATA[<p>I took a family vacation, so I was away from my work laptop when I learned <a href="https://www.zotero.org/blog/zotero-7/">Zotero has launched version 7, a major upgrade</a>. While I enjoyed my vacation, I was naturally eager to get home to try it out!</p>
-
-<p>In my initial review, I found an improved interface design with small changes that improve (instead of interrupt) my workflow, as well as some nice improvements to the PDF Reader (which is now really an Attachment Reader).</p>
-
-<p>I may do a more substantial review as I use Zotero 7 to get stuff done, but my first glance leaves me quite happy with this new version.</p>
-
-<!-- more -->
-
-<h2 id="easy-to-upgrade-and-easy-on-the-eyes">Easy to upgrade, and easy on the eyes</h2>
-<p>Upgrading was easy in Linux – I just used Zotero’s “check for updates” option and upgraded from Zotero 6 to 7. The only thing that “broke” was the application icon, but I just edited my menu to point to the new icon.</p>
-
-<p>On first run, it gave me an option between “Comfortable” and “Compact” layouts. I could toggle between the two to quickly see the differences. I choose Compact, which tightens up the gaps between entries and text. The overall look is clean while still very familiar. (I don’t know about you, but I really can’t stand major interface upgrades, which is a big reason I use Linux – I prefer to keep things stable for years).</p>
-
-<figure>
-  <img src="/assets/images/resm_zoteroPreview.png" alt="A preview of my first book in the Zotero Item Preview pane" />
-  <figcaption>My first book as shown in Zotero's new Item Preview pane</figcaption>
-</figure>
-
-<p>The new Item Preview is particularly attractive. One upshot is that it shows “Related” items in a more visible manner than in past Zotero iterations. I think this could be quite useful. In my experience, relating items really didn’t provide much insight for me. I did it, anyway, on the theory that maybe in the future the data would be useful. Perhaps the time is now?</p>
-
-<p>And a change that is very welcome is dark mode! I had installed a third-party dark mode theme in Zotero 6, so this didn’t jump out at me. That is, until I saw <strong>dark mode in PDFs</strong>! Amazing! I tried to hack this on my own (and largely failed), but it’s working natively now.</p>
-
-<h2 id="cool-new-features">Cool new features</h2>
-<p>Speaking of PDF annotation, it now includes underlining text in various colors in addition to highlighting. And, either can be converted to the other with just a click. This is a feature I didn’t even know I wanted, but now I think I like it! I can see myself doing underlining instead of highlighting from here on out.</p>
-
-<p>And the PDF reader does a bunch more than load PDFs! It also can handle EPUBs, and – importantly for me – it shows Web snapshots! It’s more of an Attachment Reader now. And those snapshots can be marked up in a similar fashion as PDFs. However, I did see some bugs – in my first test of the snapshot annotation feature, it didn’t show underlines, and it barely showed highlights. I can imagine it’s a tricky matter to code an annotation for heterogeneous HTML and CSS.</p>
-
-<figure>
-  <img src="/assets/images/snapshot_Highlighting.png" alt="An example of editing a web snapshot in Zotero" />
-  <figcaption>Editing my snapshot of the Post-Meritocratic Manifesto in Zotero. One problem here is highlights and underlines don't show up well.</figcaption>
-</figure>
-
-<p>In spite of this problem, it’s going to be a useful feature.</p>
-
-<p>Other interface improvements include tab selection with a drop-down. This is a really cool idea, letting me select tabs in a drop-down menu. This might be good for those who use a lot of tabs. I can also search across tabs. So far, it appears to be limited to item titles.</p>
-
-<p>As far as performance goes, Zotero opens at least as fast as before, and it uses 2GB of RAM. It’s clear version 7 is not a downgrade in terms of speed. In fact, PDFs seem to load slightly faster into the reader. I don’t really do benchmarking, but in my experience, their claim that there are performance improvements holds up.</p>
-
-<p>Turning to in-text citation system, I noticed no major changes here, but one subtle one: a way to export the document from one word processor (e.g., LibreOffice) to another (e.g., Word). I don’t know if this will solve the problem of cross-word processor collaboration or not yet.</p>
-
-<h2 id="features-i-dont-know-if-i-like--yet">Features I don’t know if I like – yet</h2>
-
-<p>Zotero has redesigned the item pane to include icons, rather than text, as the main navigational tool. This saves space, but it makes things a bit less accessible.</p>
-
-<p>They also changed the icons in the center column after many years of using the same icons. I might get used to picking out the differences between various item types at a glance, but I’m not sure I will get used to it. Fortunately, I can add “Item Type” as a column if need be.</p>
-
-<h2 id="features-i-still-want-to-see">Features I still want to see</h2>
-
-<p>There are still features I want to see – stuff I’ve been wanting for years.</p>
-
-<figure>
-  <img src="/assets/images/smartFolders.png" alt="A list of smart folders in Zotero" />
-  <figcaption>Here's a portion of my smart folders, specifically tied to my Mastodon/fediverse book project. Note my pre-pending each with a "1" -- that's my way to keep them organized.</figcaption>
-</figure>
-
-<p>First, I believe it would be great to have the ability to nest smart searches within traditional folders. Right now, the two folder types are traditional, where you create a folder and drag stuff into it, or smart, which dynamically updates based on search criteria. I use the latter almost exclusively, but this results is a long list of smart searches. As you can see from a screenshot, I use a simple fix – I prepend a number to the smart search folder titles to keep similar searches grouped together. I would much prefer to be able to make save these searches together in a top-level folder.</p>
-
-<p>I also remain underwhelmed by the tag management system. It remains a small corner section in the layout. I recall Endnote’s system, which was a separate window with all tags listed alphabetically, making it much easier to scroll through them, delete unwanted tags, and merge tags.</p>
-
-<h2 id="overall-7-looks-good">Overall, 7 looks good</h2>
-
-<p>Overall, however, 7 looks like a great new edition of the most important software I use to do my FOSS Academic work. 7 appears to be a great addition to the FOSS Academic Lifestyle Dream.</p>]]></content><author><name>RWG</name></author><category term="Zotero" /><category term="Goal 1" /><category term="FALD" /><summary type="html"><![CDATA[I took a family vacation, so I was away from my work laptop when I learned Zotero has launched version 7, a major upgrade. While I enjoyed my vacation, I was naturally eager to get home to try it out! In my initial review, I found an improved interface design with small changes that improve (instead of interrupt) my workflow, as well as some nice improvements to the PDF Reader (which is now really an Attachment Reader). I may do a more substantial review as I use Zotero 7 to get stuff done, but my first glance leaves me quite happy with this new version.]]></summary></entry></feed>
+<p>I think the same is true of the fediverse. We could berate people for using corporate social media. I’ve found over many years, however, that that doesn’t work. Instead, show people what you use and talk about why it’s better. If they switch, great! If not, that’s ok. The fediverse isn’t about infinite or rapid growth. It’s about growing slowly and purposely.</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><category term="research ethics" /><summary type="html"><![CDATA[In this ASM update, I’ll write at length about a new research study on Mastodon that gets the ethics of research right – even though they pulled data from my home Mastodon instance. I’ll also discuss a recent podcast episode that talks about the ethics of using and promoting FOSS.]]></summary></entry></feed>

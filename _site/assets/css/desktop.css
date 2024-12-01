@@ -194,6 +194,10 @@ main .postList { /* this styles the ul handling the list of posts on the main pa
 }
 
 /* =======MAIN COMMENTS====== */
+.content {
+  margin-top: 10%;
+}
+
 .mastodon-comment {
   float: left;
   padding-bottom: 8px;
