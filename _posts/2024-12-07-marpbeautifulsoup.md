@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113615434906488351
 ---
 The FOSS Academic Lifestyle Dream just got a bit dreamier.
 
