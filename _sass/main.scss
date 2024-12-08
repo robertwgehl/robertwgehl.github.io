@@ -216,6 +216,8 @@ main {
         padding: 5px;
         background: $grayBG;
         margin-bottom: $standardMargin;
+        overflow-x: scroll;
+        max-width: 100%;
         }
     
     blockquote {

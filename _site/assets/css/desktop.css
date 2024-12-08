@@ -169,6 +169,8 @@ main pre {
   padding: 5px;
   background: #474D50;
   margin-bottom: 4%;
+  overflow-x: scroll;
+  max-width: 100%;
 }
 main blockquote {
   margin-left: 5%;
