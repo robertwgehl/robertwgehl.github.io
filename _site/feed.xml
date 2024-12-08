@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-06T14:33:48-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">ASM Update: Can this platform survive?</title><link href="http://localhost:4000/2024/12/06/survive.html" rel="alternate" type="text/html" title="ASM Update: Can this platform survive?" /><published>2024-12-06T00:00:00-05:00</published><updated>2024-12-06T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/06/survive</id><content type="html" xml:base="http://localhost:4000/2024/12/06/survive.html"><![CDATA[<p>It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-07T23:49:06-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Marp + BeautifulSoup</title><link href="http://localhost:4000/2024/12/07/marpbeautifulsoup.html" rel="alternate" type="text/html" title="Marp + BeautifulSoup" /><published>2024-12-07T00:00:00-05:00</published><updated>2024-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/07/marpbeautifulsoup</id><content type="html" xml:base="http://localhost:4000/2024/12/07/marpbeautifulsoup.html"><![CDATA[<p>The FOSS Academic Lifestyle Dream just got a bit dreamier.</p>
+
+<p>Previously, <a href="/2024/12/01/marp.html">I wrote about Marp</a>, which is a <a href="https://marp.app/">Markdown-based way to generate presentation slides</a>. When I wrote about Marp last, I was speculating that it would be very useful:</p>
+
+<blockquote>
+  <p>I’m going to do it: I’m going all-on on Marp for a while….  I suspect Marp is a future fixture of the FOSS Academic Lifestyle Dream.</p>
+</blockquote>
+
+<p>Well, it’s true. On Friday, I gave a presentation over Zoom using a Marp-based slide deck. You can <a href="https://robertwgehl.org/presentations/ITS_presentation.html">see the files here</a>. It worked wonderfully!</p>
+
+<p>And I did something more. Marp produces responsive, semantic HTML. HTML can be parsed with <a href="https://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a>, a Python library.</p>
+
+<!-- more -->
+
+<p>Marp enables me to easily add slide notes with basic HTML comments, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- Slide notes go here --&gt;
+</code></pre></div></div>
+
+<p>After Marp processes the Markdown file and converts it into HTML, I could see that those comments with a class, “bespoke-marp-note.” Which means I could pull out all the notes directly from the HTML and create a new file, with the notes only, with BeautifulSoup.</p>
+
+<p>I’m no programmer, but I can search for guides with the best of them. I wrote a python script to pull the comments and produce a second HTML with just my script. <a href="https://robertwgehl.org/presentations/ITS_presentationText.html">Here’s the result</a>.</p>
+
+<p>This gives me a great time-saver: instead of writing a script and creating the slides separately, I just do it all in one Markdown file, and the scripts generate everything I need from that single file. This will save hours of work!</p>
+
+<p>Another nice thing about this is that I can share the text of my presentation easily over the web. Prior to this, I rewrote the presentation as a new Markdown file and posted it to the blog. That would add hours to the task. The new way will be automated!</p>
+
+<p>Here’s the Pyton script I wrote (if you see poor coding on my part, be gentle):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from bs4 import BeautifulSoup as BS
+from bs4 import Comment
+
+
+import requests
+import getopt, sys
+
+# This gets the system argument, which should be the Markdown file I'm exporting
+filename = sys.argv[1]
+
+# strips the final three characters, '.md', from the file name
+filename = filename[:-3]
+
+# changes file name for text
+filenameText = filename + 'Text.html'
+
+print(filenameText)
+
+# adding local HTML file
+with open(filename + '.html') as f:
+    soup = BS(f, 'html.parser')
+
+# parsing notes
+# this will add a header, print to file
+
+i = 0
+presentation = (soup.find('h1'))
+content = '''&lt;html&gt;
+&lt;body&gt;'''
+content += str(presentation)
+
+# this will add slide headers and the notes
+
+for note in soup.find_all(class_='bespoke-marp-note'):
+  i += 1
+  content += '&lt;h2&gt;Slide ' + str(i) + '&lt;/h2&gt;'
+  content += str(note)
+content += '''
+&lt;!-- Some javascript here --&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+'''
+
+# Writing the content to an HTML file
+with open(str(filenameText), 'w') as file:
+    file.write(content)
+</code></pre></div></div>
+
+<p>You might notice a variable, “filename = sys.argv[1]”. That is there because I wrote a bash script, exportPresentation.sh, to automate the whole export process:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+~/.local/share/marp/marp --theme ./CSS/custom.scss --html $1
+python pullComments.py "$1"
+
+</code></pre></div></div>
+
+<p>That little script invokes marp-cli to convert the Markdown file, and then the python script recieves the file name (e.g., I’d type “sh exportPresentation.sh presentation.md” into the shell).</p>
+
+<p>Again, much like using CSS to build a presentation, coming up with these scripts took a bit of time, but in the long run, I’m making presentation creation – and sharing! – that much easier.</p>]]></content><author><name>RWG</name></author><category term="Marp" /><category term="beautifulsoup" /><category term="goal 1" /><summary type="html"><![CDATA[The FOSS Academic Lifestyle Dream just got a bit dreamier. Previously, I wrote about Marp, which is a Markdown-based way to generate presentation slides. When I wrote about Marp last, I was speculating that it would be very useful: I’m going to do it: I’m going all-on on Marp for a while…. I suspect Marp is a future fixture of the FOSS Academic Lifestyle Dream. Well, it’s true. On Friday, I gave a presentation over Zoom using a Marp-based slide deck. You can see the files here. It worked wonderfully! And I did something more. Marp produces responsive, semantic HTML. HTML can be parsed with BeautifulSoup, a Python library.]]></summary></entry><entry><title type="html">ASM Update: Can this platform survive?</title><link href="http://localhost:4000/2024/12/06/survive.html" rel="alternate" type="text/html" title="ASM Update: Can this platform survive?" /><published>2024-12-06T00:00:00-05:00</published><updated>2024-12-06T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/06/survive</id><content type="html" xml:base="http://localhost:4000/2024/12/06/survive.html"><![CDATA[<p>It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.</p>
 
 <p>Along with some colleagues at American University, I have a new publication out.</p>
 
@@ -965,35 +1052,4 @@ from speculative fiction, alternative social media speaks of <em>porvir
 otimista.</em></p>
 
 <p>Don’t despair in the face of the sociotechnical systems you confront.
-Instead, critically reverse engineer them.</p>]]></content><author><name>RWG</name></author><category term="Goal 2" /><category term="critical reverse engineering" /><category term="presentations" /><summary type="html"><![CDATA[I recently gave a presentation to the Cultural Studies PhD program at George Mason University. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program. I took the presentation as an opportunity to reflect on my academic career from my time at Mason (2005-2010) to my latest book project. I’ve modified it for this blog. Take a look at the abstract and, if piques your interest, feel free to read it! (It’s a bit long.) Abstract In my time as a PhD student in GMU’s Cultural Studies program, I learned that I must let my object of study tell me what methods to use to analyze it. I also learned not to merely interpret the object, but seek to change it. Since I chose to study what was then called “Web 2.0” and what I now call “corporate social media,” I needed to bring Marxian political economy, science and technology studies, and software studies to bear on the object. And I began to examine the practices of activists who sought to make something better than corporate social media: alternative social media. Over a decade ago I began my adventures in alternative social media, chasing it through hacker collectives, cyberlibertarian organizations, and even onto the dark web. Through digital ethnography, close examinations of code, and hands-on experience running alternative social media, I developed an approach I call “critical reverse engineering.” Here I present critical reverse engineering as a methodology for activist engagement with digital technologies. To illustrate this approach, I will draw on insights from my forthcoming book, Move Slowly and Build Bridges: Mastodon, the Fediverse, and the Struggle for Ethical Social Media (Oxford, 2025).]]></summary></entry><entry><title type="html">Goodbye, Firefox?</title><link href="http://localhost:4000/2024/09/18/goodbyeFirefox.html" rel="alternate" type="text/html" title="Goodbye, Firefox?" /><published>2024-09-18T00:00:00-04:00</published><updated>2024-09-18T00:00:00-04:00</updated><id>http://localhost:4000/2024/09/18/goodbyeFirefox</id><content type="html" xml:base="http://localhost:4000/2024/09/18/goodbyeFirefox.html"><![CDATA[<p>I think I’m going to stop using Firefox altogether. It was a tiny little weather app that did it.</p>
-
-<figure>
-  <img src="/assets/images/firefoxNotDefault.png" alt="Firefox is no longer my default browser, and it has a sad face. I'm sad about it, too." />
-  <figcaption>Firefox is no longer my default browser, and it has a sad face. I'm sad about it, too.</figcaption>
-</figure>
-
-<p>So, one day I opened a new tab in Firefox and there it was: a weather report. A tiny little temp reading for my area. I didn’t think about it much, but someone on the fediverse noted that this little weather app is sponsored by AccuWeather, a company <a href="https://www.outsideonline.com/outdoor-adventure/environment/project-2025-paywall-weather/">long criticized for its attempt to privatize public weather information</a>. Hovering over the little temp reading revealed this to be true – it said, “Sponsored by AccuWeather.”</p>
-
-<p>And that broke me.</p>
-
-<!-- more -->
-
-<p>To be fair, it’s not the only thing. <a href="https://connect.mozilla.org/t5/discussions/firefox-changing-my-settings-on-update/m-p/14155">Like others</a>, I’ve started to see privacy settings being reset every time I update Firefox. I set the default search to be Startpage instead of Google – an update wiped that and set it to Google, again. I set my homepage to not have Pocket or sponsored links – an update wiped that.</p>
-
-<p>Pretty soon each new tab suggested I go to Facebook. <em>Fucking Facebook</em>.</p>
-
-<p>Mozilla bashing has become kind of a common sport, so much so that one of my favorite podcasts, <em>Late Night Linux</em>, has gotten bored of doing it. But once I saw the little AccuWeather thingy, I started watching for critical comments on Mozilla. And I saw what many others have already pointed out:</p>
-<ul>
-  <li><a href="https://www.zdnet.com/home-and-office/networking/the-fall-of-firefox-mozillas-once-popular-web-browser-slides-into-irrelevance/">Firefox browser share plummeting in inverse proportion to CEO pay</a></li>
-  <li><a href="https://blog.mozilla.org/en/mozilla/mozilla-anonym-raising-the-bar-for-privacy-preserving-digital-advertising/">weird ideas about integrating ad-tech</a></li>
-  <li><a href="https://www.mozilla.ai/_">AI bullshit</a></li>
-  <li><a href="https://support.mozilla.org/en-US/kb/mozilla-social-faq">and an end to the laudable experiment with the fediverse</a>.</li>
-</ul>
-
-<p>My attitude towards these critical takes has long been to ignore them. “Whatever Mozilla wants to do is fine as long as they make a good browser,” I said to myself. But lately it seems like they’re actively trying to kill off Firefox rather than continuing to make a great browser.</p>
-
-<p>The thing is, with all the papercuts, Firefox is still quite good. But this is FOSS. Forks are a thing. I’m now testing out <a href="https://librewolf.net/">LibreWolf</a>, a privacy-conscious fork of Firefox, and so far, so good.</p>
-
-<p>What’s sad about this, though, is that I’ve been using Firefox for nearly two decades – almost as long as Firefox has been around. It was my <a href="/2020/12/15/FOSS-Journey.html">introduction point into the world of FOSS</a>. First it, then OpenOffice, then Ubuntu, and now I run as much FOSS as I can.</p>
-
-<p>Maybe I will come back to Firefox, but if not, I’m still grateful for its role in my career.</p>]]></content><author><name>RWG</name></author><category term="FALD" /><category term="Goal 1" /><category term="Firefox" /><summary type="html"><![CDATA[I think I’m going to stop using Firefox altogether. It was a tiny little weather app that did it. Firefox is no longer my default browser, and it has a sad face. I'm sad about it, too. So, one day I opened a new tab in Firefox and there it was: a weather report. A tiny little temp reading for my area. I didn’t think about it much, but someone on the fediverse noted that this little weather app is sponsored by AccuWeather, a company long criticized for its attempt to privatize public weather information. Hovering over the little temp reading revealed this to be true – it said, “Sponsored by AccuWeather.” And that broke me.]]></summary></entry></feed>
+Instead, critically reverse engineer them.</p>]]></content><author><name>RWG</name></author><category term="Goal 2" /><category term="critical reverse engineering" /><category term="presentations" /><summary type="html"><![CDATA[I recently gave a presentation to the Cultural Studies PhD program at George Mason University. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program. I took the presentation as an opportunity to reflect on my academic career from my time at Mason (2005-2010) to my latest book project. I’ve modified it for this blog. Take a look at the abstract and, if piques your interest, feel free to read it! (It’s a bit long.) Abstract In my time as a PhD student in GMU’s Cultural Studies program, I learned that I must let my object of study tell me what methods to use to analyze it. I also learned not to merely interpret the object, but seek to change it. Since I chose to study what was then called “Web 2.0” and what I now call “corporate social media,” I needed to bring Marxian political economy, science and technology studies, and software studies to bear on the object. And I began to examine the practices of activists who sought to make something better than corporate social media: alternative social media. Over a decade ago I began my adventures in alternative social media, chasing it through hacker collectives, cyberlibertarian organizations, and even onto the dark web. Through digital ethnography, close examinations of code, and hands-on experience running alternative social media, I developed an approach I call “critical reverse engineering.” Here I present critical reverse engineering as a methodology for activist engagement with digital technologies. To illustrate this approach, I will draw on insights from my forthcoming book, Move Slowly and Build Bridges: Mastodon, the Fediverse, and the Struggle for Ethical Social Media (Oxford, 2025).]]></summary></entry></feed>
