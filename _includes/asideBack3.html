@@ -1,0 +1,43 @@
+<aside>
+    <section>
+        <h1>Contact</h1>
+        <p><strong>Mastodon:</strong> <a rel="me" href="https://aoir.social/@rwg">@rwg@aoir.social</a></p>
+        <p><strong>Email: </strong> robertwgehl %AT% protonmail</p>
+    </section>
+
+    <section>
+        <h1>Archives</h1>
+        {% capture year %}{{site.posts.first.date | date: "%Y"}}{% endcapture %}
+        {% capture intmonth %}{{site.posts.first.date | date: "%m"}}{% endcapture %}
+        {% assign intmonth = intmonth | plus:0 %}
+        {% capture totalposts %}{{site.posts | size}}{% endcapture %}
+
+        {% for post in site.posts %}
+            {% capture iyear %}{{post.date | date: "%Y"}}{% endcapture %}
+            {% capture imonth %}{{post.date | date: "%m"}}{% endcapture %}
+            {% assign imonth = imonth | plus:0 %}
+            {% if iyear == year %}
+            <h2>{{ year }}</h2>
+            {% assign year = year | minus:1 %}
+            {% endif %}
+            {% if imonth == intmonth %}
+            <details>
+                <summary>{{ intmonth }}</summary>
+                {% for post in site.posts %}
+                    {% capture postmonth %}{{post.date | date: "%m"}}{% endcapture %}
+                    {% assign postmonth = postmonth | plus:0 %}
+                    {% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+                    {% assign postyear = postyear | plus:0 %}
+                    {% assign testyear = year | plus:1 %}
+                    {% if postmonth == imonth and postyear == testyear %}
+                        <p><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+                    {% endif %}
+                {% endfor %}
+            </details>
+            {% assign intmonth = intmonth | minus:1 %}
+            {% endif %}
+        {% endfor %}
+
+    </section>
+
+</aside>

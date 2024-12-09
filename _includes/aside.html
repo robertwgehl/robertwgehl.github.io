@@ -6,15 +6,92 @@
     </section>
 
     <section>
-        <h1>Archives</h1>
-        <ul class="posts">
-        {% for post in site.posts %}
-            <li>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
+
+       <h1>Archives</h1>
+       {% capture year %}{{site.posts.first.date | date: "%Y"}}{% endcapture %}
+        {% assign year = year | plus:0 %}
+       {% capture intmonth %}{{site.posts.first.date | date: "%m"}}{% endcapture %}
+       {% assign intmonth = intmonth | plus:0 %}
+       {% capture totalposts %}{{site.posts | size}}{% endcapture %}
+        {% assign i = -1 %}
+
+
+    {% for post in site.posts %}
+
+       {% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
+       {% assign postyear = postyear | plus:0 %}
+       {% capture postmonth %}{{post.date | date: "%m"}}{% endcapture %}
+       {% assign postmonth = postmonth | plus:0 %}
+
+
+        {% if year == postyear %}
+
+        <h2>{{ postyear }}</h2>
+        {% assign year = year | minus:1 %}
+        {% endif %}
+
+        {% if intmonth > postmonth and intmonth != 12 %}
+            {% assign intmonth = postmonth %}
+        {% endif %}
+
+        {% if postmonth > intmonth %}
+            {% assign test = postmonth | minus:intmonth %}
+            {% if test > 1 %}
+                {% assign intmonth = postmonth %}
+            {% endif %}
+        {% endif %}
+
+        {% if postmonth == intmonth %}
+            {% if postmonth == 11 %}
+            {% assign wordmonth = "November" %}
+            {% elsif postmonth == 10 %}
+            {% assign wordmonth = "October" %}
+            {% elsif postmonth == 9 %}
+            {% assign wordmonth = "September" %}
+            {% elsif postmonth == 8 %}
+            {% assign wordmonth = "August" %}
+            {% elsif postmonth == 7 %}
+            {% assign wordmonth = "July" %}
+            {% elsif postmonth == 6 %}
+            {% assign wordmonth = "June" %}
+            {% elsif postmonth == 5 %}
+            {% assign wordmonth = "May" %}
+            {% elsif postmonth == 4 %}
+            {% assign wordmonth = "April" %}
+            {% elsif postmonth == 3 %}
+            {% assign wordmonth = "March" %}
+            {% elsif postmonth == 2 %}
+            {% assign wordmonth = "February" %}
+            {% elsif postmonth == 1 %}
+            {% assign wordmonth = "January" %}
+            {% else %}
+            {% assign wordmonth = "December" %}
+            {% endif %}
+
+
+
+        <h3>{{ wordmonth }}</h3>
+
+        {% assign intmonth = intmonth | minus:1 %}
+            {% if intmonth == 0 %}
+            {% assign intmonth = 12 %}
+            {% endif %}
+        {% endif %}
+
+
+        {% if year + i == postyear and postmonth + i == intmonth %}
+
+            <p><a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title }}</a></p>
+
+
+            {% assign i = i | plus: 1 %}
+
+        {% endif %}
+
+
+
+    {% endfor %}
+
     </section>
 
 </aside>
