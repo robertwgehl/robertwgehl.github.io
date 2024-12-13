@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113647797460813591
 ---
 This week's [Alternative Social Media Update](/tags/asm update.html) turned out to be more of a critique of corporate social media, specifically Meta's Threads.
 
