@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-09T09:37:45-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Marp + BeautifulSoup</title><link href="http://localhost:4000/2024/12/07/marpbeautifulsoup.html" rel="alternate" type="text/html" title="Marp + BeautifulSoup" /><published>2024-12-07T00:00:00-05:00</published><updated>2024-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/07/marpbeautifulsoup</id><content type="html" xml:base="http://localhost:4000/2024/12/07/marpbeautifulsoup.html"><![CDATA[<p>The FOSS Academic Lifestyle Dream just got a bit dreamier.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-13T16:52:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Threads and the Failure of Global Content Moderation</title><link href="http://localhost:4000/2024/12/13/threadsmoderation.html" rel="alternate" type="text/html" title="Threads and the Failure of Global Content Moderation" /><published>2024-12-13T00:00:00-05:00</published><updated>2024-12-13T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/13/threadsmoderation</id><content type="html" xml:base="http://localhost:4000/2024/12/13/threadsmoderation.html"><![CDATA[<p>This week’s <a href="/tags/asm update.html">Alternative Social Media Update</a> turned out to be more of a critique of corporate social media, specifically Meta’s Threads.</p>
+
+<p>It all started when I saw the news that Meta had <a href="https://apnews.com/article/trump-meta-zuckerberg-inauguration-donation-c540bf7c638def11b8428e633965c718">donated $1 million to Trump’s inauguration fund</a>. Look, I’m an American. I know how this works – the wealthy buy influence by giving to politicians. It’s not particularly shocking to see Meta doing this – it’s part of their longstanding practices of lobbying those in power so they can continue to operate with little to no regulations.</p>
+
+<p>But it simply reaffirms my desire to explore the world of communication outside the control of a handful of corporations.</p>
+
+<p>Searching for coverage of Meta’s donation led me to a bit of a rabbit hole of recent news about Meta’s Threads. Much of it comes from <a href="https://www.theverge.com/">The Verge</a>, and most of it is about Threads’s moderation failures.</p>
+
+<p>Since Threads is slowly rolling out ActivityPub capabilities, this ASM Update about Threads does have a lot of relevance to the fediverse.</p>
+
+<p>The TL;DR version is: after taking a second look, I continue to see Meta’s Threads as a bad actor and <a href="https://fedipact.online/">worthy of being blocked</a> by the rest of the fediverse.</p>
+
+<!-- more -->
+
+<h2 id="californian-ideology-at-scale">Californian Ideology at Scale</h2>
+<p>Writing in the aforementioned <em>Verge</em>, <a href="https://fedipact.online/">Adam Heath reports</a> that Meta is now double-thinking their previous moderation practices. The story is nominally about how Meta was overactive in moderating during the COVID pandemic (though Meta blames Biden for that) as well as about how Meta’s automated moderation systems are too “ham-fisted.”</p>
+
+<p>But the real problem is not explicitly stated. See if you can find it:</p>
+
+<blockquote>
+  <p>Nick Clegg, Meta’s president of global affairs, told reporters on Monday that the company’s moderation “error rates are still too high” and pledged to “improve the precision and accuracy with which we act on our rules.”</p>
+</blockquote>
+
+<p>You’re probably thinking I’m going to critique the fact that Meta hired Nick Clegg, but as I said, I’m an American, so I know little of him other than he helped raise tuition fees in the UK and helped preside over Brexit.</p>
+
+<p>No, my issue is with the title “president of global affairs.”</p>
+
+<p>I find it inconceivable that any corporation can engage in content moderation on a global scale. This is particularly apparent to me after experiencing the fediverse, where content moderation is achieved at a local level on a small scale. Meta, X, TikTok: all attempt to impose their corporate standards on all the world. Perhaps we can come up with global standards and ethics – but the vehicle for doing it won’t be through top-down, for-profit corporate behemoths.</p>
+
+<h2 id="too-big-to-comprehend">Too Big to Comprehend</h2>
+<p>As a result of attempting the impossible task of moderating the globe, Meta has grown to be huge and complex. It’s so big we need dedicated watchdogs. We need <a href="https://www.theverge.com/2024/10/9/24266096/instagram-threads-moderation-account-post-deleted-limited">investigative journalists</a> to report on trends in corporate social media, including trends about poor moderation.</p>
+
+<p>Indeed, Meta is so big that its own executives don’t know what’s going on. Consider this exchange on Threads:</p>
+
+<blockquote>
+  <p>Social media consultant Matt Navarra — who was notified his Threads account is getting downranked after sharing a story about how Tom Brady fell for a Meta AI hoax — got a response to his public complaint from Mosseri. “Looking into it…” Mosseri said. Meta didn’t immediately respond to a request for comment on the issues.</p>
+</blockquote>
+
+<p>If the system is so opaque the head of Instagram/Threads, Adam Mosseri, can’t figure it out… well.</p>
+
+<p>Again, contrast this with the fediverse. On my previous instance, if I had a problem, I could contact the admin directly. I didn’t need to post publicly and hope the admin saw it. (On my current instance, AoIR.social, I <em>am</em> the admin, so people contact me for help.) The fediverse, at its best, is a far less abstracted, human system.</p>
+
+<h2 id="bots-cant-moderate">Bots can’t Moderate</h2>
+
+<p>Speaking of humans, Meta is <a href="https://www.facebook.com/help/1584908458516247/">increasingly using bots to moderate</a>. Unsurprisingly, this results in arbitrary decisions.</p>
+
+<p>That’s the main complaint of posts tagged <a href="https://www.threads.net/@mikethebearded/post/DA2D_C4yaya">“Threads Moderation Failures,”</a> which has been steadily documenting the weird and wild world of AI-based content moderation. For a corporation already incapable of understanding what its own moderation practices are (“I’ll look into it!”), ceding more and more moderation decisions to AI seems like a bad choice.</p>
+
+<p>We could ask Meta hire more humans to do the job, but then again… some of the last humans who did that work were summarily <a href="https://jacobin.com/2024/02/kenya-courts-meta-content-moderation-union">fired after trying to unionize</a>.</p>
+
+<h2 id="your-voice-our-vote">Your Voice, Our Vote</h2>
+<p>But perhaps all of this will be made right once Thread users have their voices heard via a <a href="https://www.threads.net/@oncescuradu/post/DDfgI0_o_3Y">survey on content moderation</a>. Since Meta attempts to moderate a global scale, perhaps getting tons of input from its users might shed light on how to tackle that task. The survey appears to ask about users’ attitudes towards sharing on Threads – whether or not they feel inhibited from sharing because they fear being “penalized.”</p>
+
+<p>Maybe Threads will learn from the survey and improve their moderation?</p>
+
+<p>I have my doubts. I’ve seen Facebook/Meta do this sort of faux popular polling throughout its history. As <a href="https://archive.org/details/UnlikeUs/page/n223/mode/2up">I wrote back in the early 2010s</a>, Facebook often held votes on changes to their Terms of Service agreements and, no matter the vote, they adopted the TOS they intended to the whole time.</p>
+
+<p>Might they do the same with their Threads content moderation survey? Who knows? Their content moderation decisions are so opaque that it would be impossible to tell, anyway. I believe the real goal is to keep their metaphorical shopping mall aesthetic intact, and to keep regulators at bay. And probably to justify their cost-cutting AI-based moderation practices.</p>
+
+<h2 id="you-block-me-no-way-man-no-way-i-block-you">You Block Me? No way, man. No, way. I block you!</h2>
+<p>All of the above has renewed my belief that AoIR.social’s decision to preemptively block Threads (and sign <a href="https://fedipact.online/">the fedipact</a>) was the right decision. AoIR.social is a Mastodon instance I help run. We provide federated social media to members of the <a href="https://aoir.org/">Association of Internet Researchers</a>, a group of folks who have a pretty good idea about how Meta operates.</p>
+
+<p>But I am a bit disappointed our block isn’t mutual. Readers might recall I wrote about Threads’s Fediverse Blocklist – their own list of blocked servers. I first looked at it <a href="/2024/06/28/ThreadsBlocking.html">six months ago</a>. I checked it again today – it has grown from 660 back in June to 843 today.</p>
+
+<p>As I wrote back in June, many of the blocks make total sense. But some don’t. I mentioned Scholar.social as one that does not need to be blocked. Another one that’s been blocked this whole time is Writeout.ink, which is a small server with a clear code of conduct.</p>
+
+<p>Another one that doesn’t – and was added to the list between June and now – is Darius Kazemi’s Friend.camp, the flagship Hometown server. The reason Threads’s blocklist offers is “no public timeline.” I asked Darius about it, and he says that’s true, but he thinks it’s been true for some time now.</p>
+
+<p>And surely there are many many more servers without public timelines than 800. So why is Friend.camp blocked? Maybe it’s because Friend.camp blocks Threads. “We federated with threads for a long time but we defederated a few months ago based on user consensus,” Darius told me. So maybe blocking Threads triggered a mutual block?</p>
+
+<p>But… AoIR.social blocks Threads! And we’re not on the list! What do I have to do to get AoIR.social blocked by Threads? I kinda want that badge of honor.</p>
+
+<p>In all seriousness, while I praised Threads for publicly posting its blocklist, noting this is a very transparent move, it’s still pretty opaque how they’re making these choices. Just as Threads is being criticized by its users for clumsy AI-based moderation decisions, I anticipate Threads will automatically and arbitrarily block a fediverse server that does not deserve it but whose members really do want to connect to folks on Threads. I don’t see Threads putting a lot of effort into making informed blocking decisions. That’s not what Meta does. And for those instances that want to federate with Meta, be prepared to behave how Meta says – and even if you do, you may be arbitrarily blocked. And be prepared to <a href="https://help.instagram.com/contact/1574148669814359/">fill out a form and hope</a> that someone, somewhere considers your case.</p>
+
+<p>If people are going to use blocklists – and <a href="/2023/09/20/blocklists.html">I think they should</a> – they need to be managed by people on behalf of coherent communities. Not by robots on behalf of a profit-seeking corporation. And they need to be documents that networks of communities gather around to discuss how to build out a federated network. Not dictated to the network by a powerful node.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="ASM update" /><category term="moderation" /><summary type="html"><![CDATA[This week’s Alternative Social Media Update turned out to be more of a critique of corporate social media, specifically Meta’s Threads. It all started when I saw the news that Meta had donated $1 million to Trump’s inauguration fund. Look, I’m an American. I know how this works – the wealthy buy influence by giving to politicians. It’s not particularly shocking to see Meta doing this – it’s part of their longstanding practices of lobbying those in power so they can continue to operate with little to no regulations. But it simply reaffirms my desire to explore the world of communication outside the control of a handful of corporations. Searching for coverage of Meta’s donation led me to a bit of a rabbit hole of recent news about Meta’s Threads. Much of it comes from The Verge, and most of it is about Threads’s moderation failures. Since Threads is slowly rolling out ActivityPub capabilities, this ASM Update about Threads does have a lot of relevance to the fediverse. The TL;DR version is: after taking a second look, I continue to see Meta’s Threads as a bad actor and worthy of being blocked by the rest of the fediverse.]]></summary></entry><entry><title type="html">Marp + BeautifulSoup</title><link href="http://localhost:4000/2024/12/07/marpbeautifulsoup.html" rel="alternate" type="text/html" title="Marp + BeautifulSoup" /><published>2024-12-07T00:00:00-05:00</published><updated>2024-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/07/marpbeautifulsoup</id><content type="html" xml:base="http://localhost:4000/2024/12/07/marpbeautifulsoup.html"><![CDATA[<p>The FOSS Academic Lifestyle Dream just got a bit dreamier.</p>
 
 <p>Previously, <a href="/2024/12/01/marp.html">I wrote about Marp</a>, which is a <a href="https://marp.app/">Markdown-based way to generate presentation slides</a>. When I wrote about Marp last, I was speculating that it would be very useful:</p>
 
@@ -565,491 +639,4 @@ to Canadians.</p>
 <p>This isn’t to say that the fediverse is a flawless system. I present plenty of criticisms of it in my book. But given the growing set of problems posed not just in Canada, but globally, but corporate social media, I believe serious scholarship that highlights the fediverse and critical reverse engineering is needed.</p>
 
 <p>Incidentally, if you’re Canadian and want to try the fediverse, here are a couple options to look at. <a href="https://mstdn.ca/auth/sign_up">Mstdn.ca is open for registrations</a>. Or, if you want a more regional/localized instance, the <a href="https://mastodonserver.ca/">Mastodon Server
-site</a> has a list.</p>]]></content><author><name>RWG</name></author><category term="goal 2" /><category term="presentations" /><category term="journalism" /><summary type="html"><![CDATA[Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni. My presentation was “Fleeing Facebook and Exiting X: How activists show the path away from corporate social media.” Here’s the abstract: The purchase of Twitter by Elon Musk in 2022, coupled with Meta’s blocking of Canadian news sites, has prompted people in Canada to consider their social media options. Social media has now fragmented, with a small but growing population of people turning to non-corporate, alternative social media, such as Mastodon and the fediverse. This talk will discuss how non-corporate, alternative social media provide Canadians not just with a path away from Facebook or X, but also provide a new way to engage in online democracy. If that sounds interesting, well… read on! This is a version of that presentation, edited into blog form. (Note: this is another long post.)]]></summary></entry><entry><title type="html">From reverse engineering to building bridges: adventures in alternative social media</title><link href="http://localhost:4000/2024/10/18/GMUpresentation.html" rel="alternate" type="text/html" title="From reverse engineering to building bridges: adventures in alternative social media" /><published>2024-10-18T00:00:00-04:00</published><updated>2024-10-18T00:00:00-04:00</updated><id>http://localhost:4000/2024/10/18/GMUpresentation</id><content type="html" xml:base="http://localhost:4000/2024/10/18/GMUpresentation.html"><![CDATA[<p>I recently gave a presentation to the <a href="https://culturalstudies.gmu.edu/">Cultural Studies PhD program at George Mason University</a>. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program.</p>
-
-<p>I took the presentation as an opportunity to reflect on my academic career from my time at Mason (2005-2010) to my <a href="/2024/02/11/Move-Slowy-Preview.html">latest book project</a>. I’ve modified it for this blog. Take a look at the abstract and, if piques your interest, feel free to read it! (It’s a bit long.)</p>
-
-<h2 id="abstract">Abstract</h2>
-
-<p>In my time as a PhD student in GMU’s Cultural Studies program, I learned
-that I must let my object of study tell me what methods to use to
-analyze it. I also learned not to merely interpret the object, but seek
-to change it. Since I chose to study what was then called “Web 2.0” and
-what I now call “corporate social media,” I needed to bring Marxian
-political economy, science and technology studies, and software studies
-to bear on the object. And I began to examine the practices of activists
-who sought to make something better than corporate social media:
-alternative social media. Over a decade ago I began my adventures in
-alternative social media, chasing it through hacker collectives,
-cyberlibertarian organizations, and even onto the dark web. Through
-digital ethnography, close examinations of code, and hands-on experience
-running alternative social media, I developed an approach I call
-“critical reverse engineering.” Here I present critical reverse
-engineering as a methodology for activist engagement with digital
-technologies. To illustrate this approach, I will draw on insights from
-my forthcoming book, <em>Move Slowly and Build Bridges: Mastodon, the
-Fediverse, and the Struggle for Ethical Social Media</em> (Oxford, 2025).</p>
-
-<!-- more -->
-
-<h2 id="introduction-do-we-call-it-x-or-twitter">Introduction: Do we call it X or Twitter?</h2>
-
-<p>Is it X? Or is it Twitter?</p>
-
-<p>Because I’ve heard media critics use both names, even well after Musk bought
-Twitter in 2022.</p>
-
-<p>I hear media critics say, “X is out of control. It’s full of
-disinformation and pornbots. Musk is slowly destroying it, indicating
-the fundamental problem of billionaires owning social media.”</p>
-
-<p>And then, I often hear those same media critics tell their readers and
-listeners, “Please follow me on Twitter.”</p>
-
-<p>It’s “X” when you hate it and “Twitter” when you love it.</p>
-
-<figure>
-    <img src="/assets/images/democracynow.webp" alt="A screenshot of the Democracy Now website, showing stories critical of Elon Musk, yet allowing you to share the story on Musk's X." />
-    <figcaption>
-        While Democracy Now! is critiquing Elon Musk, they still contribute to his bottom line by using Musk's X.
-    </figcaption>
-</figure>
-
-<p>This screenshot of <em>Democracy Now!</em> doesn’t quite illustrate my point,
-but it gets close. Here are stories about billionaire media owners – including Elon Musk – who run
-amok. But please do follow us on the very platforms we decry.</p>
-
-<p>This encapsulates the contradictions of corporate social media: we may
-complain about them, about surveillance capitalism, exploitation of our
-sociality, algorithms that push content on us, about addiction.</p>
-
-<p>And yet we also believe they are the only tool we have to speak up, to
-organize, or more humbly, to connect and share with our friends.</p>
-
-<h3 id="leaving-corporate-social-media">Leaving Corporate Social Media</h3>
-
-<p>In contrast, my career has largely been dedicated to the idea that we
-can and must leave corporate social media behind. That we can maintain
-their pleasures while effectively taking them over. For over a decade now, I’ve been talking to activists and technologists seeking to make something better than X or Facebook.</p>
-
-<p>This presentation is a bit of a reflection on my academic career and how I came to study alternative social media. It starts with my time in Cultural Studies at Mason (2005-2010), then the
-period around the writing of my first book, <a href="https://tupress.temple.edu/books/reverse-engineering-social-media"><em>Reverse Engineering Social
-Media</em></a> a decade ago, and culminating in my current book, <em>Move Slowly
-and Build Bridges,</em> which should come out next year.</p>
-
-<p>My plan for this is roughly chronological:</p>
-
-<ul>
-  <li>Part 1: Cultural Studies and Web 2.0</li>
-  <li>Part 2: Seeking Critical Reverse Engineers</li>
-  <li>Part 3: Adventures in Alternative Social Media</li>
-  <li>Part 4: New Critical Reverse Engineers on the Fediverse</li>
-</ul>
-
-<h2 id="part-1-gmu-cultural-studies-web-20-2005--2010">Part 1: GMU Cultural Studies, Web 2.0 (2005 – 2010)</h2>
-
-<p>Thinking back, what I learned during my time in the Cultural Studies PhD progam at Mason were two lessons:</p>
-
-<ul>
-  <li>First, what does the object of study need you to do to understand
-it? How does the object demand particular methodologies?</li>
-  <li>Second, “<a href="https://www.marxists.org/archive/marx/works/1845/theses/theses.htm">the point is to change it</a>.” That is, the point of our work is to make a better world.</li>
-</ul>
-
-<h3 id="finding-an-object-web-20">Finding an Object: Web 2.0</h3>
-<p>First I needed an object of study.</p>
-
-<p>I came to the object of my study during a class with GMU Cultural Studies professor <a href="https://historyarthistory.gmu.edu/people/alandsb1">Alison Landsberg</a>.
-She said, “someone ought to take a look at Youtube,” in her Visual Cultures class.</p>
-
-<p>At the time, YouTube was making headlines because of its eye-popping <a href="https://www.nbcnews.com/id/wbna15196982">sale to Google for $1.65 billion USD</a>.</p>
-
-<p>Like many people, professor Landsberg was perhaps wondering how a relatively obscure website could be sold for such a sum. Prior to Google’s purchase, YouTube was best known as a place where people either <a href="https://firstmonday.org/ojs/index.php/fm/article/view/2799/2577">uploaded pirated videos</a> or made “vlogs,” personal, self-confessional
-video blogs (as well as “vlogs” that <a href="https://en.wikipedia.org/wiki/Lonelygirl15">turned out to be fictional, yet compelling</a>).</p>
-
-<p>The users had made YouTube what it was – contributing videos, commenting on them, building a culture. Were they getting a cut of the $1.65 billion?</p>
-
-<figure>
-    <img src="/assets/images/battelleoreilly.jpg" alt="John Battelle and Tim O'Reilly at the Web 2.0 summit" />
-    <figcaption>
-        John Battelle and Tim O'Reilly at the Web 2.0 summit. My understanding is that we may be on Web3 now. Or Web 4.0. Or Web 10.0. I'm not even sure anymore.
-    </figcaption>
-</figure>
-
-<p>The case of YouTube led me to what at the time was called <a href="https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html">Web 2.0</a>, where, as Tim
-O’Reilly and John Batelle argued in 2004, users of digital technologies do the work of building businesses. Where users create data – about the world, and about themselves – that companies can harvest for new ideas and profit.</p>
-
-<p>Were Youtube’s users getting a cut, then? No. From a note I took around the time, I wrote “These companies ask us to build them, and then expect us to consume their products, without compensation beyond a ‘richer’ user experience.”</p>
-
-<p>And of course I wasn’t the first to say this – <a href="https://read.dukeupress.edu/social-text/article-abstract/18/2%20(63)/33/33433/Free-LaborPRODUCING-CULTURE-FOR-THE-DIGITAL?redirectedFrom=fulltext">Tiziana Terranova had already theorized free labor</a> in digital media, and <a href="https://www.cambridge.org/core/journals/international-review-of-social-history/article/emerging-sources-of-labor-on-the-internet-the-case-of-america-online-volunteers/56D287B6007BCF167FC254EF4ED166CF">many others</a> had taken
-up that concept.</p>
-
-<p>Now of course many people recognize what’s going on, and call this “surveillance capitalism.” It’s an idea so recognizable that even the <a href="https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-staff-report-finds-large-social-media-video-streaming-companies-have-engaged-vast-surveillance">US Federal Trade Commission has just now noticed it happening</a>!</p>
-
-<p>Welcome to the party, FTC. We’ve been talking about this since the 2000s.</p>
-
-<h3 id="methods-marxian-political-economy-science-and-technology-studies-and-software-studies">Methods: Marxian political economy, science and technology studies, and software studies</h3>
-
-<p>So my object became Web 2.0, or surveillance capitalism, or specifically what I now call <a href="https://journals.sagepub.com/doi/full/10.1177/2056305115604338">corporate social media</a>.</p>
-
-<p>What methods could I bring to bear?</p>
-
-<p>These are digital technologies and they involve communicative practices, and they are embedded deeply in capitalism. They rely upon user-generated content – that is, freely given labor – to produce valuable digital artifacts that attract attention.</p>
-
-<p>The object spoke, and one thing it said to me was “use Marxian political economy to understand me.” <a href="https://www.marxists.org/archive/marx/works/1857/grundrisse/">Marx’s <em>Grundrisse</em></a> turned out to be valuable – particularly as <a href="https://www.tandfonline.com/doi/abs/10.1080/0950238032000114868">Stuart Hall</a>] and <a href="https://www.press.uillinois.edu/books/?id=p067952">Nick Dyer-Witheford</a> had interpreted it.</p>
-
-<p>The object also told me to use science and technology studies – particularly conceptions of heterogeneity found in the work of <a href="https://read.dukeupress.edu/books/book/2030/ComplexitiesSocial-Studies-of-Knowledge-Practices">John Law and and
-Annemarie Mol</a>.</p>
-
-<p>And because Web 2.0 relies on software, I also turned to <a href="https://mitpress.mit.edu/9780262062749/software-studies/">software studies</a> to help understand the underlying digital and material layers of Web 2.0. In particular, I turned to analysis of software engineering as a practice, especially the <a href="https://read.dukeupress.edu/social-text/article/30/2%20(111)/99/33725/Real-Software-AbstractionsOn-the-Rise-of-Facebook">specific ideas of abstraction</a> in software engineering.</p>
-
-<p>Together, the above gave me conceptual tools to decompose Web 2.0 – what I now would call “corporate social media” – and engage in a critical approach to technology, using concepts such as <em>labor, value, exploitation, abstraction</em>, and <em>engineering</em>.</p>
-
-<h3 id="the-point-is-to-change-it">The Point is to Change It</h3>
-
-<p>But, taking a cue from <a href="https://search.worldcat.org/title/22860236">Andrew Feenberg</a>, it is not simply enough to
-decompose the object with concepts.</p>
-
-<p>As <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2470750">I write elsewhere</a> (basically paraphrasing Feenberg), “Rather than
-start with an ideal and bemoaning a world that doesn't live up to it, critical theory seeks out contradictions within the objects it
-encounters. These fissures provide us with tangible ways forward, new possibilities that are not simply abstract, timeless ethical ideals.”</p>
-
-<p>Again: this is the other lesson I received from my time at Mason. The point is to change it.</p>
-
-<p>But how could I help change it? I was an English major. Particularly back during my PhD studies, I was not skilled in coding. I was not (and largely still am not) “technical.”</p>
-
-<p>But I could look for people – activists, technologists – who were challenging the rising corporate domination of the internet.</p>
-
-<h2 id="part-2-seeking-critical-reverse-engineers-2008--2014">Part 2: Seeking Critical Reverse Engineers (2008 – 2014)</h2>
-
-<p>My PhD studies led me to the study of people I call “critical reverse engineers,” activists who are taking apart the technologies we face, learning how
-they work, and building better systems.</p>
-
-<p>First, I’ll say a bit more about how I’m thinking about critical reverse engineering. Examining the technical literature on reverse engineering, <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2470750">I argue</a> that
-a critical form of reverse engineering involves the four following orientations:</p>
-
-<ul>
-  <li>Pragmatic</li>
-  <li>Genealogical</li>
-  <li>Legal</li>
-  <li>Normative</li>
-</ul>
-
-<h3 id="the-pragmatic-orientation">The Pragmatic Orientation</h3>
-
-<p>Reverse engineers do not imagine an ideal technology. Instead, they start with existing technical objects, taking them apart to see how they
-have been constructed.</p>
-
-<figure>
-    <img src="/assets/images/hacf_re.jpg" alt="A scene from the TV show Halt and Catch Fire. Two men are in a garage. They are looking into an open computer." />
-    <figcaption>
-        In Season 1 of the AMC show Halt and Catch Fire, two characters reverse engineered an IBM PC to make a new computer.
-    </figcaption>
-</figure>
-
-<p>A scene from the AMC show <em>Halt and Catch Fire</em> illustrates this. A
-two-person team set out to make a new computer called The Giant. Instead
-of building the ideal machine, they simply reverse-engineered the IBM PC
-to make a PC clone.</p>
-
-<p>As that scene illustrates, a great deal of this process entails the
-discovery of 'facts' discerned through thick, close, detailed
-empirical analysis of technical objects. How does the technology work?
-What is it comprised of? Who built it? What might their intentions have
-been? What can we do with it?</p>
-
-<h3 id="genealogical">Genealogical</h3>
-
-<p>Drawing on Foucauldian thinking, particularly as interpreted by <a href="https://iupress.org/9780253006233/genealogy-as-critique/">Colin Koopman</a>,
-I argue that there is a genealogical aspect to reverse engineering.</p>
-
-<p>That is, “reverse engineering” is “forward engineering” in reverse. Engineering typically is a process of developing abstract requirements,
-then specification documents, and then the specifications are implemented in material.</p>
-
-<p>Reverse engineering starts with the implemented object and then moves backward towards abstract conceptions that may have preceded.</p>
-
-<p>In addition, a reverse engineer engages in what <a href="https://noehernandezcortez.wordpress.com/wp-content/uploads/2011/04/nietzsche-genealogy-history.pdf">Foucault might call</a> the “gray, meticulous, and patiently documentary” work of poring through comments in code, scrounging for specification documents, or studying the discourses of the organization that created the object under scrutiny.</p>
-
-<h3 id="legal">Legal</h3>
-
-<p>The familiar caveat: I am not a lawyer!</p>
-
-<p>But, according to legal scholars who look at reverse engineering – particularly <a href="https://www.yalelawjournal.org/article/the-law-and-economics-of-reverse-engineering">Pamela Samuelson</a> – reverse engineering has a tradition of legal protections in contexts such as the United States and the European Union. In traditional manufacturing, U.S. courts have held that the sale of an object is akin to its publication, and thus the legal owner of any object is free to take it apart, study it, and even produce a copy of it for sale.</p>
-
-<p>This situation is a bit more complex with software. Lines of code are protected by copyright; I cannot copy lines of code from a
-copyrighted program into a new program. But in terms of the functional side, unless it has been protected by a patent, we are free to replicate
-the functionality of existing software. And in order to do that, we are in fact allowed to open up, probe, test, and disassemble software –
-even to make copies of it in the process.</p>
-
-<h3 id="normative">Normative</h3>
-
-<p>However, none of the above is necessarily critical. Someone can reverse engineer a technology merely to make a competing product.</p>
-
-<p>To become “critical reverse engineering,” we need a critical, normative approach – we need ethics. That is, we disassemble technical artifacts, produce knowledge from that disassembly, and construct new artifacts that further efforts towards economic and social justice.</p>
-
-<p>So I have been seeking activists engaged in critical reverse engineering of corporate social media – people who are pragmatic in their relation to technology, use genealogical thinking, exercise their rights to reverse engineer, and do so to make a better world.</p>
-
-<h2 id="part-3-adventures-in-alternative-social-media-2010--2016">Part 3: Adventures in Alternative Social Media (2010 – 2016)</h2>
-
-<p>Seeking out critical reverse engineers of corporate social media set me
-off on adventures in alternative social media in the years 2010-2016.</p>
-
-<p>Most of the alternatives <a href="https://twentysix.fibreculturejournal.org/fcj-190-building-a-better-twitter-a-study-of-the-twitter-alternatives-gnu-social-quitter-rstat-us-and-twister/">I studied</a> were Twitter alternatives, such as GNU social and Twister.</p>
-
-<p><a href="https://gnusocial.network/">GNU social</a> is a microblogging system that is free to download, install,
-and run. It was was developed by Free Software activists who want to eliminate
-proprietary software. It is federated (more on this in a bit).</p>
-
-<p><a href="http://twister.net.co/">Twister</a> was a fascinating case – made by Miguel Freitas, a Brazilian
-software engineer who wanted to provide protesters with censorship-resistant microblogging. He developed a peer-to-peer version of Twitter using both blockchain and bittorrent-style technologies.</p>
-
-<p>I <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2955827">also studied</a> Facebook alternatives, such as <a href="https://diasporafoundation.org/">diaspora</a>. diaspora was inspired by a presentation from law professor Eben Moglen to a bunch of NYU students in 2010 – so keep this in mind as you
-present your research – technologists may be listening!</p>
-
-<p>And <a href="https://journals.sagepub.com/doi/full/10.1177/1461444814554900">my work even took me onto the dark web</a> – networks where both
-readers and producers of websites are anonymized. I studied several dark web social networking systems, where people relied on pseudonyms to engage in social media activities. Many of these systems run on the anonymizing <a href="https://www.torproject.org/">Tor network</a>, but I found examples on <a href="https://geti2p.net/en/">I2P</a> and <a href="https://www.hyphanet.org/index.html">Freenet</a>, as well. Indeed, this work led me to write <a href="https://mitpress.mit.edu/9780262038263/weaving-the-dark-web/">a book about the dark web</a>.</p>
-
-<p>So, how are these critical reverse engineering projects? Let’s go back to the four orientations. These projects are</p>
-
-<ul>
-  <li><em>Pragmatic</em>: They very often emulate Twitter, since Twitter’s
-functionality is decidedly recognizable as social media but is
-relatively simple to implement.</li>
-  <li><em>Genealogical:</em> Not only do they examine corporate social media and
-work back towards the original requirements, they also tend to be
-built in reaction to the constant changes made to corporate social
-media</li>
-  <li><em>Legal:</em> They rely on the rights of reverse engineering. Freitas in particular talked to me about clean-room
-requirements engineering.</li>
-  <li><em>Normative</em>: All of these projects make claims to being more ethical
-than corporate social media for a variety of reasons.</li>
-</ul>
-
-<h3 id="critiques-of-their-normative-stances">Critiques of their normative stances</h3>
-<p>However, I began to notice some shortcomings in that last, normative aspect.</p>
-
-<p>One major reason the activists develop these systems is to shun surveillance capitalism. That’s obviously hugely important.</p>
-
-<p>But the overarching philosophy of many of these projects is a very particular version of “freedom” that results in less just outcomes.</p>
-
-<p>As I mention above, GNU social was developed by the Free Software Foundation, which touts Free Software and the “Four Freedoms.” These relate in part to freedom of speech, particularly in the face of government restrictions. Along for ride are discourses about openness and cyberlibertarian governance.</p>
-
-<p>This program is extremely individual-centric. Taken to its extreme, it is about the eradication of the network in favor of the completely
-sovereign individual. The desire seems to be an unfettered subject capable of wielding technology to openly speaking to anyone, anywhere.</p>
-
-<p>Or, as Andrew Ross says in <a href="https://www.jstor.org/stable/40068391">a critique of free software</a>, “Voices proclaiming freedom in every direction, but justice in none.” (I’m taking him a bit out of context, but I think it’s fair.)</p>
-
-<p>There are many consequences of this freedom myopia.</p>
-
-<p>One consequence of this is that it raises the specter of what the philosopher Herbert Marcuse called <a href="https://www.marcuse.org/herbert/publications/1960s/1965-repressive-tolerance-fulltext.html">“repressive tolerance,”</a> where the speech of the marginalized is eradicated through being made equal to
-the speech of the dominant.</p>
-
-<figure>
-    <img src="/assets/images/bluelm.jpg" alt="The Blue Lives Matter flag flying in front of a banner that says 'Black Lives Matter.'" />
-    <figcaption>
-        This is the most visually coherent example of repressive tolerance I can think of. By stating "Blue lives matter," the ideas of the Black Lives Matter movement become eradicated by being placed on equal footing to those who are already in power -- the police.
-    </figcaption>
-</figure>
-
-<p>While Marcuse supplies good examples from the 1960s, I explain repressive tolerance to students using the example of the utterance
-“Blue Lives Matter” – a means to eradicate the Black Lives Matter movement by placing those already in power on an equal footing to Black
-victims of police violence.</p>
-
-<p>We saw this play out in the US and elsewhere in the form of the Alt-Right – <a href="https://mitpress.mit.edu/9780262549417/gaming-democracy/">Adrienne Massanari has done excellent work</a> linking Gamergate, Silicon Valley ideologies, and rising fascism in the USA. The desire of repressive tolerance is to eradicate the presence of women, gender minorities, or racialized minorities from technical, leisure, and political spaces by maintaining the status quo.</p>
-
-<p>We can also see repressive tolerance at work in the validation of the internet Edgelord – a phenomenon <a href="https://mitpress.mit.edu/9780262529877/this-is-why-we-cant-have-nice-things/">best explored by Whitney Phillips</a>.</p>
-
-<p>We saw the Gamergate and alt-right movements gain a great deal of traction on Twitter, but the fact is that they have also had a dominant presence on
-alternative social media, as well, particularly those that have a sociotechnical imaginary of freedom and openness.</p>
-
-<p>The brute fact is, it became increasingly difficult for me to find daylight between many of the alternative projects and Twitter during Gamergate.
-“Alternative” began to seem, in many ways, to not be very alternative.</p>
-
-<p>That brings me to the present.</p>
-
-<h2 id="part-4-new-critical-reverse-engineers-on-the-fediverse-2017--present">Part 4: New Critical Reverse Engineers on the Fediverse (2017 – Present)</h2>
-
-<p>The object spoke again, saying things I was unable to hear when I
-started my career. I needed to seek new critical reverse engineers.</p>
-
-<p>And that I needed to do the reading in Black philosophy, feminist
-theory, and queer media studies: authors like <a href="https://global.oup.com/academic/product/the-case-for-rage-9780197557341">Myisha Cherry</a>, <a href="https://search.worldcat.org/title/1132416482">André
-Brock</a>, <a href="https://search.worldcat.org/title/1266907273">Catherine Knight Steele</a>, <a href="https://search.worldcat.org/title/1374489678">Avery Dame-Griff</a>.</p>
-
-<p>It will take a new wave of critical reverse engineers to reveal how
-contemporary alternative social media can shed repressive tolerance.</p>
-
-<h3 id="the-struggle-for-the-fediverse">The struggle for the fediverse</h3>
-
-<p>This is, in large part, the focus of <a href="2024/02/11/Move-Slowy-Preview.html">my current book</a>, which examines
-Mastodon and the Fediverse.</p>
-
-<p>Because the fediverse includes a wide range of technologies, I focus on
-<a href="https://joinmastodon.org/">Mastodon</a>, a microblogging software package that can be installed and run
-on modern web servers.</p>
-
-<p>Mastodon provides a window not only into software engineering, but also
-social and political interventions – particularly from marginalized
-critical reverse engineers – in alternative social media.</p>
-
-<h3 id="from-ostatus-to-activitypub">From OStatus to ActivityPub</h3>
-
-<p>When many people speak about Mastodon, they often place it relation to
-Twitter. This predates the Musk takeover of Twitter, but it has
-certainly been amplified since then.</p>
-
-<p>Mastodon appears to be an example of critical reverse engineering of
-Twitter, and was hailed from its earliest days as such. <a href="https://www.vice.com/en/article/mastodon-is-like-twitter-without-nazis-so-why-are-we-not-using-it/">“Twitter without
-the Nazis”</a> was a common descriptor.</p>
-
-<p>But as I show in my book, Mastodon’s founder, Eugen Rochko, actually meant to critically reverse engineer another alternative, GNU social, in 2016. Mastodon was meant to be an alternative to an alternative. And this brought it into conflict with ideologies of freedom and openness – the ideologies of repressive tolerance.</p>
-
-<p>Mastodon servers were initially able to communicate with GNU social over
-a protocol called <a href="https://en.wikipedia.org/wiki/OStatus">OStatus</a>. OStatus was a very Web 2.0 technology – it was about openness, the idea
-that all of us should participate openly in discussion.</p>
-
-<p>One goal among Mastodon’s developers was to provide safety tools to protect
-marginalized folks, particularly queer and trans folks, allowing for users to
-address their posts to particular, limited audiences and have more
-control over who could reply.</p>
-
-<p>These were features not available in GNU social (or, for that matter,
-Twitter).</p>
-
-<p>However, this grated against the everything-must-be-open-and-free ethos
-of GNU social.</p>
-
-<p>I won’t go into too much detail here, but one major issue was privacy
-violations on the part of GNU social users, who would publicly expose
-private posts from queer and trans Mastodon users in the name of
-“openness” and “freedom.”</p>
-
-<p>Fortunately, the <a href="https://www.w3.org/TR/activitypub/">ActivityPub protocol</a> was being developed in 2016-2017,
-and it had more robust privacy capacities. Four of the five authors self-identify
-as queer, which might explain the new protocol’s affordances, including the
-use of post addressing as a means to protect people.</p>
-
-<p>Mastodon adopted ActivityPub, denying the repressive forms of openness
-of OStatus in favor of safety for marginalized people.</p>
-
-<h3 id="codes-of-conduct">Codes of Conduct</h3>
-
-<p>Another anti-repressive tolerance move: the inclusion of codes of
-conduct, as advocated for by activists such as <a href="https://en.wikipedia.org/wiki/Coraline_Ada_Ehmke">Coraline Ada Ehmke</a>. Codes
-of conduct are important in Mastodon’s history.</p>
-
-<p>Ehmke’s work reflects feminist/trans activism in tech – the struggle
-against meritocracy. This struggle emerged from projects like the <a href="https://geekfeminism.fandom.com/wiki/Geek_Feminism_Wiki">Geek Feminism wiki</a>, which
-documented misogyny and transphobia at tech conventions.</p>
-
-<p>These practices were cited as the reason why technology – particularly
-FOSS technology – has had <a href="https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/">a significant lack of contributions from
-women and racialized minorities</a>.</p>
-
-<p>Ehmke and her allies laid the feet of such behavior at the ideology of meritocracy in
-tech, where, as <a href="https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar">Eric Raymond argued</a>, the only thing that matters is
-great code. Implicitly, being a sexual abuser or racist is ok so long as
-you can code.</p>
-
-<p>Other scholars and activists have pointed to <a href="https://firstmonday.org/ojs/index.php/fm/article/view/4291">“pushyocracy,”</a> where it’s
-not about great code but about who can shout the loudest, as a reason
-why marginalized people avoided getting involved in the tech indstury.
-(Linus Torvalds has been a key example of this, though he has since
-sought forgiveness.)</p>
-
-<p>Instead of meritocracy at tech conventions, Ehmke and her allies have
-argued for Codes of Conduct, which have been largely adopted by both
-tech conventions and free and open source projects.</p>
-
-<figure>
-    <img src="/assets/images/mastodonCovenant.png" alt="The website for the Mastodon server covenant, which includes the requirement for 'active moderation against racism, sexism, homophobia and transphobia.'" />
-    <figcaption>
-        While the Mastodon server covenant seems rather simple, the idea that a federated network of servers may all agree to things like "active moderation" is a cultural achievement. This is quite different from previous alternative social media.
-    </figcaption>
-</figure>
-
-<p>As I show in the book, these Codes have <a href="https://joinmastodon.org/covenant">also been adopted by many
-Mastodon servers</a>. I argue these act as fundamental diplomatic documents
-in noncentralized social media: codes of conduct help structure
-relations on the network. The active association among instances who
-share ethical values indicates an ethical consensus is emerging across
-the network including values of anti-racism and anti-transphobia.</p>
-
-<h3 id="fediblock-and-blocklists">#Fediblock and Blocklists</h3>
-
-<p>While much of the code of conduct discussion is about shared ethical
-values, what about times when fediverse instances violate these
-agreements? Another anti-repressive tolerance move can be found among those who
-advocate severing connections.</p>
-
-<p>Here I turn to another critical reverse engineer, Ro, founder of an
-early Mastodon instance called “Playvicious.social.”</p>
-
-<p>Playvicious was likely the first Black-run instance on Mastodon. But Ro shut it down in 2020, citing racist harassment of the moderators.
-You can <a href="https://roiskinda.cool/2023/12/recuerda-pv-chapter-7-the-dark-and-ugly.html">read about it on his blog</a> – but I warn you, it’s heavy.</p>
-
-<p>The Playvicious episode – and many others – reflected what Jonathan Flowers would later call <a href="https://www.techpolicy.press/the-whiteness-of-mastodon/">“the whiteness of
-Mastodon,”</a> the deeply embedded practices of whiteness that not only
-include overt racism, but the subtle forms philosopher Myisha Cherry
-calls “white skepticism” and “white empathy.”</p>
-
-<p>But, to quote Flowers, Black critical reverse engineers continue to
-contribute in spite of whiteness. In Ro’s case, he returned to the
-network with a new project, a shared blocklist called <a href="https://thebad.space/">The Bad Space</a>.</p>
-
-<p>Blocklists are now <a href="https://about.iftas.org/activities/moderation-as-a-service/fedicheck/">an emergent governance and moderation tool on the
-fediverse</a>, enabling independent instances to import lists of known bad
-actors and prevent them from interacting with instance members. Ro’s Bad Space isn’t the only project, though it is one that seems to attract the most criticism – recapitulating the Playvicious episode in a new form.</p>
-
-<p>There’s another critical reverse engineer to cite here. Ro took inspiration for his blocklist from former Playvicious moderator
-<a href="https://www.artistmarciax.com/">Marcia X</a>. Like many Black feminists, Marcia has contributed to the network,
-co-creating a hashtag, #fediblock, for public discussions over how to
-block racist instances and accounts on the network.</p>
-
-<p>I’ve put their work into practice. The work of Black critical reverse
-engineers has aided me directly – I now help run <a href="https://aoir.social">AoIR.social</a>, the Mastodon
-instance for the Association of Internet Researchers, and we rely on
-blocklists and #fediblock to prevent racists and transphobes from
-interacting with our members.</p>
-
-<h3 id="towards-the-covenantal-fediverse">Towards the Covenantal Fediverse</h3>
-
-<p>Taken as a whole, these new critical reverse engineers have helped bring
-about a new form of alternative social media.</p>
-
-<p>It is a form a <a href="https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400">colleague and I have called</a> “the covenantal fediverse,” a
-non-centralized, large network of small communities that associate
-through shared ethical values.</p>
-
-<p>Here is a new normative critical reverse engineering of corporate social
-media. Returning to the four orientations of critical reverse engineering, let’s turn back to the normative orientation.</p>
-
-<p>The normative aspect of Mastodon and the covenantal fediverse relates to previous alternative social media. In some ways, the fediverse continues older normative practices. It inherits the anti-surveillance capitalism aspects of previous alternatives, of course. Most of the fediverse operates on a non-capitalist, mutual aid economy. Much of it avoids behavioral advertising.</p>
-
-<p>However, the older cyberlibertarianism is replaced – often in a messy and uneven way – with freedom of association. By accident or design, the Instance is a powerful unit. I would suggest that our understanding of the fediverse <a href="/2024/03/14/Instances-and-Individuals.html">needs to account more heavily for instances-as-communities</a> instead of the individual user (as has been privileged in cyberlibertarian thinking).</p>
-
-<h2 id="conclusion-will-this-survive">Conclusion: Will this survive?</h2>
-<p>Now I have traced a new form of critical reverse engineering, one
-operating on both corporate social media and previous alternative social
-media. I believe it is best existing path away from corporate social
-media.</p>
-
-<p>And yet, while millions of people took up Mastodon after Musk’s purchase
-of Twitter, billions remain on corporate social media.</p>
-
-<p>To return to where I started, even critical media organizations that
-speak of non-corporate media continue to use corporate social media!</p>
-
-<p>We might ask “can this platform survive?” as <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4598303">several colleagues from
-American University and I do</a> in a forthcoming paper in the <em>International
-Journal of Communication</em>.</p>
-
-<p>And my answer is: I don’t know. Many alternative projects have failed.</p>
-
-<p>But let’s again listen to the object. Alternative social media speaks of hope, even
-in the face of failure (however we define that idea!). To use a term
-from speculative fiction, alternative social media speaks of <em>porvir
-otimista.</em></p>
-
-<p>Don’t despair in the face of the sociotechnical systems you confront.
-Instead, critically reverse engineer them.</p>]]></content><author><name>RWG</name></author><category term="Goal 2" /><category term="critical reverse engineering" /><category term="presentations" /><summary type="html"><![CDATA[I recently gave a presentation to the Cultural Studies PhD program at George Mason University. That’s the program where I earned my PhD, so it was an honor to come back and talk to my professors as well as some of the new students currently in the program. I took the presentation as an opportunity to reflect on my academic career from my time at Mason (2005-2010) to my latest book project. I’ve modified it for this blog. Take a look at the abstract and, if piques your interest, feel free to read it! (It’s a bit long.) Abstract In my time as a PhD student in GMU’s Cultural Studies program, I learned that I must let my object of study tell me what methods to use to analyze it. I also learned not to merely interpret the object, but seek to change it. Since I chose to study what was then called “Web 2.0” and what I now call “corporate social media,” I needed to bring Marxian political economy, science and technology studies, and software studies to bear on the object. And I began to examine the practices of activists who sought to make something better than corporate social media: alternative social media. Over a decade ago I began my adventures in alternative social media, chasing it through hacker collectives, cyberlibertarian organizations, and even onto the dark web. Through digital ethnography, close examinations of code, and hands-on experience running alternative social media, I developed an approach I call “critical reverse engineering.” Here I present critical reverse engineering as a methodology for activist engagement with digital technologies. To illustrate this approach, I will draw on insights from my forthcoming book, Move Slowly and Build Bridges: Mastodon, the Fediverse, and the Struggle for Ethical Social Media (Oxford, 2025).]]></summary></entry></feed>
+site</a> has a list.</p>]]></content><author><name>RWG</name></author><category term="goal 2" /><category term="presentations" /><category term="journalism" /><summary type="html"><![CDATA[Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni. My presentation was “Fleeing Facebook and Exiting X: How activists show the path away from corporate social media.” Here’s the abstract: The purchase of Twitter by Elon Musk in 2022, coupled with Meta’s blocking of Canadian news sites, has prompted people in Canada to consider their social media options. Social media has now fragmented, with a small but growing population of people turning to non-corporate, alternative social media, such as Mastodon and the fediverse. This talk will discuss how non-corporate, alternative social media provide Canadians not just with a path away from Facebook or X, but also provide a new way to engage in online democracy. If that sounds interesting, well… read on! This is a version of that presentation, edited into blog form. (Note: this is another long post.)]]></summary></entry></feed>
