@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-13T16:52:37-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Threads and the Failure of Global Content Moderation</title><link href="http://localhost:4000/2024/12/13/threadsmoderation.html" rel="alternate" type="text/html" title="Threads and the Failure of Global Content Moderation" /><published>2024-12-13T00:00:00-05:00</published><updated>2024-12-13T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/13/threadsmoderation</id><content type="html" xml:base="http://localhost:4000/2024/12/13/threadsmoderation.html"><![CDATA[<p>This week’s <a href="/tags/asm update.html">Alternative Social Media Update</a> turned out to be more of a critique of corporate social media, specifically Meta’s Threads.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-10T13:23:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>A blog dedicated to two things. First, an exploration of Free and Open Source tools useful to academics. Second, an exploration of the culture, politics, and practices of FOSS.</subtitle><entry><title type="html">Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety</title><link href="http://localhost:4000/2025/01/10/moreThreadsBskyAP.html" rel="alternate" type="text/html" title="Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety" /><published>2025-01-10T00:00:00-05:00</published><updated>2025-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2025/01/10/moreThreadsBskyAP</id><content type="html" xml:base="http://localhost:4000/2025/01/10/moreThreadsBskyAP.html"><![CDATA[<p>This weekly <a href="/tags/asm update.html">Alternative Social Media update</a> – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.</p>
+
+<!-- more -->
+
+<h2 id="monitoriing-threadss-blocklists">Monitoriing Threads’s Blocklists</h2>
+<p>By now, you’ve likely heard the news that <a href="https://www.404media.co/its-total-chaos-internally-at-meta-right-now-employees-protest-zuckerbergs-anti-lgbtq-changes/">Meta is changing many of its policies</a> (and board members) – all likely due to the return of Donald Trump to the US Presidency. Aside from recruiting <a href="https://www.espn.com/mma/ufc/story/_/id/35427773/ufc-dana-white-says-criticism-physical-altercation-wife-100-warranted">a domestic abuser</a> to the board and <a href="https://www.aljazeera.com/economy/2025/1/10/metas-decision-to-end-fact-checking-captures-freewheeling-zeitgeist">ending fact-checking</a>, I find the most egregious change to be specifically stating that <a href="https://www.wired.com/story/meta-immigration-gender-policies-change/">calling LGBTQ* folks “mentally ill” is now allowed</a> (I’d say, encouraged, since it’s specifically called for).</p>
+
+<p>I’ll set aside re-declaring my decades-long loathing of Facebook/Meta to talk about a specific project I started a while back, one that is relevant to my interest in alternative social media and has taken on new importance in light of all this.</p>
+
+<p>I’ve been tracking <a href="https://www.threads.net/moderated_servers">Threads’s fediverse blocklist</a>. I first wrote about it <a href="/2024/06/28/ThreadsBlocking.html">midway through last year</a> and <a href="2024/12/13/threadsmoderation.html">wrote an update last month</a>. Since then, I’ve been regularly collecting the Threads blocklist.</p>
+
+<p>My idea is to see how it evolves over time. I’m curious to see what changes in the future, since the community standards of Meta as a whole have shifted to appease the US right (and thus apparently foist US right-wing views on the rest of the world). Watch this blog for updates.</p>
+
+<h2 id="blueskys-decentralized-heaps">Bluesky’s Decentralized Heaps</h2>
+<p>I won’t be able to do these posts justice, but I do want to flag an important blog-post-based conversation that has happened recently. One participant is Christine Lemmer-Webber, who not only was one of the co-authors of ActivityPub but is also <a href="https://spritely.institute/">actively working on new decentralized web protocols</a>. The other participant is Bryan Newbold, a Bluesky engineer.</p>
+
+<p>This all started with Lemmer-Webber’s incredible post, <a href="https://dustycloud.org/blog/how-decentralized-is-bluesky/">“How Decentralized is Bluesky, Actually?”</a>. Again, I can’t do it justice – go read it, but note it’s long and gets technical. My takeaway from that post was that <a href="/2024/04/30/DecentralizedNoncentralized.html">I remain right in my basic claim</a> that Bluesky is “decentralized” in the sense that it is a center is spinning off parts of itself.</p>
+
+<p>Reading Lemmer-Webber’s post leads me to see Bluesky as decentralized in the same way Bitcoin is: sure, you can get the entire blockchain, but it’s <a href="https://ycharts.com/indicators/bitcoin_blockchain_size">630GB and steadily growing</a>, so why would you? Likewise, if I read Lemmer-Webber correctly, Bluesky’s “shared heap” architecture would mean anyone hoping to run a fully-fledge ATProto-based service would have to replicate all the messages in the network. As she writes,</p>
+
+<blockquote>
+  <p>A world of full self-hosting is not possible with Bluesky. In fact, it is worse than the storage requirements, because the message delivery requirements become quadratic at the scale of full decentralization: to send a message to one user is to send a message to all. Rather than writing one letter, a copy of that letter must be made and delivered to every person on earth.</p>
+</blockquote>
+
+<p>In response, <a href="https://whtwnd.com/bnewbold.net/3lbvbtqrg5t2t">Bryan Newbold notes</a> that this is not incorrect: Bluesky is making a mass public messaging system, which is distinct from small community networking found among self-hosters. “Smaller more densely-connected communities are super important, and are where folks should probably spend the majority of their hours,” he writes. But “Smaller communities are probably not well served by global public broadcast systems.”</p>
+
+<p>To be fair to him, no, small communities aren’t well-served by massive global broadcast. (If only there was a way to build a global network out of many small communities who band together through an open protocol and shared values. Hmm.)</p>
+
+<p>There’s more to this back-and-forth – a lot more. Including <a href="https://dustycloud.org/blog/re-re-bluesky-decentralization/">Lemmer-Webber’s reply to Newbold’s reply</a>, where she goes through the history of ideas of decentralization, all in support of her call for a new approach, <a href="https://ocapn.org/">OCapN</a>. It’s worth a read – go read it, too! – but I will note that it appears both Lemmer-Webber and Newbold agree that Bluesky’s architecture is, in fact, a “shared heap” – which is not amenable for federation (and thus, in my view, it’s not amenable for <em><a href="/2024/04/30/DecentralizedNoncentralized.html">noncentralization</a></em>.)</p>
+
+<h2 id="activitypub-trust-and-safety">ActivityPub Trust and Safety</h2>
+
+<p>Earlier this week, I took part in my first <a href="https://github.com/swicg/activitypub-trust-and-safety">ActivityPub Trust and Safety Task Force</a> meeting. This group, which is currently co-chaired by Emelia Smith and Darius Kazemi, has three foci. One is to <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/32">write a report</a> on the current state of moderation practices on the fediverse. Another is to <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/38">improve ActivityPub’s moderation tooling</a>. A third (which I will admit isn’t clear to me just yet) is to work on <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/41">content warnings and labels</a>.</p>
+
+<p>It’s early stages for this task force, although the folks involved have been working on these issues for years. Much of the discussion during my first meeting was about scope – a really important question, given the scale of “trust and safety”! For my part, I intend to contribute to the report. To do <em>that</em>, I will need to do a lot more work studying the various issues being raised in the task force’s <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/">Github</a>, as well as <a href="https://codeberg.org/fediverse/fep">Fediverse Enhancement Proposals</a>.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="Bluesky" /><category term="ActivityPub" /><category term="ASM update" /><summary type="html"><![CDATA[This weekly Alternative Social Media update – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.]]></summary></entry><entry><title type="html">Threads and the Failure of Global Content Moderation</title><link href="http://localhost:4000/2024/12/13/threadsmoderation.html" rel="alternate" type="text/html" title="Threads and the Failure of Global Content Moderation" /><published>2024-12-13T00:00:00-05:00</published><updated>2024-12-13T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/13/threadsmoderation</id><content type="html" xml:base="http://localhost:4000/2024/12/13/threadsmoderation.html"><![CDATA[<p>This week’s <a href="/tags/asm update.html">Alternative Social Media Update</a> turned out to be more of a critique of corporate social media, specifically Meta’s Threads.</p>
 
 <p>It all started when I saw the news that Meta had <a href="https://apnews.com/article/trump-meta-zuckerberg-inauguration-donation-c540bf7c638def11b8428e633965c718">donated $1 million to Trump’s inauguration fund</a>. Look, I’m an American. I know how this works – the wealthy buy influence by giving to politicians. It’s not particularly shocking to see Meta doing this – it’s part of their longstanding practices of lobbying those in power so they can continue to operate with little to no regulations.</p>
 
@@ -463,180 +497,4 @@ figcaption {
 
 <h2 id="but-just-say-no-to-bluesky">But Just Say ‘No’ to Bluesky</h2>
 
-<p>And yet, <a href="https://pluralistic.net/2024/11/02/ulysses-pact/">Cory Doctorow notes</a> that he’s not going to ever use Bluesky. “I will never again devote my energies to building up an audience on a platform whose management can sever my relationship to that audience at will.”</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><summary type="html"><![CDATA[ASM updates are back! Now that I’m done drafting my book, I want to get back to doing this regularly. In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week. This has been edited to fix an error.]]></summary></entry><entry><title type="html">York Circle Lecture: Fleeing Facebook and Exiting X</title><link href="http://localhost:4000/2024/11/05/yorkcirclelecture.html" rel="alternate" type="text/html" title="York Circle Lecture: Fleeing Facebook and Exiting X" /><published>2024-11-05T00:00:00-05:00</published><updated>2024-11-05T00:00:00-05:00</updated><id>http://localhost:4000/2024/11/05/yorkcirclelecture</id><content type="html" xml:base="http://localhost:4000/2024/11/05/yorkcirclelecture.html"><![CDATA[<p>Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni.</p>
-
-<p>My presentation was “Fleeing Facebook and Exiting X: How activists show the path away from corporate social media.” Here’s the abstract:</p>
-
-<blockquote>
-  <p>The purchase of Twitter by Elon Musk in 2022, coupled with Meta’s blocking of Canadian news sites, has prompted people in Canada to consider their social media options. Social media has now fragmented, with a small but growing population of people turning to non-corporate, alternative social media, such as Mastodon and the fediverse. This talk will discuss how non-corporate, alternative social media provide Canadians not just with a path away from Facebook or X, but also provide a new way to engage in online democracy.</p>
-</blockquote>
-
-<p>If that sounds interesting, well… read on! This is a version of that presentation, edited into blog form. (Note: this is another long post.)</p>
-
-<!-- more -->
-
-<h2 id="acknowledgements">Acknowledgements</h2>
-
-<p>Before I get too far, I want to acknowledge a couple things. First, this research has been supported thanks in part to funding from the Canada First Research Excellence Fund.</p>
-
-<p>Second, some of what I’m going to talk about comes from a collaboration between myself and Alex Martin, who is a PhD student here at York in the Science and Technology Studies program.</p>
-
-<h2 id="introduction-news-and-social-media-in-canada">Introduction: News and Social Media in Canada</h2>
-
-<p>Let’s start this conversation about social media in Regina, Saskatchewan. Specifically, let’s talk about what could be the top news company in Regina. It is, arguably, a garbage company.</p>
-
-<p>According to <a href="https://www.canadaland.com/podcast/1042-the-city-that-gets-its-news-from-a-dumpster-company/"><em>Canadaland</em></a>, the most trafficked news site for Regina
-residents is a Facebook page run by Just Bins, a garbage can company. (I also should credit <em>Canadaland</em> another way – I kind of stole this intro from them!)</p>
-
-<p>In fact, the Just Bins Facebook page won a “best of” award for news in Regina.</p>
-
-<p>This isn’t to say there is no local paper. But the local paper, the <em>Regina Leader Post</em>, is seeing dramatic drops in circulation and no longer prints the paper locally.</p>
-
-<p>That news reporting in Canada is in a crisis is not new, but it is certainly getting worse. Layoffs abound.</p>
-
-<p>One major issue has been Meta. Because of the <a href="https://www.canada.ca/en/canadian-heritage/services/online-news.html">Online News Act</a>, Meta has now refused to let people link to Canadian news in Facebook and Instagram. This is in part what led to Just Bins Facebook page being able to become the top news site in Regina. As Jesse Brown of <em>Canadaland</em> said, “It appalls me that [Just Bins] can build a massive audience specifically because [it’s] not news. I can’t publish to Facebook, and [they] can <em>because</em> [it’s] not news.”</p>
-
-<p>Regardless of how you feel about the Online News Act, it is coming from the recognition that a handful of media corporations have too much power over Canadian news. Let me put this a different way. Another, albeit different case in point: Elon Musk’s X. Unlike Meta, news organizations are certainly welcome on X. But at what price? As <a href="https://www.disinfo.eu/publications/disinformation-on-x/">multiple</a> <a href="https://www.isi.edu/news/55932/new-twitter-now-with-more-hate/">studies</a> and <a href="https://www.pbs.org/newshour/show/musk-lashes-out-at-advertisers-leaving-x-over-rise-in-hate-speech">news reports</a> are finding, disinformation, trolling, and harassment are on the rise on X. And often the disinformation and trolling comes from the top, such as when Musk labeled the CBC as <a href="https://www.businessinsider.com/cbc-twitter-label-69-government-funded-media-elon-musk-2023-4">“69% government funded”</a>.</p>
-
-<h2 id="where-do-we-go">Where do we go?</h2>
-<p>Meta and X have me wondering: Where do we go if we want to leave Facebook or X?</p>
-
-<p>What about TikTok? LinkedIn? Reddit? Maybe. But all of these share in the same basic problem: they are all social media that is controlled by for-profit companies that, at the end of the day, make their money by monitoring our lives. They can be bought and sold.</p>
-
-<p>I’ve been researching this question – where do we go? – for my entire academic career, from my days as a PhD student in the 2000s to the writing of my first book, <em><a href="https://tupress.temple.edu/books/reverse-engineering-social-media">Reverse Engineering Social Media</a></em> in 2014 to today, when I am finalizing my fourth book, <em>Move Slowly and Build Bridges</em>, for Oxford. (For more on my academic career, <a href="/2024/10/18/GMUpresentation.html">see this post</a>)</p>
-
-<p>The answer to the “where do we go?” question has been given for many, many years by people I have been calling “critical reverse engineers.” These are activists who take apart corporate social media – Facebook, Instagram, Twitter/X, YouTube – to make something better. I have interviewed dozens of these critical reverse engineers, studied the code and interfaces of the systems they’ve built, and have even operated some of the social media they’ve created.</p>
-
-<p>It turns out that quite a few of these critical reverse engineers are right here in Canada.</p>
-
-<p>Let me say a bit more about critical reverse engineering. And to do that, I should talk quickly about reverse engineering in general.</p>
-
-<p>Basically, reverse engineering is forward engineering in reverse. Rather than starting with plans and them implementing them in material objects, reverse engineers start with the material object and seek to figure out how it works, often discovering clues about the creators’ intentions.</p>
-
-<p>Reverse engineers do this work for a range of purposes. It might be to make a competing project – a famous example here is the reverse engineering of the IBM PC in the 1980s. Or it might be for military purposes, reverse engineering captured equipment – a famous case is that of the Russian Tu-4 bomber, which was a reverse engineered US B-29.</p>
-
-<p>Now, these aren’t particularly critical. I’m using “critical” in the sense of critical theory – the examination of power in society, with the goal of making a more just and ethical society.</p>
-
-<p>And I think that social media admits to critical inquiry. Social media has had a major impact on how we live our lives. We can talk about the benefits of social media. It has been used by social justice movements (Idle No More, Me Too, Black Lives Matter). There’s the simple pleasures of sharing and connection. And there’s local and global news sharing. And we can also talk about its harms: Facebook’s emotional contagion experiments. The Cambridge Analytica scandal. Gamergate harassment on Twitter. And concerns over mental health, particularly of teens.</p>
-
-<p>There’s a lot at stake when we consider social media. So, let’s consider reverse engineering social media, but not just to make competing products. I am interested in activists who are reverse engineering social media to create systems that are better than the corporate versions – alternatives that are under our control, that push away some of the negative aspects of corporate social media away in favor of more beneficial aspects. I have been studying projects that produce new innovations in social media outside of the predominantly Silicon Valley model.</p>
-
-<h2 id="the-fediverse-innovations-and-canada">The fediverse, innovations, and Canada</h2>
-
-<p>Specifically, I will highlight the fediverse – social media that is comprised of thousands of small community-run social media sites linked together in a global network. As a project that critically reverse engineers corporate social media, the fediverse brings about many innovations.</p>
-
-<p>I will talk about four such innovations:</p>
-<ul>
-  <li>a new topology</li>
-  <li>no surveillance capitalism</li>
-  <li>ecological innovations</li>
-  <li>online democracy</li>
-</ul>
-
-<h2 id="a-new-topology-noncentralized">A New Topology: Noncentralized</h2>
-
-<p>I argue the fediverse provides a new way of doing social media, one that’s not centralized or concentrated.</p>
-
-<p>I say new, but really what I’m going to say is quite similar to email. Email is federated. If I have an account on Protonmail, and a friend has an account on Gmail, and another runs their own server using Roundcube software, we can all still contact each other. We can do so in spite of the fact that all three are provided by different organizations in different locations.</p>
-
-<p>This is because email runs on a shared, standardized protocol called Send Mail Transfer Protocol, or SMTP. SMTP dates back to the early 1980s.</p>
-
-<p>Much more recently, critical reverse engineers have created a social media protocol that works much like email, but for social data. It works like this. Let’s say I’m using a system called PeerTube, which is a video-sharing service. I can connect to someone using Pixelfed, which is an image-sharing service. And that person can connect to someone on a Mastodon server, which is a Twitter-like system. And so on.</p>
-
-<p>This is possible because of a new standard called <a href="https://www.w3.org/TR/activitypub/">ActivityPub</a>, which, a bit like email, presents social data in the form of inboxes and outboxes. The ActivityPub protocol was authored by Christine Lemmer-Webber, Jessica Tallon, Erin Shepherd, Amy Guy, and Evan Prodromou. Here’s a Canadian connection! Evan Prodromou, who has been actively working on social media alternative since the late 2000s, is a Canadian. Thanks to Prodromou, Lemmer-Webber, and the rest of the creators of this protocol, we now have a global network of interconnected social media servers.</p>
-
-<p>And, as a testament to their engineering feat, consider the fact that the ActivityPub-based fediverse was able to absorb a <a href="https://www.theguardian.com/news/datablog/2023/jan/08/elon-musk-drove-more-than-a-million-people-to-mastodon-but-many-arent-sticking-around">massive wave of new users happening in late 2022</a> – that is, right when Musk finalized his purchase of Twitter.</p>
-
-<p>The upsides of this noncentralized system are twofold. For one, it’s less vulnerable to being simply taken over (e.g., as in the case of Twitter/X). Second, it is open to many groups participating in running their own social media.</p>
-
-<h2 id="no-surveillance-capitalism">No Surveillance Capitalism</h2>
-
-<p>As for the refusal to engage in surveillance capitalism, consider <a href="https://mstdn.ca/explore">Mstdn.ca</a>, a Mastodon server that provides Twitter-like features
-to Canadians.</p>
-
-<p>If you’re considering joining Mstdn.ca, you might notice that they ask for donations. Why? Well, they don’t sell advertising space. Unlike corporate social media, which is in the business of selling our attention to advertisers, Mstdn.ca does not sell user data. This is typical of the rest of the fediverse.</p>
-
-<p>In my study of Mastodon and the rest of the fediverse, I’ve found that the vast majority of instances use donations or other mutual aid-style approaches to funding. They use a variety of nonprofit organizational structures, from informal to formal. And Mastodon and fediverse software do not include the tools needed to do targeted, surveillance-based advertising.</p>
-
-<p>There are some possible upsides here. Since people cannot buy advertising space, there’s far less incentive to promote outrageous, attention-grabbing posts. Moreover, current disinformation practices rely in part on the ability to buy targeted advertisements – you can do that on Facebook and Youtube, but you cannot do that on the fediverse.</p>
-
-<p>I should note I say “possible” because I think it is early to tell if these advantages will play out. However, in my interviews with fediverse users, they do report that they have a calmer experience on the fediverse. In addition, I am part of a group of researchers monitoring the fediverse for disinformation – a big concern as we head into a US presidential election – and so far, so good on that front.</p>
-
-<h2 id="ecological-innovations">Ecological innovations</h2>
-
-<p>On to ecological innovations. The brute fact is that, in spite of the promise that digital media will be light and airy, digital media is having a massive impact on the climate. Social media data centers – and the turn to generative AI – are <a href="https://direct.mit.edu/glep/article/24/2/9/120588/Generative-AI-and-Social-Media-May-Exacerbate-the">straining energy systems</a>. And data centers are <a href="https://www.washingtonpost.com/climate-environment/2023/04/25/data-centers-drought-water-use/">notorious for their demands for drinking water</a>. Speaking as someone who has lived in both the US and Canadian Rockies, this is a major concern of mine.</p>
-
-<p>Let’s say people leave behind X and Facebook for the fediverse. Will the fediverse replicate these issues? Not necessarily. Because the fediverse is community-run, it is possible for groups to experiment with it to reduce its energy and water demands.</p>
-
-<p>Consider the work of <a href="https://www.trentu.ca/culturalstudies/faculty-research/undergraduate-faculty/anne-pasek">Anne Pasek of Trent University</a>. Anne and her colleagues are developing solar-powered fediverse social media.</p>
-
-<p>This isn’t far-fetched. A few years ago, an online publication called <a href="https://solar.lowtechmagazine.com/">Low Tech Magazine</a> demonstrated that it is possible for a website to be powered by a small solar panel. Likewise, Pasek and her colleagues are working on powering a fediverse server with a small, consumer-grade solar panel.</p>
-
-<p>This is experimental. Time will tell if it works. But if projects like Anne’s are successful, we could see a reduction in the carbon footprint of social media.</p>
-
-<p>In addition, I can say that there are some clear ecological benefits to the fediverse when we compare it to corporate social media. I mentioned previously that the fediverse avoids surveillance capitalism. This does mean that, right out of the box, the fediverse should have less ecological impact than corporate social media, since it does not require the infrastructure of behavioral advertising.</p>
-
-<h2 id="online-democracy">Online Democracy</h2>
-
-<p>Finally, let’s talk online democracy. Here I’d point to <a href="https://cosocial.ca/explore">Cosocial.ca</a>. This is a social media site run by Canadian cooperative organization. As a collective, Cosocial members have developed their own, <a href="https://cosocial.ca/about">local moderation rules</a>.</p>
-
-<p>Here’s a sampling of their code:</p>
-
-<ul>
-  <li>“Treat all persons fairly and with respect, courtesy and dignity.</li>
-  <li>Be sensitive to cultural and social differences and practices.</li>
-  <li>Be careful in your use of language that may be disrespectful or demeaning.”</li>
-  <li>They also have prohibitions against racism, transphobia, and violence.</li>
-</ul>
-
-<p>This can work because Cosocial is not large – it has 100 active members. It’s much easier to have such a code of conduct for a small number of folks.</p>
-
-<p>So, you might think: 100 people? That’s not a lot. That’s nothing compared to corporate social media!</p>
-
-<p>But Cosocial isn’t alone. Cosocial can connect to another Canadian instance, <a href="https://ottawa.place/about">Ottawa.place</a>. Like Cosocial, Ottawa.place has a code of conduct with similar values. So those two can connect without clashing about their ethical values.</p>
-
-<p>And Cosocial and Ottawa.place can connect to another instance, <a href="https://scholar.social/about">Scholar.social</a>. Scholar.social is a well-moderated, large instance run by a person in Montreal. Like the others, Scholar.social has a similar code of conduct. And all these servers can connect to others in Canada.</p>
-
-<p>But this isn’t just in Canada. These servers can connect others located around the world, forming a global network. And if they connect to other servers with similar codes of conduct, we see an emergent set of ethical values. This network of servers share a commitment to active moderation, not only against racism or transphobia, but also against disinformation. Studies are showing that there is a shared set of ethical values across much of the fediverse. I think this is most exciting aspect.</p>
-
-<p>This is a structure a co-author and I call “<a href="https://www.tandfonline.com/doi/full/10.1080/1369118X.2022.2147400">the covenantal fediverse</a>”: a global network of ethically-aligned digital communities.</p>
-
-<p>Here, we get the benefits of locally-run and moderated systems, but with the reach of a global network.</p>
-
-<h2 id="but-what-about-news-in-canada">But What About News in Canada?</h2>
-
-<p>But what about news? I started out with a note about the sorry state     of news in Canada – including a discussion about social media’s role in news sharing. Can Canadians share and receive news on federated, non-corporate social media?</p>
-
-<p>This is an area Alex Martin, a PhD student, is working on. The short answer is: yes, Canadians can share and are sharing news on the fediverse.</p>
-
-<p>Alex has taken the lead in a research project where we interview Canadians who are running or using federated social media. A big question Alex is asking: are Canadians sharing news on the fediverse? And what sorts of news are they sharing?</p>
-
-<p>We’re hearing Canadians across the country note that the fediverse has become a viable source of breaking news. This includes local happenings as well as global events. And we’re also discovering people and groups who recognize this and want to make local federated social media so that people can share news.</p>
-
-<p>What about news organizations? This is emerging, too, albeit a bit slower. <a href="https://mstdn.ca/@thetyee">The Tyee</a>, <a href="https://flipboard.com/@ConversationCA">Conversation Canada</a>, <a href="https://mstdn.ca/@thenarwhal">The Narwhal</a>, <a href="https://mastodon.social/@livewirecalgary">Livewire Calgary</a>, and <a href="https://medium.com/@marilync/canadian-journalism-on-mastodon-15eeb4f5b9df">a host of journalists</a> are posting to the fediverse.</p>
-
-<p>I think there really ought to be more. In addition, both <a href="https://theconversation.com/canadas-public-broadcaster-should-use-mastodon-to-provide-a-social-media-service-194116">Fen McKelvey of Concordia University and I</a> have argued the CBC should set up their own presence on the fediverse. They could establish a server and provide their journalists with accounts. Those journalists could post to the network and have global reach while at the same time being on a server run under CBC standards – not under the standards of Elon Musk.</p>
-
-<p>Were the CBC to start their own fediverse server, they wouldn’t be alone. Globally, there are public news organizations starting to operate their own fediverse servers – most notably, the BBC has experimented with <a href="https://theconversation.com/canadas-public-broadcaster-should-use-mastodon-to-provide-a-social-media-service-194116">its own Mastodon server</a>.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>The fediverse has a great deal of potential for Canadian social media:</p>
-
-<ul>
-  <li>Canadians are, right now, running their own social media
-        outside of the dominant Silicon Valley systems.</li>
-  <li>They can moderate and govern themselves locally, and yet
-        have access not only to the rest of Canada but the rest of
-        the world</li>
-  <li>They can experiment with solutions to the climate crisis</li>
-  <li>They can stave off the privacy violations of surveillance
-        capitalism</li>
-  <li>And they can share both local and global news</li>
-</ul>
-
-<p>In other words, Canadians are doing the work of critically reverse engineering social media, and are showing folks a            possible path away from X or Facebook.</p>
-
-<p>This isn’t to say that the fediverse is a flawless system. I present plenty of criticisms of it in my book. But given the growing set of problems posed not just in Canada, but globally, but corporate social media, I believe serious scholarship that highlights the fediverse and critical reverse engineering is needed.</p>
-
-<p>Incidentally, if you’re Canadian and want to try the fediverse, here are a couple options to look at. <a href="https://mstdn.ca/auth/sign_up">Mstdn.ca is open for registrations</a>. Or, if you want a more regional/localized instance, the <a href="https://mastodonserver.ca/">Mastodon Server
-site</a> has a list.</p>]]></content><author><name>RWG</name></author><category term="goal 2" /><category term="presentations" /><category term="journalism" /><summary type="html"><![CDATA[Yesterday, I gave a presentation at York University in Toronto as part of their York Circle program. The audience was comprised of York alumni. My presentation was “Fleeing Facebook and Exiting X: How activists show the path away from corporate social media.” Here’s the abstract: The purchase of Twitter by Elon Musk in 2022, coupled with Meta’s blocking of Canadian news sites, has prompted people in Canada to consider their social media options. Social media has now fragmented, with a small but growing population of people turning to non-corporate, alternative social media, such as Mastodon and the fediverse. This talk will discuss how non-corporate, alternative social media provide Canadians not just with a path away from Facebook or X, but also provide a new way to engage in online democracy. If that sounds interesting, well… read on! This is a version of that presentation, edited into blog form. (Note: this is another long post.)]]></summary></entry></feed>
+<p>And yet, <a href="https://pluralistic.net/2024/11/02/ulysses-pact/">Cory Doctorow notes</a> that he’s not going to ever use Bluesky. “I will never again devote my energies to building up an audience on a platform whose management can sever my relationship to that audience at will.”</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><summary type="html"><![CDATA[ASM updates are back! Now that I’m done drafting my book, I want to get back to doing this regularly. In this ASM update, here are three things that caught my eye this week. Well, besides that other big thing that happened this week. This has been edited to fix an error.]]></summary></entry></feed>
