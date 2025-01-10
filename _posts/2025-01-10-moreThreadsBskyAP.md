@@ -11,7 +11,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113805472773988685
 ---
 
 This weekly [Alternative Social Media update](/tags/asm update.html) -- the first of 2025! -- is about getting caught back up with some things that have happened in the past month. First up, I'll relate the latest changes at Meta to a specific interest of mine, Threads's fediverse blocklist. Then, I'll point you to a very fascinating back-and-forth discussion about Bluesky's ATProto and ActivityPub (as well as OCapN). Finally, I'll let you know the latest in ActivityPub Trust and Safety.
