@@ -23,7 +23,7 @@ By now, you've likely heard the news that [Meta is changing many of its policies
 
 I'll set aside re-declaring my decades-long loathing of Facebook/Meta to talk about a specific project I started a while back, one that is relevant to my interest in alternative social media and has taken on new importance in light of all this.
 
-I've been tracking [Threads's fediverse blocklist](https://www.threads.net/moderated_servers). I first wrote about it [midway through last year](/2024/06/28/ThreadsBlocking.html) and [wrote an update last month](2024/12/13/threadsmoderation.html). Since then, I've been regularly collecting the Threads blocklist. 
+I've been tracking [Threads's fediverse blocklist](https://www.threads.net/moderated_servers). I first wrote about it [midway through last year](/2024/06/28/ThreadsBlocking.html) and [wrote an update last month](/2024/12/13/threadsmoderation.html). Since then, I've been regularly collecting the Threads blocklist. 
 
 My idea is to see how it evolves over time. I'm curious to see what changes in the future, since the community standards of Meta as a whole have shifted to appease the US right (and thus apparently foist US right-wing views on the rest of the world). Watch this blog for updates.
 
