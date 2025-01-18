@@ -52,6 +52,9 @@ body strong {
 body figure {
   margin-top: 4%;
 }
+body sup {
+  font-size: 0.8em;
+}
 
 /* =======WRAPPER============= */
 #wrapper {
