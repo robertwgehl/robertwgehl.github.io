@@ -60,7 +60,7 @@ Is this a secret plot by Dan Supernault to bring surveillance capitalism to the 
 
 > There have been several concerns raised about [these terms of service], and I want you to know that we will be replacing them with a better, more clearer set of rules and policies.<sup><a href="#note1">1</a></sup>
 
-It turns out he used [Termly](https://termly.io/), an online resource to write terms of service agreements. "Please don't assume the worst," Supernault wrote. "I'm trying my best but don't have a team to help me with stuff like this." Basically, Supernault is saying that, in the absence of a legal team, in the heat of trying to spin up a new service, he went with a boilerplate solution to legal agreemnets. 
+It turns out he used [Termly](https://termly.io/), an online resource to write terms of service agreements. "Please don't assume the worst," Supernault wrote. "I'm trying my best but don't have a team to help me with stuff like this." Basically, Supernault is saying that, in the absence of a legal team, in the heat of trying to spin up a new service, he went with a boilerplate solution to legal agreements. 
 
 I anticipate Supernault will fix this -- after all, take a look at [Pixelfed.social's terms](https://pixelfed.social/site/terms). They are nothing like the Loops terms.
 
