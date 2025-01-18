@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 113851053746091520
 ---
 In this week's [Alternative Social Media Update](/tags/asm update.html), I want to share two things that happened this week and have a fundamental connection: they both indicate the challenges alternative social media developers face when they make ASM in a corporate social media world.
 
