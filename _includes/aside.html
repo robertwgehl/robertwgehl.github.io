@@ -41,6 +41,10 @@
             {% endif %}
         {% endif %}
 
+        {% if postmonth < intmonth %}
+            {% assign intmonth = postmonth %}
+        {% endif %}
+
         {% if postmonth == intmonth %}
             {% if postmonth == 11 %}
             {% assign wordmonth = "November" %}
