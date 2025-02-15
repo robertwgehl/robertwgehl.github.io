@@ -34,7 +34,7 @@ The slacktivism critique probably reached its high water mark with the [_Kony 20
 
 The [memes mocking this notion](https://us1-browse.startpage.com/av/anon-image?piurl=https%3A%2F%2Fi.pinimg.com%2F236x%2F18%2F4f%2F1e%2F184f1ef000b76e01e7364897acc7ab9a.jpg&sp=1739636813Tad45153b3cc7ed4d39ba00847d5f0d1ff5fbabf86b300c0542af991a999fd134) soon followed. The memes encapsulate the major critique of slacktivism: raising "awareness" of social ills does nothing to actually address them. 
 
-"Slacktivism" was thus contrasted with "real activism" -- marches, protests, communiting organizing, raising and distributing resources, and the like. 
+"Slacktivism" was thus contrasted with "real activism" -- marches, protests, community organizing, raising and distributing resources, and the like. 
 
 So, we have a dichotomy here: either you're posting and liking on social media, or you're on the streets, organizing and fighting back. It's a dichotomy that we've been hearing about since at least the 2010s.
 
