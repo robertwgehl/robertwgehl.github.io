@@ -8,7 +8,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 114009300187445814
 ---
 
 I've been mulling over Janus Rose's recent _404 Media_ article, ["You Can't Post Your Way Out of Fascism."](https://www.404media.co/you-cant-post-your-way-out-of-fascism/). In many ways, she's not wrong. But once again people are ignoring an entirely other way of doing social media that can, in fact, fight fascism.
