@@ -26,7 +26,7 @@ Cross's language is an apt description of corporate social media -- X and Meta p
 Instead, as Rose argues, people need to get organized -- to do actual, on-the-ground activism, rather than merely posting about the outage du jour.
 
 ## Slactivism 2.0?
-One might be tempted to dismiss Rose's argument because it's not new. It's basically a repitition of the ["slacktivism"](https://en.wikipedia.org/wiki/Slacktivism) complaint popularized by Evgeny Morozov in the early 2010s. (Morozov's own argument repeated arguments made in the 1990s, but I will stick with 2010s on). 
+One might be tempted to dismiss Rose's argument because it's not new. It's basically a repetition of the ["slacktivism"](https://en.wikipedia.org/wiki/Slacktivism) complaint popularized by Evgeny Morozov in the early 2010s. (Morozov's own argument repeated arguments made in the 1990s, but I will stick with 2010s on). 
 
 Against the backdrop of breathless proclamations about "Facebook revolutions" and "Twitter democracy," Morozov argued that what was really happening was that corporate social media activism allowed people to confuse clicking "like" on a political post with actually doing something about it. Rose herself repeats this argument (by way of citing Cross): "the greatest [sin] is convincing ourselves that posting is a form of political activism, when it is at best a coping mechanism—an individualist solution to problems that can only be solved by collective action."
 
