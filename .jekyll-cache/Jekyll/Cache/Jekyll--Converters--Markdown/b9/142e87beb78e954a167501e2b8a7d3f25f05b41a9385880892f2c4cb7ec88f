@@ -1,5 +1,0 @@
-I"�<p>I’ve been messin’ about with <a href="https://www.wireguard.com/">Wireguard</a> and – after some hiccups – I have a small network of peers connected. I now have a couple laptops, a desktop, a phone, and a Raspberry Pi all networked, with the connection remaining persistent even as the mobile devices move across wi-fi networks.</p>
-
-<p><img src="/assets/images/wireguard.svg" alt="The Wireguard logo" /></p>
-
-:ET

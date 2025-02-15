@@ -1,8 +1,0 @@
-I"�<p>Just a short post to note I have succumbed to the dark side.</p>
-
-<p>This whole pandemic has increased the amount of screen time we all endure, and I’ve increasingly recognized that dark modes feel better on my eyes. I started using the <a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> extension in Firefox to invert colors, and I set Mate to a dark theme on all my devices. After a few weeks of this, I realized that I liked the look of FOSS Academic when it was rendered using Dark Reader.</p>
-
-<p>So, using the magic of <a href="https://sass-lang.com/">SASS</a> – I am loving SASS! – I changed a couple variables and BOOM! We’re doing FOSS after dark like were <a href="https://latenightlinux.com/">Joe, Félim, Graham, and Will</a>.</p>
-
-<p>If you see any issues with the styling, let me know in the comments. I still have to style the comments – I’ll get to it someday – but in the meantime, enjoy the dark.</p>
-:ET
