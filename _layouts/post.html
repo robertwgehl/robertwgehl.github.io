@@ -20,14 +20,13 @@ layout: default
         <ul id="tagList">
             {% for tag in page.tags %}
             <li>
-                <a href="/tags/{{ tag | downcase }}.html">{{ tag }}</a>
+                <a href="/tags/{{ tag | downcase }}/">{{ tag }}</a>
             </li>
             {% endfor %}
         </ul>
     </section>
     
     <div id="comments">
-        <!-- old comment comment <p><em>Comments? I'm still exploring comment system options, but in the meantime, please email me (robertwgehl /at/  protonmail DOTCOM)</em></p> -->
         {% include comments.html %}
     </div>
 

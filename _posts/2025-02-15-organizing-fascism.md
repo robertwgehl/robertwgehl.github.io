@@ -3,7 +3,7 @@ layout: post
 author: RWG
 title: 'You Can Post Your Way Out of Fascism if You Own the Means of Posting'
 tag:
-    - alternative social media
+    - Alternative Social Media
 comments: 
   show: true
   fedihost: aoir.social
