@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: FOSS Academic
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  First, one goal is to explore life as a “FOSS Academic” – someone who uses Free and Open Source technologies to do academic work. I’m hoping that my discussions of FOSS technologies in an academic setting help others – students, professors, university administrators – understand the benefits and values of FOSS in the academy. I’m not a developer, but I am a professor who’s been using FOSS to do his job for over a decade. I call this goal of exploring FOSS tools in the academy Goal 1. Second, this blog has Goal 2: writing a book about a FOSS topic. After some consideration, I decided to write a book about Mastodon and the fediverse. It should be out in 2025. Sometimes, the two topics will collide in a single post. My intent here is to be more open about my own research process and writing.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
