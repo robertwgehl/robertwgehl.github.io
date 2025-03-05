@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 114112053758622551
 ---
 While I was not surprised by the announcement, it was still sad to read the news that [IFTAS is shutting down several of its services](https://about.iftas.org/2025/03/03/iftas-service-shutdowns/) for lack of funding. It is hard for me not to see this as another aspect of a potential "standards war" between ActivityPub and ATProto.
 
