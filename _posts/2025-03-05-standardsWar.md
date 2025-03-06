@@ -90,4 +90,4 @@ Of course, it's possible IFTAS has failed to raise funds for good reasons. Non-p
 
 But the failure of the broader tech, academic, and (frankly) celebrity sector to recognize and support an actually-existing trust and safety organization -- one tied closely to ActivityPub -- in favor of a relatively amorphous entity that is very tied to AT Proto is a troubling sign of how a potential standards war might turn out.
 
-* Correction: I originally had this as the independent Fediverse Trust and Safety organization. The F stands for Federated, not fediverse.
+\* Correction: I originally had this as the independent Fediverse Trust and Safety organization. The F stands for Federated, not fediverse.
