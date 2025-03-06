@@ -21,7 +21,7 @@ While I was not surprised by the announcement, it was still sad to read the news
 
 ## What's IFTAS?
 
-What is (or was) IFTAS? IFTAS is the Independent Fediverse Trust and Safety organization, a non-profit that was inspired by the 2022/2023 influx of people into the fediverse after Elon Musk purchased Twitter. As they wrote in an [introductory blog post](https://web.archive.org/web/20230816114557/https://about.iftas.org/2023/08/09/iftas-federated-trust-and-safety/), "More and more people were joining [Mastodon and the fediverse], and more and more people were wondering 'if this keeps growing, how does moderation scale?'" 
+What is (or was) IFTAS? IFTAS is the Independent Federated Trust and Safety organization,* a non-profit that was inspired by the 2022/2023 influx of people into the fediverse after Elon Musk purchased Twitter. As they wrote in an [introductory blog post](https://web.archive.org/web/20230816114557/https://about.iftas.org/2023/08/09/iftas-federated-trust-and-safety/), "More and more people were joining [Mastodon and the fediverse], and more and more people were wondering 'if this keeps growing, how does moderation scale?'" 
 
 IFTAS's founder, [Jaz-Michael King](https://jaz.co.uk/), successfully raised initial funds to bring the organization online. The organization ran fediverse moderator needs surveys and later developed a space for moderators to share knowledge (IFTAS Connect) as well as various blocklists that fediverse admins could import.
 
@@ -89,3 +89,5 @@ If Free Our Feeds merely concentrates on what they believe is best for Bluesky -
 Of course, it's possible IFTAS has failed to raise funds for good reasons. Non-profits can and do fail. (Free our Feeds also might!) 
 
 But the failure of the broader tech, academic, and (frankly) celebrity sector to recognize and support an actually-existing trust and safety organization -- one tied closely to ActivityPub -- in favor of a relatively amorphous entity that is very tied to AT Proto is a troubling sign of how a potential standards war might turn out.
+
+* Correction: I originally had this as the independent Fediverse Trust and Safety organization. The F stands for Federated, not fediverse.
