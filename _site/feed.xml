@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-03-06T13:21:14-05:00</updated><id>/feed.xml</id><title type="html">FOSS Academic</title><subtitle>First, one goal is to explore life as a “FOSS Academic” – someone who uses Free and Open Source technologies to do academic work. I’m hoping that my discussions of FOSS technologies in an academic setting help others – students, professors, university administrators – understand the benefits and values of FOSS in the academy. I’m not a developer, but I am a professor who’s been using FOSS to do his job for over a decade. I call this goal of exploring FOSS tools in the academy Goal 1. Second, this blog has Goal 2: writing a book about a FOSS topic. After some consideration, I decided to write a book about Mastodon and the fediverse. It should be out in 2025. Sometimes, the two topics will collide in a single post. My intent here is to be more open about my own research process and writing.</subtitle><entry><title type="html">Standards War?</title><link href="/2025/03/05/standardsWar.html" rel="alternate" type="text/html" title="Standards War?" /><published>2025-03-05T00:00:00-05:00</published><updated>2025-03-05T00:00:00-05:00</updated><id>/2025/03/05/standardsWar</id><content type="html" xml:base="/2025/03/05/standardsWar.html"><![CDATA[<p>While I was not surprised by the announcement, it was still sad to read the news that <a href="https://about.iftas.org/2025/03/03/iftas-service-shutdowns/">IFTAS is shutting down several of its services</a> for lack of funding. It is hard for me not to see this as another aspect of a potential “standards war” between ActivityPub and ATProto.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-15T23:18:40-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">FOSS Academic</title><subtitle>First, one goal is to explore life as a “FOSS Academic” – someone who uses Free and Open Source technologies to do academic work. I’m hoping that my discussions of FOSS technologies in an academic setting help others – students, professors, university administrators – understand the benefits and values of FOSS in the academy. I’m not a developer, but I am a professor who’s been using FOSS to do his job for over a decade. I call this goal of exploring FOSS tools in the academy Goal 1. Second, this blog has Goal 2: writing a book about a FOSS topic. After some consideration, I decided to write a book about Mastodon and the fediverse. It should be out in 2025. Sometimes, the two topics will collide in a single post. My intent here is to be more open about my own research process and writing.</subtitle><entry><title type="html">FOSS Academic Workflow, 2025 Edition</title><link href="http://localhost:4000/2025/03/15/workflow2025.html" rel="alternate" type="text/html" title="FOSS Academic Workflow, 2025 Edition" /><published>2025-03-15T00:00:00-04:00</published><updated>2025-03-15T00:00:00-04:00</updated><id>http://localhost:4000/2025/03/15/workflow2025</id><content type="html" xml:base="http://localhost:4000/2025/03/15/workflow2025.html"><![CDATA[<p>It’s been a while since I blogged about how I do all my academic work using free and open source software – otherwise known as the “FOSS Academic Lifestyle Dream.” In fact, the last time I wrote about this was <a href="/2020/12/27/Workflow.html">2020</a>!</p>
+
+<p>I am now wrapping up my latest book, <em>Move Slowly and Build Bridges</em>, which is a critical study of Mastodon and the fediverse. That book is the culmination of years of academic research. In this post, I will focus on how I wrote that book.</p>
+
+<h2 id="linux">Linux</h2>
+<p>I have not done anything productive with a Windows or Mac machine for… a very long time. Since 2013, probably? Anyway, <a href="/2024/05/24/fald.html">I use Linux</a>. These days I’m using <a href="https://fedoraproject.org/spins/kde">Fedora with KDE Plasma</a>, but by the time you read this I could be using something else. In any case, it’s the OS for the FALD.</p>
+
+<h2 id="zotero">Zotero</h2>
+<p>No surprises here. For me, since about 2008, it’s always begun with <a href="https://www.zotero.org/">Zotero</a>. So much of my work requires documenting websites, blog posts, journal articles, and other digital artifacts, and Zotero makes that easy. It integrates with my web browser, <a href="https://librewolf.net/">LibreWolf</a> – which makes sense, because LibreWolf is based on Firefox.</p>
+
+<p>Zotero also is essential for adding citations to documents. In terms of my latest book, it has made life very easy. Usually, copyeding book manuscripts involves <em>hours</em> of editing citations – adding missing page ranges, missing cities (for books), that sort of thing. Not this time. I think Zotero has improved in how it grabs metadata from the web. My copyeditor had very few author queries for citations in <em>Move Slowly</em>.</p>
+
+<h2 id="zettlr">Zettlr</h2>
+<p>For many years, Zotero was the only Z-software for me. (Zoom <em>definitely</em> does not count). But over the course of writing my latest book, <a href="https://www.zettlr.com/">Zettlr</a> elbowed its way into the workflow.</p>
+
+<p>Previously, I would use Zotero to take notes on artifacts. I still do. But note-taking in Zotero isn’t very synthetic – it focuses on single artifacts. That’s great for taking detailed notes on a book or article, but not so good for working out thoughts based on several artifacts.</p>
+
+<p>Zettlr fills that role very well. It’s Markdown-based, so I can just fire it up and start writing down thoughts. It supports #hashtags, so I replicate the tagging I do in Zotero to start linking ideas together.</p>
+
+<h2 id="libreoffice-writer">LibreOffice Writer</h2>
+<p>However, while Zettlr promises that you can go from notes to publishable documents, I’m not quite there with it yet. For writing up polished documents, I turn to <a href="https://www.libreoffice.org/">LibreOffice Writer</a>. It integrates extremely well with Zotero, so I use it to compose the drafts and final drafts of books and journal articles.</p>
+
+<h2 id="nextcloud">Nextcloud</h2>
+<p><a href="https://nextcloud.com/">Nextcloud</a> is the Swiss Army knife of the FALD. I run my own Nextcloud server, and there’s <em>so much</em> I can do with it:</p>
+<ul>
+  <li><strong>Nextcloud Talk</strong>: This video chat system was central to my <a href="/2022/04/17/InterviewWorkflow.html">interview-based research process</a>. Since I was interviewing people who build, run, and participate in federated social media, I did not want to use Zoom or Teams – we’ve already seen those systems invade people’s privacy and turn everything into AI. Nextcloud Talk is under my control and so I can ensure my interviewees that our conversations are private.</li>
+  <li><strong>Nextcloud Appointments</strong>: I’ve <a href="/2021/09/25/Appointments.html">already written</a> about how great this system is. For scheduling interviews, I can just share a link to my Appointments page, they can pick a time that works for them (and doesn’t conflict with my Nextcloud calendar), and they automatically get a Nextcloud Talk link via email. It’s brilliant.</li>
+  <li><strong>Sharing</strong>: Nextcloud makes sharing files – like informed consent documents or drafts – super easy. It also helps with collaborating with other authors.</li>
+  <li><strong>Sync</strong>: Obviously, this is central. My files are ready to go on any of my computers, whether at home or at the office. In addition, if I’m away from either but able to get online, I can login to Nextcloud and edit Markdown files if I need to take notes.</li>
+</ul>
+
+<h2 id="marp">MARP</h2>
+<p>Very often I need to present my work to audiences. For years I’d use LibreOffice Impress or – ugh! – Google Docs to make slides. Not now. <a href="/2024/12/07/marpbeautifulsoup.html">Now I use MARP</a>, which generates slides from Markdown files. I’ve written scripts that automate turning files I edit in Zettlr into slides and notes, and these can be easily shared online – with accessibility features like alt text!</p>
+
+<h2 id="tuba">Tuba</h2>
+<p>These days, you gotta promote your work. <a href="https://aoir.social/@rwg">I’m on the fediverse</a>, of course, and I traditionally have posted using Mastodon’s web interface. Lately, however, I’ve been using a desktop client called <a href="https://github.com/GeopJr/Tuba">Tuba</a> to post. It’s great – I can set it to “slow mode” where posts come in only when I refresh the interface, and it’s easy to switch between multiple accounts.</p>
+
+<h2 id="jekyll-over-git">Jekyll over Git</h2>
+<p>Finally, you’re reading this on a static <a href="https://jekyllrb.com/">Jekyll</a> blog pushed to the web via Git. While I’ve had some issues with Jekyll, when it’s working, it’s very easy: just type out a Markdown file, push it via Git, and it’s online.</p>
+
+<h2 id="back-it-up">Back It Up</h2>
+<p>As the wisdom goes, if your files are in less than three different places, they’re nowhere. I use <a href="https://syncthing.net/">Syncthing</a> to sync files across my network (which itself runs over a <a href="https://www.wireguard.com/">Wireguard</a> VPN). I also pay for a <a href="https://www.borgbase.com/">Borg Base</a> account, using <a href="https://vorta.borgbase.com/">Vorta</a> to encrypt and back up my files.</p>
+
+<h2 id="foss-academic-lifestyle-dream-still-in-effect">FOSS Academic Lifestyle Dream Still In Effect</h2>
+<p>It’s 2025. A lot of stuff is going wrong. But while tech oligarchs seek to run our lives, there are paths of escape. You don’t have to replicate my entire workflow. But if you want to explore escape routes from Microsoft, X, Apple, or Google, try one of the above. Try out Zotero, or maybe take a chance on running a Nextcloud server. Maybe try using LibreOffice instead of Google Docs or Microsoft Office.</p>
+
+<p>Take a step in the direction of the FOSS Academic Lifestyle Dream. It won’t fix the world, but it’s a start.</p>]]></content><author><name>RWG</name></author><category term="Goal 1" /><category term="fald" /><category term="workflow" /><summary type="html"><![CDATA[It’s been a while since I blogged about how I do all my academic work using free and open source software – otherwise known as the “FOSS Academic Lifestyle Dream.” In fact, the last time I wrote about this was 2020!]]></summary></entry><entry><title type="html">Standards War?</title><link href="http://localhost:4000/2025/03/05/standardsWar.html" rel="alternate" type="text/html" title="Standards War?" /><published>2025-03-05T00:00:00-05:00</published><updated>2025-03-05T00:00:00-05:00</updated><id>http://localhost:4000/2025/03/05/standardsWar</id><content type="html" xml:base="http://localhost:4000/2025/03/05/standardsWar.html"><![CDATA[<p>While I was not surprised by the announcement, it was still sad to read the news that <a href="https://about.iftas.org/2025/03/03/iftas-service-shutdowns/">IFTAS is shutting down several of its services</a> for lack of funding. It is hard for me not to see this as another aspect of a potential “standards war” between ActivityPub and ATProto.</p>
 
 <figure>
   <img src="/assets/images/railroads.jpg" alt="a collection of railroads, each clearly with different gauges" />
@@ -84,13 +130,13 @@
 
 <p>But the failure of the broader tech, academic, and (frankly) celebrity sector to recognize and support an actually-existing trust and safety organization – one tied closely to ActivityPub – in favor of a relatively amorphous entity that is very tied to AT Proto is a troubling sign of how a potential standards war might turn out.</p>
 
-<p>* Correction: I originally had this as the independent Fediverse Trust and Safety organization. The F stands for Federated, not fediverse.</p>]]></content><author><name>RWG</name></author><category term="ActivityPub" /><category term="ATProto" /><category term="IFTAS" /><summary type="html"><![CDATA[While I was not surprised by the announcement, it was still sad to read the news that IFTAS is shutting down several of its services for lack of funding. It is hard for me not to see this as another aspect of a potential “standards war” between ActivityPub and ATProto.]]></summary></entry><entry><title type="html">The ASM Bibliography is Going Home</title><link href="/2025/02/22/bib-is-moving.html" rel="alternate" type="text/html" title="The ASM Bibliography is Going Home" /><published>2025-02-22T00:00:00-05:00</published><updated>2025-02-22T00:00:00-05:00</updated><id>/2025/02/22/bib-is-moving</id><content type="html" xml:base="/2025/02/22/bib-is-moving.html"><![CDATA[<p>This is a minor update: the ASM Bibliography is returning to its original home <a href="https://socialmediaalternatives.org/bib.html">on the social media alternatives project</a> page.</p>
+<p>* Correction: I originally had this as the independent Fediverse Trust and Safety organization. The F stands for Federated, not fediverse.</p>]]></content><author><name>RWG</name></author><category term="ActivityPub" /><category term="ATProto" /><category term="IFTAS" /><summary type="html"><![CDATA[While I was not surprised by the announcement, it was still sad to read the news that IFTAS is shutting down several of its services for lack of funding. It is hard for me not to see this as another aspect of a potential “standards war” between ActivityPub and ATProto.]]></summary></entry><entry><title type="html">The ASM Bibliography is Going Home</title><link href="http://localhost:4000/2025/02/22/bib-is-moving.html" rel="alternate" type="text/html" title="The ASM Bibliography is Going Home" /><published>2025-02-22T00:00:00-05:00</published><updated>2025-02-22T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/22/bib-is-moving</id><content type="html" xml:base="http://localhost:4000/2025/02/22/bib-is-moving.html"><![CDATA[<p>This is a minor update: the ASM Bibliography is returning to its original home <a href="https://socialmediaalternatives.org/bib.html">on the social media alternatives project</a> page.</p>
 
 <p>It’s the same bibliography – I just don’t want to maintain two instances of it!</p>
 
 <p>It’s kind of a homecoming for the bibliography. It is based on a <a href="https://www.zotero.org/groups/542752/social_media_alternatives_project_bibliography">Zotero Group</a> that I set up for the Social Media Alternatives Project back in the mid-2010s. (Contact me if you’re an academic and want to join that group.)</p>
 
-<p>The bib has gone through a lot of changes lately – the <a href="https://socialmediaalternatives.org/members.html">Network of Alternative Social Media Researchers</a> have been adding quite a bit to it. It’s really exciting to see the growth of the field!</p>]]></content><author><name>RWG</name></author><summary type="html"><![CDATA[This is a minor update: the ASM Bibliography is returning to its original home on the social media alternatives project page.]]></summary></entry><entry><title type="html">You Can Post Your Way Out of Fascism if You Own the Means of Posting</title><link href="/2025/02/15/organizing-fascism.html" rel="alternate" type="text/html" title="You Can Post Your Way Out of Fascism if You Own the Means of Posting" /><published>2025-02-15T00:00:00-05:00</published><updated>2025-02-15T00:00:00-05:00</updated><id>/2025/02/15/organizing-fascism</id><content type="html" xml:base="/2025/02/15/organizing-fascism.html"><![CDATA[<p>I’ve been mulling over Janus Rose’s recent <em>404 Media</em> article, <a href="https://www.404media.co/you-cant-post-your-way-out-of-fascism/">“You Can’t Post Your Way Out of Fascism.”</a>. In many ways, she’s not wrong. But once again people are ignoring an entirely other way of doing social media that can, in fact, fight fascism.</p>
+<p>The bib has gone through a lot of changes lately – the <a href="https://socialmediaalternatives.org/members.html">Network of Alternative Social Media Researchers</a> have been adding quite a bit to it. It’s really exciting to see the growth of the field!</p>]]></content><author><name>RWG</name></author><summary type="html"><![CDATA[This is a minor update: the ASM Bibliography is returning to its original home on the social media alternatives project page.]]></summary></entry><entry><title type="html">You Can Post Your Way Out of Fascism if You Own the Means of Posting</title><link href="http://localhost:4000/2025/02/15/organizing-fascism.html" rel="alternate" type="text/html" title="You Can Post Your Way Out of Fascism if You Own the Means of Posting" /><published>2025-02-15T00:00:00-05:00</published><updated>2025-02-15T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/15/organizing-fascism</id><content type="html" xml:base="http://localhost:4000/2025/02/15/organizing-fascism.html"><![CDATA[<p>I’ve been mulling over Janus Rose’s recent <em>404 Media</em> article, <a href="https://www.404media.co/you-cant-post-your-way-out-of-fascism/">“You Can’t Post Your Way Out of Fascism.”</a>. In many ways, she’s not wrong. But once again people are ignoring an entirely other way of doing social media that can, in fact, fight fascism.</p>
 
 <p>Rose’s article made the rounds in the social media feeds I follow. And for good reason. Many folks are deeply troubled – and frightened – of what’s happening in the USA. People who pay attention know that the difference between a democratic state and an authoritarian one is <em>indifference</em>, which is to say that if institutions are indifferent about stopping someone like Trump from abusing his power, he is de facto an authoritarian leader. And there’s <a href="https://www.cbc.ca/news/world/trump-courts-guardrails-analysis-1.7457725">a lot of indifference in the US government right now</a>.</p>
 
@@ -160,7 +206,7 @@
 
 <p>In my time studying non-corporate social media, I’ve seen this forgetting again and again. Fortunately, I’ve also seen the activists who make, run, moderate and participate in these non-corporate alternatives keep going, in spite of being forgotten or ignored.</p>
 
-<p>That gives me hope that we can post our way out of fascism… on <em>our</em> social media.</p>]]></content><author><name>RWG</name></author><category term="Alternative Social Media" /><summary type="html"><![CDATA[I’ve been mulling over Janus Rose’s recent 404 Media article, “You Can’t Post Your Way Out of Fascism.”. In many ways, she’s not wrong. But once again people are ignoring an entirely other way of doing social media that can, in fact, fight fascism.]]></summary></entry><entry><title type="html">Introducing: the Network of Alternative Social Media Researchers</title><link href="/2025/02/01/asmNet.html" rel="alternate" type="text/html" title="Introducing: the Network of Alternative Social Media Researchers" /><published>2025-02-01T00:00:00-05:00</published><updated>2025-02-01T00:00:00-05:00</updated><id>/2025/02/01/asmNet</id><content type="html" xml:base="/2025/02/01/asmNet.html"><![CDATA[<p>For years, researching alternative social media has been a bit lonely. But not anymore!</p>
+<p>That gives me hope that we can post our way out of fascism… on <em>our</em> social media.</p>]]></content><author><name>RWG</name></author><category term="Alternative Social Media" /><summary type="html"><![CDATA[I’ve been mulling over Janus Rose’s recent 404 Media article, “You Can’t Post Your Way Out of Fascism.”. In many ways, she’s not wrong. But once again people are ignoring an entirely other way of doing social media that can, in fact, fight fascism.]]></summary></entry><entry><title type="html">Introducing: the Network of Alternative Social Media Researchers</title><link href="http://localhost:4000/2025/02/01/asmNet.html" rel="alternate" type="text/html" title="Introducing: the Network of Alternative Social Media Researchers" /><published>2025-02-01T00:00:00-05:00</published><updated>2025-02-01T00:00:00-05:00</updated><id>http://localhost:4000/2025/02/01/asmNet</id><content type="html" xml:base="http://localhost:4000/2025/02/01/asmNet.html"><![CDATA[<p>For years, researching alternative social media has been a bit lonely. But not anymore!</p>
 
 <p>Over the past few months, I’ve been recruiting people to join an email list for academics who study alternative social media, broadly conceived. Every week or so, I’d send an update about the state of ASM, and folks would share articles they’ve written.</p>
 
@@ -174,7 +220,7 @@
 
 <p>These are early days for the project – as you can see, I still have a bit of fine-tuning to do on the website. But I believe this project will lead to collaborations, panels, and even entire conferences exploring the world of ASM.</p>
 
-<p>If you’re an academic doing research in this space, please check of the <a href="https://socialmediaalternatives.org/">ASM network page</a> for more information on joining us.</p>]]></content><author><name>RWG</name></author><category term="alternative social media" /><category term="asm update" /><summary type="html"><![CDATA[For years, researching alternative social media has been a bit lonely. But not anymore!]]></summary></entry><entry><title type="html">Making Alternative Social Media in a Corporate Social Media World</title><link href="/2025/01/18/makingAlts.html" rel="alternate" type="text/html" title="Making Alternative Social Media in a Corporate Social Media World" /><published>2025-01-18T00:00:00-05:00</published><updated>2025-01-18T00:00:00-05:00</updated><id>/2025/01/18/makingAlts</id><content type="html" xml:base="/2025/01/18/makingAlts.html"><![CDATA[<p>In this week’s <a href="/tags/asm update.html">Alternative Social Media Update</a>, I want to share two things that happened this week and have a fundamental connection: they both indicate the challenges alternative social media developers face when they make ASM in a corporate social media world.</p>
+<p>If you’re an academic doing research in this space, please check of the <a href="https://socialmediaalternatives.org/">ASM network page</a> for more information on joining us.</p>]]></content><author><name>RWG</name></author><category term="alternative social media" /><category term="asm update" /><summary type="html"><![CDATA[For years, researching alternative social media has been a bit lonely. But not anymore!]]></summary></entry><entry><title type="html">Making Alternative Social Media in a Corporate Social Media World</title><link href="http://localhost:4000/2025/01/18/makingAlts.html" rel="alternate" type="text/html" title="Making Alternative Social Media in a Corporate Social Media World" /><published>2025-01-18T00:00:00-05:00</published><updated>2025-01-18T00:00:00-05:00</updated><id>http://localhost:4000/2025/01/18/makingAlts</id><content type="html" xml:base="http://localhost:4000/2025/01/18/makingAlts.html"><![CDATA[<p>In this week’s <a href="/tags/asm update.html">Alternative Social Media Update</a>, I want to share two things that happened this week and have a fundamental connection: they both indicate the challenges alternative social media developers face when they make ASM in a corporate social media world.</p>
 
 <!-- more -->
 <h2 id="item-one-algorithmic-choice">Item One: Algorithmic Choice</h2>
@@ -246,7 +292,7 @@ systems that rely on ActivityPub and ActivityStreams.</p>
 <p>In both cases, making alternative social media in a corporate social media world means more work from communities: not just coding, not just self-governance, but also engaging with regulators and working with lawyers across jurisdictions. This work is already happening, of course, but I imagine more will need to be done.</p>
 
 <h2 id="notes">Notes</h2>
-<p id="note1">1) Note that in almost all cases, I reach out to people on the fediverse to get permission to quote them outside of the fedi. In some cases, I do not think the consent is necessary. An example case is when a project leader makes a public statement about that project. I think this post falls under that exception.</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><category term="Loops" /><category term="ActivityPub" /><summary type="html"><![CDATA[In this week’s Alternative Social Media Update, I want to share two things that happened this week and have a fundamental connection: they both indicate the challenges alternative social media developers face when they make ASM in a corporate social media world.]]></summary></entry><entry><title type="html">Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety</title><link href="/2025/01/10/moreThreadsBskyAP.html" rel="alternate" type="text/html" title="Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety" /><published>2025-01-10T00:00:00-05:00</published><updated>2025-01-10T00:00:00-05:00</updated><id>/2025/01/10/moreThreadsBskyAP</id><content type="html" xml:base="/2025/01/10/moreThreadsBskyAP.html"><![CDATA[<p>This weekly <a href="/tags/asm update.html">Alternative Social Media update</a> – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.</p>
+<p id="note1">1) Note that in almost all cases, I reach out to people on the fediverse to get permission to quote them outside of the fedi. In some cases, I do not think the consent is necessary. An example case is when a project leader makes a public statement about that project. I think this post falls under that exception.</p>]]></content><author><name>RWG</name></author><category term="ASM update" /><category term="Loops" /><category term="ActivityPub" /><summary type="html"><![CDATA[In this week’s Alternative Social Media Update, I want to share two things that happened this week and have a fundamental connection: they both indicate the challenges alternative social media developers face when they make ASM in a corporate social media world.]]></summary></entry><entry><title type="html">Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety</title><link href="http://localhost:4000/2025/01/10/moreThreadsBskyAP.html" rel="alternate" type="text/html" title="Watching Threads, Bluesky and Decentralization, and ActivityPub Trust and Safety" /><published>2025-01-10T00:00:00-05:00</published><updated>2025-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2025/01/10/moreThreadsBskyAP</id><content type="html" xml:base="http://localhost:4000/2025/01/10/moreThreadsBskyAP.html"><![CDATA[<p>This weekly <a href="/tags/asm update.html">Alternative Social Media update</a> – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.</p>
 
 <!-- more -->
 
@@ -280,7 +326,7 @@ systems that rely on ActivityPub and ActivityStreams.</p>
 
 <p>Earlier this week, I took part in my first <a href="https://github.com/swicg/activitypub-trust-and-safety">ActivityPub Trust and Safety Task Force</a> meeting. This group, which is currently led by Emelia Smith and Darius Kazemi, has three foci. One is to <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/32">write a report</a> on the current state of moderation practices on the fediverse. Another is to <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/38">improve ActivityPub’s moderation tooling</a>. A third (which I will admit isn’t clear to me just yet) is to work on <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/41">content warnings and labels</a>.</p>
 
-<p>It’s early stages for this task force, although the folks involved have been working on these issues for years. Much of the discussion during my first meeting was about scope – a really important question, given the scale of “trust and safety”! For my part, I intend to contribute to the report. To do <em>that</em>, I will need to do a lot more work studying the various issues being raised in the task force’s <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/">Github</a>, as well as <a href="https://codeberg.org/fediverse/fep">Fediverse Enhancement Proposals</a>.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="Bluesky" /><category term="ActivityPub" /><category term="ASM update" /><summary type="html"><![CDATA[This weekly Alternative Social Media update – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.]]></summary></entry><entry><title type="html">Threads and the Failure of Global Content Moderation</title><link href="/2024/12/13/threadsmoderation.html" rel="alternate" type="text/html" title="Threads and the Failure of Global Content Moderation" /><published>2024-12-13T00:00:00-05:00</published><updated>2024-12-13T00:00:00-05:00</updated><id>/2024/12/13/threadsmoderation</id><content type="html" xml:base="/2024/12/13/threadsmoderation.html"><![CDATA[<p>This week’s <a href="/tags/asm update.html">Alternative Social Media Update</a> turned out to be more of a critique of corporate social media, specifically Meta’s Threads.</p>
+<p>It’s early stages for this task force, although the folks involved have been working on these issues for years. Much of the discussion during my first meeting was about scope – a really important question, given the scale of “trust and safety”! For my part, I intend to contribute to the report. To do <em>that</em>, I will need to do a lot more work studying the various issues being raised in the task force’s <a href="https://github.com/swicg/activitypub-trust-and-safety/issues/">Github</a>, as well as <a href="https://codeberg.org/fediverse/fep">Fediverse Enhancement Proposals</a>.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="Bluesky" /><category term="ActivityPub" /><category term="ASM update" /><summary type="html"><![CDATA[This weekly Alternative Social Media update – the first of 2025! – is about getting caught back up with some things that have happened in the past month. First up, I’ll relate the latest changes at Meta to a specific interest of mine, Threads’s fediverse blocklist. Then, I’ll point you to a very fascinating back-and-forth discussion about Bluesky’s ATProto and ActivityPub (as well as OCapN). Finally, I’ll let you know the latest in ActivityPub Trust and Safety.]]></summary></entry><entry><title type="html">Threads and the Failure of Global Content Moderation</title><link href="http://localhost:4000/2024/12/13/threadsmoderation.html" rel="alternate" type="text/html" title="Threads and the Failure of Global Content Moderation" /><published>2024-12-13T00:00:00-05:00</published><updated>2024-12-13T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/13/threadsmoderation</id><content type="html" xml:base="http://localhost:4000/2024/12/13/threadsmoderation.html"><![CDATA[<p>This week’s <a href="/tags/asm update.html">Alternative Social Media Update</a> turned out to be more of a critique of corporate social media, specifically Meta’s Threads.</p>
 
 <p>It all started when I saw the news that Meta had <a href="https://apnews.com/article/trump-meta-zuckerberg-inauguration-donation-c540bf7c638def11b8428e633965c718">donated $1 million to Trump’s inauguration fund</a>. Look, I’m an American. I know how this works – the wealthy buy influence by giving to politicians. It’s not particularly shocking to see Meta doing this – it’s part of their longstanding practices of lobbying those in power so they can continue to operate with little to no regulations.</p>
 
@@ -354,7 +400,7 @@ systems that rely on ActivityPub and ActivityStreams.</p>
 
 <p>In all seriousness, while I praised Threads for publicly posting its blocklist, noting this is a very transparent move, it’s still pretty opaque how they’re making these choices. Just as Threads is being criticized by its users for clumsy AI-based moderation decisions, I anticipate Threads will automatically and arbitrarily block a fediverse server that does not deserve it but whose members really do want to connect to folks on Threads. I don’t see Threads putting a lot of effort into making informed blocking decisions. That’s not what Meta does. And for those instances that want to federate with Meta, be prepared to behave how Meta says – and even if you do, you may be arbitrarily blocked. And be prepared to <a href="https://help.instagram.com/contact/1574148669814359/">fill out a form and hope</a> that someone, somewhere considers your case.</p>
 
-<p>If people are going to use blocklists – and <a href="/2023/09/20/blocklists.html">I think they should</a> – they need to be managed by people on behalf of coherent communities. Not by robots on behalf of a profit-seeking corporation. And they need to be documents that networks of communities gather around to discuss how to build out a federated network. Not dictated to the network by a powerful node.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="ASM update" /><category term="moderation" /><summary type="html"><![CDATA[This week’s Alternative Social Media Update turned out to be more of a critique of corporate social media, specifically Meta’s Threads.]]></summary></entry><entry><title type="html">Marp + BeautifulSoup</title><link href="/2024/12/07/marpbeautifulsoup.html" rel="alternate" type="text/html" title="Marp + BeautifulSoup" /><published>2024-12-07T00:00:00-05:00</published><updated>2024-12-07T00:00:00-05:00</updated><id>/2024/12/07/marpbeautifulsoup</id><content type="html" xml:base="/2024/12/07/marpbeautifulsoup.html"><![CDATA[<p>The FOSS Academic Lifestyle Dream just got a bit dreamier.</p>
+<p>If people are going to use blocklists – and <a href="/2023/09/20/blocklists.html">I think they should</a> – they need to be managed by people on behalf of coherent communities. Not by robots on behalf of a profit-seeking corporation. And they need to be documents that networks of communities gather around to discuss how to build out a federated network. Not dictated to the network by a powerful node.</p>]]></content><author><name>RWG</name></author><category term="Threads" /><category term="ASM update" /><category term="moderation" /><summary type="html"><![CDATA[This week’s Alternative Social Media Update turned out to be more of a critique of corporate social media, specifically Meta’s Threads.]]></summary></entry><entry><title type="html">Marp + BeautifulSoup</title><link href="http://localhost:4000/2024/12/07/marpbeautifulsoup.html" rel="alternate" type="text/html" title="Marp + BeautifulSoup" /><published>2024-12-07T00:00:00-05:00</published><updated>2024-12-07T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/07/marpbeautifulsoup</id><content type="html" xml:base="http://localhost:4000/2024/12/07/marpbeautifulsoup.html"><![CDATA[<p>The FOSS Academic Lifestyle Dream just got a bit dreamier.</p>
 
 <p>Previously, <a href="/2024/12/01/marp.html">I wrote about Marp</a>, which is a <a href="https://marp.app/">Markdown-based way to generate presentation slides</a>. When I wrote about Marp last, I was speculating that it would be very useful:</p>
 
@@ -441,7 +487,7 @@ python pullComments.py "$1"
 
 <p>That little script invokes marp-cli to convert the Markdown file, and then the python script recieves the file name (e.g., I’d type “sh exportPresentation.sh presentation.md” into the shell).</p>
 
-<p>Again, much like using CSS to build a presentation, coming up with these scripts took a bit of time, but in the long run, I’m making presentation creation – and sharing! – that much easier.</p>]]></content><author><name>RWG</name></author><category term="Marp" /><category term="beautifulsoup" /><category term="goal 1" /><summary type="html"><![CDATA[The FOSS Academic Lifestyle Dream just got a bit dreamier.]]></summary></entry><entry><title type="html">ASM Update: Can this platform survive?</title><link href="/2024/12/06/survive.html" rel="alternate" type="text/html" title="ASM Update: Can this platform survive?" /><published>2024-12-06T00:00:00-05:00</published><updated>2024-12-06T00:00:00-05:00</updated><id>/2024/12/06/survive</id><content type="html" xml:base="/2024/12/06/survive.html"><![CDATA[<p>It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.</p>
+<p>Again, much like using CSS to build a presentation, coming up with these scripts took a bit of time, but in the long run, I’m making presentation creation – and sharing! – that much easier.</p>]]></content><author><name>RWG</name></author><category term="Marp" /><category term="beautifulsoup" /><category term="goal 1" /><summary type="html"><![CDATA[The FOSS Academic Lifestyle Dream just got a bit dreamier.]]></summary></entry><entry><title type="html">ASM Update: Can this platform survive?</title><link href="http://localhost:4000/2024/12/06/survive.html" rel="alternate" type="text/html" title="ASM Update: Can this platform survive?" /><published>2024-12-06T00:00:00-05:00</published><updated>2024-12-06T00:00:00-05:00</updated><id>http://localhost:4000/2024/12/06/survive</id><content type="html" xml:base="http://localhost:4000/2024/12/06/survive.html"><![CDATA[<p>It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.</p>
 
 <p>Along with some colleagues at American University, I have a new publication out.</p>
 
@@ -455,187 +501,4 @@ python pullComments.py "$1"
   <p>In the wake of recent crises at commercial social media platforms like Twitter and Reddit, the “fediverse” has gained adoption and visibility as a noncommercial alternative for individuals, communities, and institutions to develop channels of public communication, dialogue, and debate. In this article, we draw on illustrative examples from the history of digital civic discourse and identify 6 ways in which history shows us how the potential benefits of the fediverse are at risk of subversion. We discuss several potential threats to these spaces of civil discourse, including challenges inherent to distributed governance, commercial platform capture, inclusive access, moderation at scale, reputational assaults by commercial competitors, and the neoliberal technoromanticism familiar from previous digital innovations. These threats must be addressed collectively and proactively by key fediverse stakeholders in an ecology whose ruling values are noncommercialism, decentralization, open source, free association, and wariness of traditional governance.</p>
 </blockquote>
 
-<p>Academic publishing is slow. We worked this up over a year ago. It’s interesting to see what parts of the paper hold up – frankly, I think all of our challenges are still at play.</p>]]></content><author><name>RWG</name></author><category term="publications" /><category term="ASM update" /><summary type="html"><![CDATA[It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.]]></summary></entry><entry><title type="html">Marp!</title><link href="/2024/12/01/marp.html" rel="alternate" type="text/html" title="Marp!" /><published>2024-12-01T00:00:00-05:00</published><updated>2024-12-01T00:00:00-05:00</updated><id>/2024/12/01/marp</id><content type="html" xml:base="/2024/12/01/marp.html"><![CDATA[<p>As avid readers of my blog know, I am livin’ the <a href="/tags/fald.html">FOSS Academic Lifestyle Dream</a>: I use FOSS tools to do my academic work. I use Nextcloud to manage files and <a href="/2021/09/25/Appointments.html">handle appointments</a>, Zotero and Zettlr to take notes, and LibreOffice Writer to write books and articles. This blog runs on Jekyll. I love it all!</p>
-
-<p>But there has been one part of the Lifestyle that has consistently been a disappointment: <a href="https://www.libreoffice.org/discover/impress/">LibreOffice Impress</a>, the presentation software. While I use Writer all the time and enjoy doing so, Impress has always bothered me. But I’m not one to complain too much, since LibreOffice software is provided free-of-charge and with a FOSS license. I’ve soldiered on with it to make presentations for conferences and class teaching.</p>
-
-<p>But that might change. <a href="https://marp.app/">Marp</a> – the Markdown Presentation Ecosystem – is poised to become a key part of the FOSS Academic Lifestyle Dream. If you’re familiar with Markdown, Marp is a really awesome tool.
-<!-- more --></p>
-
-<h2 id="thank-you-linux-matters">Thank you, Linux Matters</h2>
-<p>I learned about Marp from the <a href="https://linuxmatters.sh/43/"><em>Linux Matters</em> podcast</a>. Like any good podcast episode, their discussion of Marp made me drop everything to learn more. As Mark on <em>Linux Matters</em> explained, Marp allows for presentations to be built very quickly using Markdown. Since I use Markdown regularly to write up notes, particularly for class lectures, I was intrigued.</p>
-
-<p>And when I started experimenting with Marp, I think Mark might have undersold it a bit!</p>
-
-<h2 id="markdown-its-that-easy">Markdown: It’s That Easy</h2>
-<p>So, let’s make a slide. Instead of firing up LibreOffice Impress, though, I just open a text editor a create a Markdown (.md) file.</p>
-
-<p>First, I add “frontmatter,” which tells the system how to handle the file:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-marp: true
----
-</code></pre></div></div>
-
-<p>(You can do more with it than that, but we’ll keep it simple).</p>
-
-<p>Next, I start adding slides:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-marp: true
----
-# Slide Title
-
-Slide Text
-</code></pre></div></div>
-<p>It’s that easy.</p>
-
-<p>That sort of thing <a href="https://robertwgehl.org/presentations/testPresentation.html#3">looks like this</a>.</p>
-
-<p>Let’s add another slide, this time with a list. Lists are handled in the Markdown way:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-marp: true
----
-# Slide Title
-Slide Text
-
----
-# Slide with List
-- List item 1
-- List item 2
-- List item 3
-</code></pre></div></div>
-
-<p>Here’s an <a href="https://robertwgehl.org/presentations/testPresentation.html#4">example of what that looks like</a>.</p>
-
-<p>Of course, people often use more than just text in slides. I can add images, as well. Marp uses a syntax like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![command](imagefile.jpg)
-</code></pre></div></div>
-
-<p>Where “command” handles stuff like size, whether the image is in the background, opacity or the like. So a three-slide presentation with an image might look like this:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-marp: true
----
-# Slide Title
-Slide Text
-
----
-# Slide with List
-- List item 1
-- List item 2
-- List item 3
-
----
-![command](imagefile.jpg)
-</code></pre></div></div>
-
-<p>However, as you’ll see, I prefer to do things with HTML, specifically the <code class="language-plaintext highlighter-rouge">&lt;figure&gt;</code> semantic tag, and style with CSS.</p>
-
-<h2 id="css-zen-presentations">CSS Zen Presentations</h2>
-<p>I love CSS. It blew me away when I saw the <a href="https://csszengarden.com/">CSS Zen Garden</a>, which was launched in 2003 to promote the full separation of content and presentation. I am no designer – don’t ask me to come up with color schemes! But I did take the CSS Zen Garden idea and apply it to <a href="https://www.robertwgehl.org">my website</a>, where you can choose your style if you view it on a laptop/tablet.</p>
-
-<p>Add in <a href="https://sass-lang.com/">SASS</a>, which allows for variables, and CSS is a really powerful tool.</p>
-
-<p>So when I learned Marp uses CSS – with some SASS-like aspects – to handle the design of slides, I knew I would like it.</p>
-
-<p>Marp comes with some default themes, but I was keen to build my own. It turns out that all I had to do was write a CSS file and point the Marp command line to it via a terminal:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>marp -w --theme ./CSS/custom.scss testPresentation.md
-</code></pre></div></div>
-
-<p>Here’s a tip for those of you wanting to style via CSS: Marp uses the HTML semantic tag <code class="language-plaintext highlighter-rouge">&lt;section&gt;</code> for each slide. To customize the whole presentation, style <code class="language-plaintext highlighter-rouge">&lt;section&gt;</code>, rather than <code class="language-plaintext highlighter-rouge">&lt;body&gt;</code>, and you’re good to go: the whole presentation will be formatted.</p>
-
-<p>And what about specific slides? Marp uses an HTML-style comment you can add to Markdown: adding <code class="language-plaintext highlighter-rouge">&lt;!-- _class: CLASSNAME --&gt;</code> to the start of the specific slide adds a class that can be targeted. For example, I use <code class="language-plaintext highlighter-rouge">&lt;!-- _class: title --&gt;</code> on title slides. <a href="https://robertwgehl.org/presentations/testPresentation.html#1">Here’s how that looks</a>.</p>
-
-<h2 id="avoiding-death-by-powerpoint-the-css-way">Avoiding Death by Powerpoint the CSS way</h2>
-
-<p>When I present, I do my best to avoid <a href="https://www.youtube.com/watch?v=Iwpi1Lm6dFo">death by Powerpoint</a>. I use a lot of slides with minimal objects on a dark background.</p>
-
-<p>Of course, with CSS, backgrounds are fully under my control. And since Marp allows SASS-like variables, I could just set a global value for the background (as well as other elements) in my custom.scss file:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:root {
-  font-family: "Cantarell Light", sans-serif;
-  --text-color: #999999;
-  --bg-color: #000;
-  --standard-margin: 10%;
-  --shadow: 20px 10px 10px #121212;
-}
-</code></pre></div></div>
-
-<p>Here you’ll see I lazily set it to black. I will likely choose some other verydark color, but for now that will do. (And, if I want to change it, I just have to adjust that one value. That’s it!)</p>
-
-<p>Avoiding Death by Powerpoint means I tend to use a lot of single images. Wth two little bits – some Markdown/HTML and some CSS – I can drop in images with formatting.</p>
-
-<p>Here’s the example Markdown:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- _class: one-column --&gt;
-&lt;figure&gt;
-  &lt;img src="images/stage.jpg" alt="a picture of a theater stage"&gt;
-  &lt;figcaption&gt;A theater stage &lt;/figcaption&gt;
-&lt;/figure&gt;
-</code></pre></div></div>
-<p>Notice I’ve moved away from the simpler <code class="language-plaintext highlighter-rouge">![command](image.jpg)</code> structure to an HTML5 semantic markup, complete with alt text and caption. It’s a bit more typing (or copypasting) but it will be worth it. Notice also the class, “one-column.”</p>
-
-<p>Now here’s some corresponding CSS:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>section.one-column figure {
-  float: left;
-  width: 90%;
-  margin-left:8%;
-  margin-top: 4%;
-}
-
-img {
-  width: 96%;
-  float: left;
-  z-index:-1;
-}
-
-figcaption {
-  margin-top: -8%;
-  font-size: 200%;
-  width: 80%;
-  line-height: 200%;
-  float: left;
-  text-align: center;
-  background-color:var(--bg-color);
-  opacity: .8;
-  z-index:1;
-}
-</code></pre></div></div>
-
-<p>The result can <a href="https://robertwgehl.org/presentations/testPresentation.html#6">be seen here</a>. Here’s a screenshot, too:</p>
-
-<figure>
-  <img src="/assets/images/presentationExample.png" alt="a screenshot of an example presentation slide. It's a picture of the woods on a black background." />
-  <figcaption>A screenshot of the slide</figcaption>
-</figure>
-
-<h2 id="i-can-make-it-do-things-libreoffice-impress-never-could">I can make it do things LibreOffice Impress never could</h2>
-
-<p>Much like <a href="https://www.youtube.com/watch?v=lxNYAe85L20">Kurt with his magazines</a>, with CSS I can make presentations do whatever I like. Including something that has eluded me in LibreOffice Impress for years: captions for images. That picture of the woods above includes a caption, styled with CSS.</p>
-
-<p>CSS has a lot of power, and I’m only scratching the surface of what could be done. Once my CSS template is complete, all I have to do from here on out is edit Markdown files. This can work for academic presentations as well as for class lectures (which I often base off Markdown files edited in Zettlr.)</p>
-
-<h2 id="dont-forget-about-html">Don’t forget about HTML</h2>
-
-<p>In the above example, I link to a <a href="https://robertwgehl.org/presentations/testPresentation.html#6">specific slide in the presentation.</a>. I can link to any point of the presentation. On the web. In beautiful HTML, with alt text for images.</p>
-
-<p>This is so cool!</p>
-
-<p>All I have to do is run a terminal command with marp-cli:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>marp -w --theme ./CSS/custom.scss testPresentation.md
-</code></pre></div></div>
-
-<p>Marp autogenerates an HTML file with CSS included. I move that to a server and boom! The presentation is online. This is so cool!</p>
-
-<p>And I’ve taken a look – it looks very similar across devices. Responsive!</p>
-
-<p>Now, instead of futzing with a LibreOffice .OPD file (or worse, so much worse, a .PPTX file), I can just post my presentations to the web and run them from there. It includes a presentation view, which shows notes that I put in the corresponding Markdown file within HTML comments.</p>
-
-<p>Or, if I want to run it off my local machine, I can just present a local HTML file.</p>
-
-<h2 id="whats-next">What’s next?</h2>
-
-<p>I’m going to do it: I’m going all-on on Marp for a while. If things go poorly, I’ll update this blog accordingly. But right now, I suspect Marp is a future fixture of the FOSS Academic Lifestyle Dream.</p>]]></content><author><name>RWG</name></author><category term="Goal 1" /><category term="FALD" /><category term="Marp" /><summary type="html"><![CDATA[As avid readers of my blog know, I am livin’ the FOSS Academic Lifestyle Dream: I use FOSS tools to do my academic work. I use Nextcloud to manage files and handle appointments, Zotero and Zettlr to take notes, and LibreOffice Writer to write books and articles. This blog runs on Jekyll. I love it all!]]></summary></entry></feed>
+<p>Academic publishing is slow. We worked this up over a year ago. It’s interesting to see what parts of the paper hold up – frankly, I think all of our challenges are still at play.</p>]]></content><author><name>RWG</name></author><category term="publications" /><category term="ASM update" /><summary type="html"><![CDATA[It’s been a pretty packed week, between the end of the semester, my participation in a small conference, and a sick kiddo at home. So this week’s ASM update is a short one.]]></summary></entry></feed>
