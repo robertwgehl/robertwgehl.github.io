@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 114292579445710465
 ---
 I'm starting this post with a specific passage from my upcoming book. It's important for context.
 
