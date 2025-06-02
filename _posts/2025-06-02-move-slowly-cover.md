@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 114615637661232498
 ---
 
 The cover for [_Move Slowly and Build Bridge: Mastodon, the Fediverse, and the Struggle for Democratic Social Media_](https://global.oup.com/academic/product/move-slowly-and-build-bridges-9780197776681?lang=en&cc=ca) has been revealed!
