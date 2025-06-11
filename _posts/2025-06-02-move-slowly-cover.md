@@ -18,7 +18,7 @@ The cover for [_Move Slowly and Build Bridge: Mastodon, the Fediverse, and the S
 <!-- more -->
 
 <figure>
-  <a href="https://global.oup.com/academic/product/move-slowly-and-build-bridges-9780197776681?lang=en&cc=ca"><img src="/assets/images/moveSlowly.jpg" alt="the cover of Move Slowly and Build Bridges, a book by Robert W. Gehl"></a>
+  <a href="https://global.oup.com/academic/product/move-slowly-and-build-bridges-9780197776681?lang=en&cc=ca"><img src="/assets/images/moveSlowly.png" alt="the cover of Move Slowly and Build Bridges, a book by Robert W. Gehl"></a>
 </figure>
 
 This cover features artwork, "Untitled no 7," from the [artist Marcia X](https://artistmarciax.com/). In addition to being an artist, Marcia is a key figure in the development of the [#fediblock hashtag](https://subscribers.artistmarciax.com/fediblock-a-tiny-history-2/), which is an essential tool for moderation on the fediverse. Marcia was one of the first folks to talk to me about the fediverse, right at the start of my planning of this book, and their insights into its history -- including its troubling history for people of color and Black folks -- had a massive impact on the shape of _Move Slowly_.
