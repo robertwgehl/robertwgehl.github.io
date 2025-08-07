@@ -10,7 +10,7 @@ comments:
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 114985436247329498
 ---
 
 On the latest [_Late Night Linux_ podcast](https://latenightlinux.com/late-night-linux-episode-345/), the gang discussed a [recent blog post by Daniel Stenberg](https://daniel.haxx.se/blog/2025/07/14/death-by-a-thousand-slops/) about the plight of reviewers -- specifically, open source [bug bounty](https://en.wikipedia.org/wiki/Bug_bounty_program) program reviewers, who are facing a rising tide of AI slop. I think this has implications for my profession, particularly the task of conducting academic peer reviews.
