@@ -3,14 +3,14 @@ layout: post
 author: RWG
 title: 'What Does This Z Key Do?: Thoughts on Zotero versus Zettlr'
 tag:
-    - Tag 1
-    - Tag 2
-    - Tag 3
+    - Goal 1
+    - Zotero
+    - Zettlr
 comments: 
   show: true
   fedihost: aoir.social
   fediusername: rwg
-  fediid:
+  fediid: 115057650359742304
 ---
 
 <figure>
